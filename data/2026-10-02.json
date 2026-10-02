@@ -1,22 +1,24 @@
 {
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T12:33:05.453984+00:00",
+  "generated_at": "2026-10-02T12:34:50.265705+00:00",
   "sources_ok": [
     "hn",
-    "ph"
+    "ph",
+    "civitai"
   ],
-  "sources_error": {
-    "civitai": "'>' not supported between instances of 'str' and 'int'"
-  },
+  "sources_error": {},
   "notes": {
     "ph": [
       "no PH_DEV_TOKEN, falling back to html scraping",
       "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/02 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/02 :: HTTP Error 403: Forbidden",
       "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
-      "OK https://www.producthunt.com/feed (+0, 43770 bytes)"
+      "OK https://www.producthunt.com/feed (+0, 43793 bytes)"
     ],
     "civitai": [
-      "Traceback (most recent call last):\n  File \"/home/runner/work/ai-intel-daily/ai-intel-daily/scrapers/run_all.py\", line 54, in main\n    items, notes = fetch_civitai.fetch(\n                   ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/ai-intel-daily/ai-intel-daily/scrapers/fetch_civitai.py\", line 73, in fetch\n    if (raw.get(\"nsfwLevel\") or 0) > 2:\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>' not supported between instances of 'str' and 'int'\n"
+      "api items: 100, items with meta: 93, items with prompt: 92, flux matched: 0",
+      "skipped for nsfw level: 0",
+      "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, type, url, username, width",
+      "top models: astranime_V6(46), unknown(34), krea2Turbo_v10.safetensors(4), waiNSFWIllustrious_v140(3), waiANIMA_v10Base10(2), chauhanOil4step(1), oneObsessionBranch_matureAnimaV1(1), sickOllie_krea2(1)"
     ]
   },
   "data": {
@@ -1085,7 +1087,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49931031",
         "domain": "github.com",
         "points": 37,
-        "comments": 11,
+        "comments": 12,
         "created_at": "2026-10-02T08:05:48Z",
         "story_text": "",
         "ai_keywords": [],
@@ -1656,6 +1658,434 @@
         "ai_score": 0
       }
     ],
-    "product_hunt": []
+    "product_hunt": [],
+    "civitai_flux": [
+      {
+        "is_flux": false,
+        "id": 144373378,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6090f20-06c9-4e1d-a186-640523e8b820/original=true/c6090f20-06c9-4e1d-a186-640523e8b820.jpeg",
+        "posted_at": "2026-10-01T13:55:24.101Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 212,
+          "hearts": 57,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A solitary woman stands on a tiny island in the center of a vast mirror still lake at luminous sunset, seen from behind. She wears a long flowing deep crimson dress and her long dark hair moves gently in the wind. Beside her stands only the slender dark trunk of a tree with a few bare branches. Thousands of individual autumn leaves rise from the island and spiral upward into the sky. The leaves themselves form the complete crown of one colossal imaginary tree. There is no solid treetop. Every part of the enormous canopy is constructed entirely from separate flying leaves. Dense clusters of crimson, burnt orange and golden leaves define the rounded outer silhouette while looser streams create delicate branches and irregular edges. Larger detailed leaves cross the foreground, then progressively smaller leaves merge into the monumental tree crown above the woman. Visible gaps of glowing sky remain between the leaves. A brilliant amber sun shines through the center of the leaf formed canopy, illuminating individual leaves with golden edges. The woman, narrow trunk and enormous floating crown reflect softly across the glasslike lake. Distant mountains dissolve into warm mist. Crimson, terracotta, burnt orange, warm cream, amber and luminous gold. Cinematic fantasy painting, painterly realism, detailed textured brushwork, monumental scale, atmospheric depth, elegant movement, poetic surrealism, award winning, a breathtaking masterpiece",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 10,
+          "cfg_scale": 1,
+          "seed": 1276423650,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6090f20-06c9-4e1d-a186-640523e8b820/original=true/c6090f20-06c9-4e1d-a186-640523e8b820.jpeg",
+        "local_file": "144373378.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144301289,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0e6152-b358-4dbc-9abc-827aa36651d6/original=true/6e0e6152-b358-4dbc-9abc-827aa36651d6.jpeg",
+        "posted_at": "2026-10-01T14:00:40.196Z",
+        "username": "Grimm0",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 9,
+          "hearts": 3,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "grimmsfantasy, \n\nA wide-angle cinematic shot captures a moment of serene contemplation upon a desolate, windswept sandy plateau, where the horizon is broken only by jagged distant mountains and rolling hills beneath a vast, cloud-streaked sky. At the center of this surreal wasteland stands a monolithic pillar of obsidian-glass, its mirrored surface creating a recursive infinite reflection of the pale ochre sands and deep azure blue of the atmosphere. Facing this towering monolith, a couple stands side-by-side with their backs to the viewer, their hands entwined in a gesture of quiet unity. They are draped in vibrant canary-yellow spell-woven garments; the man wears a structured jumpsuit while the woman wears a short, ethereal dress that flutters in the wind. The landscape is punctuated by sparse tufts of golden dry grass and an ethereal haze that clings to the distant peaks. Luminous volumetric lighting filters through the clouds in soft crepuscular rays, casting a crystalline clarity over the scene. The composition is anchored by the symmetrical focus of the pillar, contrasting the coarse texture of the wind-swept sand against the polished, reflective silver of the glass. Rendered as epic fantasy concept art in the style of Michael Whelan, the image balances high-contrast color blocking with a sense of profound, atmospheric silence.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 896,
+          "height": 1664,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6e0e6152-b358-4dbc-9abc-827aa36651d6/original=true/6e0e6152-b358-4dbc-9abc-827aa36651d6.jpeg",
+        "local_file": "144301289.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144304691,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5dd8201c-8621-4b7a-bd6a-cdeea8a0811a/original=true/5dd8201c-8621-4b7a-bd6a-cdeea8a0811a.jpeg",
+        "posted_at": "2026-10-01T14:43:30.822Z",
+        "username": "Kayot",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 8,
+          "hearts": 4,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "An anthropomorphic spider mage whose body is woven from living shadow. Eight long limbs extend from his torso, each one trailing wisps of darkness that pool on the ground. His face is a smooth mask with six eyes arranged in a slow-blinking arc, and his mandibles click in an ancient rhythm. He wears robes spun from captured nightmares, their patterns shifting as the viewer looks away. His hair is a cascade of silk threads that stretch into the darkness, anchoring him to unseen corners of the room. He crouches at the center of a vast web that spans an entire ruined cathedral. Painterly digital art, cinematic composition, highly detailed textures, shadow and silk tones, sinister and patient mood. Detailed. good anatomy, <lora:Taran_Krea2_V10:1.0>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 54106682009294,
+          "width": 1184,
+          "height": 1776,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5dd8201c-8621-4b7a-bd6a-cdeea8a0811a/original=true/5dd8201c-8621-4b7a-bd6a-cdeea8a0811a.jpeg",
+        "local_file": "144304691.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144304698,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b9c941-3fd3-49a4-9b47-3213c89b108f/original=true/b3b9c941-3fd3-49a4-9b47-3213c89b108f.jpeg",
+        "posted_at": "2026-10-01T14:43:30.822Z",
+        "username": "Kayot",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 9,
+          "hearts": 3,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Two farmers work side by side in a hayfield, one swinging a scythe, the other gathering cut grass into a neat pile with a wooden rake. Golden hay lies in rows across the field, and a horse-drawn cart waits at the edge. Sweat on their brows, sleeves rolled up, straw hats tipped back. The sun is high, and a lark sings overhead. Painterly digital art, cinematic composition, highly detailed textures, golden and green tones, industrious and harmonious mood. Detailed. good anatomy, detailed rake <lora:Taran_Krea2_V10:1.0>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 54106682009294,
+          "width": 1184,
+          "height": 1776,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b9c941-3fd3-49a4-9b47-3213c89b108f/original=true/b3b9c941-3fd3-49a4-9b47-3213c89b108f.jpeg",
+        "local_file": "144304698.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144304690,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a6dade6-c19a-4530-8e4a-e12fbc6d5f4f/original=true/3a6dade6-c19a-4530-8e4a-e12fbc6d5f4f.jpeg",
+        "posted_at": "2026-10-01T14:43:30.822Z",
+        "username": "Kayot",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 7,
+          "hearts": 3,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "An old farmer sits on the steps of a covered porch, weaving a basket from willow branches. His hands move with practiced rhythm, and a half-finished basket rests on his knee. Bundles of soaked willow lie in a bucket nearby. A dog sleeps at his feet, and chickens peck in the yard beyond. Late afternoon light casts long shadows. Painterly digital art, cinematic composition, highly detailed textures, warm wood and willow tones, quiet and crafty mood. Detailed. <lora:Taran_Krea2_V10:1.0>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 54106682009294,
+          "width": 1184,
+          "height": 1776,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a6dade6-c19a-4530-8e4a-e12fbc6d5f4f/original=true/3a6dade6-c19a-4530-8e4a-e12fbc6d5f4f.jpeg",
+        "local_file": "144304690.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144304699,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/509a02ba-72cf-411a-97d5-ea6d0748d803/original=true/509a02ba-72cf-411a-97d5-ea6d0748d803.jpeg",
+        "posted_at": "2026-10-01T14:43:30.822Z",
+        "username": "Kayot",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 6,
+          "hearts": 3,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "An anthropomorphic crane mage whose feathers have hardened into razor-sharp blades. Each wing is a fan of swords that sing softly when they move. His neck is impossibly long and elegant, and his eyes are mirrors that reflect only sky. He wears robes of folded wind, their hems never touching the ground, and a sash of woven clouds that drifts behind him. His crest is a crown of floating feather-blades that orbit his head in slow circles. He stands at the edge of a bottomless canyon, one foot lifted, about to step onto empty air. Painterly digital art, cinematic composition, highly detailed textures, wind and steel tones, graceful and lethal mood. Detailed. good anatomy, <lora:Taran_Krea2_V10:1.0>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 54106682009294,
+          "width": 1184,
+          "height": 1776,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/509a02ba-72cf-411a-97d5-ea6d0748d803/original=true/509a02ba-72cf-411a-97d5-ea6d0748d803.jpeg",
+        "local_file": "144304699.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144429859,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c8d0e8a-b8cf-4d3a-9dda-b8f93b496d6d/original=true/6c8d0e8a-b8cf-4d3a-9dda-b8f93b496d6d.jpeg",
+        "posted_at": "2026-10-02T03:45:21.911Z",
+        "username": "Neurosir",
+        "model_version_id": null,
+        "model_name": "waiNSFWIllustrious_v140",
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 7,
+          "hearts": 1,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "anime_screencap, anime_coloring,  <lora:YuriHirano-illustrious-000014:1>, YuriHirano, brown hair, brown eyes,\npink ruffled turtleneck blouse, ruffled collar, frilled neckline, blue hair clip, blue denim skirt,\nsolo, standing, looking_at_viewer,",
+          "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 3273948006,
+          "width": 768,
+          "height": 1024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6c8d0e8a-b8cf-4d3a-9dda-b8f93b496d6d/original=true/6c8d0e8a-b8cf-4d3a-9dda-b8f93b496d6d.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 141811177,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9f4946b-1f02-478d-ad7d-12584f742fee/original=true/d9f4946b-1f02-478d-ad7d-12584f742fee.jpeg",
+        "posted_at": "2026-10-01T17:49:01.923Z",
+        "username": "cabbage522",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "NoobAI",
+        "stats": {
+          "likes": 6,
+          "hearts": 2,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "(masterpiece, best quality, amazing quality, very aesthetic, extremely detailed, very detailed, absurdres, newest, highres, score_9, score_8), @Yoneyama_Mai) @nffa, shadow,mhh, dynamic angle, abstract, detailed anime-style illustration, s,(EyesHD:1.2), (4k,8k,Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, 1 girl, girl,,solo, waist up, gyaru girl, decora kei, stickers, long nails, wink, :p, a girl in a very detailed cute outfit, covered in stickers, her and the background are full of stickers, v sign, peace sign, white wall, white background, confident,, delicate features,intricate details,, detailed fabric folds, soft skin highlights,, concept art, digital painting, Masterpiece, intricate lines, intriguing atmosphere, sharp magnificent details, delicate features, elaborate details, (2/3 rule composition:0.5)(aesthetic:1.4),], (dynamic composition:1.2), dynamic pose, energetic pose, dynamic angle, dramatic lighting, narrative storytelling, full image,indicate details dynamic composition,\n(rella:1.2), (redum4:1.2) (au \\(d elete\\):1.2) (dino \\(dinoartforame\\):1.1), (qiandaiyiyu:0.85), (soleil \\(soleilmtfbwy03\\):0.6), (godiva ghoul:0.65), (anniechromes:0.5)\ndynamic angle, cinematic framing, depth of field, detailed fabric folds, soft skin highlights, masterpiece, best quality, newest, highres, absurdres, very aesthetic, extreme aesthetic, detailed background",
+          "negative_prompt": "low resolution, worst quality, low quality, bad quality, worst detail, bad detail, lowres, old, early, normal quality, bad anatomy, signature, watermark, censored, shiny skin",
+          "sampler": "DPM++ 2M Karras",
+          "steps": 30,
+          "cfg_scale": 5,
+          "seed": 1433683920,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d9f4946b-1f02-478d-ad7d-12584f742fee/original=true/d9f4946b-1f02-478d-ad7d-12584f742fee.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144301286,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fce1e6c-e7e7-43de-b712-6fb5c2be65f6/original=true/5fce1e6c-e7e7-43de-b712-6fb5c2be65f6.jpeg",
+        "posted_at": "2026-10-01T14:00:40.196Z",
+        "username": "Grimm0",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 5,
+          "hearts": 2,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "grimmsfantasy, \n\nA melancholic youth with long, wavy raven-black hair sits in submission upon a weathered wooden bench, the sole anchor of reality within a blinding, infinite white void. He is draped in loose-fitting white linen that ripples with a breathable softness, his slender frame bowed in a silent, hauntingly nostalgic surrender. From the crown of his head, a dense cloud of obsidian crows erupts in an explosive, weightless ascent, their iridescent feathers shimmering with a subtle arcane light. Individual plumes drift through the air in static suspension, while wide-spanning wings beat against the sterile silence of an ethereal plane without a horizon. The scene is bathed in the high-contrast radiance of a blue hour, casting a soft, otherworldly backlight that carves a sharp silhouette against the ivory expanse. Captured from an eye-level wide angle, the composition pushes the youth to the left, allowing the obsidian swarm to dominate the space. The palette is a stark contrast of obsidian black and ivory white, bruised by hints of twilight blue. Every texture is rendered with the precision of epic fantasy concept art, from the coarse grain of the rustic wood to the polished sheen of black leather shoes, all dissolving into a minimalist, magical atmosphere.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 896,
+          "height": 1664,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fce1e6c-e7e7-43de-b712-6fb5c2be65f6/original=true/5fce1e6c-e7e7-43de-b712-6fb5c2be65f6.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144301290,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4b9cfbd-9b4b-4f51-8d2f-ccce54f91bb9/original=true/b4b9cfbd-9b4b-4f51-8d2f-ccce54f91bb9.jpeg",
+        "posted_at": "2026-10-01T14:00:40.196Z",
+        "username": "Grimm0",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 5,
+          "hearts": 2,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "grimmsfantasy, \n\nA symmetrical medium shot captures an unlikely peace within an opulent fantasy lounge, where a horned demon and a skeletal figure sit opposite one another in heavy wooden chairs. The demon, draped in dark robes with gold accents, wears ornate armor etched with intricate arcane engravings, his glowing red eyes softening under the warm flicker of a roaring stone hearth. Opposite him, a skeleton shrouded in a heavy, deep-shadowed hood holds a steaming mug of cocoa, the frothy whipped cream topped with marshmallows and cinnamon sticks sending swirls of vapor into the dim air. They are enveloped in a mood of brooding festive magical realism, surrounded by the textures of coarse knitted wool blankets striped in red and green and the cold, carved stone of a mantel adorned with evergreen garlands and crimson berries. A shallow depth of field blurs the background, where a window reveals a silent, gentle snowfall of cold exterior blues contrasting with the interior's palette of deep crimsons, forest greens, and polished golds. Volumetric light rays from the fireplace cast a warm orange glow, sending flickering embers to dance across the floor and casting long, velvet shadows. This digital painting in the style of epic fantasy concept art balances the warmth of the same-eyed gaze with the chilling stillness of the winter night outside.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 896,
+          "height": 1664,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4b9cfbd-9b4b-4f51-8d2f-ccce54f91bb9/original=true/b4b9cfbd-9b4b-4f51-8d2f-ccce54f91bb9.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144429860,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c59dfed9-832a-4803-8b53-760e58f9d789/original=true/c59dfed9-832a-4803-8b53-760e58f9d789.jpeg",
+        "posted_at": "2026-10-02T03:45:21.911Z",
+        "username": "Neurosir",
+        "model_version_id": null,
+        "model_name": "waiNSFWIllustrious_v140",
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 6,
+          "hearts": 1,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "anime_screencap, anime_coloring,  <lora:YuriHirano-illustrious:1>, YuriHirano, brown_hair, brown_eyes, \nsolo, standing, looking_at_viewer, cowboy shot, arms_behind_back,  pink ruffled turtleneck blouse, ruffled collar, frilled neckline, blue hair clip, blue denim skirt,",
+          "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 3273948007,
+          "width": 768,
+          "height": 1024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c59dfed9-832a-4803-8b53-760e58f9d789/original=true/c59dfed9-832a-4803-8b53-760e58f9d789.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 142389840,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55b26682-2023-4d8d-93aa-5f9be181a680/original=true/55b26682-2023-4d8d-93aa-5f9be181a680.jpeg",
+        "posted_at": "2026-10-02T02:59:00.000Z",
+        "username": "steel78332",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Pony",
+        "stats": {
+          "likes": 6,
+          "hearts": 1,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Score_9, score_8_up, score_7_up, hyperrealistic photograph, realistic photo, highly detailed, A police officer standing at the side of a road watching traffic, their entire uniform and body transformed into realistic 3D layered leaf texture with individual veins and organic imperfections clearly visible, natural color variation ranging from deep forest green to golden yellow, russet brown and autumn orange hues across the leafy surface, the officer's recognizable silhouette and posture clearly readable beneath the verdant coat including the shape of the peaked cap and duty belt, leaves layered and built upon the human form creating depth, soft dappled sunlight filtering through nearby trees, earthy roadside setting with grass, moss and scattered fallen leaves, hyper-detailed, photorealistic, 3D render, nature spirit aesthetic, quiet watchful mood, volumetric lighting, sharp focus",
+          "negative_prompt": "score_6, score_5, score_4, source_pony, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy",
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 431678598,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/55b26682-2023-4d8d-93aa-5f9be181a680/original=true/55b26682-2023-4d8d-93aa-5f9be181a680.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144429862,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6263f29e-d52f-47b4-a33a-a661d31f99e1/original=true/6263f29e-d52f-47b4-a33a-a661d31f99e1.jpeg",
+        "posted_at": "2026-10-02T03:45:21.911Z",
+        "username": "Neurosir",
+        "model_version_id": null,
+        "model_name": "waiNSFWIllustrious_v140",
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 5,
+          "hearts": 0,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "anime_screencap, anime_coloring,  <lora:YuriHirano-illustrious:1>, YuriHirano, brown_hair, brown_eyes, \nsolo, standing, looking_at_viewer, cowboy shot, arms_behind_back,  pink ruffled turtleneck blouse, ruffled collar, frilled neckline, blue hair clip, blue denim skirt,",
+          "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 3273948009,
+          "width": 768,
+          "height": 1024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6263f29e-d52f-47b4-a33a-a661d31f99e1/original=true/6263f29e-d52f-47b4-a33a-a661d31f99e1.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 141685498,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20e4c89a-a4bd-4f61-85f0-ea245266b062/original=true/20e4c89a-a4bd-4f61-85f0-ea245266b062.jpeg",
+        "posted_at": "2026-10-01T13:03:00.000Z",
+        "username": "Not_A_Bot",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 2,
+          "hearts": 2,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "1girl, medium breasts, black hair, long hair, short bangs, blue eyes, \ngeneral, nsfw, anime coloring, masterpiece, best quality, amazing quality, \nblack long sleeves polo, (plain polo:1.2), black skirt, black tighhighs, \npool, \nsolo, \nsitting, full body, smiling, \nnewest",
+          "negative_prompt": "censored, worst quality, low quality, displeasing, ugly, grainy, bad anatomy, jpeg artifacts, poorly drawn, signature, bad hands, mutated hands, missing fingers, fused fingers, too many fingers,",
+          "sampler": "Euler a",
+          "steps": 33,
+          "cfg_scale": 4,
+          "seed": 2007825682,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20e4c89a-a4bd-4f61-85f0-ea245266b062/original=true/20e4c89a-a4bd-4f61-85f0-ea245266b062.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144301283,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45ea651b-a3e6-41ef-b442-5148939b53bd/original=true/45ea651b-a3e6-41ef-b442-5148939b53bd.jpeg",
+        "posted_at": "2026-10-01T14:00:40.196Z",
+        "username": "Grimm0",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 3,
+          "hearts": 1,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "grimmsfantasy, \n\nA solitary wanderer stands in contemplative profile atop a precipitous jagged cliffside, their form a featureless silhouette carved against a radiant, celestial backdrop. A flowing, travel-worn cloak ripples in the wind, its heavy fabric catching a brilliant rim of light. Below the basalt precipice, the storm-lashed oceanic coast churns with crashing white-capped waves and a bioluminescent sea spray that glows with an otherworldly light. The sky is a battle of deep navy and slate grey, where swirling arcane clouds part to allow divine golden god rays to pierce the gloom, casting an ethereal haze over the moss-green crags. From a low-angle cinematic perspective, the wide-angle lens captures the epic solitude of the scene, placing the silhouette on the right third of the frame while the solar gold of the sun commands the center. Atmospheric mists swirl around weathered stone textures, blending the velvet-like darkness of the storm with the blinding brilliance of a distant, blurred horizon. This scene of mysterious tension is rendered as epic fantasy concept art in the style of Michael Whelan.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 896,
+          "height": 1664,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45ea651b-a3e6-41ef-b442-5148939b53bd/original=true/45ea651b-a3e6-41ef-b442-5148939b53bd.jpeg",
+        "license": {}
+      }
+    ]
   }
 }

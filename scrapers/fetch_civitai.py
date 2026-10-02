@@ -56,11 +56,15 @@ def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
         "sort": "Most Reactions",
         "period": "Day",
         "nsfw": "None",
+        "withMeta": "true",
     })
     data = http_get_json(f"{IMAGES}?{query}", timeout=45)
+    raw_items = data.get("items") or []
+    sample_keys = sorted(raw_items[0].keys()) if raw_items else []
+    meta_present = sum(1 for item in raw_items if item.get("meta"))
     picked = []
     model_counter = {}
-    for raw in data.get("items", []):
+    for raw in raw_items:
         meta = raw.get("meta") or {}
         prompt = meta.get("prompt")
         if not prompt:
@@ -104,7 +108,9 @@ def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
     picked = picked[:keep]
     top_models = sorted(model_counter.items(), key=lambda kv: -kv[1])[:8]
     notes = [
-        f"api items with prompt: {sum(model_counter.values())}, flux matched: {flux_count}",
+        f"api items: {len(raw_items)}, items with meta: {meta_present}, "
+        f"items with prompt: {sum(model_counter.values())}, flux matched: {flux_count}",
+        "first item keys: " + ", ".join(str(key) for key in sample_keys),
         "top models: " + ", ".join(f"{name}({count})" for name, count in top_models),
     ]
 

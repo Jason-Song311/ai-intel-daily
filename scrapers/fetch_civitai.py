@@ -15,6 +15,22 @@ from common import http_get_bytes, http_get_json  # noqa: E402
 IMAGES = "https://civitai.com/api/v1/images"
 MODEL_VERSION = "https://civitai.com/api/v1/model-versions/{vid}"
 
+NSFW_TEXT_LEVELS = {
+    "none": 1, "soft": 2, "mature": 4, "x": 8, "xxx": 16, "blocked": 32,
+}
+
+
+def _nsfw_level(raw):
+    """Civitai returns nsfwLevel either as a bitmask int or as a label string."""
+    value = raw.get("nsfwLevel")
+    if isinstance(value, bool):
+        return 0
+    if isinstance(value, (int, float)):
+        return int(value)
+    if isinstance(value, str):
+        return NSFW_TEXT_LEVELS.get(value.strip().lower(), 0)
+    return 0
+
 
 def _text(*values):
     return " ".join(str(v) for v in values if v)
@@ -70,7 +86,7 @@ def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
         prompt = meta.get("prompt")
         if not prompt:
             continue
-        if (raw.get("nsfwLevel") or 0) > 2:
+        if _nsfw_level(raw) > 2:
             skipped_nsfw.append(raw.get("id"))
             continue
         name = meta.get("Model") or raw.get("modelName") or "unknown"

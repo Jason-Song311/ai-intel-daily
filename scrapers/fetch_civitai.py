@@ -64,10 +64,14 @@ def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
     meta_present = sum(1 for item in raw_items if item.get("meta"))
     picked = []
     model_counter = {}
+    skipped_nsfw = []
     for raw in raw_items:
         meta = raw.get("meta") or {}
         prompt = meta.get("prompt")
         if not prompt:
+            continue
+        if (raw.get("nsfwLevel") or 0) > 2:
+            skipped_nsfw.append(raw.get("id"))
             continue
         name = meta.get("Model") or raw.get("modelName") or "unknown"
         model_counter[name] = model_counter.get(name, 0) + 1
@@ -110,6 +114,7 @@ def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
     notes = [
         f"api items: {len(raw_items)}, items with meta: {meta_present}, "
         f"items with prompt: {sum(model_counter.values())}, flux matched: {flux_count}",
+        f"skipped for nsfw level: {len(skipped_nsfw)}",
         "first item keys: " + ", ".join(str(key) for key in sample_keys),
         "top models: " + ", ".join(f"{name}({count})" for name, count in top_models),
     ]

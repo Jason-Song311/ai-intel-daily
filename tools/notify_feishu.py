@@ -8,10 +8,14 @@ keyword, otherwise Feishu rejects the message with code 19024.
 """
 
 import argparse
+import base64
+import hashlib
+import hmac
 import json
 import os
 import pathlib
 import sys
+import time
 import urllib.request
 
 
@@ -34,8 +38,18 @@ def clip(text, limit=7000):
     return text[:limit] + "\n\n...(内容过长，完整版见本地文件)"
 
 
-def send(webhook, text):
+def sign(secret, timestamp):
+    string_to_sign = timestamp + chr(10) + secret
+    digest = hmac.new(string_to_sign.encode("utf-8"), b"", hashlib.sha256).digest()
+    return base64.b64encode(digest).decode("utf-8")
+
+
+def send(webhook, text, secret=None):
     payload = {"msg_type": "text", "content": {"text": clip(text)}}
+    if secret:
+        timestamp = str(int(time.time()))
+        payload["timestamp"] = timestamp
+        payload["sign"] = sign(secret, timestamp)
     request = urllib.request.Request(
         webhook,
         data=json.dumps(payload).encode("utf-8"),
@@ -50,6 +64,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", required=True, help="markdown file to send")
     parser.add_argument("--webhook", default=None)
+    parser.add_argument("--secret", default=os.environ.get("FEISHU_SECRET"))
     parser.add_argument("--title", default=None)
     args = parser.parse_args()
 
@@ -62,7 +77,7 @@ def main():
     text = source.read_text(encoding="utf-8")
     if args.title:
         text = f"{args.title}\n\n{text}"
-    result = send(webhook, text)
+    result = send(webhook, text, args.secret)
     code = result.get("code", result.get("StatusCode"))
     print("feishu response:", json.dumps(result, ensure_ascii=False)[:400])
     sys.exit(0 if code in (0, None) else 1)

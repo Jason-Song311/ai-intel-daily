@@ -26,6 +26,8 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch sources
+        env:
+          PH_DEV_TOKEN: ${{ secrets.PH_DEV_TOKEN }}
         run: python scrapers/run_all.py --out data
 
       - name: Commit results

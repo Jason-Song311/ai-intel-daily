@@ -51,13 +51,17 @@ def main():
 
     if "civitai" in wanted:
         try:
-            items = fetch_civitai.fetch(
+            items, notes = fetch_civitai.fetch(
                 keep=15,
                 download=6,
                 image_dir=out_dir.parent / "civitai" / "images" / day,
             )
             bundle["data"]["civitai_flux"] = items
-            bundle["sources_ok"].append("civitai")
+            bundle["notes"]["civitai"] = notes
+            if items:
+                bundle["sources_ok"].append("civitai")
+            else:
+                bundle["sources_error"]["civitai"] = "api responded but no items matched"
         except Exception as exc:  # noqa: BLE001
             bundle["sources_error"]["civitai"] = str(exc)
             bundle["notes"].setdefault("civitai", []).append(traceback.format_exc()[-1200:])

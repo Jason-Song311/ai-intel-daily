@@ -50,7 +50,7 @@ def _license(model_version_id):
     }
 
 
-def fetch(limit=100, keep=15, download=5, image_dir=None):
+def fetch(limit=100, keep=15, download=5, image_dir=None, require_flux=False):
     query = urlencode({
         "limit": limit,
         "sort": "Most Reactions",
@@ -59,13 +59,20 @@ def fetch(limit=100, keep=15, download=5, image_dir=None):
     })
     data = http_get_json(f"{IMAGES}?{query}", timeout=45)
     picked = []
+    model_counter = {}
     for raw in data.get("items", []):
         meta = raw.get("meta") or {}
         prompt = meta.get("prompt")
-        if not prompt or not _is_flux(raw, meta):
+        if not prompt:
+            continue
+        name = meta.get("Model") or raw.get("modelName") or "unknown"
+        model_counter[name] = model_counter.get(name, 0) + 1
+        flux = _is_flux(raw, meta)
+        if require_flux and not flux:
             continue
         stats = raw.get("stats") or {}
         picked.append({
+            "is_flux": flux,
             "id": raw.get("id"),
             "image_url": raw.get("url"),
             "posted_at": raw.get("createdAt"),
@@ -91,8 +98,15 @@ def fetch(limit=100, keep=15, download=5, image_dir=None):
             },
             "civitai_url": raw.get("url"),
         })
-    picked.sort(key=lambda x: (x["stats"]["hearts"] + x["stats"]["likes"], x["stats"]["comments"]), reverse=True)
+    flux_count = sum(1 for item in picked if item["is_flux"])
+    picked.sort(key=lambda x: (x["is_flux"], x["stats"]["hearts"] + x["stats"]["likes"],
+                               x["stats"]["comments"]), reverse=True)
     picked = picked[:keep]
+    top_models = sorted(model_counter.items(), key=lambda kv: -kv[1])[:8]
+    notes = [
+        f"api items with prompt: {sum(model_counter.values())}, flux matched: {flux_count}",
+        "top models: " + ", ".join(f"{name}({count})" for name, count in top_models),
+    ]
 
     if image_dir:
         folder = pathlib.Path(image_dir)
@@ -112,11 +126,12 @@ def fetch(limit=100, keep=15, download=5, image_dir=None):
 
     for item in picked:
         item["license"] = _license(item["model_version_id"])
-    return picked
+    return picked, notes
 
 
 if __name__ == "__main__":
-    rows = fetch(keep=10, download=0)
+    rows, status = fetch(keep=10, download=0)
+    print("\n".join(status))
     print(f"flux items: {len(rows)}")
     for row in rows:
         meta = row["meta"]

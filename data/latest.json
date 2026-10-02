@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T12:34:50.265705+00:00",
+  "generated_at": "2026-10-02T12:52:48.469516+00:00",
   "sources_ok": [
     "hn",
     "ph",
@@ -12,13 +12,13 @@
       "no PH_DEV_TOKEN, falling back to html scraping",
       "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/02 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/02 :: HTTP Error 403: Forbidden",
       "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
-      "OK https://www.producthunt.com/feed (+0, 43793 bytes)"
+      "OK https://www.producthunt.com/feed (+0, 43783 bytes)"
     ],
     "civitai": [
       "api items: 100, items with meta: 93, items with prompt: 92, flux matched: 0",
       "skipped for nsfw level: 0",
       "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, type, url, username, width",
-      "top models: astranime_V6(46), unknown(34), krea2Turbo_v10.safetensors(4), waiNSFWIllustrious_v140(3), waiANIMA_v10Base10(2), chauhanOil4step(1), oneObsessionBranch_matureAnimaV1(1), sickOllie_krea2(1)"
+      "top models: astranime_V6(46), unknown(33), krea2Turbo_v10.safetensors(5), waiNSFWIllustrious_v140(3), waiANIMA_v10Base10(2), chauhanOil4step(1), oneObsessionBranch_matureAnimaV1(1), sickOllie_krea2(1)"
     ]
   },
   "data": {
@@ -49,7 +49,7 @@
         "url": "https://github.com/Vibra-Ingenn/Janus",
         "hn_url": "https://news.ycombinator.com/item?id=49926773",
         "domain": "github.com",
-        "points": 80,
+        "points": 81,
         "comments": 14,
         "created_at": "2026-10-01T20:36:47Z",
         "story_text": "",
@@ -86,7 +86,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49909648",
         "domain": "lathoa.ai",
         "points": 52,
-        "comments": 47,
+        "comments": 48,
         "created_at": "2026-09-30T14:38:57Z",
         "story_text": "I made this for kids around 10 to 14. A robot called Errol solves a math problem step by step and one of the steps is wrong. The kid has to find it and say what&#x27;s wrong with it. Sometimes nothing is wrong, so just saying &quot;there&#x27;s a mistake&quot; every time doesn&#x27;t work. The user needs to enter an explanation if she finds an error to gain more XP; speed matters also for more points. There is no direct interaction or chatting with an LLM. Lathoa&#x27;s harness is stable and has many evaluation steps to catch inconsistencies and prompt injections. You can play one on the homepage without signing up. The part that surprised me: it&#x27;s hard to get an LLM to be wrong on purpose. Half the time it gives you the right answer and calls it wrong, or a &quot;mistake&quot; that&#",
         "ai_keywords": [
@@ -178,7 +178,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49924943",
         "domain": "innerloop.works",
         "points": 20,
-        "comments": 3,
+        "comments": 4,
         "created_at": "2026-10-01T17:58:37Z",
         "story_text": "Hi HN, I&#x27;m Justin. Breadcrumb records everything you do on your Mac (screen + meetings + AI transcripts + what you and your AI decided) and turns it into memory your AI can search. It&#x27;s local and encrypted. You can also teach it rules by talking to it and it makes sure the right rules turn up in the right context. Works with Claude Code &#x2F; Codex &#x2F; Cursor &#x2F; opencode. All of this is exposed to your AI as 30+ MCP tools (here&#x27;s the definitions): <a href=\"https:&#x2F;&#x2F;innerloop.works&#x2F;breadcrumb&#x2F;mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;innerloop.works&#x2F;breadcrumb&#x2F;mcp</a> I started it in June because I wanted to understand what was going on with my AI dev work. Then it just kept growing as I jammed on it 10 hours a day for 3 months. I started by r",
         "ai_keywords": [
@@ -345,7 +345,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49928011",
         "domain": "github.com",
         "points": 6,
-        "comments": 1,
+        "comments": 2,
         "created_at": "2026-10-01T22:55:02Z",
         "story_text": "I&#x27;d like to share my experience building this system with you. It&#x27;s an operating system for web applications, and it took me about six months to develop this model. The idea is that every time I build a web tool, I need to design the infrastructure, including authentication and communication. If it&#x27;s a WebSocket, it&#x27;s even more complicated; I need another port for each application. I couldn&#x27;t find any neutral tool that provided all of this ready-made, allowing me to build my tools directly on top of it. This is where the PhreshOS project began. It&#x27;s an open-source, neutral platform for any web application, with everything ready-made: authentication, two-way communication without any configuration, and more. Another key feature is that the applications run as N",
         "ai_keywords": [
@@ -1086,8 +1086,8 @@
         "url": "https://github.com/kvoltmer/Audionaut",
         "hn_url": "https://news.ycombinator.com/item?id=49931031",
         "domain": "github.com",
-        "points": 37,
-        "comments": 12,
+        "points": 46,
+        "comments": 14,
         "created_at": "2026-10-02T08:05:48Z",
         "story_text": "",
         "ai_keywords": [],
@@ -1206,20 +1206,6 @@
         "comments": 1,
         "created_at": "2026-09-30T14:44:10Z",
         "story_text": "I use it to navigate between my 10+ open terminals. MIT licensed. Hope it&#x27;s useful to you :)",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "49908132",
-        "title": "Show HN: Wn – find the files a bug touches, trained on 1.1M real fixes",
-        "url": "https://github.com/andreylukin/where-next",
-        "hn_url": "https://news.ycombinator.com/item?id=49908132",
-        "domain": "github.com",
-        "points": 6,
-        "comments": 0,
-        "created_at": "2026-09-30T12:44:56Z",
-        "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1642,53 +1628,10 @@
           "everything"
         ],
         "ai_score": 0
-      },
-      {
-        "id": "49908007",
-        "title": "Show HN: Open-source country flags for React and Figma (SVG, ISO and dial codes)",
-        "url": "https://radianui.com/resources/flags",
-        "hn_url": "https://news.ycombinator.com/item?id=49908007",
-        "domain": "radianui.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-09-30T12:36:03Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
       }
     ],
     "product_hunt": [],
     "civitai_flux": [
-      {
-        "is_flux": false,
-        "id": 144373378,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6090f20-06c9-4e1d-a186-640523e8b820/original=true/c6090f20-06c9-4e1d-a186-640523e8b820.jpeg",
-        "posted_at": "2026-10-01T13:55:24.101Z",
-        "username": "Lady_Luminous",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2",
-        "stats": {
-          "likes": 212,
-          "hearts": 57,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "A solitary woman stands on a tiny island in the center of a vast mirror still lake at luminous sunset, seen from behind. She wears a long flowing deep crimson dress and her long dark hair moves gently in the wind. Beside her stands only the slender dark trunk of a tree with a few bare branches. Thousands of individual autumn leaves rise from the island and spiral upward into the sky. The leaves themselves form the complete crown of one colossal imaginary tree. There is no solid treetop. Every part of the enormous canopy is constructed entirely from separate flying leaves. Dense clusters of crimson, burnt orange and golden leaves define the rounded outer silhouette while looser streams create delicate branches and irregular edges. Larger detailed leaves cross the foreground, then progressively smaller leaves merge into the monumental tree crown above the woman. Visible gaps of glowing sky remain between the leaves. A brilliant amber sun shines through the center of the leaf formed canopy, illuminating individual leaves with golden edges. The woman, narrow trunk and enormous floating crown reflect softly across the glasslike lake. Distant mountains dissolve into warm mist. Crimson, terracotta, burnt orange, warm cream, amber and luminous gold. Cinematic fantasy painting, painterly realism, detailed textured brushwork, monumental scale, atmospheric depth, elegant movement, poetic surrealism, award winning, a breathtaking masterpiece",
-          "negative_prompt": null,
-          "sampler": "euler",
-          "steps": 10,
-          "cfg_scale": 1,
-          "seed": 1276423650,
-          "width": 832,
-          "height": 1248,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c6090f20-06c9-4e1d-a186-640523e8b820/original=true/c6090f20-06c9-4e1d-a186-640523e8b820.jpeg",
-        "local_file": "144373378.jpeg",
-        "license": {}
-      },
       {
         "is_flux": false,
         "id": 144301289,
@@ -1774,6 +1717,35 @@
         },
         "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b3b9c941-3fd3-49a4-9b47-3213c89b108f/original=true/b3b9c941-3fd3-49a4-9b47-3213c89b108f.jpeg",
         "local_file": "144304698.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144304731,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5713b154-224c-420d-a38e-98c923c981b4/original=true/5713b154-224c-420d-a38e-98c923c981b4.jpeg",
+        "posted_at": "2026-10-01T14:43:30.822Z",
+        "username": "Kayot",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 8,
+          "hearts": 4,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A farmer walks along a dirt path at sunset, a sheepdog trotting at his heels. The path cuts through a pasture where sheep graze in the distance. A wooden gate stands open, and wildflowers nod in the breeze. The sky glows with the last light. The farmer carries a bucket and a walking stick. Painterly digital art, cinematic composition, highly detailed textures, warm sunset and pastoral tones, calm and content mood. Detailed. <lora:Taran_Krea2_V10:1.0>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 54106682009294,
+          "width": 1184,
+          "height": 1776,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5713b154-224c-420d-a38e-98c923c981b4/original=true/5713b154-224c-420d-a38e-98c923c981b4.jpeg",
+        "local_file": "144304731.jpeg",
         "license": {}
       },
       {

@@ -1,0 +1,1679 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T12:22:39.372305+00:00",
+  "sources_ok": [
+    "hn",
+    "ph"
+  ],
+  "sources_error": {
+    "civitai": "api responded but no items matched"
+  },
+  "notes": {
+    "ph": [
+      "no PH_DEV_TOKEN, falling back to html scraping",
+      "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/02 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/02 :: HTTP Error 403: Forbidden",
+      "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
+      "OK https://www.producthunt.com/feed (+0, 43829 bytes)"
+    ],
+    "civitai": [
+      "api items with prompt: 0, flux matched: 0",
+      "top models: "
+    ]
+  },
+  "data": {
+    "show_hn": [
+      {
+        "id": "49911500",
+        "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=49911500",
+        "domain": "",
+        "points": 105,
+        "comments": 36,
+        "created_at": "2026-09-30T16:58:24Z",
+        "story_text": "A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it. First of all, a quick explanation: the Weave Router (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router</a>) plugs into any coding agent (e.g. Claude Code or Codex) and intelligently switches between LLMs. So, for example, Astra handles tricky debugging or complex system design tasks, and Deepseek v4 Flash handles simple frontend updates. What we’re announcing today is our new routing model, which we’re calling Weave Router 2.0. We benchmarked 2.0 against GPT-6 Astra on Terminal ",
+        "ai_keywords": [
+          "agent",
+          "claude",
+          "gpt",
+          "llm",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "49926773",
+        "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+        "url": "https://github.com/Vibra-Ingenn/Janus",
+        "hn_url": "https://news.ycombinator.com/item?id=49926773",
+        "domain": "github.com",
+        "points": 80,
+        "comments": 14,
+        "created_at": "2026-10-01T20:36:47Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49926726",
+        "title": "Show HN: Rhun, an open-source code editor written in assembly",
+        "url": "https://rhun.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49926726",
+        "domain": "rhun.app",
+        "points": 55,
+        "comments": 32,
+        "created_at": "2026-10-01T20:32:18Z",
+        "story_text": "I found that I&#x27;m not using even 1&#x2F;3 of vim&#x2F;vscode features anymore. That&#x27;s wht I&#x27;m building rhun - a small code editor for Linux, Windows and Apple silicon Macs. It obviously has Vim mode, a terminal, Git diffs and a panel for Claude Code or Codex sessions. The editor and pixel renderer share an x86-64 assembly core. For Apple silicon, a build-time translator converts that core to AArch64, with separate platform adapters around it.\nThe latest release can draft commit messages using a local Ollama model or an existing Claude Code or Codex subscription. It&#x27;s a solo project, MIT licensed and still early.",
+        "ai_keywords": [
+          "claude",
+          "llama",
+          "model"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 3
+      },
+      {
+        "id": "49909648",
+        "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+        "url": "https://lathoa.ai/en",
+        "hn_url": "https://news.ycombinator.com/item?id=49909648",
+        "domain": "lathoa.ai",
+        "points": 52,
+        "comments": 47,
+        "created_at": "2026-09-30T14:38:57Z",
+        "story_text": "I made this for kids around 10 to 14. A robot called Errol solves a math problem step by step and one of the steps is wrong. The kid has to find it and say what&#x27;s wrong with it. Sometimes nothing is wrong, so just saying &quot;there&#x27;s a mistake&quot; every time doesn&#x27;t work. The user needs to enter an explanation if she finds an error to gain more XP; speed matters also for more points. There is no direct interaction or chatting with an LLM. Lathoa&#x27;s harness is stable and has many evaluation steps to catch inconsistencies and prompt injections. You can play one on the homepage without signing up. The part that surprised me: it&#x27;s hard to get an LLM to be wrong on purpose. Half the time it gives you the right answer and calls it wrong, or a &quot;mistake&quot; that&#",
+        "ai_keywords": [
+          "ai",
+          "llm",
+          "prompt",
+          "stable"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "49910328",
+        "title": "Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac",
+        "url": "https://openparrot.app",
+        "hn_url": "https://news.ycombinator.com/item?id=49910328",
+        "domain": "openparrot.app",
+        "points": 36,
+        "comments": 33,
+        "created_at": "2026-09-30T15:33:12Z",
+        "story_text": "Hello Hacker News I am Uygar, I am an entrepreneur from London. I run my businesses on calls everyday, customers, partners and suppliers. And i have a horrible memory i forgot things. So months ago with the help of Claude i have built Parrot. I have designed and coded for my work and what i need. An to be honest worked very well and helped me alot. Parrot records what your mac hears and everything stays in your computer if you use local models, no account, no API calls. There is something called copilot which made my life easier, you can upload your files and when parrot hears that question on the screen recommends the answer. Which i believe very handy. If you want to make it smarter and dont mind cloud you can hook up your Claude API and Deepgram account, that gives super powers to Parro",
+        "ai_keywords": [
+          "claude",
+          "copilot",
+          "model"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 3
+      },
+      {
+        "id": "49916997",
+        "title": "Show HN: Yantra – an LALR(1) parser generator for C++",
+        "url": "https://github.com/TantrixAuto/yantra",
+        "hn_url": "https://news.ycombinator.com/item?id=49916997",
+        "domain": "github.com",
+        "points": 32,
+        "comments": 16,
+        "created_at": "2026-10-01T02:30:48Z",
+        "story_text": "Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool.\nIt builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon) run your semantic actions during parsing, as each rule reduces, bottom-up. That means at the time a rule&#x27;s action runs, you don&#x27;t yet know what its parent looks like. This pushes a lot of grammars toward hand-built AST classes and a separate walking pass whenever you need to look ahead into siblings or defer a decision until more context is available. On the other hand, Yantra always builds the whole AST first, then walks it top-down in a separate pass, calling your semantic actions as it goes. A parent rule&#x27;s action can run before its children are visited. A single grammar can define more ",
+        "ai_keywords": [
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49911931",
+        "title": "Show HN: I built a free Burp/Caido alternative but, zero setup - API Testing",
+        "url": "https://apiaxess.dev",
+        "hn_url": "https://news.ycombinator.com/item?id=49911931",
+        "domain": "apiaxess.dev",
+        "points": 32,
+        "comments": 5,
+        "created_at": "2026-09-30T17:32:10Z",
+        "story_text": "This is Katriel, the architect of the tool APIaxess. I have been API pentesting for a good time now, and starting with API pentesting was a bit of a rough patch. Specially the setting up and having to know the intricacies of proxies, networking and other stuff. Then once i got through it, the next rough patch was the apk pentesting, where getting the traffic of any apk was more of a task then the pentesting itself. So i started by writing scripts that automates the process and then made sure that any rooted adb just automatically started sending traffic to the burpsuite setup, and then that helped a lot. Then i just thought that this issue needs to be resolved in a more open manner, since its a very known pain point. So i built a GUI around it, made sure that it can handle everything that ",
+        "ai_keywords": [
+          "automat"
+        ],
+        "platform_smell": [
+          "everything",
+          "suite"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49909913",
+        "title": "Show HN: Strata – an expressive semantic layer that can say no to your LLM",
+        "url": "https://strata.do/",
+        "hn_url": "https://news.ycombinator.com/item?id=49909913",
+        "domain": "strata.do",
+        "points": 23,
+        "comments": 15,
+        "created_at": "2026-09-30T14:59:57Z",
+        "story_text": "Hello HN, I&#x27;m Ajo and I built Strata. I spent 4 years at Netflix solving self service for non-technical business users. I think I cracked it with my unique approach to semantic layer design.  The key challenge is balancing expressiveness with ease of use for our non technical colleagues. It just so happens that focus made it work pretty well with LLMs too. Strata is a full stack solution. It includes a semantic layer, dashboards, subscriptions, and google sheets exports.  All of it can be done view agent conversation or via MCP. Some key concepts and features:\n- Names are strict. Only one thing called Revenue can exist in a project. If revenue is mapped to multiple tables, the query grain plus speed will decide table.\n- Strict naming conventions lends itself to enabling Automatic data",
+        "ai_keywords": [
+          "agent",
+          "automat",
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "49924943",
+        "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
+        "url": "https://innerloop.works/breadcrumb",
+        "hn_url": "https://news.ycombinator.com/item?id=49924943",
+        "domain": "innerloop.works",
+        "points": 20,
+        "comments": 3,
+        "created_at": "2026-10-01T17:58:37Z",
+        "story_text": "Hi HN, I&#x27;m Justin. Breadcrumb records everything you do on your Mac (screen + meetings + AI transcripts + what you and your AI decided) and turns it into memory your AI can search. It&#x27;s local and encrypted. You can also teach it rules by talking to it and it makes sure the right rules turn up in the right context. Works with Claude Code &#x2F; Codex &#x2F; Cursor &#x2F; opencode. All of this is exposed to your AI as 30+ MCP tools (here&#x27;s the definitions): <a href=\"https:&#x2F;&#x2F;innerloop.works&#x2F;breadcrumb&#x2F;mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;innerloop.works&#x2F;breadcrumb&#x2F;mcp</a> I started it in June because I wanted to understand what was going on with my AI dev work. Then it just kept growing as I jammed on it 10 hours a day for 3 months. I started by r",
+        "ai_keywords": [
+          "ai",
+          "claude"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 2
+      },
+      {
+        "id": "49926185",
+        "title": "Show HN: What 482 hospitals charge vs. what insurers pay, from their own files",
+        "url": "https://www.billmender.com/hospital-prices",
+        "hn_url": "https://news.ycombinator.com/item?id=49926185",
+        "domain": "billmender.com",
+        "points": 18,
+        "comments": 4,
+        "created_at": "2026-10-01T19:42:09Z",
+        "story_text": "US hospitals must publish a machine-readable file of their prices, including the rate they&#x27;ve negotiated with each insurer. The files are huge (one is 36GB), in four formats and often messy, so almost nobody reads them. I built a crawler that finds each hospital&#x27;s official file and pulls out 29 common services. Across 482 hospitals: a moderate ER visit is listed at a median $1,285 while insurers pay $288; a metabolic panel is listed at $207 while insurers pay $11.46. To keep it honest: only per-service fee-schedule dollar rates count (no case rates or percentages, which cover a whole visit), each figure needs at least 3 insurers, and every value is checked against Medicare reference rates. Surgery is excluded because insurer surgery rates cover the whole operation while the list ",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49914005",
+        "title": "Show HN: Perspica – A semantic diff for reviewing code",
+        "url": "https://github.com/sshah03/perspica",
+        "hn_url": "https://news.ycombinator.com/item?id=49914005",
+        "domain": "github.com",
+        "points": 14,
+        "comments": 6,
+        "created_at": "2026-09-30T20:34:49Z",
+        "story_text": "I started using this a little over half a year ago to help me navigate through some large AI coded PRs people were submitting, because I felt like if I looked at the PR on Github I would just auto pass it through because I didn&#x27;t want to deal with it. Thought I&#x27;d clean it up and share it in case this style of review was useful to anyone else. Obviously it relies on an LLM run to get true semantic groupings of what changes were done, and why, but can also be used without an LLM to get more mechanical groupings&#x2F;group names of changes made, along with the right order to view them in. The manual tree-sitter parsed analysis is deliberately conservative for now, but if people want to avoid the LLM analysis I can spend more time on that. You can use it for other peoples PRs, or for",
+        "ai_keywords": [
+          "ai",
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49911910",
+        "title": "Show HN: Token compression CLI to save Codex/Astra costs",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=49911910",
+        "domain": "",
+        "points": 11,
+        "comments": 4,
+        "created_at": "2026-09-30T17:30:54Z",
+        "story_text": "Hey HN! Yolanda and Spencer here - wanted to share a token compression tool that we’ve built for ourselves to save 30% costs on codex! After maxing out sub and burning $700&#x2F;day per person on api, we fine tuned a compression model to trim codex&#x27;s tool call output to reduce input token + cache. It cut down tokens by 29.6% and now I just leave it on by default in Codex. To avoid messing up w&#x2F; cache, we use proxy + fine tuned qwen model trained on preserving agent trajectory to remove tool call results before they go back to the model, leaving kv cache untouched. The cli is free for everyone to use (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;spenmcke&#x2F;compress\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;spenmcke&#x2F;compress</a>). Just lmk ur feedback and hacks to sha",
+        "ai_keywords": [
+          "agent",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49926691",
+        "title": "Show HN: Premortem – AI agents that red-team your startup idea",
+        "url": "https://premortem.site",
+        "hn_url": "https://news.ycombinator.com/item?id=49926691",
+        "domain": "premortem.site",
+        "points": 9,
+        "comments": 11,
+        "created_at": "2026-10-01T20:30:02Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49923223",
+        "title": "Show HN: Gutsy, a 0.8B Jev-compatible decision model that runs on your CPU",
+        "url": "https://github.com/kouhxp/gutsy",
+        "hn_url": "https://news.ycombinator.com/item?id=49923223",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 2,
+        "created_at": "2026-10-01T15:44:42Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49918836",
+        "title": "Show HN: Vectorless, Reasoning-Based RAG",
+        "url": "https://github.com/VectifyAI/PageIndex",
+        "hn_url": "https://news.ycombinator.com/item?id=49918836",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 0,
+        "created_at": "2026-10-01T07:36:31Z",
+        "story_text": "",
+        "ai_keywords": [
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49914804",
+        "title": "Show HN: DragomanD – local language translator for Linux",
+        "url": "https://dragomand.l10n-bg.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=49914804",
+        "domain": "dragomand.l10n-bg.dev",
+        "points": 8,
+        "comments": 0,
+        "created_at": "2026-09-30T21:35:44Z",
+        "story_text": "",
+        "ai_keywords": [
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49922799",
+        "title": "Show HN: Fast browser agent (using Jev) with deep reasoning as needed",
+        "url": "https://github.com/ironbee-ai/ironbee-express",
+        "hn_url": "https://news.ycombinator.com/item?id=49922799",
+        "domain": "github.com",
+        "points": 7,
+        "comments": 0,
+        "created_at": "2026-10-01T15:15:33Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49916539",
+        "title": "Show HN: Kanmaps – Product roadmaps like videogame skill trees",
+        "url": "https://kanmaps.com/show",
+        "hn_url": "https://news.ycombinator.com/item?id=49916539",
+        "domain": "kanmaps.com",
+        "points": 6,
+        "comments": 4,
+        "created_at": "2026-10-01T01:21:14Z",
+        "story_text": "Hi HN! I&#x27;ve made it possible for you to make product roadmaps like you&#x27;d make an RPG skill tree, or a tech tree in a video game. Ever since seeing WoW talent trees* in high school i&#x27;ve been obsessed with RPG skill trees as a way to represent information as I&#x27;ve thought they convey 1) Ordering, 2) Progression and 3) Contingent Requirements really well. Not only do they help give better visual structure of whats happening and what will happen - they also give people a feeling of movement, progression and hope (whereas kanban boards and issue trackers give people the feeling of dread). This isn&#x27;t surprising as video games were really designed to make people excited to play on and reach the next milestone. Turns out this format is really fun for people and agents to th",
+        "ai_keywords": [
+          "agent",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49928011",
+        "title": "Show HN: PhreshOS – OS for Web Apps",
+        "url": "https://github.com/PhreshOS/system",
+        "hn_url": "https://news.ycombinator.com/item?id=49928011",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 1,
+        "created_at": "2026-10-01T22:55:02Z",
+        "story_text": "I&#x27;d like to share my experience building this system with you. It&#x27;s an operating system for web applications, and it took me about six months to develop this model. The idea is that every time I build a web tool, I need to design the infrastructure, including authentication and communication. If it&#x27;s a WebSocket, it&#x27;s even more complicated; I need another port for each application. I couldn&#x27;t find any neutral tool that provided all of this ready-made, allowing me to build my tools directly on top of it. This is where the PhreshOS project began. It&#x27;s an open-source, neutral platform for any web application, with everything ready-made: authentication, two-way communication without any configuration, and more. Another key feature is that the applications run as N",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [
+          "everything",
+          "infrastructure",
+          "operating system for",
+          "platform"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49910148",
+        "title": "Show HN: How we made web agents 3x faster by building the missing memory layer",
+        "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+        "hn_url": "https://news.ycombinator.com/item?id=49910148",
+        "domain": "blog.reduck.ai",
+        "points": 6,
+        "comments": 1,
+        "created_at": "2026-09-30T15:20:26Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49911411",
+        "title": "Show HN: Datastory, Data storytelling with AI and an open knowledge graph",
+        "url": "https://www.datastory.tech",
+        "hn_url": "https://news.ycombinator.com/item?id=49911411",
+        "domain": "datastory.tech",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-09-30T16:52:41Z",
+        "story_text": "Today we’re opening Datastory to everyone! Datastory is a platform for turning data, your own or the world’s open data, into charts that people can understand and trust. Please try it out and let us know what we can improve! A little backstory\nI’ve spent my career trying to make data understandable and useful, from helping animate Hans Rosling&#x27;s TED Talks at Gapminder to building data platforms for organizations in health, research, media and the public sector. Every project taught me the same thing: organizations were building similar platforms from scratch, at great cost, and communicating data well remained slow, expensive, expert work. That’s why we started Datastory as a non-profit, publishing data journalism and building our own tools because nothing else was fast enough. Over t",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49923102",
+        "title": "Show HN: Benchmark: AI doesn't find bugs unless you tell it what's wrong",
+        "url": "https://swesweep.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923102",
+        "domain": "swesweep.com",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-10-01T15:36:14Z",
+        "story_text": "New benchmark from researchers at Meta, Stanford, Harvard, UW, including the researchers who&#x27;ve worked on SWE-bench, ProgramBench etc. Most benchmarks just test if AI can fix a problem you&#x27;ve already pointed out. But obviously it would be much better to fix problems before you or any user runs into it. Like, isn&#x27;t it crazy that we still have to wait for people to open tickets before a lot of obvious bugs get found? We wanted to test that capability at scale. Turns out that models still are terrible at it (best setup we tested still fixed &lt; 5% of bugs) We have 100 repos of 22 languages and 4k bugs between. All the bugs are real-world bugs from github. We do a lot of filtering to ensure everything can be solved in this setting. =========================================== So",
+        "ai_keywords": [
+          "ai",
+          "model"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 2
+      },
+      {
+        "id": "49914770",
+        "title": "Show HN: Certify you wrote it and not AI",
+        "url": "https://iwrote.co",
+        "hn_url": "https://news.ycombinator.com/item?id=49914770",
+        "domain": "iwrote.co",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-09-30T21:33:05Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49908484",
+        "title": "Show HN: Explainroo, Open Source Framework to Make Explainer Videos with Claude",
+        "url": "https://github.com/vincentsch/explainroo",
+        "hn_url": "https://news.ycombinator.com/item?id=49908484",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-09-30T13:13:27Z",
+        "story_text": "Everyone is making videos with Opus 5.5 right now (Sonnet 5.5 is also good at it), so I built a small open source kit to give you a head start. Just point Claude or Codex at the repo and say what the video should explain. It also makes great product demos. Examples: <a href=\"https:&#x2F;&#x2F;www.explainroo.com&#x2F;videos&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.explainroo.com&#x2F;videos&#x2F;</a>",
+        "ai_keywords": [
+          "claude",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49924301",
+        "title": "Show HN: I made a computer vision tool for evaluating deadlift form",
+        "url": "https://github.com/jeremyipark/vision-demos/tree/main/deadlift",
+        "hn_url": "https://news.ycombinator.com/item?id=49924301",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 1,
+        "created_at": "2026-10-01T17:07:49Z",
+        "story_text": "I&#x27;ve shared a few deadlift demos in the past. This new demo includes some new models, accessed through the VLM Run Gateway: - SAM 3.1 to segment the barbell weight plate - ViTPose+ Large to measure the hip hinge angle, which serves as a backup for segmenting the reps. The pose data can definitely be used more later. - Gemma 4 26B through the Gateway&#x27;s TypeSafe-compatible API to output the probability of the back being rounded or not. The predictions line up well with how I intentionally performed each rep. Of course, there are many caveats to what is good form, as it depends on the individual. All said, this has the pieces in place to quickly make adjustments to fit the individual better. In short, a tool like this gives people data to assess their form and improve over time. Let",
+        "ai_keywords": [
+          "model",
+          "vision"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49923302",
+        "title": "Show HN: TrueScribe – Linux local AI transcription studio",
+        "url": "https://truescribe.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923302",
+        "domain": "truescribe.app",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-01T15:50:25Z",
+        "story_text": "Switched to Fedora a year ago. And because I needed to transcribe interviews offline from time to time, I was looking for something like MacWhisper for Linux. When I couldn&#x27;t find one, I decided to build one. Because in this day and age, why the hell not! And yes, AI coding-agents were used. I work as a .NET Software Engineer and I despise Electron Apps, so I decided to go with a semi-native Stack, consisting of C# and Avalonia.Net (hardware accelerated trough SkiaSharp) for the frontend and C++ for low-level model bindings (CTranslate2 for translation, Nemotron 3 NeMo-Speech.cpp for Speaker Identification via JSON-RPC worker). A friend liked the app and told me to go Freemium, so here we are. Works also on Windows btw.",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "model",
+          "speech",
+          "transcrib",
+          "whisper"
+        ],
+        "platform_smell": [],
+        "ai_score": 6
+      },
+      {
+        "id": "49920582",
+        "title": "Show HN: The Kio Programming Language",
+        "url": "https://jdevuyst.github.io/kio/",
+        "hn_url": "https://news.ycombinator.com/item?id=49920582",
+        "domain": "jdevuyst.github.io",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-01T12:07:05Z",
+        "story_text": "Kio is a statically typed, hosted language that is designed to be ultra-portable. Kio 0.1 supports eight host languages and more will be added in the coming weeks. Kio is based on polymorphic lambda calculus with higher-kinded types. Kio has type-driven macros (elaborators) and it can statically check asserted equivalences using a normalizer. Kio is a minimalistic language. It doesn&#x27;t have built-in effectful functions and it doesn&#x27;t even have built-in string or numeric types. Instead programs declare the capabilities they need and the host supplies them. The language is designed with AI, which is bound to raise some eyebrows, so I blogged about that here: <a href=\"https:&#x2F;&#x2F;jdevuyst.github.io&#x2F;kio&#x2F;blog&#x2F;2026-10-01-introducing-kio.html\" rel=\"nofollow\">https:&#",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49909962",
+        "title": "Show HN: Mingbird – an agent harness that makes a 2B model finish real tasks",
+        "url": "https://github.com/Mingbird/Mingbird-agent",
+        "hn_url": "https://news.ycombinator.com/item?id=49909962",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-09-30T15:04:12Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49908611",
+        "title": "Show HN: Range – open a 1TB Linux environment in under a second",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=49908611",
+        "domain": "",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-09-30T13:24:42Z",
+        "story_text": "Hi HN. My name is Andrey. Range lets you open a Linux environment of any size without downloading it first. Let me just show you what i mean by that. Example 1. Any docker image. Say i want to test something with Python 3.12 <pre><code>  $ range shell python:3.12\n</code></pre>\nThis will download the image and index all the layers, but this happens only once (same as docker pull). \nThe fun part is the second run: <pre><code>  $ range shell python:3.12\n\n  Range environment\n    Artifact          python:3.12\n    Logical size      1.35 GB\n    Runtime           darwin&#x2F;arm64\n    Workload          interactive\n    Profile           4 prior sessions\n    Ready             2.82 s\n\n  root@range:&#x2F;# python3 --version\n  Python 3.12.14\n</code></pre>\nYou are inside in 2.82 seconds. Now, say you wa",
+        "ai_keywords": [
+          "image"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49930226",
+        "title": "Show HN: Mixdog – open-source coding agent for Windows desktop",
+        "url": "https://github.com/tribgames/mixdog",
+        "hn_url": "https://news.ycombinator.com/item?id=49930226",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-02T05:56:56Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49919734",
+        "title": "Show HN: Walk the Endless Dungeon",
+        "url": "https://the-endless.pages.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=49919734",
+        "domain": "the-endless.pages.dev",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-01T09:56:01Z",
+        "story_text": "Small fun experiment to tinker with &quot;wave function collapse&quot; for infinite, organic feeling, maze generation. Then I wanted a way to have the same generation every time for a given seed, while still being explorable infinitely. So I merge a seed-based priority assignment and zone interface and then resolve the inside of a zone using WFC. Those places can be walked infinitely with infinite levels up and down. Probably just me, but it calms my nerves to roam those digital corridors.",
+        "ai_keywords": [
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49907865",
+        "title": "Show HN: AT0M – a Jev Like System One decision model in a single Rust binary",
+        "url": "https://at0m.pienomial.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49907865",
+        "domain": "at0m.pienomial.com",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-09-30T12:23:19Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49929381",
+        "title": "Show HN: Use all Codex Plugins inside Pi",
+        "url": "https://github.com/wileai/pi-codex-connectors",
+        "hn_url": "https://news.ycombinator.com/item?id=49929381",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-02T02:49:37Z",
+        "story_text": "I just realized that codex now exposes local server endpoints for all plugins without extra auth. So you can just use them from any model or harness. Im soooo excited!!! One auth for everything! For Pi:\npi install npm:@wileai&#x2F;pi-codex-connector For any harness: \nnpx -y @wileai&#x2F;codex-connectors-mcp@latest",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49924752",
+        "title": "Show HN: Add a natural-language interface to your SaaS w/ Yedric",
+        "url": "https://www.yedric.ai",
+        "hn_url": "https://news.ycombinator.com/item?id=49924752",
+        "domain": "yedric.ai",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T17:44:00Z",
+        "story_text": "Hi HN, I&#x27;ve been building SaaS products for more than 20 years, and lately I&#x27;ve been thinking a lot about how we interact with software. When we add a feature, we have to figure out where it goes in the UI and how users will interact with it. Then users have to learn our particular way of doing something. AI lets us flip that around: the software can translate what the user wants into the actions needed to accomplish it. Yedric lets devs add a natural-language interface to an existing SaaS app. You expose your app&#x27;s actions and give it your docs and user context. Users can then ask for things like: • &quot;Export the table to a CSV&quot;\n• &quot;Fix this disconnected integration&quot;\n• &quot;Change my logo color to #B5E2F4&quot; We originally built Yedric for our own Shopif",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49920621",
+        "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+        "url": "https://github.com/dmitry-markin/silta",
+        "hn_url": "https://news.ycombinator.com/item?id=49920621",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T12:11:34Z",
+        "story_text": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person using their own Claude subscription. Silta answers everyday questions, conducts web research (presenting the results as PDFs), performs scheduled tasks to monitor&#x2F;research something and notify you if needed. It uses a deliberate handoff &amp; compaction procedure, writing the compaction summary itself with a custom prompt, so the thread of the conversation and its picture of the user is preserved across context limits. As it turned out, the assistant accessible in a continuous chat (contrary to ChatGPT &#x2F; Claude Web sessions) builds up better context about you and your tasks, and provides more ",
+        "ai_keywords": [
+          "assistant",
+          "claude",
+          "gpt",
+          "prompt",
+          "summar"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "49920584",
+        "title": "Show HN: Sensii – LeagueOfLegends live AI coach",
+        "url": "https://sensii.gg",
+        "hn_url": "https://news.ycombinator.com/item?id=49920584",
+        "domain": "sensii.gg",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T12:07:16Z",
+        "story_text": "Hi everyone, I&#x27;m Daniel I built an open-source AI Voice agent where players can talk to a coach during the game.\nIt works based on the awesome repo, live game stat and screenshot (disabled by default) download: <a href=\"https:&#x2F;&#x2F;sensii.gg&#x2F;download\" rel=\"nofollow\">https:&#x2F;&#x2F;sensii.gg&#x2F;download</a>\nThe agent: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;sorena-ai&#x2F;LeagueAiCoach\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;sorena-ai&#x2F;LeagueAiCoach</a>\nThe knowledge base: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;sorena-ai&#x2F;awesome-league-of-legends\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;sorena-ai&#x2F;awesome-league-of-legends</a>",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "voice"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "49915856",
+        "title": "Show HN: Desbordante 2.5.0 Released",
+        "url": "https://github.com/Desbordante/desbordante-core/releases/tag/v2.5.0",
+        "hn_url": "https://news.ycombinator.com/item?id=49915856",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-09-30T23:37:13Z",
+        "story_text": "Almost a year has passed since Desbordante’s last release, and now we’re rolling out a new one — 2.5.0. Desbordante is an open-source, high-performance data profiler that finds and validates complex patterns in data using a bunch of advanced algorithms. Unlike the black-box ML approaches that dominate today, Desbordante takes a symbolic, explainable approach to data analysis, producing explicit rules or rule-shaped artifacts that are verifiable, such as data dependencies, association rules, or other patterns. It’s a different way to analyze data, and it works well alongside black-box models. Unlike free-form model output, these patterns have precise semantics and can be validated algorithmically against the data. And, importantly, no hallucinations or misclassification. This release adds 9",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49911977",
+        "title": "Show HN: Kyno – Direction as a first-class primitive for AI agents",
+        "url": "https://cizambra.github.io/kyno/",
+        "hn_url": "https://news.ycombinator.com/item?id=49911977",
+        "domain": "cizambra.github.io",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-09-30T17:35:59Z",
+        "story_text": "Hi folks, I&#x27;ve been lurking here for a while, and after almost two months of building, I finally dared to share what I&#x27;ve been working on. It&#x27;s called Kyno (pronounced KAI-no). It&#x27;s what I call a coherence control plane: it treats direction as a first-class primitive, expressed as a constitution with a mission and principles that agents can pull at each step of a workflow. The goal is to enable principled decision-making, bottom-up agency, and self-governance in agents. Kyno doesn&#x27;t rely on LLMs. It&#x27;s a lightweight system that provides centralized, versioned direction so agents can exercise judgment while staying aligned with the mission. It can work independently or complement AI governance tools, pairing boundaries with principles to support greater autonomy",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "49913466",
+        "title": "Show HN: Domainpuff.com – Find memorable domain names within your budget",
+        "url": "https://domainpuff.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49913466",
+        "domain": "domainpuff.com",
+        "points": 3,
+        "comments": 4,
+        "created_at": "2026-09-30T19:55:26Z",
+        "story_text": "Hi, Bruno here, creator of DomainPuff. Just launched this and would be awesome to have your feedback on it. Just put your business idea on the search box and your budget. It will find memorable domain names that are currently available and within your budget, with the link to acquire the domain if desired. So now you don&#x27;t have to go back and forth from ChatGPT to NameCheap to find a domain for your next venture. Cheers!",
+        "ai_keywords": [
+          "gpt"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49923634",
+        "title": "Show HN: Secret Santa Name Generator – draw names in the browser, no sign-up",
+        "url": "https://secretsantanamegenerator.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923634",
+        "domain": "secretsantanamegenerator.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T16:14:08Z",
+        "story_text": "",
+        "ai_keywords": [
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49923045",
+        "title": "Show HN: BananaSplit CLI – manage personal and group expenses with AI agents",
+        "url": "https://bananasplit.net/en/agents/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923045",
+        "domain": "bananasplit.net",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T15:32:49Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49916747",
+        "title": "Show HN: Smartly – Plain English to shell commands, with GNU/BSD awareness",
+        "url": "https://smartlycli.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49916747",
+        "domain": "smartlycli.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T01:54:44Z",
+        "story_text": "I built Smartly because I kept knowing what I wanted to do in the terminal—but forgetting the exact syntax and flags. Smartly turns plain English into shell commands, using your OS, current directory, and Git context to help produce something relevant to where you’re working. It saves the back-and-forth of copying commands from an LLM into your terminal. It also supports Claude Code and Codex CLI if you already use those with a subscription. There’s also a --learn mode for when you want to understand the command, not just get it done. I’d love feedback. Thanks!",
+        "ai_keywords": [
+          "claude",
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49913174",
+        "title": "Show HN: Jamb AI - Voice Agents for Group Calls",
+        "url": "https://twitter.com/sharat_sc/status/2100638882341486961",
+        "hn_url": "https://news.ycombinator.com/item?id=49913174",
+        "domain": "twitter.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T19:24:36Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "voice"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "49912849",
+        "title": "Show HN: Gatekeeper – Persuade a 34MB Jev-like model to let you into the castle",
+        "url": "https://gatekeeper.dopp.sh/",
+        "hn_url": "https://news.ycombinator.com/item?id=49912849",
+        "domain": "gatekeeper.dopp.sh",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T18:55:17Z",
+        "story_text": "Upfront caveat: it&#x27;s English only! but I&#x27;m personally still just amazed that 34MB (fine-tuned BAAI&#x2F;bge-small-en-v1.5 ) can fit so much knowledge that it&#x27;s possible to have an iPhone 15 running these classifications entirely client-side on arbitrary english text in 10-30ms. The game is a little trivial but thought it was a cool showcase, you type messages to the guard  and they get classified as either friendly, bribe, threats, etc. I&#x27;ve been playing a lot with Jev use-cases since it came out and then learned about fine-tuning my own models. The way I went about it was just using Jev first via a proxy to record my calls and store them as my own training data to make running training easier. I built a whole oss platform around doing that with models (of various sizes",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49912846",
+        "title": "Show HN: Hedwig, a free and open-source alternative to Instantly and Smartlead",
+        "url": "https://flyhedwig.com",
+        "hn_url": "https://news.ycombinator.com/item?id=49912846",
+        "domain": "flyhedwig.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T18:55:05Z",
+        "story_text": "I created an open source alternative to tools like Instantly or Smartlead, which charge huge amounts of money per lead for basic cold email campaign management. The emails are sent from your inbox, and you get open rates and analytics for your campaign. It also comes with an MCP server, so you can manage the whole campaign from Claude or Codex. It also has multi email option, so you can spread the senders through various emails as you like, and many other things like classification of replies or automatic draft reply generation. If you like the project, you can sign up and use the hosted version and if you star the Github project it would help it grow! Let me know what you think :)",
+        "ai_keywords": [
+          "automat",
+          "claude",
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "49911193",
+        "title": "Show HN: RuleReceipt – check if your coding agent followed your Claude.md",
+        "url": "https://github.com/rulereceipt/rulereceipt",
+        "hn_url": "https://news.ycombinator.com/item?id=49911193",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T16:38:56Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49909686",
+        "title": "Show HN: Offlineisbetter: Efficient Models for Text on CPU",
+        "url": "https://github.com/offlineisbetter/offlinedemo",
+        "hn_url": "https://news.ycombinator.com/item?id=49909686",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T14:42:56Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49932260",
+        "title": "Show HN: Yokka – Simple project management for coding agents",
+        "url": "https://yokka.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=49932260",
+        "domain": "yokka.ai",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-02T11:23:25Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49931998",
+        "title": "Show HN: Web search engine built from the CommonCrawl corpus",
+        "url": "https://search.xorsoft.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=49931998",
+        "domain": "search.xorsoft.dev",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-02T10:41:13Z",
+        "story_text": "Hello HN, I&#x27;m building an alternative web search engine. You can try the demo here: <a href=\"https:&#x2F;&#x2F;search.xorsoft.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;search.xorsoft.dev&#x2F;</a> My goal was to reach 1% of Google&#x27;s index. This is 4 billion pages across 33.5 million domains. I was inspired by the earlier attempts shared here: &quot;Building a web search engine from scratch with 3B neural embeddings&quot; [1] and &quot;Crawling a billion web pages in just over 24 hours&quot; [2]. I decided not to replicate them and instead used CommonCrawl corpus, built a pipeline, and threw the results into a classic full-text search index. First, I got my hands on a dedicated Hetzner server with 4x10TB HDDs. It allowed me to crunch CommonCrawl data and stay within my hobby bud",
+        "ai_keywords": [
+          "embedding",
+          "neural"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49931924",
+        "title": "Show HN: AilaFlow – A Self-Hosted AI Workspace for Teams",
+        "url": "https://ailaflow.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49931924",
+        "domain": "ailaflow.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-02T10:30:17Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [
+          "workspace"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49930615",
+        "title": "Show HN: Realtime eBay Filtering with Jev",
+        "url": "https://tv.junkdrawer.ai",
+        "hn_url": "https://news.ycombinator.com/item?id=49930615",
+        "domain": "tv.junkdrawer.ai",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-02T07:04:34Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49927295",
+        "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+        "url": "https://github.com/graphene-data/graphene",
+        "hn_url": "https://news.ycombinator.com/item?id=49927295",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T21:29:52Z",
+        "story_text": "My friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now? Almost. They just need a context&#x2F;semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations. We built an open source project called Graphene that provides these tools: - Semantic layer that’s more token-efficient than YAML, more deterministic than Markdown (eg, composable, callable metric macros), with a query API that’s well in-distribution (SQL).\n- MDX-like files for dashboards (Markdown with inlined SQL + HTML components for viz with support for CSS and Javascript)\n- Connects to popular data warehouses or local DuckDB Your coding agent will build really in-depth reports and can ofc leverage any other skills or context th",
+        "ai_keywords": [
+          "agent",
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49923928",
+        "title": "Show HN: Opus6.video – Make Claude Opus 5.5 videos without a Claude account",
+        "url": "https://opus6.video/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923928",
+        "domain": "opus6.video",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T16:36:42Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49922810",
+        "title": "Show HN: Read the Odyssey in Greek while learning Greek",
+        "url": "https://readwithgloss.com/texts/odyssey/1",
+        "hn_url": "https://news.ycombinator.com/item?id=49922810",
+        "domain": "readwithgloss.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T15:15:56Z",
+        "story_text": "I made a way to (sort of) read the Odyssey in Greek without all those years of learning Greek first. I’ve had a deep interest in reading great literature in its original language since I studied Latin in High School, but wanted to find ways of reading real literature quickly. I’ve used this method myself to read books in several languages including Italian, German, Chinese, Japanese, and Greek. You still have to do the grammar and vocabulary study over time to really comprehend it, but this method has worked far better than all my previous attempts. The goal is to eventually be able just to read the language without any aids, but do that while reading real stuff the entire time. I’ve found that I go from needing help on everything, to learning individual words, to phrases, and then gradual",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49921939",
+        "title": "Show HN: Tegaki – Handwriting animation for any font",
+        "url": "https://tegaki.ink/",
+        "hn_url": "https://news.ycombinator.com/item?id=49921939",
+        "domain": "tegaki.ink",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T14:10:59Z",
+        "story_text": "I created Tegaki because I know animating handwriting manually is a tedious task, especially in an era where most things are automated. The project has a generator that extracts skeletons of font glyphs from raster&#x2F;geometry data and matches them with known stroke orders like Hershey and KanjiVG. It creates a format that&#x27;s bundled to be rendered by the client-side renderer. The renderer supports plugins to re-style the font or use the stroke data in more creative ways. For example, you could add variations to your strokes, add stroke order and direction guides for learning applications, or create stylish animations like burning or flashing text. If you are about to create motion design videos, give Tegaki a try. AI agents still can&#x27;t create convincing handwriting animations f",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "automat",
+          "generat",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "49919159",
+        "title": "Show HN: AI workspaces for teams with human-AI interfaces",
+        "url": "https://github.com/ailaflow/ailaflow",
+        "hn_url": "https://news.ycombinator.com/item?id=49919159",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T08:23:59Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [
+          "workspace"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "49914648",
+        "title": "Show HN: Real-time raytracing around a black hole",
+        "url": "https://rivendell.dmitrybrant.com/blackhole/",
+        "hn_url": "https://news.ycombinator.com/item?id=49914648",
+        "domain": "rivendell.dmitrybrant.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T21:23:01Z",
+        "story_text": "Another visualization that I&#x27;ve been wanting to make for a long time, and is now over the finish line with some agentic assistance. This is actual raytracing inside a curved spacetime, following geodesics given by a (simplified) solution to the field equations.",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49912691",
+        "title": "Show HN: Whisper Dictate – Offline push-to-talk dictation for Windows and macOS",
+        "url": "https://whisperdictate.vercel.app",
+        "hn_url": "https://news.ycombinator.com/item?id=49912691",
+        "domain": "whisperdictate.vercel.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T18:41:49Z",
+        "story_text": "",
+        "ai_keywords": [
+          "whisper"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49912656",
+        "title": "Show HN: Got tired of relaying context between Slack and my Claude Code CLI",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wuc5vu/i_was_tired_of_relaying_context_between_slack_and/",
+        "hn_url": "https://news.ycombinator.com/item?id=49912656",
+        "domain": "reddit.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T18:38:37Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49911523",
+        "title": "Show HN: An OSS text to CAD MCP and API",
+        "url": "https://github.com/Zesuperaker/scratchcad",
+        "hn_url": "https://news.ycombinator.com/item?id=49911523",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T16:59:50Z",
+        "story_text": "I&#x27;ve been working on a implicit text to cad system (scratchcad) that outputs STL. This is all built around fidget, a really cool experimental implicit engine by Matt Keeter. Scratchcad adds a rust http API on top of fidget and provides an mcp for any agent to interact with the API, so that it can script in Rhai, verify it&#x27;s scripts and create STLs. My whole system is under Apache 2 so that anyone can build with it. It&#x27;s still super early but I excited to see where this goes and what you all model or build on top of scratchcad.",
+        "ai_keywords": [
+          "agent",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "49911073",
+        "title": "Show HN: WattzGOAT – an intentionally vulnerable web app for security training",
+        "url": "https://github.com/wattzgoat/wattzgoat-web",
+        "hn_url": "https://news.ycombinator.com/item?id=49911073",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T16:31:52Z",
+        "story_text": "Built this as a hands-on lab for teaching web application security. It is a fictional electricity utility&#x27;s customer portal with 48 deliberately planted flags (most of OWASP Top 10) you find and exploit CTF-style, including a simulated (rule-based, not a real model) AI assistant with its own prompt-injection-style vulnerabilities. Full disclosure, built this with AI assistance but I promise  you&#x27;re going to enjoy tinkering with it.",
+        "ai_keywords": [
+          "ai",
+          "assistant",
+          "model",
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "49910673",
+        "title": "Show HN: Stem splitting and audio conversion running in-browser with Rust/WASM",
+        "url": "https://www.audiodrop.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49910673",
+        "domain": "audiodrop.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T16:00:46Z",
+        "story_text": "I got tired of all the ugly &quot;free&quot; audio conversion tools littered with ads so I built my own that runs entirely on your machine in the browser. It does stem separation (vocals&#x2F;drums&#x2F;bass&#x2F;other), format conversion, BPM detection and speed&#x2F;pitch changes. Nothing is uploaded (there is no api) + the models runs client-side. Stack is Rust compiled to WASM, mediabunny for conversion + WebGPU. Getting a separation model to run at usable speed in the browser was the most fun part of this project. Excited to play around with other models as they get small enough to load client-side! Stem separation quality is behind the best server-side models (ElevenMusic) but still relatively impressive. A 4-minute track takes roughly 20s on an M-series Mac and much longer on integr",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "49931031",
+        "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+        "url": "https://github.com/kvoltmer/Audionaut",
+        "hn_url": "https://news.ycombinator.com/item?id=49931031",
+        "domain": "github.com",
+        "points": 35,
+        "comments": 9,
+        "created_at": "2026-10-02T08:05:48Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49928566",
+        "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+        "url": "https://stillwet.art/",
+        "hn_url": "https://news.ycombinator.com/item?id=49928566",
+        "domain": "stillwet.art",
+        "points": 20,
+        "comments": 7,
+        "created_at": "2026-10-02T00:27:56Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49909980",
+        "title": "Show HN: An old school forum on an open protocol – your identity is a keypair",
+        "url": "https://nostr-proto.org/",
+        "hn_url": "https://news.ycombinator.com/item?id=49909980",
+        "domain": "nostr-proto.org",
+        "points": 17,
+        "comments": 2,
+        "created_at": "2026-09-30T15:05:17Z",
+        "story_text": "I&#x27;m a bit old-fashioned when it comes to online discussions. I like good, slow, asynchronous discussions. Readable and searchable archives are essential. Most communities have abandoned forums in favor of group chats. With the rise in popularity of Discord and Telegram groups, the same questions get posted over and over, and good answers get lost in a sea of chats. For this reason I created Squalk (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;dtonon&#x2F;squalk\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;dtonon&#x2F;squalk</a>), a classic forum built on the Nostr open protocol. <a href=\"https:&#x2F;&#x2F;nostr-proto.org\" rel=\"nofollow\">https:&#x2F;&#x2F;nostr-proto.org</a> is the pilot community, about the protocol itself. Nostr, as open protocol, offers some interesting points: *",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49923064",
+        "title": "Show HN: Engrams, an open source alternative to Devin",
+        "url": "https://github.com/cortexapps/engrams",
+        "hn_url": "https://news.ycombinator.com/item?id=49923064",
+        "domain": "github.com",
+        "points": 17,
+        "comments": 0,
+        "created_at": "2026-10-01T15:34:11Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49921801",
+        "title": "Show HN: Helo – An email API from former Postmark folks",
+        "url": "https://www.helohq.com",
+        "hn_url": "https://news.ycombinator.com/item?id=49921801",
+        "domain": "helohq.com",
+        "points": 15,
+        "comments": 4,
+        "created_at": "2026-10-01T13:58:52Z",
+        "story_text": "Hi HN, I&#x27;m Ryan, engineer and co-founder at Helo (<a href=\"https:&#x2F;&#x2F;www.helohq.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.helohq.com</a>) - an email API for sending transactional and marketing email from your application: password resets, receipts, notifications, newsletters, etc. Most of our team worked together at Postmark for many years, so we know what it takes to build a reliable email service. If you&#x27;ve ever loved a product and then watched it get acquired, you probably know the rest of that story. We started Helo to keep building the kind of product we&#x27;re good at, improve on what we have learned, take good care of our customers, and stay independent while doing it. We&#x27;re bootstrapped and plan to stay that way. Helo covers everything you&#x27;d expect from",
+        "ai_keywords": [],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49918440",
+        "title": "Show HN: Classican, listen + watch Classical music in a fun way",
+        "url": "https://classican.vercel.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49918440",
+        "domain": "classican.vercel.app",
+        "points": 7,
+        "comments": 2,
+        "created_at": "2026-10-01T06:41:19Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49910921",
+        "title": "Show HN: Ctrl+F Finds Words. I Wanted It to Find Answers",
+        "url": "https://blog.tymscar.com/posts/hunchsemanticfind/",
+        "hn_url": "https://news.ycombinator.com/item?id=49910921",
+        "domain": "blog.tymscar.com",
+        "points": 7,
+        "comments": 0,
+        "created_at": "2026-09-30T16:21:41Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49927221",
+        "title": "Show HN: A 100% Client-Side HAR Analyzer That Parses Logs in Seconds",
+        "url": "https://har-analyzer.onlinetool.workers.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=49927221",
+        "domain": "har-analyzer.onlinetool.workers.dev",
+        "points": 6,
+        "comments": 1,
+        "created_at": "2026-10-01T21:22:36Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49909695",
+        "title": "Show HN: Riffle – Switch between windows of the current Mac app with Option-Tab",
+        "url": "https://github.com/voising/riffle",
+        "hn_url": "https://news.ycombinator.com/item?id=49909695",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 1,
+        "created_at": "2026-09-30T14:44:10Z",
+        "story_text": "I use it to navigate between my 10+ open terminals. MIT licensed. Hope it&#x27;s useful to you :)",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49908132",
+        "title": "Show HN: Wn – find the files a bug touches, trained on 1.1M real fixes",
+        "url": "https://github.com/andreylukin/where-next",
+        "hn_url": "https://news.ycombinator.com/item?id=49908132",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-09-30T12:44:56Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49911899",
+        "title": "Show HN: Honorfit – a pushup app blocker for your phone",
+        "url": "https://honorfitapp.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49911899",
+        "domain": "honorfitapp.com",
+        "points": 5,
+        "comments": 4,
+        "created_at": "2026-09-30T17:30:11Z",
+        "story_text": "Hey yall! I needed a way to cap my own phone use so downloaded one of the many &quot;do pushups to unlock your phone apps&quot;. I loved it! The only thing I didn&#x27;t like was that I had to set my phone up to track myself doing the pushups&#x2F;situps etc. That part was super annoying and embarrassing when people would see me doing pushups at a gas station lol. \nThe app I built isn&#x27;t for everyone, but instead of tracking you do the workout, it&#x27;s the same idea just based on the honor system - no camera tracking! I have loved using it the past few months and maybe some of y&#x27;all will enjoy it as well! ios&#x2F;android supported!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49928215",
+        "title": "Show HN: Pyxel – A Python retro game engine with built-in art and sound editors",
+        "url": "https://github.com/kitao/pyxel",
+        "hn_url": "https://news.ycombinator.com/item?id=49928215",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 3,
+        "created_at": "2026-10-01T23:26:35Z",
+        "story_text": "Hi HN, I&#x27;m the creator of Pyxel, a free, MIT-licensed retro game engine for Python. I&#x27;ve been developing it since 2018, and it recently passed 18,000 stars on GitHub. Pyxel includes pixel art, tilemap, sound, and music editors, so you can create a game&#x27;s visuals and audio as well as write its code in Python. The engine itself is implemented in Rust. Games run on Windows, macOS, Linux, and the web, as well as supported Linux-based retro handhelds. You can share a URL to launch a Pyxel game hosted on GitHub directly in a browser. You can also create games entirely in your browser with Pyxel Code Maker, or write chiptunes in Pyxel MML Studio. See what people have made with Pyxel:\n<a href=\"https:&#x2F;&#x2F;kitao.github.io&#x2F;pyxel-user-examples&#x2F;\" rel=\"nofollow\">https:&#x",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49922772",
+        "title": "Show HN: CoIsland – Your whole engineering stack in a notch",
+        "url": "https://coisland.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49922772",
+        "domain": "coisland.app",
+        "points": 5,
+        "comments": 1,
+        "created_at": "2026-10-01T15:13:58Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49910871",
+        "title": "Show HN: RDP to your Mac at 4K/60fps using the Windows RDP client with ProRDP",
+        "url": "https://prordp.app",
+        "hn_url": "https://news.ycombinator.com/item?id=49910871",
+        "domain": "prordp.app",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-09-30T16:17:33Z",
+        "story_text": "I was tired of using proprietary VNC clients that required cloud accounts, so I made an RDP server for macOS that works with Windows&#x27; built-in RDP client at 4K&#x2F;60fps.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49910273",
+        "title": "Show HN: Focusgrid– keyboard-controlled webapps like tmux",
+        "url": "https://andrewcyuan.com/projects/focusgrid",
+        "hn_url": "https://news.ycombinator.com/item?id=49910273",
+        "domain": "andrewcyuan.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-09-30T15:29:58Z",
+        "story_text": "Hi HN, Whenever I use web software I usually wish they put more thought into keyboard user&#x27;s experience. So i made Focusgrid! It&#x27;s a library (vanilla web, with optional react bindings) that lets you build web software with resizable, splittable panes and reprogrammable shortcuts, just like tmux. Would love to see what you build with it. I think email clients, browsers, and various creative tools could all benefit from pane layouts like this. NPM: <a href=\"https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;@andrewcyuan&#x2F;focusgrid?activeTab=readme\" rel=\"nofollow\">https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;@andrewcyuan&#x2F;focusgrid?activeT...</a>",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49921563",
+        "title": "Show HN: LongLink - Build and run custom business apps in Python",
+        "url": "https://github.com/xLongLink/longlink",
+        "hn_url": "https://news.ycombinator.com/item?id=49921563",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-10-01T13:40:53Z",
+        "story_text": "I’m building LongLink, an open-source platform for building and running business apps in Python. While studying, I worked part-time at a bank building an internal tool. The team loved being able to request features and have them implemented exactly as they needed. I wanted to make it easier to build these kinds of applications without losing flexibility. The idea behind LongLink is simple: keep the code and abstract the infrastructure. Each application is built with standard Python and FastAPI. The code lives in a normal repository, so it can be developed, tested, versioned, reviewed, and changed using normal engineering tools. LongLink provides the common services needed to build and operate those solutions. Any feedback is welcome. Roast me well!",
+        "ai_keywords": [],
+        "platform_smell": [
+          "infrastructure",
+          "platform"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49924298",
+        "title": "Show HN: Pong to Quake, Turbo Pascal to Excel in 200 Tiny OCaml Programs",
+        "url": "https://aryx.github.io/ocaml-elm-playground/tinybox.html",
+        "hn_url": "https://news.ycombinator.com/item?id=49924298",
+        "domain": "aryx.github.io",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-01T17:07:39Z",
+        "story_text": "The title says it all!\nClassic games and apps in usually less than 500 LOC! You read this right!\nEnjoy!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49919005",
+        "title": "Show HN: A shared world map where every building can be leveled by tank",
+        "url": "https://worldstrike.fun/",
+        "hn_url": "https://news.ycombinator.com/item?id=49919005",
+        "domain": "worldstrike.fun",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-01T08:01:50Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49909925",
+        "title": "Show HN: BreachProbe, find out if your app leaks its database",
+        "url": "https://breachprobe.thecompound.tech",
+        "hn_url": "https://news.ycombinator.com/item?id=49909925",
+        "domain": "breachprobe.thecompound.tech",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-09-30T15:00:37Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49924523",
+        "title": "Show HN: MCP server for editing Excel with real-time calc and diffs",
+        "url": "https://github.com/pixelsmasher13/gridpath",
+        "hn_url": "https://news.ycombinator.com/item?id=49924523",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T17:26:00Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49924418",
+        "title": "Show HN: Winamp-style native audio player for macOS",
+        "url": "https://vibeplayer.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49924418",
+        "domain": "vibeplayer.app",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T17:16:39Z",
+        "story_text": "Hi All - I&#x27;ve been missing Winamp for a long time and  could not find a simple, fast audio player for macOS that I liked. So, I built Vibe. It&#x27;s a fast, minimal music file  player for Mac. It&#x27;s written in Objective-C and optimized heavily for speed, resource use, and quality. ~12Mb app. No accounts, telemetry, or bloat. It&#x27;s free and open source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;cmicali&#x2F;vibe\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;cmicali&#x2F;vibe</a> Also available on the Mac App Store if you prefer: <a href=\"https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;vibe-music-player&#x2F;id1582482361?mt=12\">https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;vibe-music-player&#x2F;id1582482361...</a> I started this before &quot;Vibe&quot; had",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49922809",
+        "title": "Show HN: OpenC6 v2.0 – Bare-metal BIOS and RISC-V microkernel for ESP32-C6",
+        "url": "https://github.com/Rompass/openc6-bios",
+        "hn_url": "https://news.ycombinator.com/item?id=49922809",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T15:15:54Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49920648",
+        "title": "Show HN: Vynody – Cross-platform music player written in Flutter and Rust",
+        "url": "https://github.com/axel10/vynody",
+        "hn_url": "https://news.ycombinator.com/item?id=49920648",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-01T12:13:53Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49911559",
+        "title": "Show HN: Died of Exposure",
+        "url": "https://honeywired.com/games/died-of-exposure/",
+        "hn_url": "https://news.ycombinator.com/item?id=49911559",
+        "domain": "honeywired.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-09-30T17:03:07Z",
+        "story_text": "A web browser game for creatives working for exposure instead of getting paid.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49911009",
+        "title": "Show HN: I built an MCP with my friend to share our knowledge with X Ads",
+        "url": "https://www.diingdiing.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49911009",
+        "domain": "diingdiing.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-09-30T16:27:44Z",
+        "story_text": "Me and my friend (Fred) made 3x profit ($400 on ads and $1200 in profit) with X Ads this month and surprisingly, we did it well starting from very first week - we just didn&#x27;t have enough money (we still don&#x27;t have) to spend more in early steps. Many founders &#x2F; builders asked as how we managed to be profitable from day one with ads. So, we decided why not to put all our knowledge in a structured way into one MCP and sell it in affordable price with license keys? So, that what we built - we launched few days ago and already made more than 10 sales, pretty happy with the result. So many builders in this community, sharing so that maybe we can help them as well (and ofc we get paid). Looking forward for community feedback at least.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49924667",
+        "title": "Show HN: RGBoo – interactive lofi stream for Halloween",
+        "url": "https://rgboo.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49924667",
+        "domain": "rgboo.com",
+        "points": 3,
+        "comments": 3,
+        "created_at": "2026-10-01T17:37:10Z",
+        "story_text": "RGBoo year 2 is live! It is a 24&#x2F;7 interactive Halloween stream &amp; lofi station. Submit a name and color to change the display live on stream. …and there’s even more ways to tune in this year. Use the website, YouTube, twitch, or even listen from a terminal!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49923653",
+        "title": "Show HN: Bookidoro, Mac app that opens book pages during Pomodoro breaks",
+        "url": "https://bookidoro.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=49923653",
+        "domain": "bookidoro.app",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-10-01T16:15:44Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49919971",
+        "title": "Show HN: Inbox Cleanup – get to inbox zero in Gmail",
+        "url": "https://cleanup.upstream.do/",
+        "hn_url": "https://news.ycombinator.com/item?id=49919971",
+        "domain": "cleanup.upstream.do",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-10-01T10:30:33Z",
+        "story_text": "We&#x27;ve been working on a small tool that can help with huge (or really, any size) Gmail inboxes. It&#x27;s meant for people who have let their inbox grow for years and don&#x27;t know where to start. We had this idea after talking to a lot of people about how they use their email, and one thing that kept coming up was how hard it is to keep up when you receive a lot of emails. Things pile up and cleaning up starts to feel impossible. One important detail: the tool never performs any destructive operations on your email. The most it can do to a message is archive it (move it to the All Mail folder), where it stays available for search, so you never lose any messages as a result. It combines multiple approaches to inbox cleanup:\n- You choose a cutoff date to archive everything before tha",
+        "ai_keywords": [],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49927078",
+        "title": "Show HN: Fumble – keybr, but it learns from everything you type (macOS)",
+        "url": "https://fumble.alexmcconnell.ie",
+        "hn_url": "https://news.ycombinator.com/item?id=49927078",
+        "domain": "fumble.alexmcconnell.ie",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T21:05:17Z",
+        "story_text": "I love keybr, but it only sees the ten minutes a day I spend on keybr, not the ten hours I spend typing elsewhere. Can’t improve what you don’t measure. (A)I made Fumble is a macOS menu-bar app that watches you type (all day, all local), works out which keys&#x2F;key pairs are costing you time and gives you lessons built around them. One thing that surprised me: my slowest key is B, but the one costing me the most time is G. It&#x27;s less than half as slow, but I press it three times as often. And 7 of my 10 worst key pairs start with space. I need to get better at starting words. Some design decisions HN might want to argue with: - I rank weak keys by time lost, not how slow they are. Time lost is how far a key is over your baseline, times how often you press it. A key 40ms slow that you",
+        "ai_keywords": [],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49921866",
+        "title": "Show HN: Solarite – web components with no compilation and minimal DOM updates",
+        "url": "https://eric-frost.github.io/solarite/",
+        "hn_url": "https://news.ycombinator.com/item?id=49921866",
+        "domain": "eric-frost.github.io",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T14:03:42Z",
+        "story_text": "I started Solarite several years ago because I wanted something simpler to use than the existing js ui frameworks.  Features like: - not having to setup a build environment or wait for compilation - no signals or other dance to setup my data - class based components, where I could pass arguments to sub-components as constructor args - scoped styles, two-way binding and other nice to haves. - not having the limitations of shadow dom (Lit) - Just be a library I can import anywhere, not be a whole framework. I wasn&#x27;t able to find anything that did all of the above.  It has a score of 1.08 on the js-framework-benchmark, which is faster than just about every widely known competitor, and most of the faster ones have implementation note &quot;penalties&quot; for not conforming to the benchma",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49920106",
+        "title": "Show HN: Linux Subsystem Diagrams",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=49920106",
+        "domain": "",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T10:50:01Z",
+        "story_text": "Related to some of the previous thread(s). There is an update in the detailed Linux subsystems diagrams in English: 1. Entire Linux Network stack diagram - \nhttps:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.12723600 2. Linux disk I&#x2F;O diagram - \nhttps:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.15172530 3. Commonly used Linux commands -  \nhttps:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.21907569 And also, a new release of the book: &quot;Operating systems and computer networks - Linux in Practice&quot; - in Croatian: https:&#x2F;&#x2F;doi.org&#x2F;10.5281&#x2F;zenodo.8119310 P.S. All above materials are published in CC BY SA 4 license.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49918852",
+        "title": "Show HN: Wordpaste – clean Microsoft Word and Google Docs paste, keep equations",
+        "url": "https://smrifat1411.github.io/wordpaste/",
+        "hn_url": "https://news.ycombinator.com/item?id=49918852",
+        "domain": "smrifat1411.github.io",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-01T07:37:31Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49911464",
+        "title": "Show HN: Sedum – Playwright tests in English, cheap enough to run on every PR",
+        "url": "https://github.com/sedum-dev/sedum",
+        "hn_url": "https://news.ycombinator.com/item?id=49911464",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T16:55:53Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49910508",
+        "title": "Show HN: I built a calendar where each event has its own tasks",
+        "url": "https://apps.apple.com/ph/app/daily-planner-zesfy/id6479947874",
+        "hn_url": "https://news.ycombinator.com/item?id=49910508",
+        "domain": "apps.apple.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-09-30T15:47:25Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49924953",
+        "title": "Show HN: The Zoomist – looking and listening to ordinary things more closely",
+        "url": "https://www.youtube.com/@TheZoomist",
+        "hn_url": "https://news.ycombinator.com/item?id=49924953",
+        "domain": "youtube.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T17:59:41Z",
+        "story_text": "I’ve been building a small project called The Zoomist. The idea is to take ordinary things that we normally see or hear without thinking about them, and change the scale or attention. Sometimes that means microscope or macro footage. Sometimes slow motion or extreme close-ups. Sometimes it’s simply recording an everyday sound very closely and listening to its texture. A piece of fabric, a fig, a fingernail, a toothbrush, an insect, running water, a motor - familiar things can become surprisingly unfamiliar when you get closer. I’m trying to keep the footage and sound as authentic as possible. I don’t want to turn everything into “science content” or generic ASMR, and when I’m not certain what I’m looking at under the microscope, I’d rather say that than make up an identification. The proje",
+        "ai_keywords": [],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49916764",
+        "title": "Show HN: ASM Bots – Core War in real 8086 machine code",
+        "url": "https://asmbots.io/",
+        "hn_url": "https://news.ycombinator.com/item?id=49916764",
+        "domain": "asmbots.io",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-01T01:57:28Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49911745",
+        "title": "Show HN: Transcrever Entrevista – browser-based interview transcription",
+        "url": "https://transcreverentrevista.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=49911745",
+        "domain": "transcreverentrevista.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T17:17:00Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49909624",
+        "title": "Show HN: Paperweight – local-first, open-source email cleanup and privacy tool",
+        "url": "https://github.com/wslyvh/paperweight",
+        "hn_url": "https://news.ycombinator.com/item?id=49909624",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T14:36:58Z",
+        "story_text": "Hi HN, After building for 7 months, I&#x27;m excited to announce Paperweight V1. The idea is that your inbox knows who you ever interacted with and knows where your data lives. Every account you ever created, every service you signed up for, and every online purchase is connected to your email. Most people have hundreds of accounts they&#x27;ve forgotten about, creating security risks and privacy exposure. Paperweight scans your email history locally to find old accounts, companies, mailing lists, data breaches, and personal information. You can then unsubscribe, clean up unwanted email, send privacy&#x2F;GDPR requests, and keep track of your digital footprint. The main constraint from the start was privacy. It never felt right that with a lot of alternatives, in order to reclaim your priv",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "49908459",
+        "title": "Show HN: Dapr Dev Dashboard, a local tool for Dapr developers (incl workflows)",
+        "url": "https://github.com/diagridio/dev-dashboard",
+        "hn_url": "https://news.ycombinator.com/item?id=49908459",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T13:11:40Z",
+        "story_text": "I&#x27;m Marc Duiker, Dapr community manager and developer advocate at Diagrid (a company founded by the co-creators of the Dapr OSS project). I&#x27;ve created a new free local dashboard for Dapr developers that provides insights into everything they need: applications, sidecars, components, Dapr workflow instances and execution history, actors, state management, pub&#x2F;sub subscriptions, logs, and two wizard-style UI builders for creating component files and resiliency policies (no more writing YAML by hand!). I think it&#x27;s a very useful companion when doing local Dapr development, especially when developing workflow applications. Please give it a try and let me know what you think! There&#x27;s also a built-in Easter egg; try typing the Konami code! ;)",
+        "ai_keywords": [],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 0
+      },
+      {
+        "id": "49908007",
+        "title": "Show HN: Open-source country flags for React and Figma (SVG, ISO and dial codes)",
+        "url": "https://radianui.com/resources/flags",
+        "hn_url": "https://news.ycombinator.com/item?id=49908007",
+        "domain": "radianui.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-09-30T12:36:03Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      }
+    ],
+    "product_hunt": [],
+    "civitai_flux": []
+  }
+}

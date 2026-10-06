@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "generated_at": "2026-10-06T04:18:37.643419+00:00",
+  "generated_at": "2026-10-06T04:27:01.174923+00:00",
   "sources_ok": [
     "hn",
     "ph",
@@ -15,10 +15,10 @@
       "OK https://www.producthunt.com/feed (+0, 43810 bytes)"
     ],
     "civitai": [
-      "api items: 100, items with meta: 63, items with prompt: 60, flux matched: 3",
+      "api items: 100, items with meta: 66, items with prompt: 62, flux matched: 2",
       "skipped for nsfw level: 0",
       "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, thumbnail, type, url, username, width",
-      "top models: unknown(45), plantMilkModelSuite_walnut(6), krea2Turbo_v10(2), Krea2\\krea2_turbo_fp8_scaled(1), redcraftHybridH3Krea2dual_30Krea2_fp8(1), krea2Turbo_v10_2951489.safetensors(1), krea2TurboOfficialComfy_krea2TurboBf16(1), krea2Turbo_v10.safetensors(1)"
+      "top models: unknown(32), krea2Turbo_v10.safetensors(8), plantMilkModelSuite_walnut(6), krea2Turbo_v10(3), waiIllustriousSDXL_v170(3), redcraftHybridH3Krea2dual_30Krea2_fp8(2), Krea2\\krea2_turbo_fp8_scaled(1), krea2Turbo_v10_2951489.safetensors(1)"
     ]
   },
   "data": {
@@ -47,7 +47,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49952148",
         "domain": "github.com",
         "points": 75,
-        "comments": 15,
+        "comments": 16,
         "created_at": "2026-10-04T09:31:01Z",
         "story_text": "Here in the north of England clear nights are at a premium, and it&#x27;s never guaranteed that you&#x27;ll be able to see anything but cloud. That&#x27;s why I developed Nightwatch, so that I could be notified when one of those precious few nights where I could see into the heavens was available. Finding out whether tonight was worth setting up meant reading forecast charts every evening, usually to learn that it was not. Nightwatch does that reading for me. It sits in the Mac&#x27;s menu bar and refreshes the forecast every 30 minutes. An hour before sunset it sends one notification, and only if there is an unbroken run of clear sky in astronomical darkness long enough to image in. Otherwise it says nothing: no news means &quot;clouds&quot;. I hope this is useful for other hobbyist starg",
         "ai_keywords": [
@@ -992,7 +992,7 @@
         "model_name": null,
         "base_model": "Flux.1 D",
         "stats": {
-          "likes": 122,
+          "likes": 123,
           "hearts": 33,
           "comments": 0
         },
@@ -1021,7 +1021,7 @@
         "model_name": null,
         "base_model": "Flux.1 D",
         "stats": {
-          "likes": 44,
+          "likes": 46,
           "hearts": 18,
           "comments": 0
         },
@@ -1041,64 +1041,6 @@
         "license": {}
       },
       {
-        "is_flux": true,
-        "id": 144727269,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c872d8a5-6c93-4d23-8996-c3d8d69c3404/original=true/c872d8a5-6c93-4d23-8996-c3d8d69c3404.jpeg",
-        "posted_at": "2026-10-05T07:23:27.223Z",
-        "username": "Altair01",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Flux.1 D",
-        "stats": {
-          "likes": 0,
-          "hearts": 1,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "neo city, retrowave, synthwave, futuristic city in the background, sunset, nightlight, skyscrapers, realistic, street level, rooftop, night time, sunset, night life, street level, megalopolis, panoramic, lensflare, cinematic",
-          "negative_prompt": null,
-          "sampler": "dpmpp_2m",
-          "steps": 4,
-          "cfg_scale": 1,
-          "seed": 1096141845,
-          "width": 1536,
-          "height": 640,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c872d8a5-6c93-4d23-8996-c3d8d69c3404/original=true/c872d8a5-6c93-4d23-8996-c3d8d69c3404.jpeg",
-        "local_file": "144727269.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 144707661,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc762fe-8be7-4cc7-aaee-787e7a676bff/original=true/1cc762fe-8be7-4cc7-aaee-787e7a676bff.jpeg",
-        "posted_at": "2026-10-05T04:20:00.000Z",
-        "username": "BeeZ333",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2",
-        "stats": {
-          "likes": 167,
-          "hearts": 44,
-          "comments": 1
-        },
-        "meta": {
-          "prompt": "A whimsical surreal 3D digital illustration of a vintage black street traffic light against a bright daytime sky. Instead of glass bulbs, each of the three round signals is densely packed and overflowing with fresh blooming flowers matching the traffic light colors: the top light is filled with vibrant red cosmos flowers, the middle light with warm golden-yellow blossoms, and the bottom light with lush green flowers and leaves. In the background, majestic fluffy cotton-candy clouds shimmer with iridescent pastel pink, lavender, and rainbow stardust against a clear blue sky. Floating flower petals drift in the summer breeze, bright sunny lighting, magical realism, Octane render, vertical wallpaper format, masterpiece.",
-          "negative_prompt": null,
-          "sampler": "euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 542357704,
-          "width": 768,
-          "height": 1376,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1cc762fe-8be7-4cc7-aaee-787e7a676bff/original=true/1cc762fe-8be7-4cc7-aaee-787e7a676bff.jpeg",
-        "local_file": "144707661.jpeg",
-        "license": {}
-      },
-      {
         "is_flux": false,
         "id": 144729967,
         "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb0c8cc9-c8db-4318-a130-6838d3bf3a33/original=true/eb0c8cc9-c8db-4318-a130-6838d3bf3a33.jpeg",
@@ -1108,7 +1050,7 @@
         "model_name": "plantMilkModelSuite_walnut",
         "base_model": "Illustrious",
         "stats": {
-          "likes": 148,
+          "likes": 149,
           "hearts": 54,
           "comments": 4
         },
@@ -1137,7 +1079,7 @@
         "model_name": null,
         "base_model": "Krea 2",
         "stats": {
-          "likes": 147,
+          "likes": 148,
           "hearts": 49,
           "comments": 2
         },
@@ -1154,34 +1096,6 @@
         },
         "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbae1ebe-6edb-4ae8-9df9-9aa3c7cc4806/original=true/dbae1ebe-6edb-4ae8-9df9-9aa3c7cc4806.jpeg",
         "local_file": "144724193.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 144716060,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d8195a5-7a2b-438d-b2bf-2ef44c523693/original=true/4d8195a5-7a2b-438d-b2bf-2ef44c523693.jpeg",
-        "posted_at": "2026-10-05T04:18:58.896Z",
-        "username": "Corcoronel",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2",
-        "stats": {
-          "likes": 137,
-          "hearts": 40,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "masterpiece, best quality, very aesthetic, ektachrome fade film, \nOrnamental night desert. Gold dunes with wavy parallel hatching like a wood engraving. A winding dark-blue river of shadow between the dunes. A single gnarled tree silhouette on the left. Above the horizon a colossal moon containing a labyrinth of concentric circles, toothed wheels and thin gold paths. Clouds coiled into spirals with gold outlines. Near-black indigo sky packed with large stars. Warmth of dunes against cosmic cold. Decorative poster style, highly detailed linework.",
-          "negative_prompt": "(2d ,Illustration, drawing, cartoon, animation, anima, painting:1.4)",
-          "sampler": "euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 205484450,
-          "width": 832,
-          "height": 1248,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4d8195a5-7a2b-438d-b2bf-2ef44c523693/original=true/4d8195a5-7a2b-438d-b2bf-2ef44c523693.jpeg",
         "license": {}
       },
       {
@@ -1210,6 +1124,7 @@
           "clip_skip": null
         },
         "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dea4ae43-6acf-4dcb-aac2-fb7731c79878/original=true/dea4ae43-6acf-4dcb-aac2-fb7731c79878.jpeg",
+        "local_file": "144729973.jpeg",
         "license": {}
       },
       {
@@ -1238,6 +1153,7 @@
           "clip_skip": null
         },
         "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b6673a62-2e12-4e80-a868-28f74fbd4b2c/original=true/b6673a62-2e12-4e80-a868-28f74fbd4b2c.jpeg",
+        "local_file": "144729963.jpeg",
         "license": {}
       },
       {
@@ -1406,6 +1322,90 @@
           "clip_skip": null
         },
         "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ece373d5-4d01-4854-8f66-39c5131c0808/original=true/ece373d5-4d01-4854-8f66-39c5131c0808.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144766385,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/466893f7-6252-48d7-868a-08e96c54bc70/original=true/466893f7-6252-48d7-868a-08e96c54bc70.jpeg",
+        "posted_at": "2026-10-05T17:30:00.000Z",
+        "username": "Cinnadust",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 73,
+          "hearts": 34,
+          "comments": 4
+        },
+        "meta": {
+          "prompt": "A stack of chibi frogs, towering on a lilypad in a pond, at night, each frog wears a different Halloween costume, a werewolf frog on top, then a vampire frog underneath, and mummy frog on the bottom, zidiusArt",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 3072,
+          "height": 5504,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/466893f7-6252-48d7-868a-08e96c54bc70/original=true/466893f7-6252-48d7-868a-08e96c54bc70.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144767041,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/989cd8e4-3f6d-4df5-a30b-1c166347fefa/original=true/989cd8e4-3f6d-4df5-a30b-1c166347fefa.jpeg",
+        "posted_at": "2026-10-05T17:16:11.169Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 77,
+          "hearts": 25,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A magical celestial world unfolds from inside a large open antique leather suitcase resting on a weathered wooden table in a nostalgic old study. A beautiful young Japanese woman with long dark wavy hair sits gracefully beside the suitcase, leaning forward with a quiet fascinated expression. She wears an elegant flowing silk dress decorated with delicate floral patterns in ivory, dusty rose and muted gold. Inside the suitcase stretches an impossible three dimensional night sky filled with deep indigo and midnight blue clouds. Small floating rocky islands drift at different heights, each carrying tiny traditional Japanese temples and pagodas illuminated by warm golden lanterns. A monumental luminous full moon rises from the center of the suitcase, partially extending beyond its frame. Several elegant white cranes fly from the miniature celestial world into the real room, seamlessly connecting fantasy and reality. Fine clouds and glowing mist spill gently over the suitcase edges. Warm candlelight and cool moonlight illuminate the woman and the surrounding study. Cinematic painterly realism, romantic fantasy oil painting, richly layered traditional brushwork, luminous glazing, visible canvas texture, subtle palette knife texture, intricate miniature craftsmanship, dramatic chiaroscuro, atmospheric depth, midnight blue, indigo, muted turquoise, ivory, champagne gold, warm amber, antique brass, dreamlike storybook realism, handcrafted appearance, sophisticated fine art, museum quality, highly detailed, award winning, a breathtaking masterpiece",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 10,
+          "cfg_scale": 1,
+          "seed": 834781174,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/989cd8e4-3f6d-4df5-a30b-1c166347fefa/original=true/989cd8e4-3f6d-4df5-a30b-1c166347fefa.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 144728682,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5cdd4543-d0d5-439c-8707-f85150916ce3/original=true/5cdd4543-d0d5-439c-8707-f85150916ce3.jpeg",
+        "posted_at": "2026-10-05T07:43:32.106Z",
+        "username": "msk296zkm",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 57,
+          "hearts": 39,
+          "comments": 9
+        },
+        "meta": {
+          "prompt": "nippon, abstract visuals, illustration, portrait, solo, full body, flowing blush stroke,\na bewitchingly beautiful lady is wearing T-shirt and long pants and barefoot and sitting sofa leaning back and looking to the side with a melancholic expression and smoking a long-stemmed Japanese pipe. dutch angle, (foreshortening:1.5), head tilt, holding cat on stomach,\nindoors, dim warm lightint.",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 11,
+          "cfg_scale": 1,
+          "seed": 1415615667,
+          "width": 1248,
+          "height": 832,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5cdd4543-d0d5-439c-8707-f85150916ce3/original=true/5cdd4543-d0d5-439c-8707-f85150916ce3.jpeg",
         "license": {}
       }
     ]

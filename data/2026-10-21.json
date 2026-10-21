@@ -1,0 +1,1990 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T02:59:00.773050+00:00",
+  "sources_ok": [
+    "hn",
+    "ph",
+    "civitai"
+  ],
+  "sources_error": {},
+  "notes": {
+    "ph": [
+      "no PH_DEV_TOKEN, falling back to html scraping",
+      "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/20 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/20 :: HTTP Error 403: Forbidden",
+      "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
+      "OK https://www.producthunt.com/feed (+0, 43899 bytes)"
+    ],
+    "civitai": [
+      "api items: 100, items with meta: 66, items with prompt: 64, flux matched: 3",
+      "skipped for nsfw level: 0",
+      "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, thumbnail, type, url, username, width",
+      "top models: unknown(38), Kreation_v4b_mxfp8(4), LVWesternMixWC(3), hosekiLustrousmixAnima_animaV10(3), krea2_turbo_int8_convrot(3), krea2_turbo_fp8_scaled(2), krea2TurboOfficialComfy_krea2TurboInt8(2), urn:air:sdxl:checkpoint:civitai:1162518@1714002(1)"
+    ]
+  },
+  "data": {
+    "show_hn": [
+      {
+        "id": "50151928",
+        "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+        "url": "https://100toolkit.com/blog/deslop-model/",
+        "hn_url": "https://news.ycombinator.com/item?id=50151928",
+        "domain": "100toolkit.com",
+        "points": 154,
+        "comments": 110,
+        "created_at": "2026-10-19T13:00:47Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50167286",
+        "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+        "url": "https://github.com/KatrielMoses/voidaccess",
+        "hn_url": "https://news.ycombinator.com/item?id=50167286",
+        "domain": "github.com",
+        "points": 127,
+        "comments": 13,
+        "created_at": "2026-10-20T14:49:33Z",
+        "story_text": "Hi HN! Im Katriel, and im a Security Researcher&#x2F;Enthusiast and in the wave of AI, i wanted to build that next gen of security tooling that surpasses the current tools, and even the paid industries with an open source engine. I built MailAccess as well, which is going to be the best damn email osint tool out there, in another year. But just before building MailAccess i built VoidAccess, because i was delving a lot into DarkINT and the content inside the dark web is too difficult to navigate through for a human, so i automated that pipeline, made sure the noise was removed, and anything NSFW was filtered out, to give the analyst an overview of what is present in the dark web, without having to actually go through it manually. Very simple to run, you just run a few commands to install, a",
+        "ai_keywords": [
+          "ai",
+          "automat"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50161408",
+        "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+        "url": "https://deathplanswitch.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50161408",
+        "domain": "deathplanswitch.com",
+        "points": 93,
+        "comments": 62,
+        "created_at": "2026-10-20T04:37:43Z",
+        "story_text": "Hi HN, I&#x27;m Peter Bishop and I&#x27;ve been working in graphics and web tech for over 25yrs. I&#x27;ve recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my clients. There&#x27;s a backstory to this project, I was hospitalised in 2012 and lost my business back then and I couldn&#x27;t get the data to my technical 2IC in time without frustrating my clients. Death Plan Switch solves this problem, it&#x27;s free to download and use or study under the MIT license. I&#x27;ve been using it for the last few weeks. It was authored with the help of Claude Code after writing an extensive MD document and it passed 42 unit tests. I hope you get some use out of it, or ",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50152541",
+        "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+        "url": "https://github.com/kividbio/kividb",
+        "hn_url": "https://news.ycombinator.com/item?id=50152541",
+        "domain": "github.com",
+        "points": 68,
+        "comments": 42,
+        "created_at": "2026-10-19T13:53:52Z",
+        "story_text": "Hi all, So I have been working on this project KiviDB from February 2026. It started as a project for me to understand rust, having a product with no GC pauses, memory blow up after snapshots and getting OOM on running pods, and that was actually an issue I faced with Dragonfly. I wanted to have something picking the best of Rust, but also picking the best parts of other alternatives like Garnet and Dragonfly. I used AI a lot, but I was the one making the design decisions based on the tests that claude picked from my history of troubleshooting sessions as part of my job. KiviDB supports both RESP2 and RESP3 protocol. I had some founders credits on my AWS account which helped me with the infra, and running instances I could perform benchmark on. Its keyspace is sharded across threads, it is",
+        "ai_keywords": [
+          "ai",
+          "claude",
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50151980",
+        "title": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+        "url": "https://3anddoneapp.com/try",
+        "hn_url": "https://news.ycombinator.com/item?id=50151980",
+        "domain": "3anddoneapp.com",
+        "points": 59,
+        "comments": 53,
+        "created_at": "2026-10-19T13:07:07Z",
+        "story_text": "I&#x27;m a software engineer from the east coast (who has lived in Boston, NY, the bay area, UK, France), and I built a task system called 3 &amp; Done.  It&#x27;s the place you trust to store everything you need to do.  It accepts voice input for rapid entry, as well as text (it stores the audio locally so you can listen to jog your memory) and emails you every morning with the three most important things for you to do that day, and why, based on what you&#x27;ve said about the task: deadlines, urgency, sitting too long. I&#x27;ve been at software engineering for about 44 years now... Grew up with it, which was unusual when I started, and I was always good about getting into the zone and doing things.  The career started small, small company, then back office, the dot com startups, then s",
+        "ai_keywords": [
+          "voice"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "50167617",
+        "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+        "url": "https://jevcards.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50167617",
+        "domain": "jevcards.com",
+        "points": 57,
+        "comments": 48,
+        "created_at": "2026-10-20T15:11:56Z",
+        "story_text": "I built a quiz game around TypeSafe&#x27;s new Jev model, which has vision capabilities. Jev looks at a picture and a question and picks an answer (or taps a place) in about a quarter of a second. I&#x27;ve always loved quiz games and thought this would be a fun way to see what it can do and how fast it is. I made the cards from scratch, and Jev gets exactly the picture you see. More cards will come over time. Play against Jev on your own (there&#x27;s a leaderboard for each mode), or start a live match and challenge your friends, with Jev as one more player. The code is open source, so feel free to build your own game or make more cards that I can publish. Play: <a href=\"https:&#x2F;&#x2F;jevcards.com\" rel=\"nofollow\">https:&#x2F;&#x2F;jevcards.com</a>\nCode: <a href=\"https:&#x2F;&#x2F;gith",
+        "ai_keywords": [
+          "model",
+          "vision"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50167604",
+        "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+        "url": "https://github.com/AbdullahAlhariri/penmentor",
+        "hn_url": "https://news.ycombinator.com/item?id=50167604",
+        "domain": "github.com",
+        "points": 56,
+        "comments": 7,
+        "created_at": "2026-10-20T15:10:54Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50148396",
+        "title": "Show HN: Strot – Compile an LLM's intent once, run decisions locally",
+        "url": "https://github.com/strot-ai/Project-STROT",
+        "hn_url": "https://news.ycombinator.com/item?id=50148396",
+        "domain": "github.com",
+        "points": 23,
+        "comments": 14,
+        "created_at": "2026-10-19T04:32:07Z",
+        "story_text": "",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50155647",
+        "title": "Show HN: Open-source early-reading reader with phonics help",
+        "url": "https://github.com/finereli/yarareads",
+        "hn_url": "https://news.ycombinator.com/item?id=50155647",
+        "domain": "github.com",
+        "points": 22,
+        "comments": 9,
+        "created_at": "2026-10-19T17:58:54Z",
+        "story_text": "My kid is 6 y&#x2F;o and she is learning to read. She&#x27;s moved through the basic phonics with Teach Your Monster to Read but was struggling with how repetitive it was. I wanted to give her some stories to read, but she still needed help sounding words out - and I wanted her to have the experience of sitting and reading by herself. So I built this book reader app to allow her to click on the words, sound out the phonemes, and read by herself. My 12 year old son wrote the first story, there&#x27;s a cliffhanger at the end and he&#x27;s working on the next section. We&#x27;re going to release more chapters and more stories in the near future. And there&#x27;s one other thing - The reader has an MCP connection, so you can connect your Claude or ChatGPT or Grok, give them a PDF of a book yo",
+        "ai_keywords": [
+          "claude",
+          "gpt"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50160198",
+        "title": "Show HN: Lights-on software factory boilerplate for Claude Code",
+        "url": "https://github.com/gojko/lights-on-software-factory",
+        "hn_url": "https://news.ycombinator.com/item?id=50160198",
+        "domain": "github.com",
+        "points": 17,
+        "comments": 8,
+        "created_at": "2026-10-20T01:22:00Z",
+        "story_text": "A starting point for running a lights-on software factory with Claude Code. Based on the setup developed for Votito, where the orchestrator reduced token cost compared to bare-bones Claude workflow execution by around 80%.",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50163224",
+        "title": "Show HN: FlexChords – chords for any YouTube song, from a model I trained",
+        "url": "https://www.flexchords.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50163224",
+        "domain": "flexchords.com",
+        "points": 12,
+        "comments": 4,
+        "created_at": "2026-10-20T09:02:40Z",
+        "story_text": "I play guitar, and chord charts online were often wrong or oversimplified for the songs I wanted to learn, so I built FlexChords. You can edit the detected chords, transpose, and export to MIDI. 1-minute demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;-cbL3L3UnGs\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;-cbL3L3UnGs</a> It&#x27;s still a work in progress. I&#x27;d love to hear where it gets chords wrong and any other feedback.",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50163896",
+        "title": "Show HN: Make AI coding agents verify its own work",
+        "url": "https://github.com/reticlehq/reticle",
+        "hn_url": "https://news.ycombinator.com/item?id=50163896",
+        "domain": "github.com",
+        "points": 11,
+        "comments": 6,
+        "created_at": "2026-10-20T10:20:33Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50163253",
+        "title": "Show HN: Civ 1 period accurate decompilation",
+        "url": "https://github.com/sjmelia/civd",
+        "hn_url": "https://news.ycombinator.com/item?id=50163253",
+        "domain": "github.com",
+        "points": 10,
+        "comments": 5,
+        "created_at": "2026-10-20T09:05:58Z",
+        "story_text": "I&#x27;ve used LLMs to decompile Civ 1 and put the reconstructed C source on GitHub, along with a technical book and story. The reconstructed source builds with what i&#x27;m pretty sure is the original Microsoft C compiler and toolchain. It produces a byte-for-byte match with the original executable, aside from a four-byte correction for what appears to be a patch applied after linking. So it should be pretty close to how the original game was made; although it can&#x27;t be said that this is the &quot;original source code&quot;. I&#x27;ve also used that source to create a modern build of the game, in the `reciv` repository. Like most people, I&#x27;m in two minds about the benefits and downsides of LLMs. This work also builds on OpenCiv1, which probably deserves most of the credit - not ",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50165533",
+        "title": "Show HN: Shazam but for AI Slop Music",
+        "url": "https://apps.apple.com/de/app/daft-slop-ai-music-detector/id6811013099",
+        "hn_url": "https://news.ycombinator.com/item?id=50165533",
+        "domain": "apps.apple.com",
+        "points": 10,
+        "comments": 3,
+        "created_at": "2026-10-20T12:46:21Z",
+        "story_text": "I hacked this app together to detect AI Music. It uses Shazam under the hood to identifiy the song and uses a custom trained AI model to detect if its GenAI. I don&#x27;t have a big agenda. Just want to spread the awareness of AI Music that appears everywhere.",
+        "ai_keywords": [
+          "ai",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50148356",
+        "title": "Show HN: Yila – A Codex for Scientific Research",
+        "url": "https://yila.ai",
+        "hn_url": "https://news.ycombinator.com/item?id=50148356",
+        "domain": "yila.ai",
+        "points": 9,
+        "comments": 4,
+        "created_at": "2026-10-19T04:24:57Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50160110",
+        "title": "Show HN: A legal assistant that refuses to cite law it can't verify",
+        "url": "https://ailegal.legal/",
+        "hn_url": "https://news.ycombinator.com/item?id=50160110",
+        "domain": "ailegal.legal",
+        "points": 9,
+        "comments": 3,
+        "created_at": "2026-10-20T01:09:05Z",
+        "story_text": "",
+        "ai_keywords": [
+          "assistant"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50166699",
+        "title": "Show HN: PatchWave - Add static analysis and automerge to Dependabot",
+        "url": "https://patchwave.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166699",
+        "domain": "patchwave.ai",
+        "points": 9,
+        "comments": 0,
+        "created_at": "2026-10-20T14:08:09Z",
+        "story_text": "Hey Hacker News, we&#x27;re Ben, Josh, and Donnie, co-founders of PatchWave. PatchWave is a GitHub App that combines static analysis and eval&#x27;ed agents to analyze and (optionally) auto-merge PRs it deems as safe. If a Dependabot PR breaks your CI build, a fix agent works to get CI passing again. Dependabot PRs suck. Nobody likes dealing with them. Most of the time they go ignored or a senior engineer spends their valuable time dealing with them. Before PatchWave, I ran a freelance business charging clients hourly to do exactly this kind of &quot;keep the lights on&quot; work. Even at our small startup, we&#x27;d spend Monday mornings dealing with Dependabot PRs. Having a human-in-the-loop working with an agent on these PRs was time consuming and, often, agents would get lazy and not a",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50167456",
+        "title": "Show HN: Run Claude Code unattended inside a fence, under a dollar budget",
+        "url": "https://github.com/metahumansworld/SIwithin",
+        "hn_url": "https://news.ycombinator.com/item?id=50167456",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 3,
+        "created_at": "2026-10-20T15:00:34Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50153011",
+        "title": "Show HN: Spotnote – Vite plugin for UI feedback to coding agents",
+        "url": "https://github.com/harukikuri/spotnote",
+        "hn_url": "https://news.ycombinator.com/item?id=50153011",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 0,
+        "created_at": "2026-10-19T14:34:38Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50156825",
+        "title": "Show HN: Maali – Privacy-first personal finance app with a local AI analyst",
+        "url": "https://maali.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50156825",
+        "domain": "maali.app",
+        "points": 7,
+        "comments": 2,
+        "created_at": "2026-10-19T19:25:03Z",
+        "story_text": "I never felt comfortable signing up for cloud budgeting apps and having them store all of my financial data on their servers. I also didn&#x27;t find locally hosted options that I liked using. That led me to build Maali (<a href=\"https:&#x2F;&#x2F;maali.app\" rel=\"nofollow\">https:&#x2F;&#x2F;maali.app</a>) over the past year. It is currently a Mac and Windows app that lets you track spending, budgets, recurring bills, income, net worth, and more. It stores all of your data on your computer. You can bring your data in by either manually importing bank statement files (CSV&#x2F;PDF), or by using SimpleFIN, a third-party bridge that you set up once and it keeps your data in sync. Since SimpleFIN introduces a third party that moves your data, I also added a power-user feature where Maali watche",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50168474",
+        "title": "Show HN: Worklicant – Lightweight ATS. Pay per Vacancy. AI Enabled",
+        "url": "https://worklicant.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50168474",
+        "domain": "worklicant.com",
+        "points": 7,
+        "comments": 1,
+        "created_at": "2026-10-20T16:07:06Z",
+        "story_text": "I have noticed that a lot of job posts that do not use any ATS, and in order to apply, they put their emails and ask candidates to apply with “X” in email subject. That seemed to be very counter productive  — imagine having 300+ emails with resumes. Where do you manage them? In Excel? Or how many good candidates you never get to. I researched popular ATS systems and found out that they require yearly &#x2F; monthly subscriptions. A lot of them do not have a pricing on the website, so you gotta book a call to be quoted some yearly contract price… So I built Worklicant — lightweight ATS for tech hiring. Pay per vacancy. Post a job, share the link, easy application form (no registration needed for applicants). Easy in-app scheduling. Vacancy analytics. Custom hiring stages, tags, notes, appli",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50160774",
+        "title": "Show HN: Yana – A local-first, human-governed AI runtime and IDE in Rust",
+        "url": "https://github.com/yanacuti1121/yana-ai",
+        "hn_url": "https://news.ycombinator.com/item?id=50160774",
+        "domain": "github.com",
+        "points": 7,
+        "comments": 0,
+        "created_at": "2026-10-20T02:48:40Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50166358",
+        "title": "Show HN: Tori by TalkJS. AI support that's actually good",
+        "url": "https://asktori.ai",
+        "hn_url": "https://news.ycombinator.com/item?id=50166358",
+        "domain": "asktori.ai",
+        "points": 6,
+        "comments": 1,
+        "created_at": "2026-10-20T13:45:13Z",
+        "story_text": "Hey everyone! Joshua and Egbert from TalkJS here. Today we&#x27;re launching Tori, an AI support agent built for difficult product questions. Other tools we tried struggled with the technical questions we get at TalkJS, so we built our own. One of our test questions was: &quot;How can I add two-way sync between TalkJS and my Minecraft mod?&quot; Our docs never mention Minecraft, and TalkJS does not have a Java SDK. Tori figured out how a Java Edition mod could use Kotlin, found our Kotlin Data API even though it isn&#x27;t mentioned on the homepage, and explained step-by-step how to connect the two. It avoided the obvious solution of REST + webhooks, and explained why that would be insecure in a clientside mod. That&#x27;s what it means for support to actually be good. Understand what cust",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50159710",
+        "title": "Show HN: OpenFlow – AI Agent Workflow Builder",
+        "url": "https://github.com/SeeRay11/OpenFlow",
+        "hn_url": "https://news.ycombinator.com/item?id=50159710",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-10-20T00:12:44Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50156970",
+        "title": "Show HN: Jev in action – task classifier and auto model router in Keen Code",
+        "url": "https://mochow13.github.io/keen-code/docs/task-classification-using-decision-models.html",
+        "hn_url": "https://news.ycombinator.com/item?id=50156970",
+        "domain": "mochow13.github.io",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-10-19T19:34:39Z",
+        "story_text": "Hi HN! In Keen Code, a coding agent solo-developed by me, I have implemented a task-classifier using Jev and a simple auto-router based on the classification result. The article shares details about how it&#x27;s implemented. In short, it has a very simple idea: - For every user message, ask Jev to classify the task in one of the three categories (simple, standard, complex) given current state of the conversation. - Keen also asks Jev to put a probability on this question: &quot;is this a new task?&quot; - Based on the result, Keen uses a heuristic to switch the current model to one of the three pre-configured models by user for the three categories - To make the router work, users have to configure one model per task category inside the coding agent itself The heuristic is also very simpl",
+        "ai_keywords": [
+          "agent",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50174185",
+        "title": "Show HN: One click flight booking in Claude",
+        "url": "https://mcp.bonbook.co/claude-setup",
+        "hn_url": "https://news.ycombinator.com/item?id=50174185",
+        "domain": "mcp.bonbook.co",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-10-20T23:36:17Z",
+        "story_text": "tldr; Travelers wanted to find and book flights super fast in Claude, so we built this. -- BonBook started as flights via email because I was flying once a week in &#x27;24 and the UX got to me. Since then we&#x27;ve handled tens of thousands of requests for hundreds of travelers. The new MCP lets you search live flights with as little&#x2F;much detail as you like, get options and then book without filling any forms. Points and status intact. All in ~35 seconds.",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50163735",
+        "title": "Show HN: A giant pixel map of London",
+        "url": "https://tiny.london/",
+        "hn_url": "https://news.ycombinator.com/item?id=50163735",
+        "domain": "tiny.london",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-10-20T10:05:03Z",
+        "story_text": "Based on pixelated.nyc Most of the work (dataset collection, training &amp; inference runs, viewer composition and even a technical writeup!) done by opus",
+        "ai_keywords": [
+          "inference"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50160102",
+        "title": "Show HN: Self-hosted AI spend attribution",
+        "url": "https://demo.costura.ai/overview",
+        "hn_url": "https://news.ycombinator.com/item?id=50160102",
+        "domain": "demo.costura.ai",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-10-20T01:08:20Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50170201",
+        "title": "Show HN: Gauge CLI – Open-Source Hillclimbing for Agent Experience",
+        "url": "https://github.com/gauge-sh/gauge-cli",
+        "hn_url": "https://news.ycombinator.com/item?id=50170201",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-20T18:01:22Z",
+        "story_text": "Hi HN! We&#x27;re releasing an open-source CLI for hillclimbing Agent Experience. That means optimizing your agent-facing surfaces (Skills, CLIs, SDKs, and docs) so that your users&#x27; coding agents can easily use your product. Pointing your own agent at the repo is enough to get started. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;gauge-sh&#x2F;gauge-cli\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;gauge-sh&#x2F;gauge-cli</a> We&#x27;ve found that power users generally want to hand a CLI&#x2F;MCP to their agents and get started from the terminal. They rarely want to log in and use the web UI themselves. We think developer tools must be agent-friendly to remain relevant. Here are some common findings that Gauge identifies: - agents get confused with CLI&#x2F;SDK behavior and start so",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50164316",
+        "title": "Show HN: Local embedding and ranking for tech feeds",
+        "url": "https://github.com/DBvdHeijden/okaeri",
+        "hn_url": "https://news.ycombinator.com/item?id=50164316",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-20T10:55:25Z",
+        "story_text": "I follow a bunch of blogs and feeds, and Skimfeed was too busy for me. Initially I built a Glance page, and when colleagues saw it they asked me to share it. That led to (the idea of) okaeri, a minimal startpage &amp; feed recommendation algorithm that runs locally. In the background it runs EmbeddingGemma 2 (270M, 8-bit ONNX, on CPU) to embed new stories from the feeds you follow, and a custom ranking algorithm uses those embeddings (plus what you open, like and hide) to put the most relevant items on top. Preferences are kept per topic, so liking a lot of AI posts doesn&#x27;t bury everything else. You can also tune the ranking yourself by playing around with some sliders. Vectors are truncated to 256 dims and stored in SQLite, and the model runs in a short-lived child process, so the se",
+        "ai_keywords": [
+          "ai",
+          "embedding",
+          "model"
+        ],
+        "platform_smell": [
+          "everything"
+        ],
+        "ai_score": 3
+      },
+      {
+        "id": "50150221",
+        "title": "Show HN: Free design canvas for your AI (open source)",
+        "url": "https://uidesigneditor.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50150221",
+        "domain": "uidesigneditor.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-19T09:23:12Z",
+        "story_text": "Hey, sometimes it&#x27;s easier to just move around some buttons in an editor instead of waiting a minute for the AI result. E.g. take a screenshot of your UI, cut out a button, move it around to see what it looks like. Your AI can send HTML into the editor, or screenshots. Then you can edit it, move things around, and your AI takes it from there. I&#x27;ve made it free and open source. You can build on top of it or improve it.",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50153873",
+        "title": "Show HN: Reversing Wing Commander to find the entity table in 64k to add co-op",
+        "url": "https://fireflyk64.github.io/wcmulti/",
+        "hn_url": "https://news.ycombinator.com/item?id=50153873",
+        "domain": "fireflyk64.github.io",
+        "points": 4,
+        "comments": 4,
+        "created_at": "2026-10-19T15:47:43Z",
+        "story_text": "I&#x27;ve always wanted to play Wing Commander with friends, so we could\nfly the story missions together. In 2015, I hypothesized that the full\ngame state fit in the data segment (only 64k), and I could do small\nposition and orientation experiments with vbindiff to discover how the\nmemory was organized. Some fun findings: the camera was in entity index\n0x3D (a &quot;3D&quot; joke?). My brother, Patrick, figured out Borland&#x27;s overlay\nloader crashed the game until we made our stub look like a real stack\nframe. To play you need your own copy (e.g. the GOG version) and you\ndrag setup.exe into the browser. It&#x27;s a DOSBox mod: no game files are\nhosted. We reversed the game by hand, but LLMs were used for the\nrecent browser&#x2F;peer-to-peer WebRTC with voice chat port recently,\nand we c",
+        "ai_keywords": [
+          "llm",
+          "rag",
+          "voice"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50165087",
+        "title": "Show HN: Cliqqe – Meet 4 new people over a video call every week",
+        "url": "https://cliqqe.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50165087",
+        "domain": "cliqqe.com",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-10-20T12:08:59Z",
+        "story_text": "I am involved in a community that acts as an accountability group. So every morning, we have a daily meeting where we share our goals, what was planned and achieved yesterday, and today&#x27;s agenda. What I like the most is what sometimes happens after the daily meeting. We stay and have an open conversation about anything: entrepreneurship, the latest trendy product, personal subjects… It feels like the genuine discussion that you can have when you are invited to someone&#x27;s home or you are at a nice event (not the kind where there is networking). Starting from this vision, I wanted to create the ingredients for that genuine discussion to happen: I&#x27;ve made a first version of Cliqqe. A platform where you are matched with a group of 4 people to have a virtual dinner. The first sess",
+        "ai_keywords": [
+          "video",
+          "vision"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 2
+      },
+      {
+        "id": "50159774",
+        "title": "Show HN: Omasharp: Build Omarchy apps with C# and .NET",
+        "url": "https://github.com/luisrudge/omasharp",
+        "hn_url": "https://news.ycombinator.com/item?id=50159774",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-10-20T00:21:06Z",
+        "story_text": "To get started, tell your agents to build an app with <a href=\"https:&#x2F;&#x2F;github.com&#x2F;luisrudge&#x2F;omasharp\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;luisrudge&#x2F;omasharp</a> and they&#x27;ll do the rest! Apps use QmL, so they look and feel like Omarchy apps (usually built with C++ + QmL). They are also AOT-compiled, so you don&#x27;t pay the startup price. I started my career as a .NET developer, so this was a fun project to hack on!",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50166903",
+        "title": "Show HN: Beatsflow – Text and reference-to-beat generator",
+        "url": "https://www.getbeatsflow.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50166903",
+        "domain": "getbeatsflow.com",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-20T14:22:41Z",
+        "story_text": "",
+        "ai_keywords": [
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50170581",
+        "title": "Show HN: Rocus: Browser local LLM that organizes your websites, notes and files",
+        "url": "https://rocus.io/",
+        "hn_url": "https://news.ycombinator.com/item?id=50170581",
+        "domain": "rocus.io",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T18:28:16Z",
+        "story_text": "",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50169411",
+        "title": "Show HN: Skillsync – Coding agent memory but it's just search",
+        "url": "https://skillsync.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50169411",
+        "domain": "skillsync.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T17:04:10Z",
+        "story_text": "I built a claude mod that searches every session (across harnesses) on each prompt. On every prompt, it runs a series of decision models to pick the right sessions + messages and adds anything relevant to the context. Requires no indexing or setup and works out of the box Demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;o5vEf8tgus4\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;o5vEf8tgus4</a>",
+        "ai_keywords": [
+          "agent",
+          "claude",
+          "model",
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "50166881",
+        "title": "Show HN: Agent Alley – A social experiment for AI agents",
+        "url": "https://www.agent-alley.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166881",
+        "domain": "agent-alley.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T14:21:06Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50166827",
+        "title": "Show HN: Standard Topic – An AI and RSS-powered news and resource platform",
+        "url": "https://www.standardtopic.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166827",
+        "domain": "standardtopic.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T14:16:55Z",
+        "story_text": "Hi HN, I&#x27;m John, a knowledge management and AI enablement professional. I created Standard Topic, an AI and RSS-powered news and resource platform, with assistance from Claude Code. Standard Topic uses AI integrations and RSS feeds to curate news and resources across relevant topics and presents these in the form of top stories, trending items, and a curated prompt library to easily gather further context on a given topic (examples of topics being World News, Politics, Business, Technology, Sports, Science, Health and more.) On topic hubs, you can find a regularly updated at-a-glance AI briefings providing relevant updates, top stories with AI insights and cited sources, and additional recent news coverage. A governance system is in place with AI assisting in ranking stories, retiring",
+        "ai_keywords": [
+          "ai",
+          "claude",
+          "prompt",
+          "rag"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 4
+      },
+      {
+        "id": "50159662",
+        "title": "Show HN: Chai-UI – A design system to generative AI apps",
+        "url": "https://chai-ui.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50159662",
+        "domain": "chai-ui.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T00:06:14Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai",
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50157942",
+        "title": "Show HN: Craig – A TUI for running parallel coding agents",
+        "url": "https://craig-cli.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50157942",
+        "domain": "craig-cli.com",
+        "points": 3,
+        "comments": 4,
+        "created_at": "2026-10-19T20:57:14Z",
+        "story_text": "Hello HN! My name is Sam and this is Craig. Craig is a local-first TUI for managing AI coding agents. It’s agent-agnostic, creates isolated worktrees by default, and has a rich CLI for the agent to interact with to manipulate state and perform actions in the TUI. I started building Craig when I got a job offer at a shop that was using Cursor. I was previously using Claude Code with Conductor and really enjoyed this type of experience. However Conductor didn’t support Cursor at the time and I wasn’t a big fan of the Cursor 3 Agents interface. For personal projects I was using mostly Codex with some Claude Code. Switching between tooling was frustrating. Around the same time I also started really enjoying the agent CLIs and how they just “felt good”. Craig kind of builds on that and I think ",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50166045",
+        "title": "Show HN: Pando, an open-source platform to deploy and share apps built with AI",
+        "url": "https://github.com/trypando/pando",
+        "hn_url": "https://news.ycombinator.com/item?id=50166045",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-10-20T13:24:24Z",
+        "story_text": "Hey all! As the use of AI continues to grow and becomes more available to less technical users, I feel that “Shadow AI” is starting to become a problem, since users are building apps with AI, but there’s nowhere to put them, and no way to share them. I have seen this firsthand while working in the IT and DevOps space since before generative AI was a thing. So, I started building Pando! It’s an open source platform that you can run yourself, and it allows users to deploy apps build with AI easily, and share them with others in your org (or family). It scans each app for known vulnerabilities, and runs them in isolated networks. It’s still very much in alpha, but I would love some people to give it a try and provide feedback on the project and its direction!",
+        "ai_keywords": [
+          "ai",
+          "generat"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 2
+      },
+      {
+        "id": "50163258",
+        "title": "Show HN: I built an AI tool that turns two photos into a dance video",
+        "url": "https://a2oliteai.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50163258",
+        "domain": "a2oliteai.com",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-10-20T09:06:42Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50169363",
+        "title": "Show HN: Contrack – Self-hosted contact manager and people search",
+        "url": "https://github.com/arvarik/contrack",
+        "hn_url": "https://news.ycombinator.com/item?id=50169363",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T17:01:02Z",
+        "story_text": "I got into homelabbing a year ago and have been deploying OSS and making some of my own to address some pain points in my everyday life. One particular area I thought I could improve was keeping in touch with people. Well that first required having a centralized place to see all my contacts. I have some friends on my Google contacts, other relationships on LinkedIn and even some in Facebook. A secondary need is something that&#x27;s been blowing up recently with people search. LLMs + Search are  surprisingly good at aggregating relevant data and parsing through for relevant information. And finally a last need is to keep me disciplined and remind me to reach out to people when it&#x27;s been a while. And thus I made Contrack! Aggregate your contacts, smart dedupe, and enrich with people se",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50166515",
+        "title": "Show HN: Doozy – an AI coworker in Slack that works in prod without your keys",
+        "url": "https://askdoozy.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166515",
+        "domain": "askdoozy.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T13:54:51Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50165257",
+        "title": "Show HN: Vibe Prospecting – B2B Prospecting from Claude and Claude Code via MCP",
+        "url": "https://github.com/explorium-ai/vibeprospecting-mcp",
+        "hn_url": "https://news.ycombinator.com/item?id=50165257",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T12:20:40Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50165167",
+        "title": "Show HN: Armite - a local Azure emulator with a real identity plane and RBAC",
+        "url": "https://github.com/ioflux-org/armite",
+        "hn_url": "https://news.ycombinator.com/item?id=50165167",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T12:14:10Z",
+        "story_text": "",
+        "ai_keywords": [
+          "flux"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50155692",
+        "title": "Show HN: Quorus – Claude Code and Codex in one room, reviewing each other's work",
+        "url": "https://github.com/Quorus-dev/Quorus",
+        "hn_url": "https://news.ycombinator.com/item?id=50155692",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-19T18:01:29Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50148376",
+        "title": "Show HN: Chitra Studio – Your AI Media Workstation for Macs",
+        "url": "https://chitra.studio/",
+        "hn_url": "https://news.ycombinator.com/item?id=50148376",
+        "domain": "chitra.studio",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-19T04:27:53Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50175121",
+        "title": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
+        "url": "https://github.com/cpprhtn/LiteDeck",
+        "hn_url": "https://news.ycombinator.com/item?id=50175121",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-21T01:55:49Z",
+        "story_text": "I made Agentless server management GUI over plain SSH.\nIn Litedeck, we can show and download file, service, docker container, terminal and security, and resource monitoring.\nBecause, I have some Raspberry pi4, mini pc(N97, N100), jetson nano but cockpit or other app install in the server, but I don&#x27;t want that. My servers haven&#x27;t lot of resource. so I made litedeck.\nAnd Claude or Codex install in server is heavy too.\nAI can connect to ssh but, I want to watch what AI&#x27;s do. So I make to tracking AI and show graph view using my Litedeck mcp.",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50166910",
+        "title": "Show HN: Maap 4B model that does RL for calibrated **Estimates",
+        "url": "https://hitl.systems/models/maap/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166910",
+        "domain": "hitl.systems",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T14:23:13Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50164567",
+        "title": "Show HN: Photo Ferret – open-source photo album with creative filters",
+        "url": "https://github.com/JonesSteven/photo-ferret",
+        "hn_url": "https://news.ycombinator.com/item?id=50164567",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T11:19:35Z",
+        "story_text": "I wanted a way to filter my photo album using more creative continuous filters (scene complexity, presence of curvy lines, portion of photo occupied by mountains, etc.) \nPhoto Ferret has two components:\n1) Run the application on your computer and use the TypeSafe Jev API to generate a lot of metadata for each image.\n2) Export as a static site that runs on Cloudflare. The site uses the metadata to enable powerful filtering.\nDemo site here:\n<a href=\"https:&#x2F;&#x2F;stevenjonesphotography.ca&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;stevenjonesphotography.ca&#x2F;</a>\nRepo here:\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;JonesSteven&#x2F;photo-ferret\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;JonesSteven&#x2F;photo-ferret</a> Would love to see any galleries you build with it or any ide",
+        "ai_keywords": [
+          "generat",
+          "image"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50161060",
+        "title": "Show HN: AML CYCLE 2, a benchmark for long-term agent memory",
+        "url": "https://x.com/AgentMemoryL",
+        "hn_url": "https://news.ycombinator.com/item?id=50161060",
+        "domain": "x.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T03:38:38Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50158230",
+        "title": "Show HN: Claude Code skills and hooks that prove a fix's test fails without it",
+        "url": "https://github.com/ehnruiz/claude-skills",
+        "hn_url": "https://news.ycombinator.com/item?id=50158230",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-19T21:20:23Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50155073",
+        "title": "Show HN: CueCut Teleprompter for videos, podcasts and Zoom calls",
+        "url": "https://getcuecut.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50155073",
+        "domain": "getcuecut.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-19T17:15:16Z",
+        "story_text": "I built this browser-based teleprompter app called CueCut. If you record promotional videos from your laptop, then give it a try. It also works when you are giving prepared speech over Zoom, Teams or Meet. Podcast mode lets up to four people record a conversation with a shared script playing over the teleprompter.",
+        "ai_keywords": [
+          "prompt",
+          "speech",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50152241",
+        "title": "Show HN: Semantics to SQL in Rust, ~70µs per query",
+        "url": "https://github.com/stratasite/0sql",
+        "hn_url": "https://news.ycombinator.com/item?id=50152241",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-19T13:29:45Z",
+        "story_text": "0sql is an open-source semantic layer engine written in Rust.\nCompared to Cube and Metricflow, here are the major differences: Partition aware, agg aware, and compute engine aware semantic routing. Comprehensive suite of measures out of the box. Snapshot, LOD, compound, ratios, calculations, cross-domain, and run time measure transformations.\n    Automatic data blending across fact domains.\n    Row level security built-in. Website: <a href=\"https:&#x2F;&#x2F;0sql.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;0sql.io&#x2F;</a> Blog post: <a href=\"https:&#x2F;&#x2F;blog.strata.do&#x2F;p&#x2F;0sql-is-open-source-now\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.strata.do&#x2F;p&#x2F;0sql-is-open-source-now</a> Please send feedbacks and issues on Github.",
+        "ai_keywords": [
+          "automat"
+        ],
+        "platform_smell": [
+          "suite"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "50147957",
+        "title": "Show HN: Stream Reducer – Podcast/Video AI Summarization at Scale",
+        "url": "https://reducer.xgoose.org/",
+        "hn_url": "https://news.ycombinator.com/item?id=50147957",
+        "domain": "reducer.xgoose.org",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-19T03:13:48Z",
+        "story_text": "Hi I have just open sourced a project <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hmumixaM&#x2F;stream-reducer\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hmumixaM&#x2F;stream-reducer</a>. This project can summarize videos, podcasts, and blog posts at scale. I also have a hosted website that&#x27;s completely free. Checkout this website for details <a href=\"https:&#x2F;&#x2F;reducer.xgoose.org\" rel=\"nofollow\">https:&#x2F;&#x2F;reducer.xgoose.org</a> View for a crafted collection as well: <a href=\"https:&#x2F;&#x2F;reducer.xgoose.org&#x2F;collections&#x2F;ai4-2026\" rel=\"nofollow\">https:&#x2F;&#x2F;reducer.xgoose.org&#x2F;collections&#x2F;ai4-2026</a> Any suggestions on improving the usage and avaialbility will be greatly appreciated.",
+        "ai_keywords": [
+          "ai",
+          "summar",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50170593",
+        "title": "Show HN: SimCity, but with Permits",
+        "url": "https://permit.petercai.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50170593",
+        "domain": "permit.petercai.com",
+        "points": 605,
+        "comments": 308,
+        "created_at": "2026-10-20T18:29:09Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50158684",
+        "title": "Show HN: RoadRash ported to Three.js to run in the browser",
+        "url": "https://roadrash.pages.dev",
+        "hn_url": "https://news.ycombinator.com/item?id=50158684",
+        "domain": "roadrash.pages.dev",
+        "points": 32,
+        "comments": 8,
+        "created_at": "2026-10-19T22:01:54Z",
+        "story_text": "Road Rash was one of my favourite PC games growing up. I wanted to play it again, but the browser emulators I tried felt sluggish, so I decided to build a browser version using Three.js. This started mostly out of nostalgia. I wanted to be able to open a link and get back to racing and knocking people off their bikes.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50161144",
+        "title": "Show HN: Rouler – Steer Windows traffic per app or IP across multiple interfaces",
+        "url": "https://rouler.io/",
+        "hn_url": "https://news.ycombinator.com/item?id=50161144",
+        "domain": "rouler.io",
+        "points": 21,
+        "comments": 6,
+        "created_at": "2026-10-20T03:51:43Z",
+        "story_text": "Hi HN, Rouler is &quot;rules for your routes&quot;. It allows you to steer network traffic across multiple network interfaces on Windows. For example: - Run Tailscale, Mullvad and OpenVPN official clients simultaneously. - Use Rouler to send Slack via the OpenVPN connection, Chrome + an IP range via Tailscale and a torrent client via Mullvad. Rouler is VPN agnostic, so you can &quot;split-tunnel&quot; with anything that sets up a windows network interface. I&#x27;m an independent developer from Australia and have been working on Rouler for a bit over a year. It&#x27;s been a challenging project to say the least, but I&#x27;m really happy with how it&#x27;s turning out. I have spent a great deal of time building and throwing things away, starting over, belting the initial poc into something",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50167657",
+        "title": "Show HN: Clerkenwell – A Handwritten Clojure Notebook",
+        "url": "https://handwritten.danieljanus.pl/2026-10-20-clerkenwell.html",
+        "hn_url": "https://news.ycombinator.com/item?id=50167657",
+        "domain": "handwritten.danieljanus.pl",
+        "points": 19,
+        "comments": 1,
+        "created_at": "2026-10-20T15:14:14Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50156779",
+        "title": "Show HN: Dovepass – can I legally fly a drone along this exact path in SF?",
+        "url": "https://dovepass.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50156779",
+        "domain": "dovepass.com",
+        "points": 17,
+        "comments": 2,
+        "created_at": "2026-10-19T19:21:56Z",
+        "story_text": "Dovepass answers one question for drone operators: given two points, can a drone legally fly between the two points? I build route planning for delivery drivers and wanted to check what it would look like if the vehicle flies. Drone navigation is different from land-based vehicle navigation. In addition to road and traffic data, it requires data on buildings, building height, wind speed and direction, and total load, including the payload a drone might carry. It is also governed by a set of rules; depending on the area, federal, state, or county rules may apply. The decision point becomes whether, at each point on the route the drone can fly based upon whether regulations permit, the wind direction favours it and whether it flying over a road or people? Depending on when the drone flies, t",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50156469",
+        "title": "Show HN: RawLink – Building a VPN protocol from scratch",
+        "url": "https://github.com/zolagonano/RawLink",
+        "hn_url": "https://news.ycombinator.com/item?id=50156469",
+        "domain": "github.com",
+        "points": 13,
+        "comments": 0,
+        "created_at": "2026-10-19T18:59:50Z",
+        "story_text": "<a href=\"https:&#x2F;&#x2F;zola.ink&#x2F;blog&#x2F;posts&#x2F;rawlink-building-a-vpn-protocol-from-scratch\" rel=\"nofollow\">https:&#x2F;&#x2F;zola.ink&#x2F;blog&#x2F;posts&#x2F;rawlink-building-a-vpn-protocol-...</a>",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50166987",
+        "title": "Show HN: Another Blog Search Engine",
+        "url": "https://outerweb.org/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166987",
+        "domain": "outerweb.org",
+        "points": 11,
+        "comments": 2,
+        "created_at": "2026-10-20T14:27:33Z",
+        "story_text": "Traditional search was not on the original roadmap for our blogosphere&#x2F;indieweb discovery project. But with the framework and data in place, it was easy enough to add a no-frills search function. In addition to the normal search result info, each post has a link to the Outer Web graph where you can see that page&#x27;s web neighbors.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50165146",
+        "title": "Show HN: Snitch – my Mac talked to 347 servers in one idle hour, so I built this",
+        "url": "https://github.com/aixisstudio/Snitch",
+        "hn_url": "https://news.ycombinator.com/item?id=50165146",
+        "domain": "github.com",
+        "points": 11,
+        "comments": 2,
+        "created_at": "2026-10-20T12:12:51Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50166960",
+        "title": "Show HN: Pug – open-source product analytics",
+        "url": "https://pug.sh/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166960",
+        "domain": "pug.sh",
+        "points": 10,
+        "comments": 1,
+        "created_at": "2026-10-20T14:26:24Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50148589",
+        "title": "Show HN: Roadkill – a zombie car game inspired by the original GTA's driving",
+        "url": "https://games.zabaca.com/games/roadkill/",
+        "hn_url": "https://news.ycombinator.com/item?id=50148589",
+        "domain": "games.zabaca.com",
+        "points": 9,
+        "comments": 5,
+        "created_at": "2026-10-19T05:08:53Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50155440",
+        "title": "Show HN: MCP for Ordering Assembled PCBs",
+        "url": "https://provenmetal.com/mcp",
+        "hn_url": "https://news.ycombinator.com/item?id=50155440",
+        "domain": "provenmetal.com",
+        "points": 8,
+        "comments": 7,
+        "created_at": "2026-10-19T17:43:49Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50167416",
+        "title": "Show HN: Twig – An Android file manager for NAS, S3, restic and Git",
+        "url": "https://github.com/dev2ex/twig",
+        "hn_url": "https://news.ycombinator.com/item?id=50167416",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 1,
+        "created_at": "2026-10-20T14:58:15Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50148662",
+        "title": "Show HN: The Lion King (SNES, 1994), running as a native PC program",
+        "url": "https://github.com/kinduff/TLKRecomp",
+        "hn_url": "https://news.ycombinator.com/item?id=50148662",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 4,
+        "created_at": "2026-10-19T05:20:55Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50165050",
+        "title": "Show HN: In-browser debugger that draws data structures",
+        "url": "https://ntree.ai/problems/lowest-common-ancestor",
+        "hn_url": "https://news.ycombinator.com/item?id=50165050",
+        "domain": "ntree.ai",
+        "points": 5,
+        "comments": 1,
+        "created_at": "2026-10-20T12:05:29Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50167478",
+        "title": "Show HN: An archive of AWS outages that keeps them after AWS's 12-month window",
+        "url": "https://mimobn.github.io/aws-status-archive/",
+        "hn_url": "https://news.ycombinator.com/item?id=50167478",
+        "domain": "mimobn.github.io",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-20T15:01:42Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50161940",
+        "title": "Show HN: I made the most simple pie chart maker",
+        "url": "https://www.createpiechart.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50161940",
+        "domain": "createpiechart.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-20T06:05:12Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50151373",
+        "title": "Show HN: A biotech catalyst calendar that links every date to the SEC sentence",
+        "url": "https://www.orionbiotechai.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50151373",
+        "domain": "orionbiotechai.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-19T12:05:47Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50149883",
+        "title": "Show HN: A Mojo Script Language Container for the Exasol Database",
+        "url": "https://github.com/exasol-labs/language-container-mojo",
+        "hn_url": "https://news.ycombinator.com/item?id=50149883",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-19T08:38:11Z",
+        "story_text": "Mojo is a relatively new language, and its Python\naffinity makes it an ideal candidate for in-database\nexecution to process data where it is stored. Fast \nand reliable.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50165144",
+        "title": "Show HN: Proxium – Self-hosted HTTP/SOCKS5 proxy with a web admin UI",
+        "url": "https://github.com/koldakov/proxium",
+        "hn_url": "https://news.ycombinator.com/item?id=50165144",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-20T12:12:45Z",
+        "story_text": "With the team we are building a network management tool: switch upgrades, data\ncollection&#x2F;analytics, etc. With the write operations on production switches we&#x27;ve\nbeen requested to add an AAA flow so we have only 1 entry point for all\nmicroservices. For that reason we decided to add a proxy in the first place, so\neach request goes through the proxy, authenticates with External Authentication\n(the first A), then proceeds to the next step etc. First we thought about squid&#x2F;envoy, but these proxies were declined by our\ndevops as planned for the future. For sure we found a workaround, but then I\nthought why there are almost no proxies with UI&#x2F;ACLs&#x2F;limits&#x2F;quotas&#x2F;speed\nlimits etc. So I decided to create my own solution that works out of the box with 1 simple\ncomma",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50150256",
+        "title": "Show HN: Selise Blocks – Scaffold an app, define schemas, deploy through one CLI",
+        "url": "https://seliseblocks.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50150256",
+        "domain": "seliseblocks.com",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-19T09:29:28Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50169128",
+        "title": "Show HN: Megapop – a Populous-style god game in the browser, WebGPU, no engine",
+        "url": "https://waldtier.itch.io/megapop",
+        "hn_url": "https://news.ycombinator.com/item?id=50169128",
+        "domain": "waldtier.itch.io",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-20T16:45:39Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50163117",
+        "title": "Show HN: Axes Test – Client-side multi-axis political spectrum mapper",
+        "url": "https://12axestest.org",
+        "hn_url": "https://news.ycombinator.com/item?id=50163117",
+        "domain": "12axestest.org",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-20T08:49:26Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50148526",
+        "title": "Show HN: Trmnl-cards – Turn an XTEINK X4 into a tiny frame for rare cards",
+        "url": "https://github.com/mdnahian/trmnl-cards",
+        "hn_url": "https://news.ycombinator.com/item?id=50148526",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-19T04:57:12Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50167454",
+        "title": "Show HN: PDFkind – a PDF editor that edits the existing text, in the browser",
+        "url": "https://pdfkind.com/edit-pdf",
+        "hn_url": "https://news.ycombinator.com/item?id=50167454",
+        "domain": "pdfkind.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T15:00:30Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50167429",
+        "title": "Show HN: Ripscope, a faster cscope for C that keeps its index current",
+        "url": "https://github.com/pederbe/ripscope",
+        "hn_url": "https://news.ycombinator.com/item?id=50167429",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T14:59:07Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50166720",
+        "title": "Show HN: Settle \"greatest of all time\" debates with head-to-head Elo voting",
+        "url": "https://thegoats.lol/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166720",
+        "domain": "thegoats.lol",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T14:09:26Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50163743",
+        "title": "Show HN: Family quality-of-life score for every US county (108 indicators)",
+        "url": "https://tryanalisa.com/explore",
+        "hn_url": "https://news.ycombinator.com/item?id=50163743",
+        "domain": "tryanalisa.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T10:05:58Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50163100",
+        "title": "Show HN: Ruralcheck.eu – geospatial property analyis in rural Europe",
+        "url": "https://ruralcheck.eu/",
+        "hn_url": "https://news.ycombinator.com/item?id=50163100",
+        "domain": "ruralcheck.eu",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-20T08:47:10Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50152963",
+        "title": "Show HN: ECG Signal Processing Starter Kit – Python, SciPy, and FastAPI",
+        "url": "https://github.com/banisond/ecg-signal-processing-python",
+        "hn_url": "https://news.ycombinator.com/item?id=50152963",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-19T14:30:36Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50163539",
+        "title": "Show HN: PurePDF – merge, split and compress PDFs in the browser with qpdf/WASM",
+        "url": "https://purepdfhq.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50163539",
+        "domain": "purepdfhq.com",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-10-20T09:41:34Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50171551",
+        "title": "Show HN: qrsticks",
+        "url": "https://qrsticks.greg.technology/",
+        "hn_url": "https://news.ycombinator.com/item?id=50171551",
+        "domain": "qrsticks.greg.technology",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T19:35:33Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50169139",
+        "title": "Show HN: we made every cloud work like one giant computer",
+        "url": "https://getovercast.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50169139",
+        "domain": "getovercast.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T16:46:18Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50164235",
+        "title": "Show HN: Slate Terminal",
+        "url": "https://slate.weichart.de/",
+        "hn_url": "https://news.ycombinator.com/item?id=50164235",
+        "domain": "slate.weichart.de",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-10-20T10:48:52Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50174244",
+        "title": "Show HN: Drop in a folder of HTML and get back a private URL",
+        "url": "https://eze.page/",
+        "hn_url": "https://news.ycombinator.com/item?id=50174244",
+        "domain": "eze.page",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T23:45:03Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50173472",
+        "title": "Show HN: AHP Matrix, local, open-source Analytic Hierarchy Process decision tool",
+        "url": "https://github.com/Xafloc/ahp-matrix",
+        "hn_url": "https://news.ycombinator.com/item?id=50173472",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T22:19:38Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50173159",
+        "title": "Show HN: MCP Census – a live change feed for 48,797 MCP servers",
+        "url": "https://mcpcensus.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50173159",
+        "domain": "mcpcensus.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T21:48:38Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50168709",
+        "title": "Show HN: armsense – firewall & router ARM64 distro based on pfSense and FreeBSD",
+        "url": "https://github.com/yadvlabs/armsense",
+        "hn_url": "https://news.ycombinator.com/item?id=50168709",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T16:19:45Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50166752",
+        "title": "Show HN: Debut – Replace macOS Cmd-Tab with a per-Space window switcher",
+        "url": "https://debutspace.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50166752",
+        "domain": "debutspace.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T14:11:13Z",
+        "story_text": "Hi HN, I built Debut because macOS Cmd-Tab doesn&#x27;t work well with Spaces. When an app has windows on several Spaces, Cmd-Tab treats them as one app, so it&#x27;s hard to get to a specific window. Debut changes Cmd-Tab to show only the windows on the current Space. It also shows all Spaces and their windows in one view, where you can add&#x2F;remove&#x2F;reorder Spaces and move windows between them. I spent a lot of time optimizing the UI and interactions so it feels like a natural evolution of the macOS app switcher. Hope you like it!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50165074",
+        "title": "Show HN: Faro – an unofficial Signal client for the terminal",
+        "url": "https://getfaro.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=50165074",
+        "domain": "getfaro.dev",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T12:07:33Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50159902",
+        "title": "Show HN: Resourcedeck, free and open source resource and portfolio planning",
+        "url": "https://resourcedeck.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50159902",
+        "domain": "resourcedeck.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-20T00:39:43Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50150966",
+        "title": "Show HN: Check if a PDF's redactions can be undone, in the browser",
+        "url": "https://blurdata.app/redaction-checker",
+        "hn_url": "https://news.ycombinator.com/item?id=50150966",
+        "domain": "blurdata.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-19T11:16:14Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      }
+    ],
+    "product_hunt": [],
+    "civitai_flux": [
+      {
+        "is_flux": true,
+        "id": 146236987,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a6eb1d3-6542-45aa-b386-a818ae299c3a/original=true/8a6eb1d3-6542-45aa-b386-a818ae299c3a.jpeg",
+        "posted_at": "2026-10-20T06:51:15.716Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Flux.1 D",
+        "stats": {
+          "likes": 121,
+          "hearts": 26,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Create an image inside a quiet studio, a young woman is completely absorbed in painting a large abstract portrait on canvas. Seated on a wooden stool in a relaxed pose, she wears a loose white T-shirt that reflects her minimalist style. Her black hair is pulled back into a casual ponytail as she delicately wields a paintbrush, applying bold yellow and blue strokes to create an abstract face. The space is scattered with art supplies, paint tubes, and a creative mess that speaks to her dedication. Warm overhead light casts soft shadows, enhancing the intimate, peaceful atmosphere of the studio. The scene radiates creativity, focus, and a genuine passion for art, capturing a moment of expression in progress perfect composition, haze, low angle,shadow plants,vivid colors, best quality, realistic, fantastic, splash art, hyperdetailed, maximalist style, photorealistic, concept art, sharp focus, harmony,ambient occlusion, halation,,dynamic lighting, a masterpiece, award winning, DB4RZ, DB4RZ style painting, NeoPigma, in the style of cksc,anime, cyberpunk",
+          "negative_prompt": null,
+          "sampler": "Undefined",
+          "steps": 25,
+          "cfg_scale": 3.5,
+          "seed": 713787765,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a6eb1d3-6542-45aa-b386-a818ae299c3a/original=true/8a6eb1d3-6542-45aa-b386-a818ae299c3a.jpeg",
+        "local_file": "146236987.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": true,
+        "id": 146244886,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d3b2f39-a4be-4a51-9f81-2f1adb2fee45/original=true/7d3b2f39-a4be-4a51-9f81-2f1adb2fee45.jpeg",
+        "posted_at": "2026-10-20T08:55:31.798Z",
+        "username": "FASCIUM",
+        "model_version_id": null,
+        "model_name": "flux3Klein_klein_bf16",
+        "base_model": "Flux.3 Klein",
+        "stats": {
+          "likes": 60,
+          "hearts": 17,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A highly detailed hybrid transition portrait in the style of magical realism and double exposure, blending fine art photography with watercolor and ink wash aesthetics. The composition features a sharp, high-contrast profile silhouette of a woman, where the interior of the silhouette is filled with a dense, misty pine forest and a subtle, majestic wolf figure seamlessly blending into the tree trunks. The artwork uses intricate black ink linework with soft watercolor bleeds in muted emerald green, slate gray, and ivory tones. The background is a textured, cold-pressed watercolor paper with visible grain. Soft, diffused natural lighting illuminates the scene, emphasizing macro photography details on the ink texture and paper fibers, 85mm lens aesthetic, sharp focus on the ink details, no visible tattoos, purely visual description without internal thoughts or expressions.",
+          "negative_prompt": null,
+          "sampler": "Euler a",
+          "steps": 16,
+          "cfg_scale": 1,
+          "seed": 748901727,
+          "width": 1024,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d3b2f39-a4be-4a51-9f81-2f1adb2fee45/original=true/7d3b2f39-a4be-4a51-9f81-2f1adb2fee45.jpeg",
+        "local_file": "146244886.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": true,
+        "id": 146268191,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4409c4a-6858-4ebf-8872-177221ac8f6f/original=true/e4409c4a-6858-4ebf-8872-177221ac8f6f.jpeg",
+        "posted_at": "2026-10-20T15:07:53.654Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Flux.1 D",
+        "stats": {
+          "likes": 19,
+          "hearts": 7,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Cinematic fantasy landscape at night. An ancient suspension bridge crosses a vast mist filled rainforest abyss, built from uneven weathered planks, thick twisted ropes and living vines. The bridge begins close to the viewer and creates strong leading lines toward a magnificent golden temple positioned much closer at the opposite end. The temple rises on a steep emerald rock outcrop surrounded by enormous ancient trees, waterfalls and drifting blue gray mist. Its ornate roofs, curved eaves, carved pillars and delicate lanterns glow with rich antique gold, creating brilliant reflections on wet wood and leaves. A huge luminous full moon hangs directly behind the temple, outlining its silhouette with cool silver light. No people are present. Deep below, dense jungle disappears into layers of fog. Massive tree trunks frame both sides, covered with moss, ferns and hanging roots. Wide angle camera at bridge level, dramatic depth, monumental scale. Refined painterly realism, intricate brushwork, atmospheric perspective, luminous glazing, detailed organic textures, cinematic moonlight, volumetric mist. Emerald green, deep sapphire blue, blue gray, charcoal, silver and radiant gold. Mysterious, majestic, serene, a breathtaking masterpiece, award winning, DB4RZ, DB4RZ style painting, NeoPigma, in the style of cksc, anime, cyberpunk",
+          "negative_prompt": null,
+          "sampler": "Undefined",
+          "steps": 32,
+          "cfg_scale": 3.5,
+          "seed": 719133240,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4409c4a-6858-4ebf-8872-177221ac8f6f/original=true/e4409c4a-6858-4ebf-8872-177221ac8f6f.jpeg",
+        "local_file": "146268191.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146250844,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28251832-df67-4062-a921-63f19d793a46/original=true/28251832-df67-4062-a921-63f19d793a46.jpeg",
+        "posted_at": "2026-10-20T10:38:53.043Z",
+        "username": "PrivateLanding",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 201,
+          "hearts": 73,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "The image shows a girl with long black hair and a white apron smiling at the camera. She is wearing a maid outfit and her expression is cheerful and inviting. The background is a bright pink color, giving the image an anime-style feel. 1girl, solo, long hair, looking at viewer, smile, blush, black hair, dress, twintails, upper body, sidelocks, blunt bangs, black dress, grin, apron, grey eyes, eyelashes, maid, maid headdress, hair intakes, head tilt, pink background, portrait, white apron, maid apron, frilled apron, collared dress, contrast collar",
+          "negative_prompt": "l(anime screencap)),((specular highlights:1.6)), ((skin reflections:1.6)),((shiny skin:1.6)),((glossy skin:1.6)), ((oily skin:1.6)), ((plastic skin:1.6)), ((wet skin:1.6)),((overexposed highlights:1.6)),,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermark,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermarkowres, worst quality, bad quality, bad anatomy, jpeg artifacts, old, oldest, watermark, anime screenshot, anime coloring, nostrils, nose",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 1059594707,
+          "width": 896,
+          "height": 1152,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/28251832-df67-4062-a921-63f19d793a46/original=true/28251832-df67-4062-a921-63f19d793a46.jpeg",
+        "local_file": "146250844.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146238847,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8b721f2-c94a-4a92-9580-f38f113b0af0/original=true/b8b721f2-c94a-4a92-9580-f38f113b0af0.jpeg",
+        "posted_at": "2026-10-20T07:21:40.524Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 196,
+          "hearts": 38,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Dreamlike fantasy scene viewed from an elevated three quarter angle, looking down across a secluded pond almost entirely covered with thousands of floating pink flowers. Small water böossoms, mainly hydrangea in blush pink, rose, fuchsia and deep magenta form dense irregular clusters across the water, creating a continuous textured floral carpet with only tiny dark gaps between them. A narrow old weathered wooden canoe floats diagonally near the center, its pointed bow facing the lower right. Inside, a beautiful young woman sits gracefully in the boat, looking longingly towards the water. She wears a delicate pale pink dress and has loosely gathered dark hair. The canoe has aged wooden planks, rough grain and worn edges. Dense tropical foliage, enormous green leaves, ferns and mossy rocks surround the pond in the upper background. A rustic wooden staircase descends toward the water on the left. Refined fantasy illustration, smooth painterly brushwork, rich botanical detail,  atmospheric depth, tranquil magical light, subtle luminous highlights, elegant color transitions,  serene and mysterious, award winning, a breathtaking masterpiece",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 11,
+          "cfg_scale": 1.1,
+          "seed": 2143971178,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b8b721f2-c94a-4a92-9580-f38f113b0af0/original=true/b8b721f2-c94a-4a92-9580-f38f113b0af0.jpeg",
+        "local_file": "146238847.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146240164,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85c104fa-cb1f-4633-a7a0-efea58f43ae8/original=true/85c104fa-cb1f-4633-a7a0-efea58f43ae8.jpeg",
+        "posted_at": "2026-10-20T07:40:41.451Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 184,
+          "hearts": 44,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Create an image of the following scene: a mysterious witch is the dominant focal point of the composition, flying directly across the center of an enormous luminous ivory full moon. Her elegant black silhouette is large, crisp and immediately recognizable against the glowing moon. She rides an old crooked broomstick in graceful side profile, leaning slightly forward as she flies. Her tall pointed witch hat bends dramatically backward in the wind. Long wild hair, a flowing cloak and torn ribbons stream behind her, creating a strong sense of movement. Her hands clearly hold the broom while her legs trail naturally behind. The moon forms a perfect bright halo around her entire silhouette. A single enormous ancient tree grows from the far left edge, with a thick black trunk and long twisted bare branches reaching across the sky without obscuring the witch. Several black ravens sit calmly on these branches with folded wings, acting as secondary details that frame the central witch. Deep cobalt and indigo sky, tiny silver stars, atmospheric watercolor and ink painting, translucent washes, delicate pigment granulation, fine silhouettes, subtle paper texture, dramatic negative space, charcoal black and moonlit ivory, poetic gothic fairytale atmosphere.mysterious glow, superb composition,",
+          "negative_prompt": null,
+          "sampler": "er_sde",
+          "steps": 25,
+          "cfg_scale": 3,
+          "seed": 2064609198,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85c104fa-cb1f-4633-a7a0-efea58f43ae8/original=true/85c104fa-cb1f-4633-a7a0-efea58f43ae8.jpeg",
+        "local_file": "146240164.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146246100,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680c0e6d-6807-4e28-b1e4-630871c7c5bd/original=true/680c0e6d-6807-4e28-b1e4-630871c7c5bd.jpeg",
+        "posted_at": "2026-10-20T09:15:39.251Z",
+        "username": "Silmas",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 171,
+          "hearts": 46,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "Subject\nAn extreme close-up of a vampire’s gaunt, pale face partially submerged in a pool of viscous, liquid shadow. One human eye glistens with wet, sorrowful tears, reflecting a soft, melancholic light. The other eye burns with an intense, supernatural crimson glow, casting a faint red hue on the surrounding skin. Translucent, ethereal ripples of dream-visions wash over his skin, appearing as holographic, smoky overlays that depict blurred silhouettes of a lost lover.\nStyle\nHyperrealistic portraiture fused with the texture of smoky charcoal sketches. The image echoes the distorted emotional intensity and painterly brushstrokes of Francis Bacon. The skin texture is detailed and realistic, showing pores and tension, while the shadow and vision elements have a soft, artistic, almost impressionistic quality.\nLighting\nCinematic and dramatic. A primary soft key light illuminates the glistening human eye and the wet skin, creating high-contrast highlights against the dark, liquid shadow. The burning crimson eye emits its own internal bioluminescent light, creating a subtle underlighting effect. The overall atmosphere is moody, dark, and mysterious, with a high dynamic range.\nComposition\nTightly framed extreme close-up focusing on the face, from the forehead to the chin. The liquid shadow obscures the lower jaw and neck. The face is slightly angled, with the glistening eye positioned in the upper-left third and the glowing crimson eye in the upper-right third. The background is an indistinct void of dark, swirling smoke and shadow, ensuring all attention remains on the facial expression and the translucent overlays.",
+          "negative_prompt": null,
+          "sampler": "er_sde",
+          "steps": 31,
+          "cfg_scale": 3,
+          "seed": 931198059,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/680c0e6d-6807-4e28-b1e4-630871c7c5bd/original=true/680c0e6d-6807-4e28-b1e4-630871c7c5bd.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146244276,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b4141c5-10c8-442f-a5c2-ca180db19c44/original=true/5b4141c5-10c8-442f-a5c2-ca180db19c44.jpeg",
+        "posted_at": "2026-10-20T08:47:38.798Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 160,
+          "hearts": 48,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A breathtaking romantic impressionist oil painting of a young couple embracing and kissing beneath magnificent autumn trees. Their bodies form striking solid black silhouettes in the center of the composition. The tall man stands firmly on the ground, holding the slender woman securely around her waist and lifting her gently toward him. She wraps both arms around his neck and leans forward to kiss his lips. Her long flowing hair blows softly to the right. One of her legs is bent at the knee and lifted gracefully backward, extending almost horizontally with a pointed foot. Her other leg hangs naturally straight downward toward the ground, creating an elegant balanced pose. Her flowing dress flares outward around her hips. Their lips meet in a clearly visible tender kiss. Delicate dark branches form a magnificent canopy of abundant golden yellow, amber, copper and fiery orange autumn leaves. Radiant honey gold and warm ivory light fills the background. Bold palette knife strokes, thick sculptural impasto, rich raised oil paint, luminous colors, dramatic silhouette contrast, passionate kiss, a breathtaking masterpiece, award winning",
+          "negative_prompt": null,
+          "sampler": "er_sde",
+          "steps": 30,
+          "cfg_scale": 3.5,
+          "seed": 271922148,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5b4141c5-10c8-442f-a5c2-ca180db19c44/original=true/5b4141c5-10c8-442f-a5c2-ca180db19c44.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146218659,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7e2e319-74d4-4837-9c13-4f3231b4a575/original=true/a7e2e319-74d4-4837-9c13-4f3231b4a575.jpeg",
+        "posted_at": "2026-10-20T04:45:00.000Z",
+        "username": "LazyVisionary",
+        "model_version_id": null,
+        "model_name": "LVWesternMixWC",
+        "base_model": "Anima",
+        "stats": {
+          "likes": 132,
+          "hearts": 42,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "masterpiece, best quality, amazing quality, absurdres, score_7,   <lora:MalfoidAnima:1> malfoid, blonde hair, long hair, green eyes, earrings, school uniform, collared shirt, green necktie, striped necktie, sweater, pleated skirt, thighhighs, cloak, hogwarts school, hand on hip, contrapposto, looking at viewer,",
+          "negative_prompt": "score_1, low quality, worst quality, score_2, score_3, displeasing, score_4, very displeasing, lowres, lowres face, extra fingers, extra digits, too many fingers, too many digits, fused fingers, inverted limbs, mixed limbs, oversized limbs, watermark, signature, artist name,",
+          "sampler": "ER SDE",
+          "steps": 32,
+          "cfg_scale": 6,
+          "seed": 286429732,
+          "width": 1024,
+          "height": 1024,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a7e2e319-74d4-4837-9c13-4f3231b4a575/original=true/a7e2e319-74d4-4837-9c13-4f3231b4a575.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146227872,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8ae066b-d245-4cc2-a56d-ce95488ee9df/original=true/f8ae066b-d245-4cc2-a56d-ce95488ee9df.jpeg",
+        "posted_at": "2026-10-20T04:56:14.545Z",
+        "username": "Corcoronel",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 144,
+          "hearts": 28,
+          "comments": 1
+        },
+        "meta": {
+          "prompt": "masterpiece, best quality, very aesthetic, ektachrome fade film, \nA serene young woman in her early twenties standing barefoot on a mossy rock by a clear stream in a traditional village. She wears a long, flowing white dress and holds a bright orange fruit. The village features weathered white houses with dark, curved tiled roofs and wooden balconies. Large trees laden with vibrant oranges frame the scene. Misty mountains rise in the background. The art style is painterly with strong ink outlines, high contrast between the bright oranges and the deep shadows of the wooden structures. Gritty, atmospheric mood with textured, aged walls. Dynamic composition leading the eye from the stream to the mountains. Ultra high detail on the water ripples, fruit texture, and fabric folds. 8K resolution.",
+          "negative_prompt": "(2d ,Illustration, drawing, cartoon, animation, anima, painting:1.4)",
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1708900240,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f8ae066b-d245-4cc2-a56d-ce95488ee9df/original=true/f8ae066b-d245-4cc2-a56d-ce95488ee9df.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146282877,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08876f6-0192-463b-81b7-ab31ed5bd6a2/original=true/b08876f6-0192-463b-81b7-ab31ed5bd6a2.jpeg",
+        "posted_at": "2026-10-20T18:35:21.572Z",
+        "username": "teammikorisy",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 121,
+          "hearts": 43,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "An adult anime woman with blue-black hair styled as a high messy bun with loose strands, violet eyes, and light tan skin, wearing a navy pea coat, tartan skirt, wool tights, and snow boots, with patterned mittens and a soft cashmere scarf; walking in a leisurely diagonal line across the composition, against a backdrop of a cobbled shopping street dusted with fresh snow, glowing in the deep-blue twilight of winter; character-centered landscape composition, a bright inviting smile, soft cel-shaded anime illustration with expressive eyes and clean contours.",
+          "negative_prompt": "l(anime screencap)),((specular highlights:1.6)), ((skin reflections:1.6)),((shiny skin:1.6)),((glossy skin:1.6)), ((oily skin:1.6)), ((plastic skin:1.6)), ((wet skin:1.6)),((overexposed highlights:1.6)),,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermark,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermarkowres, worst quality, bad quality, bad anatomy, jpeg artifacts, old, oldest, watermark, anime screenshot, anime coloring, nostrils, nose",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 928753698,
+          "width": 1024,
+          "height": 1024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b08876f6-0192-463b-81b7-ab31ed5bd6a2/original=true/b08876f6-0192-463b-81b7-ab31ed5bd6a2.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146222194,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45bf07eb-4af9-41a4-af83-d07d018d435c/original=true/45bf07eb-4af9-41a4-af83-d07d018d435c.jpeg",
+        "posted_at": "2026-10-20T03:39:45.788Z",
+        "username": "AureneStellaris",
+        "model_version_id": null,
+        "model_name": "urn:air:sdxl:checkpoint:civitai:1162518@1714002",
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 100,
+          "hearts": 35,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "masterpiece,best quality,amazing quality,absurdres, anime style, anime screencap:1.2, anime coloring:1.2, lazypos, \n1girl, solo, depth of field, \nyellowthing, (medium breasts:1.1), (blonde hair:1.2), big round eyes, yellow eyes, white pupils, white hair ribbon, (french braid:1.3), long hair, hair between eyes, japanese ahoge,\nVictorian maid outfit, maid outfit, maid headdress, \nshe appears to be eating foodaa doughnut or cookieawhich is partially visible as it rests in front of her mouth under an \"enmaided\" style white apron over a black dress with long sleeves. simple background, cowboy shot,\nsoft anime lighting, cinematic lighting, volumetric lighting, ray tracing, dramatic shadows,",
+          "negative_prompt": "lazyneg, lazyhand, bad quality,worst quality,worst detail,sketch,censored, artist name, signature, watermark,patreon username, patreon logo, shiny clothes, shiny skin, gold skin, white hair, halo,",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 5,
+          "seed": 1021917607,
+          "width": 1728,
+          "height": 3024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/45bf07eb-4af9-41a4-af83-d07d018d435c/original=true/45bf07eb-4af9-41a4-af83-d07d018d435c.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146288362,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0465f0c2-d3e8-4ba7-9287-fd7aa788e2f8/original=true/0465f0c2-d3e8-4ba7-9287-fd7aa788e2f8.jpeg",
+        "posted_at": "2026-10-20T19:37:03.663Z",
+        "username": "KickKarl",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 86,
+          "hearts": 29,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "An adult anime woman with burgundy hair styled as a half-up hairstyle with ribbon ties, sea-green eyes, and light tan skin, wearing a deep-blue mamian skirt ensemble with silver floral motifs, with subtle gold hair ornaments and embroidered silk ribbons; resting her hands loosely behind her back and tilting her head, against a backdrop of an ornate garden doorway framed by hanging wisteria, in diffused ink-painting morning light; full-body three-quarter composition, a thoughtful faraway gaze, high-detail anime character art with rich environmental storytelling.",
+          "negative_prompt": "l(anime screencap)),((specular highlights:1.6)), ((skin reflections:1.6)),((shiny skin:1.6)),((glossy skin:1.6)), ((oily skin:1.6)), ((plastic skin:1.6)), ((wet skin:1.6)),((overexposed highlights:1.6)),,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermark,lowres, bad quality, worst quality, bad anatomy, sketch, jpeg artifacts, ugly, poorly drawn, blurry, transparent background, censored, (simple background:1.4), artist name, signature, watermarkowres, worst quality, bad quality, bad anatomy, jpeg artifacts, old, oldest, watermark, anime screenshot, anime coloring, nostrils, nose",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 7,
+          "seed": 1959257168,
+          "width": 1024,
+          "height": 1024,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0465f0c2-d3e8-4ba7-9287-fd7aa788e2f8/original=true/0465f0c2-d3e8-4ba7-9287-fd7aa788e2f8.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146247180,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4dde17f-9613-4fbb-b215-5feaeedb92ac/original=true/e4dde17f-9613-4fbb-b215-5feaeedb92ac.jpeg",
+        "posted_at": "2026-10-20T09:33:27.057Z",
+        "username": "Silmas",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 71,
+          "hearts": 23,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Low-angle perspective: Billions of shattered porcelain shards, razor-sharp and glinting coldly, cascade in hyper-slow motion behind the stark silhouette of a geisha emerging from thick, charcoal-grey mist. Scale: Monumental figure dwarfing chaotic particle storm. Style: Hiroshi Sugimoto monochrome meets Bill Viola's ethereal light; deep chiaroscuro. Palette: Icy moonlit blues, bone whites, profound void blacks. Texture: Jagged ceramic edges catching light against velvety, undulating vapor. Mood: Profound melancholy, silent disintegration. Detail: Single intact white hairpin glimpsed within the maelstrom.",
+          "negative_prompt": null,
+          "sampler": "er_sde",
+          "steps": 41,
+          "cfg_scale": 3,
+          "seed": 2105170092,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4dde17f-9613-4fbb-b215-5feaeedb92ac/original=true/e4dde17f-9613-4fbb-b215-5feaeedb92ac.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146169759,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceef277b-f010-46e9-a2e5-52142771be54/original=true/ceef277b-f010-46e9-a2e5-52142771be54.jpeg",
+        "posted_at": "2026-10-20T11:11:00.000Z",
+        "username": "Deto15",
+        "model_version_id": null,
+        "model_name": "hosekiLustrousmixAnima_animaV10",
+        "base_model": "Anima",
+        "stats": {
+          "likes": 67,
+          "hearts": 23,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "masterpiece, best quality, 1girl, solo, hatsune miku, twintails, very long hair, hair ornament, medium breasts, waitress, short sleeves, blue shirt, red apron, outdoors, (vending machine), arms behind back, aqua hair, aqua eyes, blue skirt, frilled skirt, from above, bloom, backlighting, loose socks, (rain), puddle, wet clothes, wet, wet hair, looking at viewer, wet skirt, light blush, light smile, closed mouth",
+          "negative_prompt": "worst quality, low quality, jpeg artifacts, signature, sepia, fewer digits, extra digits, bad hands, bad anatomy, watermark, censored, score_1, score_2, score_3,",
+          "sampler": "euler_ancestral",
+          "steps": 40,
+          "cfg_scale": 4,
+          "seed": 1673569805,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ceef277b-f010-46e9-a2e5-52142771be54/original=true/ceef277b-f010-46e9-a2e5-52142771be54.jpeg",
+        "license": {}
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T02:51:19.707591+00:00",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T02:49:52.403535+00:00",
   "sources_ok": [
     "hn",
     "ph",
@@ -10,69 +10,36 @@
   "notes": {
     "ph": [
       "no PH_DEV_TOKEN, falling back to html scraping",
-      "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/24 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/24 :: HTTP Error 403: Forbidden",
+      "FAIL https://www.producthunt.com/leaderboard/daily/2026/10/25 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/10/25 :: HTTP Error 403: Forbidden",
       "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
-      "OK https://www.producthunt.com/feed (+0, 43854 bytes)"
+      "OK https://www.producthunt.com/feed (+0, 43907 bytes)"
     ],
     "civitai": [
-      "api items: 100, items with meta: 80, items with prompt: 75, flux matched: 0",
+      "api items: 100, items with meta: 77, items with prompt: 74, flux matched: 0",
       "skipped for nsfw level: 0",
       "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, thumbnail, type, url, username, width",
-      "top models: unknown(45), krea2_turbo_fp8_scaled(6), krea2TurboOfficialComfy_krea2TurboInt8(3), Kreation_v4b_mxfp8(3), moss_image_sft_int8_convrot(3), wulverKrea2_v05_3249389(2), rinFlanimeAnima_v14(1), serendipity_v30(1)"
+      "top models: unknown(34), krea2Turbo_v10.safetensors(10), waisnackmixCollection_wsmAnimaV10_3308504(4), krea2_turbo.safetensors(3), krea2Turbo_v10(2), krea2TurboOfficialComfy_krea2TurboInt8(2), JANKUTrainedChenkinNoobai_v777(2), Kreation_v4b_mxfp8(2)"
     ]
   },
   "data": {
     "show_hn": [
       {
-        "id": "50214373",
-        "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-        "url": "https://corgi.computer/",
-        "hn_url": "https://news.ycombinator.com/item?id=50214373",
-        "domain": "corgi.computer",
-        "points": 126,
-        "comments": 42,
-        "created_at": "2026-10-23T19:46:38Z",
-        "story_text": "Hey everyone, Inspired by Herdr, I&#x27;ve built an agent multiplexer that I&#x27;ve been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity.\nThere&#x27;s also a simple shortcut (F1) to go to the next unread agent. I use multiple accounts, so I&#x27;ve added unified launcher for Codex&#x2F;Claude Code&#x2F;Pi.\nTheres some careful ergonomics there: fast search and resume over sessions, inline usage tracking etc. Many small quality of life improvements to the terminal experience:\n- Links can be copied with a click, so no need to drag-select over many lines\n- cmd+v just pastes images (even on SSH)\n- images have a thumbn",
+        "id": "50227330",
+        "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+        "url": "https://huggingface.co/destined/hurston-1",
+        "hn_url": "https://news.ycombinator.com/item?id=50227330",
+        "domain": "huggingface.co",
+        "points": 49,
+        "comments": 23,
+        "created_at": "2026-10-25T01:30:13Z",
+        "story_text": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). It is very good with American English and does especially well with Southern American and Regional African English accents. Destined AI is based in Atlanta, and I built this because I’m amazed by what AI can do, and I wanted to help introduce and welcome more people to feel comfortable using and interacting with AI. Since 2021, I’ve been collecting fully consented voice data from over 20,000 people, 1M audio recordings, and over 1,800 hrs of audio captured to date. For this model, I used a small part of the data, 136 hrs, to finetune Maya1 and expand it’s capabilities. Hurston-1 is a narrowband TTS model that focuses the output on telephone use because that is still where most of these voices will be heard. I’ve used",
         "ai_keywords": [
-          "agent",
-          "claude",
-          "image",
-          "rag"
+          "ai",
+          "model",
+          "voice"
         ],
         "platform_smell": [],
-        "ai_score": 4
-      },
-      {
-        "id": "50205320",
-        "title": "Show HN: Swurf – Swipe through the real web",
-        "url": "https://swurf.org/",
-        "hn_url": "https://news.ycombinator.com/item?id=50205320",
-        "domain": "swurf.org",
-        "points": 73,
-        "comments": 36,
-        "created_at": "2026-10-23T06:54:52Z",
-        "story_text": "Hello HN, Swurf allows you to swipe through the real web one page after another. It learns what you like and doesn’t show you the same page twice. The idea came naturally: there’s a seemingly infinite amount of high quality blog posts, random topic rabbit holes, and trending or cool sites that exist which the average person simply will never load on their browser. Swurf solves that by allowing you to rapidly traverse a constantly growing and learning feed of sites that it thinks you’d want to view. Quickly sift through endless pages and find things you like - effortlessly. One of the core drivers for making this project was the desire for real content. The project started as a simple tool for myself to find new and interesting things to learn and read about. Hours spent scrolling on my pho",
-        "ai_keywords": [
-          "rag"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50207620",
-        "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
-        "url": "https://www.thisandthat.chat/enron/",
-        "hn_url": "https://news.ycombinator.com/item?id=50207620",
-        "domain": "thisandthat.chat",
-        "points": 65,
-        "comments": 56,
-        "created_at": "2026-10-23T12:02:53Z",
-        "story_text": "",
-        "ai_keywords": [
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
+        "ai_score": 3
       },
       {
         "id": "50221066",
@@ -80,7 +47,7 @@
         "url": "https://github.com/byenzyme/enzyme",
         "hn_url": "https://news.ycombinator.com/item?id=50221066",
         "domain": "github.com",
-        "points": 20,
+        "points": 22,
         "comments": 9,
         "created_at": "2026-10-24T13:30:18Z",
         "story_text": "",
@@ -109,18 +76,53 @@
         "ai_score": 1
       },
       {
-        "id": "50212292",
-        "title": "Show HN: Searching for optimal strategies in a puzzle game with chance (Drop7)",
-        "url": "https://drop7.dev",
-        "hn_url": "https://news.ycombinator.com/item?id=50212292",
-        "domain": "drop7.dev",
-        "points": 11,
-        "comments": 1,
-        "created_at": "2026-10-23T17:13:27Z",
-        "story_text": "Sixteen years ago, I wrote a Java program which tried to pick the ideal move in a puzzle game called Drop7. On each turn, the player only has seven choices for their next move, but there is also an element of chance which turns this simple game into a surprisingly difficult problem involving search, hidden information, long-term planning, and chance. I renewed my investigation this weekend, into whether there is an autonomous strategy that averages more than one million points per game. An experienced human player can score a million points with long-term strategic thinking, but the best automated strategies I could come up with are currently averaging around 300k-400k points. One of the easiest ways to contribute to advancing this research is to compete on the global leaderboard and submi",
+        "id": "50231486",
+        "title": "Show HN: Open-Source Cybersecurity Platform Uses AI Agents to Protect Businesses",
+        "url": "https://medium.com/@thomasunise/this-open-source-cybersecurity-platform-uses-ai-agents-to-detect-threats-and-protect-businesses-762e65392b42",
+        "hn_url": "https://news.ycombinator.com/item?id=50231486",
+        "domain": "medium.com",
+        "points": 15,
+        "comments": 4,
+        "created_at": "2026-10-25T13:41:19Z",
+        "story_text": "",
         "ai_keywords": [
-          "automat",
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 2
+      },
+      {
+        "id": "50235915",
+        "title": "Show HN: CaseCite – Free RAG caselaw research and document analysis for lawyers",
+        "url": "https://github.com/thomasunise/casecite",
+        "hn_url": "https://news.ycombinator.com/item?id=50235915",
+        "domain": "github.com",
+        "points": 14,
+        "comments": 2,
+        "created_at": "2026-10-25T20:47:26Z",
+        "story_text": "",
+        "ai_keywords": [
           "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50227527",
+        "title": "Show HN: ReVault – new secure archive format",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=50227527",
+        "domain": "",
+        "points": 9,
+        "comments": 5,
+        "created_at": "2026-10-25T02:01:21Z",
+        "story_text": "reVault is a new, secure-by-default archive format called a lockbox, designed to be simple to use. I&#x27;ve been working on reVault for about 2 years. It was originally written in Dart, but with the improvements in AI, I decided to port it to Rust using AI. It&#x27;s now in beta, so I&#x27;m looking for feedback, particularly around the different language bindings. A lockbox is encrypted, signed and compressed by default. Each can be disabled selectively. <pre><code>  - Hybrid post-quantum or passphrase encryption, including metadata.\n  - Zstd compression.\n  - Pure Rust libraries wherever possible.\n</code></pre>\nWe intend to phase out remaining C code as alternatives become available. The project has been scanned using OpenAI&#x27;s Daybreak cyber security tools. The manual is a work in p",
+        "ai_keywords": [
+          "ai",
+          "openai"
         ],
         "platform_smell": [],
         "ai_score": 2
@@ -131,7 +133,7 @@
         "url": "https://github.com/swrdfish/narro",
         "hn_url": "https://news.ycombinator.com/item?id=50224373",
         "domain": "github.com",
-        "points": 6,
+        "points": 9,
         "comments": 1,
         "created_at": "2026-10-24T19:37:32Z",
         "story_text": "I wanted a read-aloud extension that could read from the Kindle Online Reader. The ones I tried used voices I did not enjoy listening to or had a UX that was too cluttered or annoying or needed a signup. So I decided to vibe code my own. It is open source and uses open weight models that run in the browser. <a href=\"https:&#x2F;&#x2F;swrdfish.github.io&#x2F;Narro&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;swrdfish.github.io&#x2F;Narro&#x2F;</a>",
@@ -144,13 +146,29 @@
         "ai_score": 3
       },
       {
+        "id": "50223759",
+        "title": "Show HN: Agentsh – A Decentralized, Scalable Multiagent Harness",
+        "url": "https://github.com/microsoft/Agensh",
+        "hn_url": "https://news.ycombinator.com/item?id=50223759",
+        "domain": "github.com",
+        "points": 9,
+        "comments": 1,
+        "created_at": "2026-10-24T18:19:35Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
         "id": "50220254",
         "title": "Show HN: AI text detector that never sees your text (runs 100% in-browser)",
         "url": "https://kouh.me/ai-text-detector",
         "hn_url": "https://news.ycombinator.com/item?id=50220254",
         "domain": "kouh.me",
-        "points": 5,
-        "comments": 13,
+        "points": 7,
+        "comments": 15,
         "created_at": "2026-10-24T11:28:36Z",
         "story_text": "",
         "ai_keywords": [
@@ -160,36 +178,89 @@
         "ai_score": 1
       },
       {
-        "id": "50212189",
-        "title": "Show HN: I made a jobs-near-you map",
-        "url": "https://offpeak.fyi/search",
-        "hn_url": "https://news.ycombinator.com/item?id=50212189",
-        "domain": "offpeak.fyi",
-        "points": 5,
-        "comments": 3,
-        "created_at": "2026-10-23T17:06:58Z",
-        "story_text": "Many of us would prefer to work remote, but if you&#x27;re like me, the biggest downside with going to the office is the commute. I created an app that calculates average commute times and displays them on a map. (US only for now). I&#x27;m hoping this is useful for people :)",
+        "id": "50227041",
+        "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+        "url": "https://adrs.systems",
+        "hn_url": "https://news.ycombinator.com/item?id=50227041",
+        "domain": "adrs.systems",
+        "points": 6,
+        "comments": 5,
+        "created_at": "2026-10-25T00:43:47Z",
+        "story_text": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programming: (a) the first problem is how to do <i>oversight</i> and <i>what</i> do oversight <i>of</i> and this is solved through the ORRCF (for  Options, Recommendation, Rationale, Confidence, Falsifier) question format (in which models are supposed to surface all their doubts with fully fleshed out recommendations, with falsifier, to be approved or overridden) (b) the second problem is how to scaffold sustainable AI-written code; the ADRs (Architectural Deliberation Records, after Nygard&#x27;s decision records) written by the models, summarize all the thought process involved in any design decision and provides the blueprint for the code. In tandem, the records provide both the reason why certain non-obvi",
         "ai_keywords": [
-          "rag"
+          "ai",
+          "model",
+          "summar"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50235909",
+        "title": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
+        "url": "https://github.com/SRN0129/Agenttrust",
+        "hn_url": "https://news.ycombinator.com/item?id=50235909",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-10-25T20:46:50Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50235012",
+        "title": "Show HN: Zubspace.gg – remake of 30yo Subspace game, a space MMO in the browser",
+        "url": "https://zubspace.gg/",
+        "hn_url": "https://news.ycombinator.com/item?id=50235012",
+        "domain": "zubspace.gg",
+        "points": 5,
+        "comments": 4,
+        "created_at": "2026-10-25T19:10:41Z",
+        "story_text": "Hey all, SubSpace has been my favorite game since I was a kid playing it in 1997, and its always been a dream of mine to rebuild it for the browser so I could play from any OS and enjoy with others instantly. Here it is: <a href=\"https:&#x2F;&#x2F;zubspace.gg\" rel=\"nofollow\">https:&#x2F;&#x2F;zubspace.gg</a> It&#x27;s open source too: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pkieltyka&#x2F;zubspace\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;pkieltyka&#x2F;zubspace</a> The project is written in Rust targets WASM+WebGL and uses WebRTC data channels for its networking layer for low latency game play :) just load up your favorite agent on it, and feel free to extend it",
+        "ai_keywords": [
+          "agent"
         ],
         "platform_smell": [],
         "ai_score": 1
       },
       {
-        "id": "50223759",
-        "title": "Show HN: Agentsh – A Decentralized, Scalable Multiagent Harness",
-        "url": "https://github.com/microsoft/Agensh",
-        "hn_url": "https://news.ycombinator.com/item?id=50223759",
+        "id": "50235670",
+        "title": "Show HN: MuscleMemory – procedural memory for coding agents, proven by tests",
+        "url": "https://github.com/TheWariend/MuscleMemory",
+        "hn_url": "https://news.ycombinator.com/item?id=50235670",
         "domain": "github.com",
         "points": 5,
-        "comments": 1,
-        "created_at": "2026-10-24T18:19:35Z",
+        "comments": 0,
+        "created_at": "2026-10-25T20:19:47Z",
         "story_text": "",
         "ai_keywords": [
           "agent"
         ],
         "platform_smell": [],
         "ai_score": 1
+      },
+      {
+        "id": "50230702",
+        "title": "Show HN: Find overlapping Rust tests with mutation testing",
+        "url": "https://github.com/yasuyuky/cargo-test-prune",
+        "hn_url": "https://news.ycombinator.com/item?id=50230702",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-10-25T12:02:00Z",
+        "story_text": "To tackle the ever-increasing number of tests, I built cargo-test-prune. The idea behind it is to use cargo-mutants to generate mutants, and then solve the set cover problem for those mutants to suggest which tests can be eliminated.\n(use a greedy algorithm to cover the detected mutants with fewer tests) I came up with this as a countermeasure against the monotonically increasing tests that tend to accumulate, especially when coding with AI. In fact, this very repository was also written using AI. I ran this tool on a previous revision of this repository. There were 11 tests and 108 generated mutants: 73 were caught by the tests, 23 survived, and 12 failed to compile.\nI removed the 5 tests suggested by the tool and re-ran the same 108 mutants. The remaining 6 tests caught the exact same 73",
+        "ai_keywords": [
+          "ai",
+          "generat",
+          "vision"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
       },
       {
         "id": "50219429",
@@ -209,6 +280,90 @@
           "everything"
         ],
         "ai_score": 2
+      },
+      {
+        "id": "50227984",
+        "title": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
+        "url": "https://ai.jagular.io",
+        "hn_url": "https://news.ycombinator.com/item?id=50227984",
+        "domain": "ai.jagular.io",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-10-25T03:25:15Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50237291",
+        "title": "Show HN: A 3D mesh playground for coding agents (three.js + manifold-3d)",
+        "url": "https://sketchagent.dev/s/yfYU6LhT",
+        "hn_url": "https://news.ycombinator.com/item?id=50237291",
+        "domain": "sketchagent.dev",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-26T00:02:39Z",
+        "story_text": "When GPT-6&#x2F;Gemini launched recently, a lot of the 3D demos used blender-mcp (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;ahujasid&#x2F;blender-mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ahujasid&#x2F;blender-mcp</a>). It&#x27;s cool, but you have to install blender locally and wire up plugins just to try a prompt or share a run. I built a browser-based 3D mesh playground so you can hook up your own coding agent over MCP (or run in-browser) directly in a tab. It runs on three.js + manifold-3d for blender-like boolean&#x2F;mesh editing in JS, and gives the agent a render_preview tool to take multi-view screenshots (front&#x2F;right&#x2F;top&#x2F;iso + custom camera angles + clay mode). That way the agent can look at what it built and fix the geometry, similar to how it iterate",
+        "ai_keywords": [
+          "agent",
+          "gemini",
+          "gpt",
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "50235408",
+        "title": "Show HN: SQLite-on-object storage using GCS Appendable Objects",
+        "url": "https://github.com/fatlotus/sqlite-on-gcs-rapid",
+        "hn_url": "https://news.ycombinator.com/item?id=50235408",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-25T19:50:01Z",
+        "story_text": "Recently, I have been playing around with GCS Rapid, a new API in GCS that lets you append to an existing object. It&#x27;s pretty fast, and it&#x27;s cool that you can do a log-structured merge tree on top to get a durable database without needing to run a server. Disclaimer: I am a Google employee, but this is not an official Google product. Do not use this code in production; it has 0 production airmiles and was written with AI.",
+        "ai_keywords": [
+          "ai",
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50231567",
+        "title": "Show HN: Kolo – share your AI coding sessions with anyone",
+        "url": "https://github.com/komovaar/kolo",
+        "hn_url": "https://news.ycombinator.com/item?id=50231567",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-25T13:49:15Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50223715",
+        "title": "Show HN: The missing clipboard history for macOS that idles at 16 MB",
+        "url": "https://roush.io/paste-buff",
+        "hn_url": "https://news.ycombinator.com/item?id=50223715",
+        "domain": "roush.io",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-24T18:15:23Z",
+        "story_text": "Been using Raycast solely for it&#x27;s paste history feature. When profiling saw high memory usage and decided to see how performant I could make a tool that only does paste history. Had Claude start with Tauri, GPUI then finally appkit code.",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
       },
       {
         "id": "50222113",
@@ -244,32 +399,31 @@
         "ai_score": 2
       },
       {
-        "id": "50216053",
-        "title": "Show HN: You Can Just Filter YouTube Playlists in the 'Save to Playlist' Dialog",
-        "url": null,
-        "hn_url": "https://news.ycombinator.com/item?id=50216053",
-        "domain": "",
+        "id": "50226186",
+        "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
+        "url": "https://deepsearch.ing/",
+        "hn_url": "https://news.ycombinator.com/item?id=50226186",
+        "domain": "deepsearch.ing",
         "points": 3,
         "comments": 2,
-        "created_at": "2026-10-23T22:10:54Z",
-        "story_text": "Hi HN, I&#x27;m Cody, I have 847 YouTube playlists, and always hated that YouTube failed to provide basic playlist management tools. Ctrl+F was never convenient and breaks past 200 playlists. So I built &amp; shipped my first Chrome extension. It replaces the Save dialog with a native-feeling searchable one that fetches all your playlists (and whether the current video is saved there) directly from YouTube&#x27;s InnerTube API. It works robustly across every current save surface (watch page, home feed, search results, Shorts via right-click or Alt+S). This version is faster and more stable than my original attempt. In 1.0 I read and wrote YouTube&#x27;s DOM directly. It felt like the efficient approach, but makes for constant UI regressions as YouTube changes, so I can&#x27;t recommend it.",
+        "created_at": "2026-10-24T22:44:35Z",
+        "story_text": "DeepSeek launched their search API so I had to build a search engine on top of it. The search engine is very simple: add your DeepSeek API credentials or OAuth with your DeepSeek account and you can search the web using their API and view results in a familiar web interface. Credentials are stored locally only. The search engine exposes the operators from the API: - Time - Language - Exact terms with &quot;...&quot; (like Google used to) - Forbidden terms with &quot;-&quot; - Site search and excluded sites Search results expose things like domain authority, rank etc. You can also switch to Ask and get a generated response for your question. Give it a try and see if this works as a Google replacement. So far the results seem passable but I&#x27;ve only done quick test queries. I also shared",
         "ai_keywords": [
-          "stable",
-          "video"
+          "generat"
         ],
         "platform_smell": [],
-        "ai_score": 2
+        "ai_score": 1
       },
       {
-        "id": "50206876",
-        "title": "Show HN: Best otaku AI to chat about Anime with",
-        "url": "https://otaku.animearray.site/",
-        "hn_url": "https://news.ycombinator.com/item?id=50206876",
-        "domain": "otaku.animearray.site",
+        "id": "50237813",
+        "title": "Show HN: Freehire, open-source search 3M+ tech jobs from company career boards",
+        "url": "https://freehire.me/",
+        "hn_url": "https://news.ycombinator.com/item?id=50237813",
+        "domain": "freehire.me",
         "points": 3,
-        "comments": 2,
-        "created_at": "2026-10-23T10:36:24Z",
-        "story_text": "",
+        "comments": 0,
+        "created_at": "2026-10-26T01:13:43Z",
+        "story_text": "freehire is a filterable, job board aggregator, job tracker, and AI-assisted resume tailoring tool. Saving your skills and preferences changes which jobs appear and how your resume gets tailored. I&#x27;ve looked at a lot of these solutions over the years and found it really hard to find the right mix of tools in an open-source offering. I&#x27;ve contributed to a few issues now and worked closely with the maintainer. I&#x27;ve watched this evolve over the last few months. I feel it&#x27;s ready for everyone to check out and stress test. Source: github.com&#x2F;strelov1&#x2F;freehire",
         "ai_keywords": [
           "ai"
         ],
@@ -277,36 +431,110 @@
         "ai_score": 1
       },
       {
-        "id": "50214427",
-        "title": "Show HN: Apple-design-hig agent skill, DocC updater CLI, and MCP server",
-        "url": "https://github.com/mr8lu/apple-design-hig",
-        "hn_url": "https://news.ycombinator.com/item?id=50214427",
-        "domain": "github.com",
+        "id": "50235759",
+        "title": "Show HN: MTA.rip: a train visualizer that shows congestion",
+        "url": "https://mta.rip/?station=127&route=1&view=trackmap",
+        "hn_url": "https://news.ycombinator.com/item?id=50235759",
+        "domain": "mta.rip",
         "points": 3,
-        "comments": 1,
-        "created_at": "2026-10-23T19:51:52Z",
-        "story_text": "",
+        "comments": 0,
+        "created_at": "2026-10-25T20:29:22Z",
+        "story_text": "It bugged me recently that the New York City subway countdown clocks show an estimated time that is often inaccurate. Since many of the delays are due to other trains on the same track, I figured: why not just show the trains? Source code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;fatlotus&#x2F;mta-dot-rip&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;fatlotus&#x2F;mta-dot-rip&#x2F;</a>. Disclaimer: This project was written with AI. The code is very hacky, I wouldn&#x27;t use it for learning if you&#x27;re just getting started with Go or JavaScript.",
         "ai_keywords": [
-          "agent"
+          "ai"
         ],
         "platform_smell": [],
         "ai_score": 1
       },
       {
-        "id": "50223715",
-        "title": "Show HN: The missing clipboard history for macOS that idles at 16 MB",
-        "url": "https://roush.io/paste-buff",
-        "hn_url": "https://news.ycombinator.com/item?id=50223715",
-        "domain": "roush.io",
+        "id": "50233491",
+        "title": "Show HN: Junior – an open-source AI junior engineer that runs on your Mac",
+        "url": "https://github.com/usejunior-sh/junior",
+        "hn_url": "https://news.ycombinator.com/item?id=50233491",
+        "domain": "github.com",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-10-24T18:15:23Z",
-        "story_text": "Been using Raycast solely for it&#x27;s paste history feature. When profiling saw high memory usage and decided to see how performant I could make a tool that only does paste history. Had Claude start with Tauri, GPUI then finally appkit code.",
+        "created_at": "2026-10-25T16:45:33Z",
+        "story_text": "Hi HN, I&#x27;m Samar, a software engineer. I built Junior because I was spending more time fixing CI issues, babysitting PRs and resolving merge conflicts. I thought maybe i should automate all of it, and that&#x27;s why I started building Junior. Junior is an agent that runs locally on macOS and picks up that kind of work. It connects with my Linear, Slack, Github etc and autopicks work for himself. It works on it and shares a report for me to review. It&#x27;s open source under. I&#x27;d love feedback, especially on the permission model and how autonomous should it work. Happy to answer anything.",
         "ai_keywords": [
-          "claude"
+          "agent",
+          "ai",
+          "automat",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "50231634",
+        "title": "Show HN: TemplateBox – Free resume, invoice and mockup editors in the browser",
+        "url": "https://templatebox.win/",
+        "hn_url": "https://news.ycombinator.com/item?id=50231634",
+        "domain": "templatebox.win",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-25T13:54:55Z",
+        "story_text": "",
+        "ai_keywords": [
+          "voice"
         ],
         "platform_smell": [],
         "ai_score": 1
+      },
+      {
+        "id": "50228239",
+        "title": "Show HN: Dadgpt Open Source Halloween Costume",
+        "url": "https://dadgptcostume.vercel.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50228239",
+        "domain": "dadgptcostume.vercel.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-25T04:10:48Z",
+        "story_text": "Fork the repo. Load it on your phone. Attach your phone to a baseball hat. Make it your own. Happy Halloween.",
+        "ai_keywords": [
+          "gpt"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50227943",
+        "title": "Show HN: An OSS browser and work environment for humans and agents",
+        "url": "https://github.com/zephium-browser/Zephium",
+        "hn_url": "https://news.ycombinator.com/item?id=50227943",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-25T03:16:39Z",
+        "story_text": "Fast, private, fully-featured, built in Rust (forked Wry, system&#x27;s WebView). 40 MB. Not a Chromium fork. Native adblocking (forked adblock-rust), major Chrome extension support, deeply integrated productivity tools, a custom agentic browsing engine, and a lot more. It&#x27;s not just another wrapper built in a few days. And... Work mode: a shared environment where you and AI agents can browse, research, build, and get real work done together. Live browser sessions, parallel sub-agents, tools, files, components, and interactive results, all in one canvas. AI is optional (disable in one click). No telemetry. BYOK support and local models. Website: <a href=\"https:&#x2F;&#x2F;zephium.app\" rel=\"nofollow\">https:&#x2F;&#x2F;zephium.app</a>\nLaunch video: <a href=\"https:&#x2F;&#x2F;youtu.be&#x",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "model",
+          "video"
+        ],
+        "platform_smell": [
+          "all in one"
+        ],
+        "ai_score": 4
+      },
+      {
+        "id": "50225727",
+        "title": "Show HN: Tributary – Discover who influenced your favorite musicians",
+        "url": "https://tributary.music/",
+        "hn_url": "https://news.ycombinator.com/item?id=50225727",
+        "domain": "tributary.music",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-24T21:51:53Z",
+        "story_text": "tributary.music uses artists&#x27; own accounts &amp; critics&#x27; writing to determine an artist&#x27;s influences. It pairs one song from the artist with one from the influence so you can directly hear similarities, differences, and how the sound evolved. I had been in a bit of a funk finding new music to listen to. Spotify&#x27;s Discover Weekly lost its charm for me a while ago. This led me to start digging into the influences of some of my favorite artists to see if I&#x27;d like their music too. I did. I then wanted to scale that so it wasn&#x27;t so much manual work. Claude &amp; ChatGPT did most of the heavy lifting around finding &amp; summarizing articles and influences. I found the result compelling so I wanted to publish and share it. I&#x27;ve now found a few new artists in m",
+        "ai_keywords": [
+          "claude",
+          "gpt",
+          "summar"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
       },
       {
         "id": "50218504",
@@ -342,188 +570,43 @@
         "ai_score": 2
       },
       {
-        "id": "50215547",
-        "title": "Show HN: Conference / expo / trade show finder plus MCP",
-        "url": "https://www.conferencefindr.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50215547",
-        "domain": "conferencefindr.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T21:22:57Z",
-        "story_text": "As a founder looking for industry events to network&#x2F;sell at, Claude&#x2F;ChatGPT search for conferences is extremely hit or miss. IME the agent never goes deep enough and frequently includes out of date events, misleading prices (claiming an event is free, but it&#x27;s only free for buyers and $2795 for everyone else), or only the most major events. Also never sure if I&#x27;m missing something cheaper or closer or a better fit. Spent a whole week&#x27;s worth of tokens on industry event research validating event dates, finding prices, filtering junk events, de-duping, and generally cleaning up the data. May it be useful to other founders trying to sell.",
-        "ai_keywords": [
-          "agent",
-          "claude",
-          "gpt"
-        ],
-        "platform_smell": [],
-        "ai_score": 3
-      },
-      {
-        "id": "50214578",
-        "title": "Show HN: Dánwò – Open-source E2E testing with emulators and fault injection",
-        "url": "https://github.com/carbonmeai/danwo",
-        "hn_url": "https://news.ycombinator.com/item?id=50214578",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T20:06:32Z",
-        "story_text": "Hi HN, I&#x27;m Faithful. I built dánwò, an open-source (Apache-2.0) end-to-end testing framework for web and mobile apps, written in TypeScript. The problem: a UI test can click &quot;Pay&quot;, see &quot;Payment successful&quot; and pass, while the card was charged twice, the webhook was handled twice, or the receipt email never went out. With coding agents writing more of our code, that gap between &quot;the screen looks right&quot; and &quot;the right things happened&quot; is where I kept finding bugs. How it works: - Tests drive the app like a user, with locators or plain-English agent steps. An agent step calls a model once; danwo records the actions and replays them on later runs with no model calls, so CI doesn&#x27;t need an API key. - Your app runs behind an egress proxy. Calls t",
-        "ai_keywords": [
-          "agent",
-          "model"
-        ],
-        "platform_smell": [
-          "end-to-end"
-        ],
-        "ai_score": 2
-      },
-      {
-        "id": "50213691",
-        "title": "Show HN: Instant – Local AI search with a 95% hit rate (uses Perplexity models)",
-        "url": "https://useinstantsearch.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50213691",
-        "domain": "useinstantsearch.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T18:52:34Z",
-        "story_text": "Hi HN! Instant Search is the first accurate local AI file search that uses the latest embedding models from Perplexity to find the exact file (and page) with the content you’re looking for with a 95% hit rate. Search never worked properly, especially with local files. Now, you can find the right image, document, or Obsidian file in seconds. Looking for your driver’s license? Just type “driver’s license”. Looking for a particular note? Just explain the context. Why not Finder&#x2F;Spotlight? Spotlight is just a keyword search. It doesn’t understand file content. Instant finds the exact file you’re describing in under a second. Why not RAG? Traditional RAG models give you a single embedding vector per entire body of text. That means either you have a vector that’s not detailed enough to give",
-        "ai_keywords": [
-          "ai",
-          "embedding",
-          "image",
-          "model",
-          "rag"
-        ],
-        "platform_smell": [],
-        "ai_score": 5
-      },
-      {
-        "id": "50212897",
-        "title": "Show HN: ZapFast, a native WhatsApp client with voice and video calls on Linux",
-        "url": "https://zapfast.rocks/",
-        "hn_url": "https://news.ycombinator.com/item?id=50212897",
-        "domain": "zapfast.rocks",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T17:55:43Z",
-        "story_text": "",
-        "ai_keywords": [
-          "video",
-          "voice"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50211429",
-        "title": "Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS",
-        "url": "https://kunalkushwaha.github.io/homebrew-koala/",
-        "hn_url": "https://news.ycombinator.com/item?id=50211429",
-        "domain": "kunalkushwaha.github.io",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T16:18:31Z",
-        "story_text": "",
-        "ai_keywords": [
-          "agent",
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50210931",
-        "title": "Show HN: Aurora Agentic Terminal",
-        "url": "https://aurora.shitworks.co/",
-        "hn_url": "https://news.ycombinator.com/item?id=50210931",
-        "domain": "aurora.shitworks.co",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T15:46:44Z",
-        "story_text": "",
-        "ai_keywords": [
-          "agent"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50209455",
-        "title": "Show HN: Vericto – Check AI agents' SQL before Postgres or MySQL runs it",
-        "url": "https://github.com/vericto/vericto-proxy",
-        "hn_url": "https://news.ycombinator.com/item?id=50209455",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T14:16:26Z",
-        "story_text": "",
-        "ai_keywords": [
-          "agent",
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50209300",
-        "title": "Show HN: Loudwalk – Review your Anki deck out loud on a walk",
-        "url": "https://loudwalk.com/?from=hn",
-        "hn_url": "https://news.ycombinator.com/item?id=50209300",
-        "domain": "loudwalk.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T14:08:33Z",
-        "story_text": "Hey HN, Loudwalk (<a href=\"https:&#x2F;&#x2F;loudwalk.com&#x2F;?from=hn\" rel=\"nofollow\">https:&#x2F;&#x2F;loudwalk.com&#x2F;?from=hn</a>) is an app I built for myself to review my Anki flashcards out loud on a walk, and am excited to share today. Anki has changed my life and is probably the best habit I&#x27;ve managed to stick with. Apart from helping at my tech day-job and remembering random things I find interesting (relatives&#x27; birthdays, quotes, poetry), it allowed me to become conversational in Russian in 2 years and complete the first year of a French university degree in Art History - all while working full-time as CTO and co-founder at my company. I have an average memory at best, and it is crazy what Anki unlocks with consistency. Recently I&#x27;ve been exploring how interac",
-        "ai_keywords": [
-          "rag"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50208419",
-        "title": "Show HN: Mark – AI chat that answers with diagrams, quizzes and 3D models",
-        "url": "https://saanora.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50208419",
-        "domain": "saanora.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T13:09:25Z",
-        "story_text": "",
-        "ai_keywords": [
-          "ai",
-          "model"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50205300",
-        "title": "Show HN: Hlas-1: open-weight 3B params TTS with frontier performance",
-        "url": "https://huggingface.co/cekal/hlas-1",
-        "hn_url": "https://news.ycombinator.com/item?id=50205300",
-        "domain": "huggingface.co",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T06:52:05Z",
-        "story_text": "With the release and hype around Drama-3 by Fish Audio, I&#x27;ve decided to challenge myself &amp; create my own TTS model in my spare time. It is 1&#x2F;10th the size of Drama 3, can be just as expressive, and can take instructions about emotion and pacing for fine-grained output. Obviously it&#x27;s not perfect, but from my experience still better than whatever is out there at this size. Burned 300 bucks on this thing so enjoy. Demo: <a href=\"https:&#x2F;&#x2F;vojtechcekal.com&#x2F;hlas\" rel=\"nofollow\">https:&#x2F;&#x2F;vojtechcekal.com&#x2F;hlas</a> P.S.: it&#x27;s a Breeze v2 finetune (best open weight base model out there overall) so their weird license applies (unfortunately). Might finetune on a more permissive base in the future.",
-        "ai_keywords": [
-          "model"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
         "id": "50224916",
         "title": "Show HN: Steal My Bitcoin",
         "url": "https://stealmybitcoin.com/",
         "hn_url": "https://news.ycombinator.com/item?id=50224916",
         "domain": "stealmybitcoin.com",
-        "points": 418,
-        "comments": 259,
+        "points": 590,
+        "comments": 438,
         "created_at": "2026-10-24T20:30:31Z",
         "story_text": "Made this because I&#x27;m curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50232312",
+        "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+        "url": "https://bigwhalehunting.com/workforce/",
+        "hn_url": "https://news.ycombinator.com/item?id=50232312",
+        "domain": "bigwhalehunting.com",
+        "points": 167,
+        "comments": 47,
+        "created_at": "2026-10-25T15:05:39Z",
+        "story_text": "I was playing around with visualising the S&amp;P 500 by market cap and decided to add employees to each company&#x27;s bubble. What surprised me was how empty some of the biggest companies looked. Nvidia is worth $5.2 trillion but employs only 42,000 people. That&#x27;s around $124 million in market cap per employee. Meanwhile, Accenture employs 814,000 people and is worth $146 billion. Each stick figure represents 10,000 employees. You can zoom in and explore individual companies. I wrote a bit more about what I found here: <a href=\"https:&#x2F;&#x2F;bigwhalehunting.com&#x2F;blog&#x2F;workforce&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bigwhalehunting.com&#x2F;blog&#x2F;workforce&#x2F;</a> Would be interested to hear what you think.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50231349",
+        "title": "Show HN: Farol – A risk map of a pull request for the person who approves it",
+        "url": "https://github.com/winnin/farol",
+        "hn_url": "https://news.ycombinator.com/item?id=50231349",
+        "domain": "github.com",
+        "points": 60,
+        "comments": 37,
+        "created_at": "2026-10-25T13:28:06Z",
+        "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -534,8 +617,8 @@
         "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
         "hn_url": "https://news.ycombinator.com/item?id=50220042",
         "domain": "gitlab.com",
-        "points": 52,
-        "comments": 17,
+        "points": 57,
+        "comments": 19,
         "created_at": "2026-10-24T10:51:35Z",
         "story_text": "",
         "ai_keywords": [],
@@ -549,7 +632,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50218975",
         "domain": "benwinding.github.io",
         "points": 12,
-        "comments": 7,
+        "comments": 8,
         "created_at": "2026-10-24T07:18:37Z",
         "story_text": "Encarta is super nostalgic, and I was surprised it wasn&#x27;t available to use online. So I embarked on the difficult task of making it so. The way this works is the most convoluted, nonsense and brittle system ever... but it works as a statically hosted gh-pages site! Please note: All the material on this site is freely available through the internet archive (see github readme) Github repo -&gt; <a href=\"https:&#x2F;&#x2F;github.com&#x2F;benwinding&#x2F;encarta_95_web\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;benwinding&#x2F;encarta_95_web</a>",
         "ai_keywords": [],
@@ -571,6 +654,132 @@
         "ai_score": 0
       },
       {
+        "id": "50231566",
+        "title": "Show HN: Kosh - Give the browser bookmarks a second life",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/kosh/",
+        "hn_url": "https://news.ycombinator.com/item?id=50231566",
+        "domain": "addons.mozilla.org",
+        "points": 7,
+        "comments": 1,
+        "created_at": "2026-10-25T13:48:50Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50230557",
+        "title": "Show HN: EdgePad – tool for configuring edge touchpad gestures on Linux laptops",
+        "url": "https://github.com/assembledev/edgepad",
+        "hn_url": "https://news.ycombinator.com/item?id=50230557",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-10-25T11:39:53Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50231429",
+        "title": "Show HN: macOS window switcher replacement that keeps each Space separate",
+        "url": "https://debutspace.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50231429",
+        "domain": "debutspace.com",
+        "points": 5,
+        "comments": 4,
+        "created_at": "2026-10-25T13:35:57Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50232108",
+        "title": "Show HN: HissingKitty – what teams pay for software and what replaced it",
+        "url": "https://hissingkitty.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50232108",
+        "domain": "hissingkitty.com",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-10-25T14:46:10Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50225644",
+        "title": "Show HN: WhatsApp Bridge for those with their own VPS",
+        "url": "https://github.com/vid-t/whatsapp-bridge",
+        "hn_url": "https://news.ycombinator.com/item?id=50225644",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-10-24T21:41:02Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50228314",
+        "title": "Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you",
+        "url": "https://independentvet.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50228314",
+        "domain": "independentvet.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-25T04:26:00Z",
+        "story_text": "Three years ago, our dog was sideswiped by a car and my wife took him to the local vet in Berkeley. Unfortunately, things did not go well and to cut a long story short, he passed after 2 days and $13k of bills for very limited care. I was surprised to learn that the seemingly mom &amp; pop practice had been acquired by a PE-owned consolidator and that around 50% of practices in the US are now owned by mostly PE-backed corporate groups - a trend that rapidly accelerated after COVID. I started a small janky passion project called <a href=\"https:&#x2F;&#x2F;privateequityvet.org\" rel=\"nofollow\">https:&#x2F;&#x2F;privateequityvet.org</a> which used Leaflet.js to map corporately owned veterinary practices in the US. The site gradually took off, was covered on PBS Newshour and now gets 20k unique",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50228115",
+        "title": "Show HN: A Truly Modular Keyboard",
+        "url": "https://github.com/notaroomba/keybytes",
+        "hn_url": "https://news.ycombinator.com/item?id=50228115",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-25T03:47:56Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50221460",
+        "title": "Show HN: Shotstash – Self-hosted media cloud for creators (MIT, BYO-AI)",
+        "url": "https://github.com/Aldyernesto/shotstash",
+        "hn_url": "https://news.ycombinator.com/item?id=50221460",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-10-24T14:17:40Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50224730",
+        "title": "Show HN: Duls – A bit of du, a bit of ls. Best of both",
+        "url": "https://github.com/baalimago/duls",
+        "hn_url": "https://news.ycombinator.com/item?id=50224730",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-10-24T20:14:40Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
         "id": "50220526",
         "title": "Show HN: BulkTextKit – 15 free text tools that run entirely in your browser",
         "url": "https://bulktextkit.gt.tc",
@@ -580,62 +789,6 @@
         "comments": 0,
         "created_at": "2026-10-24T12:11:29Z",
         "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50209919",
-        "title": "SHOW HN:Free interactive Python and SQL courses that run in the browser",
-        "url": "https://www.runtime.school",
-        "hn_url": "https://news.ycombinator.com/item?id=50209919",
-        "domain": "runtime.school",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-10-23T14:44:03Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50205848",
-        "title": "Show HN: I built a tool to track Trump's posts and their potential market impact",
-        "url": "https://trumpgist.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50205848",
-        "domain": "trumpgist.com",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-10-23T08:09:34Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50213531",
-        "title": "Show HN: WhatsApp MCP – An MCP server for interacting with WhatsApp",
-        "url": "https://github.com/sahilPadmani/whatsapp-mcp",
-        "hn_url": "https://news.ycombinator.com/item?id=50213531",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 6,
-        "created_at": "2026-10-23T18:40:14Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50206474",
-        "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
-        "url": "https://www.cryptex-vault.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50206474",
-        "domain": "cryptex-vault.com",
-        "points": 3,
-        "comments": 4,
-        "created_at": "2026-10-23T09:38:12Z",
-        "story_text": "Hello everyone! About four years ago, a password manager I&#x27;ve used and depended on has been acquired and soon after, it was shut down. If anyone remembers MYKI, it was a password manager that stood out at the time.\nIt didn&#x27;t require an email address and a password for registration and it synchronized credentials peer-to-peer. It was quite handy so a couple of my friends and I got hooked, and were using it up until the last day it was online. The thing was, I didn&#x27;t want to change password managers to other options available at the time, none felt right - I wanted to stay.. So I did what any sensible engineer would do 4 years ago and I wrote my own. I moved all my credentials there as soon as I had a first version ready. It was ugly (God knows I had UI&#x2F;UX skills to learn",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -655,127 +808,71 @@
         "ai_score": 0
       },
       {
-        "id": "50216858",
-        "title": "Show HN: OpenZPL. Render Zebra ZPL Labels to PNG/PDF, Drop-In for Labelary",
-        "url": "https://openzpl.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50216858",
-        "domain": "openzpl.com",
+        "id": "50237773",
+        "title": "Show HN: RainbowSay – Learn, teach, research languages live with shows you love",
+        "url": "https://rainbowsay.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=50237773",
+        "domain": "rainbowsay.ai",
         "points": 3,
-        "comments": 3,
-        "created_at": "2026-10-23T23:38:45Z",
+        "comments": 0,
+        "created_at": "2026-10-26T01:08:13Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
       },
       {
-        "id": "50225644",
-        "title": "Show HN: WhatsApp Bridge for those with their own VPS",
-        "url": "https://github.com/vid-t/whatsapp-bridge",
-        "hn_url": "https://news.ycombinator.com/item?id=50225644",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-10-24T21:41:02Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50211151",
-        "title": "Show HN: Ts-polyglot – Call C/C++ or Rust functions directly from TypeScript",
-        "url": "https://ts-polyglot.dev",
-        "hn_url": "https://news.ycombinator.com/item?id=50211151",
-        "domain": "ts-polyglot.dev",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-10-23T16:00:19Z",
-        "story_text": "Hi HN, Experimenting with new Content Mappers feature in TypeScript 7.1 beta, and come up with one usefull idea: Why don&#x27;t we try to import C, C++, Rust files directly into TypeScript and call native functions without manually writing all the bindings? Super simple and stupid implementation, but let&#x27;s see how it goes. Technically, something similar was already possible with Volar.js, but TypeScript 7.1 makes the integration much more straightforward.",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50206619",
-        "title": "Show HN: L4ES – verifiable Linux microVMs powered by seL4",
-        "url": "https://l4es.dev/",
-        "hn_url": "https://news.ycombinator.com/item?id=50206619",
-        "domain": "l4es.dev",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-10-23T09:59:24Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50205419",
-        "title": "Show HN: Emails on Your Mac's Notch",
-        "url": "https://gotemail.net/",
-        "hn_url": "https://news.ycombinator.com/item?id=50205419",
-        "domain": "gotemail.net",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-10-23T07:09:02Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50221460",
-        "title": "Show HN: Shotstash – Self-hosted media cloud for creators (MIT, BYO-AI)",
-        "url": "https://github.com/Aldyernesto/shotstash",
-        "hn_url": "https://news.ycombinator.com/item?id=50221460",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-10-24T14:17:40Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50215599",
-        "title": "Show HN: libfpv - Modding FPV Drone into Any Game",
-        "url": "https://hammerill.com/en/blog/libfpv",
-        "hn_url": "https://news.ycombinator.com/item?id=50215599",
-        "domain": "hammerill.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-10-23T21:26:58Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50207695",
-        "title": "Show HN: HatchZip – extract archives without needing double the disk space",
-        "url": "https://github.com/xevrion/hatchzip",
-        "hn_url": "https://news.ycombinator.com/item?id=50207695",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-10-23T12:09:53Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50224730",
-        "title": "Show HN: Duls – A bit of du, a bit of ls. Best of both",
-        "url": "https://github.com/baalimago/duls",
-        "hn_url": "https://news.ycombinator.com/item?id=50224730",
+        "id": "50236370",
+        "title": "Show HN: Jet Pilot – An open-source, native Kubernetes desktop client",
+        "url": "https://github.com/unxsist/jet-pilot",
+        "hn_url": "https://news.ycombinator.com/item?id=50236370",
         "domain": "github.com",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-10-24T20:14:40Z",
+        "created_at": "2026-10-25T21:48:48Z",
         "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50234464",
+        "title": "Show HN: xcalidraw -a local-first desktop app for managing Excalidraw drawings",
+        "url": "https://github.com/xdagiz/xcalidraw",
+        "hn_url": "https://news.ycombinator.com/item?id=50234464",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-25T18:23:20Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50230693",
+        "title": "Show HN: Shrinking my 159-byte x86-64 Hello World ELF to 153 bytes",
+        "url": "https://blog.lohr.dev/hello-world-contd",
+        "hn_url": "https://news.ycombinator.com/item?id=50230693",
+        "domain": "blog.lohr.dev",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-25T12:00:06Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50226569",
+        "title": "Show HN: Redmi phone can do things that $16K GPU is needed for on Ethereum",
+        "url": "https://github.com/ignotusnemo/paramo1d",
+        "hn_url": "https://news.ycombinator.com/item?id=50226569",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-10-24T23:32:57Z",
+        "story_text": "Recursive State proof verification from genesis: 10.78 seconds\n Peak process memory: 192.2 MiB\n Subsequent block downloads and verification: 11.94–13.20 seconds",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -821,490 +918,434 @@
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
-      },
-      {
-        "id": "50214385",
-        "title": "Show HN: ObsidianYouTubeSync – Sync YouTube History into Obsidian",
-        "url": "https://github.com/mr8lu/ObsidianYouTubeSync",
-        "hn_url": "https://news.ycombinator.com/item?id=50214385",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T19:48:14Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50213536",
-        "title": "Show HN: Cascache – A Go cache where slow reads can't undo invalidation",
-        "url": "https://github.com/unkn0wn-root/cascache/",
-        "hn_url": "https://news.ycombinator.com/item?id=50213536",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T18:40:34Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50207342",
-        "title": "Show HN: A billing ledger on Postgres, tested with randomized invariants",
-        "url": "https://github.com/alt-f6/edtech-billing-core",
-        "hn_url": "https://news.ycombinator.com/item?id=50207342",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T11:33:17Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50206431",
-        "title": "Show HN: KronLSTM Walkthrough",
-        "url": "https://kron-lstm.vercel.app/",
-        "hn_url": "https://news.ycombinator.com/item?id=50206431",
-        "domain": "kron-lstm.vercel.app",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-10-23T09:32:10Z",
-        "story_text": "KronLSTM launched! KronLSTM is built on the Kronecker Delta Rule: instead of correcting the vector stored at a key, it corrects a single scalar, how strongly this key is bound to this value. An existing association is disturbed only if both its key AND its value overlap with the new pair (Klambauer). Enjoy a short walkthrough of the net.",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
       }
     ],
     "product_hunt": [],
     "civitai_flux": [
       {
         "is_flux": false,
-        "id": 146645745,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a8fc198-280c-489c-b531-e250e49c5a2c/original=true/9a8fc198-280c-489c-b531-e250e49c5a2c.jpeg",
-        "posted_at": "2026-10-24T07:11:00.867Z",
-        "username": "dkuroinu923",
-        "model_version_id": null,
-        "model_name": "rinFlanimeAnima_v14",
-        "base_model": "Anima",
-        "stats": {
-          "likes": 247,
-          "hearts": 76,
-          "comments": 4
-        },
-        "meta": {
-          "prompt": "(@sesmkun),\nnewest, masterpiece, score_7, highres, safe,\npolished anime illustration, refined flat coloring, delicate intricate details, precise expressive lineart, nuanced cel shading,\nserious scene, comical atmosphere,\n1girl, shirakami fubuki, white hair, fox ears, tied-up hair, folded ponytail,\nwhite button-up shirt, loosened necktie, open collar, wrinkled shirt, disheveled clothing, tired appearance, no jacket,\nupper body, sitting on chair, holding pen, working at desk, scattered papers, cluttered desk,\nblack cat, smug cat, mischievous cat, cat perched on girl's head,\n(cat's front paws completely covering both of the girl's eyes:1.8),\n(both eyes entirely hidden behind the cat's paws:1.8),\neyes fully obscured, eyes not visible, no visible eyes,\nextreme low-angle shot, desk-level viewpoint, looking diagonally upward, tilted camera angle, dramatic foreshortening,\nafternoon apartment interior, window, warm afternoon sunlight, sunbeams, floating dust particles, atmospheric lighting,",
-          "negative_prompt": "worst quality, low quality,",
-          "sampler": "er_sde_beta",
-          "steps": 20,
-          "cfg_scale": 6,
-          "seed": 636661863876443,
-          "width": 1248,
-          "height": 1824,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9a8fc198-280c-489c-b531-e250e49c5a2c/original=true/9a8fc198-280c-489c-b531-e250e49c5a2c.jpeg",
-        "local_file": "146645745.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146633752,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50731cc8-d9f8-4165-8b74-f8b39f3ca3c9/original=true/50731cc8-d9f8-4165-8b74-f8b39f3ca3c9.jpeg",
-        "posted_at": "2026-10-24T04:08:27.216Z",
-        "username": "FLESK",
+        "id": 146725230,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a416fed1-2d0c-4dcb-a3fe-4616dc29267e/original=true/a416fed1-2d0c-4dcb-a3fe-4616dc29267e.jpeg",
+        "posted_at": "2026-10-25T03:00:00.000Z",
+        "username": "LuCtiNy",
         "model_version_id": null,
         "model_name": null,
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 220,
-          "hearts": 69,
-          "comments": 5
+          "likes": 222,
+          "hearts": 59,
+          "comments": 1
         },
         "meta": {
-          "prompt": "Subject and Action: An abstract, brutally expressive vision of an aging Batman in the visual spirit of The Dark Knight Returns. An enormous, battle-worn silhouette of human defiance, a hulking mass of muscle, armor, and weathered flesh, hunched beneath a colossal black cape that dissolves into jagged, ink-soaked shadows. His body is a fortress built by decades of violence; thick neck, massive shoulders, scarred knuckles, battered armor, and a face carved into something between a gargoyle and a dying god. A grim mouth, the cowl framing a face worn down by time but never conquered by it. An old predator whose sheer physical presence makes the surrounding world seem small, a monument to aging, rage, mortality, and the terrifying refusal to surrender. Beautifully ugly, iconic, feral, monumental, unsettling.\nSetting and Composition: The composition feels like a forgotten graphic novel discovered in the ruins of civilization. Monumental, distorted proportions; dynamic, asymmetrical framing; oppressive negative space; brutal chiaroscuro; fragmented anatomy; painterly distortion; raw gestural strokes; imperfect linework; visual tension between monstrous physicality and exhausted humanity. Gotham becomes an abstract nightmare of towering concrete, broken neon, and crooked architectural shapes, barely distinguishable from the darkness swallowing it. A single electric flash cuts across the composition, illuminating Batman's enormous silhouette like an ancient idol exposed by lightning.\nLighting and Atmosphere: High contrast lighting with a single electric flash cutting across the composition, creating a brutal chiaroscuro effect. The atmosphere is oppressive and hostile, with shadows that feel menacing and a sense of raw, feral energy. The lighting emphasizes the weathered textures and the monumental scale of the figure, making the surrounding world seem small and insignificant.\nMaterial and Texture Detail: Savage black brushwork; rough ink hatching; bleeding charcoal; dirty halftones; aggressive cross-contours; coarse paper grain; violent splashes of muted ochre, bruised gray, nicotine yellow, and arterial crimson. The image should feel like a psychological artifact, with every mark feeling handmade and every shadow feeling hostile. The texture is raw and imperfect, with a handmade quality that contrasts with the monumental scale of the figure.\nAesthetic and Style: In the style of Ashley Wood, with a DEADCHROME aesthetic. Graphic illustration with rough ink sketch elements, painterly brushwork, and ink splatters. Weathered colors and a high-contrast, brutal visual language. The image should feel less like a conventional superhero illustration and more like a psychological artifact, a brutal collision of ink, paint, abstraction, and graphic-novel violence. Batman as an old war god who has outlived his own legend, and is still more dangerous than anything that comes for him.",
+          "prompt": "NijiSIS, A moody, high-contrast digital illustration of a young adult woman surrounded by a giant glowing spider web, shot like a gothic editorial photoshoot from a steep, tilted low angle. Her body leans in at a soft diagonal while her head tips back toward a bright circular opening behind her, green eyes with long lashes glancing down at the viewer, a playful, dreamy, slightly teasing expression, coral lips parted and one teal-manicured finger resting against her chin. Her other hand reaches out toward the camera in the lower right corner, fingers softly curled. Her sleek dark bob with blunt bangs frames her face, a silver drop earring catching the light. She wears a black high-collared blouse with sheer, voluminous sleeves and ruffled cuffs over a dark bodice. Pale silk threads crisscross the whole frame in sharp white lines against a muted grey-olive backdrop, a bright halo of white light glowing behind her head. Hard, directional light slices through the web and casts a crisp shadow pattern across her face and the sheer fabric, with fine ink linework and glossy cel-shading. The composition is vertical and asymmetrical, with her face tilted off-center in the upper half and the outstretched hand balancing the lower right. Whimsical, mysterious, gothic-dreamy atmosphere; graphic anime-inspired style with strong light and shadow, restrained palette of charcoal black, silvery white, olive grey, peach skin, and teal accents,masterpiece,very aesthetic,zidiusArt",
           "negative_prompt": null,
           "sampler": "euler",
-          "steps": 15,
-          "cfg_scale": 2,
-          "seed": 789863264,
-          "width": 928,
-          "height": 1152,
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1424453893,
+          "width": 832,
+          "height": 1248,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/50731cc8-d9f8-4165-8b74-f8b39f3ca3c9/original=true/50731cc8-d9f8-4165-8b74-f8b39f3ca3c9.jpeg",
-        "local_file": "146633752.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a416fed1-2d0c-4dcb-a3fe-4616dc29267e/original=true/a416fed1-2d0c-4dcb-a3fe-4616dc29267e.jpeg",
+        "local_file": "146725230.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 146648221,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e77d3b98-55b5-425e-a4c6-ba4cad86e4cb/original=true/e77d3b98-55b5-425e-a4c6-ba4cad86e4cb.jpeg",
-        "posted_at": "2026-10-24T07:40:50.372Z",
+        "id": 146725229,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc3317c3-2748-4e94-a52b-b34678604d50/original=true/bc3317c3-2748-4e94-a52b-b34678604d50.jpeg",
+        "posted_at": "2026-10-25T03:00:00.000Z",
+        "username": "LuCtiNy",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 159,
+          "hearts": 58,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "NijiSIS, A vintage-inspired, richly textured digital illustration of a young adult woman in a tight close-up, resting her head on her folded arm, shot like an intimate editorial photoshoot from a low, tilted side angle at table level. Her body lies in a relaxed diagonal while her head tilts toward the viewer, pale grey eyes lined with sharp red eyeliner, a soft, tired, slightly mischievous gaze, a small beauty mark and freckles on her cheek and lips resting lightly against her wrist. Her black hair with heavy blunt bangs falls unevenly over her forehead and cheek, a long ornate silver earring dangling at her ear. One hand stretches forward across the frame in a relaxed drape, with a large black filigree ring on one finger and glossy black pointed nails, a delicate lace pattern tattoo curling around her forearm. She wears a loose white translucent sleeve at the lower right, resting on a black-and-red lacquered surface patterned with floral textile designs in gold, blue, and crimson, a plain wooden wall behind her. Soft, warm, slightly dim indoor light models her face with a gentle shadow along the jaw, with fine ink linework, grainy print texture and flat gouache-style color. The composition is horizontal-leaning and tightly cropped, with her hand pointing diagonally down toward the lower right and her face anchored off-center. Languid, intimate, quietly seductive atmosphere; retro ink-print anime-inspired style, restrained palette of jet black, ivory white, vermilion red, slate blue, and warm wood brown,masterpiece,very aesthetic,zidiusArt",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 652909115,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bc3317c3-2748-4e94-a52b-b34678604d50/original=true/bc3317c3-2748-4e94-a52b-b34678604d50.jpeg",
+        "local_file": "146725229.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146755896,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f1754d-6793-44b1-9d1f-51834f1a2ac6/original=true/52f1754d-6793-44b1-9d1f-51834f1a2ac6.jpeg",
+        "posted_at": "2026-10-25T07:37:31.126Z",
+        "username": "madmax17",
+        "model_version_id": null,
+        "model_name": "krea2Turbo_v10",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 168,
+          "hearts": 35,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "minimalist composition, emphasizing limited palette inks, Ukiyo-like, Ukiyo-style, Sumi-like, Sumi-style, anime screenshot, 2D cel shaded illustration, zidiusArt, A hyperrealistic, close-up portrait of a jester's face with heavily cracked white makeup. The jester wears a black and gold jester hat with bells and a matching ornate collar. The lighting is dramatic, with deep shadows emphasizing the textures of the cracked makeup and the jester's piercing eyes. The overall mood is eerie and unsettling.\n <lora:training_4895741-20260808103305007:1> <lora:Mrpopo anime full potential:1> <lora:training_4461607-20260709204808877:1>",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 16,
+          "cfg_scale": 1,
+          "seed": 4244755383,
+          "width": 1096,
+          "height": 1496,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/52f1754d-6793-44b1-9d1f-51834f1a2ac6/original=true/52f1754d-6793-44b1-9d1f-51834f1a2ac6.jpeg",
+        "local_file": "146755896.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146752033,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c86b373c-850e-4929-8cca-4f67352b6a80/original=true/c86b373c-850e-4929-8cca-4f67352b6a80.jpeg",
+        "posted_at": "2026-10-25T06:37:52.089Z",
+        "username": "kia2200",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 142,
+          "hearts": 43,
+          "comments": 1
+        },
+        "meta": {
+          "prompt": "A hyper-realistic high-fashion portrait of a woman with an avant-garde, dark ethnic-gothic aesthetic. She wears a structured, dome-like headwrap made of heavily textured, distressed dark grey and black denim or jacquard fabric, featuring intricate geometric patterns, thick braided black trims, and lines of small, beaded studs. The headpiece covers her forehead and eyes, casting deep shadows. A dramatic, thick vertical black stripe is painted down the center of her nose, her chin, and her lower lip. She has striking, matte dark blue lips and pale, flawless, slightly greenish-porcelain skin. Long, thick, dark braided ropes and tassels with ornate metallic beads hang down the sides of her face like heavy jewelry. She wears a high-neck, dark, textured garment with jagged, abstract grey patterns and intricate braided lace details along the shoulders. Soft, diffused, cool-toned studio lighting, shallow depth of field with a blurred neutral grey concrete background. Ultra-detailed textures, editorial fashion photography, photorealistic, 8k resolution, Vogue avant-garde style, mysterious and striking atmosphere, sharp focus on the face.",
+          "negative_prompt": "anime, cartoon, 2D, 3d, sketch, line art, poorly drawn face, extra limbs, missing limbs, blurry, low resolution, watermark, text, logo, overly smooth plastic-like skin, deformed hands, ugly face, flat lighting, soft focus, noisy background, cluttered composition",
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 2038903491,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c86b373c-850e-4929-8cca-4f67352b6a80/original=true/c86b373c-850e-4929-8cca-4f67352b6a80.jpeg",
+        "local_file": "146752033.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146754853,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef830d9-d38c-4b05-b4d7-7484a9f0c3f1/original=true/eef830d9-d38c-4b05-b4d7-7484a9f0c3f1.jpeg",
+        "posted_at": "2026-10-25T07:20:38.613Z",
+        "username": "martinffm",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 134,
+          "hearts": 48,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "luminous_sketch, This digital painting depicts a vivid sunset over a small, tranquil harbor. The central subject is an old, weathered sailboat with a tall, dark wooden mast and two smaller masts. The boat is moored to a wooden dock on the right, its white and brown hull showing signs of age and use. The dock is partially illuminated by a warm, yellow light, adding a gentle glow to the scene. To the left, another smaller boat is partially visible, floating in the calm, reflective water.\nThe background is dominated by a dramatic, fiery orange and red sunset, with thick, dark clouds scattered across the sky, creating a striking contrast with the bright, glowing horizon. The water reflects the intense colors of the sunset, adding to the overall warmth and vibrancy of the image.\nOn the left, a small, wooden building with a slanted roof is nestled among green, tree-covered hills, adding a sense of depth and tranquility to the scene. The painting uses rich, warm colors and detailed textures to bring the scene to life, emphasizing the peaceful, yet slightly melancholic, atmosphere of a quiet harbor at sunset.",
+          "negative_prompt": null,
+          "sampler": "er_sde",
+          "steps": 25,
+          "cfg_scale": 2.5,
+          "seed": 0,
+          "width": 1024,
+          "height": 1024,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eef830d9-d38c-4b05-b4d7-7484a9f0c3f1/original=true/eef830d9-d38c-4b05-b4d7-7484a9f0c3f1.jpeg",
+        "local_file": "146754853.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146746555,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ad756dd-d471-4afd-83e4-73b5cee55087/original=true/0ad756dd-d471-4afd-83e4-73b5cee55087.jpeg",
+        "posted_at": "2026-10-25T05:27:42.663Z",
         "username": "Corcoronel",
         "model_version_id": null,
         "model_name": null,
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 217,
-          "hearts": 63,
-          "comments": 5
+          "likes": 140,
+          "hearts": 36,
+          "comments": 7
         },
         "meta": {
-          "prompt": "masterpiece, best quality, very aesthetic, ektachrome fade film, \nAn Art Nouveau A painterly, monochromatic blue portrait of a young woman (21+) sitting on the ground, hugging her knees in a defensive pose. Next to her is a pair of detailed roller skates with red wheels. The background is a textured, cloudy blue wash. The art style features strong, gritty ink outlines defining the figure's limbs and the mechanical details of the skates. High contrast between the pale blue skin and the deep blue shadows. NO decorative borders, NO frames, NO ornamental frames. Gritty, atmospheric mood, lonely and raw. Ultra high detail on the skate wheels and fabric folds. 8K resolution.",
-          "negative_prompt": "(2d ,Illustration, drawing, cartoon, animation, anima, painting:1.4)",
+          "prompt": "zidiusArt, An Art Nouveau portrait of a young woman in her early twenties with windswept auburn hair and freckled skin, her striking blue eyes gazing forward. She is wrapped in a thick, chunky-knit grey woolen shawl, cradling a fluffy black-and-white cat with golden eyes. The background features a dramatic cloudy sky rendered in soft blues and greys. The art style is Art Nouveau with strong ink outlines, high contrast between the warm skin tones and cool background, dynamic composition with flowing hair curves, and decorative floral border elements. Gritty, atmospheric mood with painterly texture. Ultra high detail on the knit texture, cat fur, and hair strands. Inspired by Alphonse Mucha and Gustav Klimt. 8K resolution.",
+          "negative_prompt": null,
           "sampler": "euler",
           "steps": 8,
           "cfg_scale": 1,
-          "seed": 1689504411,
+          "seed": 169001295,
           "width": 832,
           "height": 1248,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e77d3b98-55b5-425e-a4c6-ba4cad86e4cb/original=true/e77d3b98-55b5-425e-a4c6-ba4cad86e4cb.jpeg",
-        "local_file": "146648221.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ad756dd-d471-4afd-83e4-73b5cee55087/original=true/0ad756dd-d471-4afd-83e4-73b5cee55087.jpeg",
+        "local_file": "146746555.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 146640113,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de395bce-2a8c-46d0-839c-3e9ae8f94941/original=true/de395bce-2a8c-46d0-839c-3e9ae8f94941.jpeg",
-        "posted_at": "2026-10-24T05:51:30.429Z",
-        "username": "FLESK",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 169,
-          "hearts": 59,
-          "comments": 2
-        },
-        "meta": {
-          "prompt": "Subject: Salvador, a male furry owl character with a textured grey body and layered feathers. He has short, jet-black hair and striking black eyes set against yellow sclera. His beak is matte black. He is dressed in a worn brown fedora hat, a grey collared shirt with a black necktie, a heavy brown coat, and brown pants secured with a belt. He holds a smoking cigarette, with thin wisps of smoke curling upward.\nSetting: A neo-noir city street at night. The background is a hazy, grayish-blue urban landscape. Rain-slicked streets reflect the ambient light. Silhouettes of cars and distant city lights create a sense of depth and isolation. The atmosphere is thick with fog and tension.\nStyle: DEADCHROME, graphic illustration, painterly brushwork, ink splatters, in the style of Ashley Wood, oil painting, charcoal-like shading, weathered mute colors, rough ink sketch, digital layers, expressionism. The artwork combines the gritty texture of charcoal shading with the fluidity of oil painting, accented by sharp ink splatters and rough sketch lines. The color palette is muted and weathered, dominated by desaturated blues, greys, and browns, with high-contrast shadows.\nLighting and Atmosphere: Hard, directional lighting from unseen streetlamps casts deep, dramatic shadows across Salvador's face and coat. The smoke from the cigarette catches the light, creating a soft, glowing contrast against the dark background. The overall mood is melancholic, mysterious, and cinematic, with a heavy, atmospheric haze that softens the distant city elements while keeping the character sharp and detailed.",
-          "negative_prompt": null,
-          "sampler": "euler",
-          "steps": 15,
-          "cfg_scale": 2,
-          "seed": 370778142,
-          "width": 672,
-          "height": 1568,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de395bce-2a8c-46d0-839c-3e9ae8f94941/original=true/de395bce-2a8c-46d0-839c-3e9ae8f94941.jpeg",
-        "local_file": "146640113.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146651257,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8936f27-c2fc-401c-bbe7-670d64de6294/original=true/d8936f27-c2fc-401c-bbe7-670d64de6294.jpeg",
-        "posted_at": "2026-10-24T09:00:00.000Z",
-        "username": "Cinnadust",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "OpenAI",
-        "stats": {
-          "likes": 163,
-          "hearts": 58,
-          "comments": 3
-        },
-        "meta": {
-          "prompt": "Photorealism, amazing details, high-quality HD, shot on a Sony A7R IV, 50mm f/1.8 lens, real-life photograph, natural lighting, highly detailed, professional photography. At night under a large full Halloween red moon, the perfect habitat and spot for a howling wolf is depicted. Magical lighting effects and atmosphere really makes this image perfect. A chibi wolf is seen howling up at the moon. The wolf is fluffy and adorable. The lighting from the moon is intense and really captures the mood. Only the wolf is a hand-drawn 2D sketch using colored pencils and Acrylic Gel Mediums. Everything else is entirely photorealistic. This image should depict a 2D subject within a real-life photorealistic environment. Close-up portrait, witch hat, Halloween lighting",
-          "negative_prompt": null,
-          "sampler": null,
-          "steps": null,
-          "cfg_scale": null,
-          "seed": null,
-          "width": 3456,
-          "height": 6144,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d8936f27-c2fc-401c-bbe7-670d64de6294/original=true/d8936f27-c2fc-401c-bbe7-670d64de6294.jpeg",
-        "local_file": "146651257.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146638678,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6a5c77-6c8a-4ea2-94b2-e534fdf4238e/original=true/8c6a5c77-6c8a-4ea2-94b2-e534fdf4238e.jpeg",
-        "posted_at": "2026-10-24T05:28:25.837Z",
-        "username": "FLESK",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 155,
-          "hearts": 66,
-          "comments": 2
-        },
-        "meta": {
-          "prompt": "Subject and Action\nCloud Strife stands in the foreground, positioned on the right side of the frame, viewed from behind in a low-angle shot. His hand rests firmly on the hilt of the Buster Sword, which is sheathed on his back. The massive blade dominates the upper right quadrant, its weight and scale emphasized by the perspective. His posture is stoic and contemplative, shoulders slightly hunched under the burden of the weapon.\nSetting and Composition\nThe background features the looming, industrial cityscape of Midgar, stretching into the distance. The city is a dense, vertical labyrinth of platforms, pipes, and towering structures, rendered with a sense of oppressive scale. The low angle exaggerates the height of the buildings, making the city feel like a canyon of steel and concrete. The composition balances the heavy, dark mass of the character and sword on the right with the intricate, receding details of the city on the left.\nLighting and Atmosphere\nThe scene is bathed in a pervasive, eerie green light, casting long, dramatic shadows. The green hues are not uniform but vary in intensity, creating a moody, atmospheric glow that suggests a toxic or bioluminescent environment. This lighting highlights the contours of Strife's armor and the metallic sheen of the sword, while the cityscape fades into a misty, green-tinged haze. The atmosphere is heavy, tense, and cinematic, with a sense of impending conflict.\nMaterial and Texture Detail\nThe Buster Sword exhibits a rugged, industrial texture, with visible scratches, dents, and a matte finish that contrasts with the occasional glint of chrome. Strife's clothing is weathered, with fabric that looks worn and frayed, adding to the gritty realism. The cityscape is detailed with rusted pipes, concrete textures, and the smooth, reflective surfaces of metal panels. The overall texture is rough and tactile, emphasizing the physicality of the scene.\nStyle and Aesthetic\nDEADCHROME, graphic illustration, painterly brushwork, ink splatters, in the style of Ashley Wood, oil painting, charcoal-like shading, weathered mute colors, rough ink sketch, digital layers, expressionism. The style combines the bold, graphic lines of Ashley Wood with the textured, layered depth of oil painting and charcoal. Ink splatters add a dynamic, chaotic energy to the composition, while the weathered mute colors create a somber, post-apocalyptic palette. The expressionist approach distorts perspective and emotion, enhancing the dramatic tension of the scene. The DEADCHROME aesthetic is evident in the metallic highlights and the sleek, futuristic yet worn quality of the environment.",
-          "negative_prompt": null,
-          "sampler": "euler",
-          "steps": 8,
-          "cfg_scale": 2,
-          "seed": 1825361505,
-          "width": 928,
-          "height": 1152,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c6a5c77-6c8a-4ea2-94b2-e534fdf4238e/original=true/8c6a5c77-6c8a-4ea2-94b2-e534fdf4238e.jpeg",
-        "local_file": "146638678.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146651347,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54d9d1ef-6b59-4540-aacc-b28d76bcda00/original=true/54d9d1ef-6b59-4540-aacc-b28d76bcda00.jpeg",
-        "posted_at": "2026-10-24T09:00:00.000Z",
-        "username": "Cinnadust",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "OpenAI",
-        "stats": {
-          "likes": 171,
-          "hearts": 43,
-          "comments": 9
-        },
-        "meta": {
-          "prompt": "amazing details, high-quality HD, shot on a Sony A7R IV, 50mm f/1.8 lens, a professional real-life photograph of a vertical metal utility pole, next to a city block. A very cold and frigid winters morning. A chibi pigeon is facing the pole, it's tongue is stuck to the pole. The pigeon's expression is a mix of confusion and concern. The pigeon uses both of its wings to use the pole as leverage as it attempts to push away as it tries to unstick its tongue from the pole, causing its tongue to be absurdly stretched. The premise of the photo should show what it's like to get your tongue frozen to a metal pole. Atmospheric lighting from the sun. atmosphere is both comedic and cute. The pigeon is 2D, hand-drawn with vibrant colored gel pens. A professional image taken from a Sony A7R IV, 50mm f/1.8 lens, resembling real-life photography, natural lighting, professional photography, soft natural lighting, realistic depth of field, shallow depth of field, extrem close-up, funny, all his pigeon friends are laughing at him in the background.",
-          "negative_prompt": null,
-          "sampler": null,
-          "steps": null,
-          "cfg_scale": null,
-          "seed": null,
-          "width": 3456,
-          "height": 6144,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54d9d1ef-6b59-4540-aacc-b28d76bcda00/original=true/54d9d1ef-6b59-4540-aacc-b28d76bcda00.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146647766,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc0d1bf7-8c52-46ee-bc6b-3c4cc0a2429e/original=true/cc0d1bf7-8c52-46ee-bc6b-3c4cc0a2429e.jpeg",
-        "posted_at": "2026-10-24T07:35:20.544Z",
+        "id": 146758656,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe75cead-f019-43f7-8526-f35101b16945/original=true/fe75cead-f019-43f7-8526-f35101b16945.jpeg",
+        "posted_at": "2026-10-25T08:05:10.927Z",
         "username": "Lady_Luminous",
         "model_version_id": null,
         "model_name": null,
-        "base_model": "SDXL 1.0",
-        "stats": {
-          "likes": 150,
-          "hearts": 59,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "stunning artwork, breathtaking beauty of Bali, scenic bali jungle landscape, rice terrace plantation , 1woman from behind wearing traditional small rice basket in her hand, on plantage, perfect composition, haze, low angle,shadow plants, masterpiece, best quality, realistic, fantastic, splash art, hyperdetailed, maximalist style, photorealistic, concept art, sharp focus, harmony,mysterious glow, ambient occlusion, halation, cozy ambient lighting,dynamic lighting, Special Ink-drawing mode, animeniji, Mh1$AgThS2, 2D flat anime, cartoon-style, intricate linework with expressive contrasts, soft lighting with dynamic highlights of green shadows, best quality, midjourneyv6.1, chinese meticulous ink, illustration, ink wash painting, Style-Japan,  watercolor, award winning, a breathtaking masterpiece",
-          "negative_prompt": null,
-          "sampler": "DPM++ 2M Karras",
-          "steps": 40,
-          "cfg_scale": 4,
-          "seed": 1334481812,
-          "width": 832,
-          "height": 1216,
-          "clip_skip": 2
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc0d1bf7-8c52-46ee-bc6b-3c4cc0a2429e/original=true/cc0d1bf7-8c52-46ee-bc6b-3c4cc0a2429e.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146636255,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2127a0af-efe0-4ee3-9f4b-b6dfdfd75c53/original=true/2127a0af-efe0-4ee3-9f4b-b6dfdfd75c53.jpeg",
-        "posted_at": "2026-10-24T04:42:50.595Z",
-        "username": "KONI22NIANAKY",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": null,
-        "stats": {
-          "likes": 154,
-          "hearts": 38,
-          "comments": 2
-        },
-        "meta": {
-          "prompt": "yoshiyoshi",
-          "negative_prompt": null,
-          "sampler": null,
-          "steps": null,
-          "cfg_scale": null,
-          "seed": null,
-          "width": 1056,
-          "height": 1490,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2127a0af-efe0-4ee3-9f4b-b6dfdfd75c53/original=true/2127a0af-efe0-4ee3-9f4b-b6dfdfd75c53.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146632986,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/790e928c-6767-465b-b776-1d77af945448/original=true/790e928c-6767-465b-b776-1d77af945448.jpeg",
-        "posted_at": "2026-10-24T03:58:59.206Z",
-        "username": "FUNLUCKY",
-        "model_version_id": null,
-        "model_name": null,
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 131,
-          "hearts": 56,
-          "comments": 3
-        },
-        "meta": {
-          "prompt": "DEADCHROME, Batman plunging diagonally through a surreal Gotham City skyline, an enormous bat-shaped cape unfurling like torn black wings, one gloved hand reaching toward the viewer, extreme foreshortening, low-angle wide perspective, explosive dynamic composition. Dark gothic superhero graphic illustration, high contrast, rough ink sketch, painterly brushwork, ink splatters, weathered colors. A vivid collision of electric cyan, ultraviolet purple, hot magenta, acid yellow and blood orange bursts across the cape and fractures into wild calligraphic strokes, splashed pigments and jagged abstract shapes. Deep pitch-black armor and a sharply defined cowl contrast against the chaotic multicolored ink. Gotham's towering gothic architecture bends into a surreal nightmare, fragmented skyscrapers dissolving into expressive brush marks, distorted perspective and drifting debris. Harsh white backlight cuts through the silhouette, colored reflections scrape across weathered armor, dramatic pools of shadow, raw dry-brush textures, distressed print grain, irregular ink bleed, sharp angular shapes, aggressive diagonal motion, controlled color explosions, unmistakable Batman silhouette, menacing cinematic energy, bold editorial poster design, dense focal detail, loose painterly edges, visually explosive and unsettling.",
-          "negative_prompt": null,
-          "sampler": "euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 606946347,
-          "width": 832,
-          "height": 1248,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/790e928c-6767-465b-b776-1d77af945448/original=true/790e928c-6767-465b-b776-1d77af945448.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146642869,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4976fec0-09b7-4c72-b92f-4a5a3e81a795/original=true/4976fec0-09b7-4c72-b92f-4a5a3e81a795.jpeg",
-        "posted_at": "2026-10-24T06:28:07.908Z",
-        "username": "TheP3NGU1N",
-        "model_version_id": null,
-        "model_name": "serendipity_v30",
-        "base_model": "Krea 2",
-        "stats": {
-          "likes": 131,
-          "hearts": 50,
+          "likes": 119,
+          "hearts": 49,
           "comments": 1
         },
         "meta": {
-          "prompt": "Digital photography, A raw candid photo from the mid-2000. A striking monochrome (black-and-white) noir cinemagraph photograph captured with tonal gradations of jet black, grey, and white. the shadows and light naturally have a parallel alignment to them, giving the image long moody shadows and sharp bright light.\n of a tabby cat holding a classic wired computer mouse in its mouth, gripping the cord with its lips and front incisors while the soft rubber shell dangles below its muzzle. The subject sits upright and centered against a smooth, out-of-focus gray backdrop that fades from mid-tone at the shoulders to darker vignetting toward the edges, isolating the feline cleanly. Lighting is soft and directional, arriving from the upper left as a large diffused key source with a gentle fill from the opposite side, producing a low-contrast tonal range with smooth gradients across the fur and crisp specular catches along the whiskers and the rounded mouse body. Highlights gather on the moist sheen of the nose, the bridge of the ears, and the glossy curve of the plastic shell; shadows fall softly beneath the jaw, chest, and hanging cord, deepening toward the right side of the frame.\nThe cat is a well-proportioned adult tabby with a sturdy, medium build and dense short fur marked by bold dark stripes over warm gray-brown bases that read as charcoal and silver in monochrome. Its head is turned three-quarters toward the camera with large, almond-shaped eyes reflecting subtle catchlights, alert triangular ears tilted forward, and a broad muzzle framed by long, delicate whiskers fanning out on both sides. The mouth is closed but firm, with the cord looped through the lips and the mouse resting just beneath, revealing only the corners of the muzzle and a hint of teeth. The front paws rest naturally at the chest, one slightly curled as if steadying the cord, while the fur along the throat, cheeks, and shoulders shows fine directional texture and soft tonal variation. Depth of field is shallow, keeping the face and mouse tack sharp while the body and background melt into creamy bokeh. The overall mood is calm, curious, and quietly humorous—a timeless, editorial-quality study of an ordinary moment rendered with precision and clarity. . candid photo, captured with/on an early 2010s smartphone",
-          "negative_prompt": null,
-          "sampler": "euler_simple",
-          "steps": 12,
-          "cfg_scale": 1,
-          "seed": 30055217000226,
-          "width": 69,
-          "height": 69,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4976fec0-09b7-4c72-b92f-4a5a3e81a795/original=true/4976fec0-09b7-4c72-b92f-4a5a3e81a795.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146642269,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36497d35-f655-4ff4-80b9-600636ec95c6/original=true/36497d35-f655-4ff4-80b9-600636ec95c6.jpeg",
-        "posted_at": "2026-10-24T06:20:14.524Z",
-        "username": "Lady_Luminous",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 137,
-          "hearts": 40,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "A hauntingly beautiful cinematic fantasy painting of a tranquil misty lake at dawn. Two elegant swans glide across the perfectly still water, their graceful curved necks and delicate bodies visible only as dark silhouettes against the luminous mist. Their subtle reflections ripple gently beneath them. On the left foreground an enormous ancient tree rises from the water's edge, its massive twisted trunk and exposed roots disappearing into deep shadows. Wide spreading branches form a magnificent dark canopy against the pale sky. Smaller ancient trees recede along both shores, gradually dissolving into layers of dense blue gray fog. The morning fog lies softly above the water. Towering soft clouds glow with delicate blush pink and warm champagne light near the distant horizon. A few shadowed birds fly naturally across the open sky. The glasslike lake reflects the atmospheric colors in delicate fragmented brushstrokes. Minimalist vertical composition with dramatic scale and generous atmospheric depth. Restrained palette of dusty teal, slate blue, charcoal, pale ivory and muted rose. Dreamlike Japanese ink wash painting blended with cinematic fantasy realism, expressive dry brush textures, subtle grain, poetic serenity,award winning, a  breathtaking masterpiece",
+          "prompt": "Special Ink-drawing mode, intricate linework with expressive contrasts, , Inkplash art on rice paper, sepia, henna , Silhouette Art, magnificent, inksplash closeup portrait of solitary, elegant woman, seated silhouette, bowed head, messy bun, quiet sorrow, black flowing dress, enormous blood red sun, ivory background, black ink, crimson paint,  distressed paper, wet reflective ground, dark mirrored reflection, silhouette reflection on water, Japanese ink aesthetic, minimalist composition, dramatic contrast, melancholic, raw, poetic, expressive, award winning, a breathtaking masterpiecea breathtaking, award-winning masterpiece, manga_sketch",
           "negative_prompt": null,
           "sampler": "euler",
-          "steps": 11,
+          "steps": 8,
           "cfg_scale": 1,
-          "seed": 175397521,
+          "seed": 679810335,
           "width": 832,
           "height": 1248,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/36497d35-f655-4ff4-80b9-600636ec95c6/original=true/36497d35-f655-4ff4-80b9-600636ec95c6.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fe75cead-f019-43f7-8526-f35101b16945/original=true/fe75cead-f019-43f7-8526-f35101b16945.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 146644899,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/543d7847-f205-4062-957e-3ccab18c72ba/original=true/543d7847-f205-4062-957e-3ccab18c72ba.jpeg",
-        "posted_at": "2026-10-24T07:01:58.788Z",
-        "username": "6vidit9",
+        "id": 146684809,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2345ffc3-c48e-4ef6-840f-d826277c2354/original=true/2345ffc3-c48e-4ef6-840f-d826277c2354.jpeg",
+        "posted_at": "2026-10-25T04:00:00.000Z",
+        "username": "Geragl",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 131,
+          "hearts": 24,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "WORLD / SCENE IDENTITY\nA spectacular sunlit coastal landscape in midsummer, with towering white limestone cliffs overlooking a vast turquoise sea. A peaceful, windswept atmosphere of natural grandeur, warmth, and Mediterranean coastal beauty.\n\nMAIN ANCHOR / SUBJECT\nA monumental grassy limestone headland rising steeply above the sea, crowned by a small historic lighthouse keeper's cottage with pale stone walls, red terracotta roofs, and a modest lantern tower.\n\nCAMERA\nVertical 9:16 panoramic environmental composition from an elevated natural viewpoint near the cliff edge, looking diagonally along the coastline toward the lighthouse and open sea. The dramatic limestone cliffs dominate the left side, while expansive turquoise water fills the right and lower portions.\n\nFRAMING / CROP CONTROL\nKeep the complete lighthouse building clearly visible near the upper-left portion, surrounded by grassy headland. Preserve the immense vertical drop of the cliffs, the open maritime horizon, and generous sky above.\n\nFOREGROUND\nIrregular grassy cliff edges with fresh green vegetation, small coastal wildflowers, exposed pale limestone ledges, and steep weathered rock faces descending toward the water.\n\nVISUAL ROUTE\nForeground grassy cliff edge → sweeping white limestone precipices → lighthouse on the distant headland → scattered rocks surrounded by turquoise water → open blue sea → towering summer clouds.\n\nMIDDLE GROUND\nMassive layered limestone cliffs with fractured mineral surfaces, irregular vertical fissures, sparse vegetation growing from sheltered crevices, and submerged rocks visible through exceptionally clear shallow seawater. Scattered brown coastal boulders interrupt the water, surrounded by delicate white foam and small breaking waves.\n\nBACKGROUND\nAn uninterrupted deep blue sea stretching toward a distant level horizon beneath a brilliant azure summer sky. Enormous luminous cumulus clouds rise in distinct sculptural formations, their softly shaded interiors preserving natural atmospheric volume.\n\nPHYSICAL / SPATIAL LOGIC\nThe grassy headland rests naturally upon continuous limestone formations. The lighthouse stands securely on the elevated terrain. Rocks emerge realistically from the shallow water, with small waves breaking around them and transparent water revealing submerged stone formations near the cliffs.\n\nLIGHT\nBeautiful clear summer sunlight illuminates the grassy slopes, exposed limestone faces, and upper cloud formations. Bright reflections dance across the shallow sea while soft ambient skylight preserves detail in shaded rock crevices. Use luminous midtones, gentle warm-cool transitions, broad natural penumbra, and open chromatic shadows.\n\nCOLOR\nA vibrant but harmonious coastal palette of sapphire blue, rich turquoise, translucent emerald-aqua, fresh meadow green, warm ivory limestone, pale mineral gray, and brilliant cloud white. Restrained terracotta accents distinguish the lighthouse rooftops. Preserve independent natural color families and clear atmospheric color separation.\n\nDEPTH\nStrong optical depth through overlapping limestone ledges, receding cliff geometry, varying water transparency, scale reduction of coastal rocks, subtle horizon haze, and progressively softer distant cloud forms.\n\nMATERIALS\nWeathered porous limestone, dense natural grasses, rough coastal boulders, translucent seawater with broken reflections, matte terracotta roof tiles, and softly modeled atmospheric clouds.\n\nPAINTERLY STYLE\nRefined romantic painterly naturalism with richly finished digital illustrative handling. Elegant semi-opaque layering, sophisticated broken-color modulation, delicate directional brushwork, controlled lost-and-found edges, and expressive natural materials. Preserve beautifully organized botanical detail, luminous water transparency, rich mineral surfaces, and softly sculpted cloud volumes. A mature, vibrant, atmospheric digital landscape painting with natural optical depth and clean painterly surfaces rather than heavy physical oil texture.\n\nLOWER FRAME INTEGRATION\nContinue the immense limestone cliff faces and transparent turquoise seawater naturally through the bottom edge, with scattered submerged rocks, gentle foam, and organic variations in water color maintaining uninterrupted spatial continuity.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 1248,
+          "height": 1824,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2345ffc3-c48e-4ef6-840f-d826277c2354/original=true/2345ffc3-c48e-4ef6-840f-d826277c2354.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146754513,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62d2e85a-795b-43cf-9b81-4b6ae0d1778e/original=true/62d2e85a-795b-43cf-9b81-4b6ae0d1778e.jpeg",
+        "posted_at": "2026-10-25T07:13:59.382Z",
+        "username": "tsolful",
+        "model_version_id": null,
+        "model_name": "Moss Image",
+        "base_model": "MOSS Image",
+        "stats": {
+          "likes": 119,
+          "hearts": 32,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A real photograph shot on 35mm film at dawn in a wide, misty meadow: a tiny fluffy kitten standing upright on its hind legs like a little knight, centered in the lower half of the frame, looking off to the left with big dark round eyes and a serious, determined expression. It has long, soft, light grey-beige tabby fur with faint stripes, a small pink nose and a tiny pale pink satin bow clipped to the fur by its right ear. It wears a perfectly fitted miniature suit of polished silver plate armor: engraved shoulder pauldrons with a small fleur-de-lis pattern, a riveted breastplate, armored gauntlets, a short skirt of fine chainmail, brown leather straps and a belt across its waist, and little armored greaves and sabatons on its feet. A cream-white wool cape is fastened at its shoulders and drifts out behind it to the right. With both front paws it grips a long steel longsword with a brass crossguard, held straight up in front of its body, the blade rising high above its head.\nIt stands in tall, wet green grass beaded with tiny dew drops, the blades in the foreground slightly out of focus. Behind it, the meadow fades into thick white morning fog, with a faint dark line of distant trees on the horizon. Above, a vast, soft overcast sky of grey and pale lavender clouds fills the upper half of the frame.\nSoft, diffused dawn light, gentle and even, with cool muted tones of grey, sage green, silver and cream. Real fur, metal and fabric textures, shallow depth of field, visible film grain, slight softness, faint JPEG compression. Full-bleed to all four edges, no border. Brave, sweet, whimsical, storybook-quest mood.",
+          "negative_prompt": "nsfw, bad anatomy, watermark, extra fingers, deformed hands, sharp, glossy, HDR, professional photography, studio lighting, smooth skin, airbrushed",
+          "sampler": "er_sde_simple",
+          "steps": 25,
+          "cfg_scale": 3,
+          "seed": 838368609528011,
+          "width": 1248,
+          "height": 1680,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/62d2e85a-795b-43cf-9b81-4b6ae0d1778e/original=true/62d2e85a-795b-43cf-9b81-4b6ae0d1778e.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146733862,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5433fa0e-4886-4a41-9b0d-c532ab2e45e4/original=true/5433fa0e-4886-4a41-9b0d-c532ab2e45e4.jpeg",
+        "posted_at": "2026-10-25T04:30:00.000Z",
+        "username": "lightyagami_",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 103,
+          "hearts": 46,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "colossal ancient iron doorway stands upright in the middle of an endless black void, its surface covered in thousands of tiny screaming faces carved into the metal. The door opens inward onto another identical door, repeating infinitely into a blood-red spiral. A lone barefoot man stands at the threshold, head bowed, impossibly small against the architecture. Enormous chains hang from the arch, disappearing into darkness above. Intricate white ink engraving, dense crosshatching, crimson highlights tracing the spiral, stark monochrome contrast, philosophical horror, vertical composition.",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 10,
+          "cfg_scale": 1,
+          "seed": 313088956,
+          "width": 768,
+          "height": 1376,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5433fa0e-4886-4a41-9b0d-c532ab2e45e4/original=true/5433fa0e-4886-4a41-9b0d-c532ab2e45e4.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146755386,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b35b3630-6563-407f-ae95-a7e182c5b35f/original=true/b35b3630-6563-407f-ae95-a7e182c5b35f.jpeg",
+        "posted_at": "2026-10-25T07:29:56.866Z",
+        "username": "Sleeps_In_Sunbeams",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "OpenAI",
+        "stats": {
+          "likes": 117,
+          "hearts": 25,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "Khajiit acquiring wares... 🤫",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 1680,
+          "height": 2096,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b35b3630-6563-407f-ae95-a7e182c5b35f/original=true/b35b3630-6563-407f-ae95-a7e182c5b35f.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146738764,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7d35859-ee7a-41e0-bafb-495367042cfa/original=true/e7d35859-ee7a-41e0-bafb-495367042cfa.jpeg",
+        "posted_at": "2026-10-25T03:37:36.339Z",
+        "username": "Mr_Flibble",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 108,
+          "hearts": 21,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "Ultra-photorealistic, intricately detailed horror scene depicting a vast underground catacomb beneath an ancient ruined cathedral. Endless stone corridors disappear into suffocating darkness, their walls constructed from thousands of yellowed human skulls and weathered bones. Massive stone pillars are wrapped in tangled black roots, while rusted chains hang from vaulted ceilings and disappear into pools of stagnant water. Dozens of melted candles cast weak, trembling light across cracked stone floors, illuminating disturbing symbols carved into the walls. At the centre of the chamber stands a colossal, skeletal figure draped in decaying ceremonial robes, its elongated limbs ending in crooked, claw-like fingers. Its skull is crowned with twisted iron spikes, and two tiny, unnatural points of crimson light burn inside its otherwise empty eye sockets. Around its feet, pale skeletal hands emerge from beneath the floor, reaching desperately toward the living world. Far behind it, an enormous sealed stone doorway stands slightly ajar, revealing an impossible darkness filled with countless watching eyes. Thick mist coils around the bones, and the shadows appear to move independently of the candlelight. The atmosphere is oppressive, ancient, and profoundly terrifying, dominated by charcoal blacks, bone whites, muted sepia, and isolated crimson highlights.\nThe entire composition forms one continuous, unified environment with no dividing line, border, or abrupt separation between photorealism and drawing. Hyperrealistic stone textures, individual bone fragments, drifting dust, and intricate anatomical details gradually merge with rough graphite sketchwork throughout the entire scene. Fine pencil strokes, frantic crosshatching, charcoal smears, scratched outlines, and unfinished construction marks become progressively more prominent toward the lower portion. The skeletal figure's limbs appear to unravel into frantic lines, while emerging hands and distorted faces materialise from incomplete sketches. A realistic female hand enters naturally from the bottom edge, holding a sharpened graphite pencil against the paper, apparently drawing the ancient doorway. Around the pencil tip, unfinished skeletal fingers seem to push through the paper itself. The lower scene dissolves into fragmented outlines, erased smudges, chaotic graphite marks, and unfinished skulls fading into untouched white paper. The transition remains organic and seamless, creating the deeply unsettling impression that the catacombs are being drawn into existence and that something ancient is using the artist's hand to escape into reality.",
+          "negative_prompt": null,
+          "sampler": "Krea2-Large",
+          "steps": 0,
+          "cfg_scale": 0,
+          "seed": 615348367,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7d35859-ee7a-41e0-bafb-495367042cfa/original=true/e7d35859-ee7a-41e0-bafb-495367042cfa.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146754851,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68eb48ed-beb4-4cd5-8367-87834ebb77ed/original=true/68eb48ed-beb4-4cd5-8367-87834ebb77ed.jpeg",
+        "posted_at": "2026-10-25T07:20:38.613Z",
+        "username": "martinffm",
         "model_version_id": null,
         "model_name": null,
         "base_model": "MOSS Image",
         "stats": {
-          "likes": 140,
-          "hearts": 33,
+          "likes": 97,
+          "hearts": 31,
           "comments": 0
         },
         "meta": {
-          "prompt": "A monochrome portrait of a heavily bearded elderly man wearing a thick wool sweater, featuring a surreal optical illusion. The center of his face is torn away in jagged, concentric paper-like rips, creating a deep tunnel effect. At the very center of this torn void, an ornate metallic robotic skull stares outward with a piercing, ethereal expression. The composition is entirely black and white with a heavy, gritty film grain and vintage photographic texture. Strong contrast highlights the jagged edges of the torn layers, emphasizing the depth between the rustic exterior portrait and the futuristic interior reveal.",
+          "prompt": "luminous_sketch, This is a digital illustration in a traditional Japanese style, featuring a serene mountain landscape at sunset. Dominating the upper center of the image is a large, vivid red sun, partially obscured by a misty, golden-hued sky. In the middle ground, a traditional Japanese torii gate stands tall and silhouetted against the mist. In the foreground, a solitary figure with long hair, dressed in traditional Japanese clothing, sits on a rocky outcrop, gazing towards the torii gate. The figure is depicted in dark silhouette, emphasizing their contemplative posture. Surrounding the rocky outcrop are tall, slender pine trees, their dark, intricate branches adding texture to the scene. In the distant background, a mountain with a small, cross-like structure at its peak is visible, partially shrouded in mist. The overall color palette includes warm golds, reds, and dark silhouettes, creating a peaceful, almost mystical atmosphere. The image combines elements of traditional Japanese art with a modern digital medium, capturing a moment of quiet reflection in a misty, mountainous landscape.",
           "negative_prompt": null,
           "sampler": "er_sde",
           "steps": 25,
-          "cfg_scale": 3,
-          "seed": 2032835932,
-          "width": 768,
-          "height": 1344,
+          "cfg_scale": 2.5,
+          "seed": 1,
+          "width": 1024,
+          "height": 1024,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/543d7847-f205-4062-957e-3ccab18c72ba/original=true/543d7847-f205-4062-957e-3ccab18c72ba.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68eb48ed-beb4-4cd5-8367-87834ebb77ed/original=true/68eb48ed-beb4-4cd5-8367-87834ebb77ed.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 146648767,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5035a287-9749-44b7-a110-002ce6d5b4d9/original=true/5035a287-9749-44b7-a110-002ce6d5b4d9.jpeg",
-        "posted_at": "2026-10-24T07:55:14.598Z",
-        "username": "Fenrissa",
-        "model_version_id": null,
-        "model_name": "krea2_turbo_fp8_scaled",
-        "base_model": null,
-        "stats": {
-          "likes": 134,
-          "hearts": 34,
-          "comments": 1
-        },
-        "meta": {
-          "prompt": "This is a digital painting in a dark, surreal, and slightly gothic style of an adorable calico cat looking up with wide, expressive glossy eyes. Her eyes are half-lidded, with deep red irises, small black pupils and a tiny white catchlight in each, rimmed with smudged dark red eye makeup The cat has a mix of white, orange, and dark grey fur patches. The artwork features a distinct sketchy style with numerous fine, loose linework details for its messy fur and long prominent whiskers flying around its face. Around its neck, the cat wears a small black lace collar adorned with a tiny metallic spider charm. The camera angle is a dynamic close-up looking slightly down at the cat as it peers upward. Beautiful light reflections in the eyes, high-quality character concept art.  The overall color palette is dominated by red, black, and blue, creating a stark, dramatic contrast. The texture of the painting is rough, with visible brushstrokes and a watercolor-like finish",
-          "negative_prompt": null,
-          "sampler": "Euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 1070613803669506,
-          "width": 808,
-          "height": 1216,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5035a287-9749-44b7-a110-002ce6d5b4d9/original=true/5035a287-9749-44b7-a110-002ce6d5b4d9.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 146646989,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecc4d78d-bcad-4fad-a49c-a41b9bb7b771/original=true/ecc4d78d-bcad-4fad-a49c-a41b9bb7b771.jpeg",
-        "posted_at": "2026-10-24T07:25:15.583Z",
+        "id": 146754471,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e981a3f9-2971-4225-bc36-208ff7dac676/original=true/e981a3f9-2971-4225-bc36-208ff7dac676.jpeg",
+        "posted_at": "2026-10-25T07:13:36.180Z",
         "username": "Lady_Luminous",
         "model_version_id": null,
         "model_name": null,
-        "base_model": null,
+        "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 129,
-          "hearts": 39,
+          "likes": 76,
+          "hearts": 27,
           "comments": 0
         },
         "meta": {
-          "prompt": "A weathered wooden fishing shack,a smal island, stands on sturdy timber stilts anchored among large sun bleached granite boulders in crystal clear shallow turquoise water. The rustic cabin features faded blue wooden walls, a corrugated red metal roof, a weathered red door, patched wooden siding, hanging utility cables, antennas, and a bright orange lifebuoy mounted on the wall. A narrow wooden porch wraps around the front, supported by worn posts above the water. A rough wooden staircase descends directly from the porch into the sea, its lower steps partially submerged. A small white rowboat floats beside the shack, tethered by a rope, gently drifting above the transparent water where smooth rocks are clearly visible beneath the surface. Bright tropical midday sunlight illuminates the vibrant lagoon beneath a deep light orange sky filled with towering white cumulus clouds. Painterly anime inspired realism, expressive digital brushstrokes, highly detailed water reflections, rustic coastal textures, cinematic composition, peaceful tropical atmosphere\n The camera angle should be slightly low, lending an air of gentle ascension to the composition.  The skyshould dissolve into an abstract symphony of warm yellows, suggestive of a radiant, sun-drenched afternoon. Symbolist chiaroscuro, tenebrist, volumetric lighting, subtle halation, high-contrast, film grain, teal and orange color grading, high dynamic range, , award winning, a masterpiece",
+          "prompt": "A breathtaking cinematic fantasy landscape of an ancient Asian mountain kingdom suspended above an endless sea of clouds at sunset. A magnificent red wooden pagoda with elegant curved dark roofs stands on a towering rocky cliff to the left. Delicate stone stairways lead toward an arched bridge connecting distant floating cliffs. A second narrow wooden bridge crosses a vast mist filled chasm in the foreground, with tiny travelers walking across it. Brilliant pink cherry blossom trees bloom along the cliff edges, their delicate petals drifting through the air. Slender waterfalls cascade from sheer rock faces into the clouds below. Monumental jagged mountains rise in the distance, their peaks fading into layers of lavender and violet mist. A glowing golden sun rests between the mountains beneath a spectacular sky of coral pink, peach, magenta and warm amber clouds. Dramatic vertical composition, immense atmospheric depth, richly detailed architecture, luminous pastel colors, painterly fantasy realism, cinematic lighting, romantic enchanted atmosphere.  award winning, a breathtaking masterpiece, mushyfunk",
           "negative_prompt": null,
-          "sampler": "Euler",
-          "steps": 25,
-          "cfg_scale": 3.5,
-          "seed": 2049204522,
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1732525130,
           "width": 832,
-          "height": 1216,
+          "height": 1248,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ecc4d78d-bcad-4fad-a49c-a41b9bb7b771/original=true/ecc4d78d-bcad-4fad-a49c-a41b9bb7b771.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e981a3f9-2971-4225-bc36-208ff7dac676/original=true/e981a3f9-2971-4225-bc36-208ff7dac676.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 146758214,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2947724-9914-46ea-a463-84c99438ee6c/original=true/f2947724-9914-46ea-a463-84c99438ee6c.jpeg",
+        "posted_at": "2026-10-25T08:01:09.031Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 68,
+          "hearts": 32,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A hauntingly beautiful cinematic fantasy painting of a solitary young woman with short black hair standing near the stern of a narrow weathered wooden boat on a perfectly still lake. Viewed in side profile, she wears a long flowing deep violet coat, its hem draping over the boat. She gently lowers a slender wooden pole into the water. Enormous floating rock islands rise above the lake, their rugged undersides disappearing into thick lavender mist. Delicate waterfalls descend from the islands into the silent water below. Tiny dark pine trees cling to their distant cliffs. An immense luminous silver white full moon glows between two towering rock formations. Its reflection forms a narrow fragmented path of light leading toward the boat. Minimalist vertical composition with dramatic atmospheric depth. Restrained palette of smoky lavender, muted mauve, midnight violet, silver gray and pale moonlight. Dreamlike Japanese ink wash painting blended with cinematic fantasy art. Expressive dry brush textures, soft watercolor washes, subtle paper grain, poetic solitude, eaward winning, a breathtaking masterpiece,luminous_anime_sketch,",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 111315139,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f2947724-9914-46ea-a463-84c99438ee6c/original=true/f2947724-9914-46ea-a463-84c99438ee6c.jpeg",
         "license": {}
       }
     ]

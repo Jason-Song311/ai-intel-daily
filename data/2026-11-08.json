@@ -1,0 +1,1546 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T03:57:54.749366+00:00",
+  "sources_ok": [
+    "hn",
+    "ph",
+    "civitai"
+  ],
+  "sources_error": {},
+  "notes": {
+    "ph": [
+      "no PH_DEV_TOKEN, falling back to html scraping",
+      "FAIL https://www.producthunt.com/leaderboard/daily/2026/11/07 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/11/07 :: HTTP Error 403: Forbidden",
+      "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
+      "OK https://www.producthunt.com/feed (+0, 44104 bytes)"
+    ],
+    "civitai": [
+      "api items: 100, items with meta: 76, items with prompt: 74, flux matched: 2",
+      "skipped for nsfw level: 0",
+      "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, thumbnail, type, url, username, width",
+      "top models: unknown(35), krea2_turbo_fp8_scaled(5), JANKUTrainedChenkinNoobai_v777(3), Krea2Turbo.safetensors(3), DasiwaKrea2TurboRaw_cutedisasterV2Turbo.safetensors(3), waiNSFWIllustrious_v120(3), Krea 2\\sickOllie_krea2_full_mxfp8(2), krea2TurboOfficialComfy_krea2TurboInt8(2)"
+    ]
+  },
+  "data": {
+    "show_hn": [
+      {
+        "id": "50405263",
+        "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+        "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+        "hn_url": "https://news.ycombinator.com/item?id=50405263",
+        "domain": "github.com",
+        "points": 58,
+        "comments": 12,
+        "created_at": "2026-11-07T15:16:01Z",
+        "story_text": "",
+        "ai_keywords": [
+          "diffusion",
+          "model",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50401451",
+        "title": "Show HN: Did prediction markets do any predicting this midterms?",
+        "url": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+        "hn_url": "https://news.ycombinator.com/item?id=50401451",
+        "domain": "app.artifactbin.dev",
+        "points": 34,
+        "comments": 20,
+        "created_at": "2026-11-07T03:50:21Z",
+        "story_text": "I&#x27;ve heard so much about how prediction markets are the guiding light in this dark world. But when put head to head against polls or Nate Silver&#x27;s FLIPR model, they are really a wash. Especially looking at flipped or close-by-polls races, there is no alpha compared to a traditional poll-based model. Was this obvious to everyone else too? Can we treat them like the entertainment they are and tax them for the terrible ads?",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50397325",
+        "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+        "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+        "hn_url": "https://news.ycombinator.com/item?id=50397325",
+        "domain": "github.com",
+        "points": 30,
+        "comments": 2,
+        "created_at": "2026-11-06T19:41:20Z",
+        "story_text": "Hi there :) Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files. For more details, here&#x27;s the Show HN post: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49937916\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49937916</a> From the comments, I got the impression that there was quite an interest in seeing not only AI-generated LEGO models, but also AI-animated LEGO ones. I took a look at results from past experiments, and found it feasible to use agentic LLMs for: - analyzing the LDraw source code for LEGO models\n- reverse-engineer! the mechanisms present by reading the descriptions and sequence for the parts there\n- and then, animate them via Blender! This new project I&#x27;m presentin",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "generat",
+          "llm",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "50408350",
+        "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+        "url": "https://eyesrhythm.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50408350",
+        "domain": "eyesrhythm.com",
+        "points": 28,
+        "comments": 14,
+        "created_at": "2026-11-07T21:47:47Z",
+        "story_text": "Profession like software engineer, mechanical &#x2F; graphics designer takes a lot of strain on your eyes, observing minute details for hours and hours on screen can significantly reduce the blink rate which you might not even notice until it gets irreversibly painful, leaving you with dry eyes. I am already a victim of it, working 20 years as a research engineer in computer vision, zooming into pixel level details to hand craft algorithms. Now the doctors says its only regular use of lubricating drops can keep your eyes safe. Now with AI and available fantastic libraries it&#x27;s possible to play safe so that your body does not pay the price of your profession. EyesRhythm is build to help you keep the blink rhythm healthy by giving small audio &#x2F; visual indication to maintain healthy",
+        "ai_keywords": [
+          "ai",
+          "vision"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50393235",
+        "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+        "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+        "hn_url": "https://news.ycombinator.com/item?id=50393235",
+        "domain": "github.com",
+        "points": 23,
+        "comments": 3,
+        "created_at": "2026-11-06T15:07:47Z",
+        "story_text": "Hi HN, I’m Jan. I am co-author of the Agentic Identity Broker (AIB), an MIT-licensed OAuth2 broker in the Zalando Incubator, that lets a user give an AI agent scoped, revocable access to MCP services. The broker solves three major challenges that are especially relevant in corporate environments: (A) Enable users to delegate workloads to agents without providing the agents all the user’s tokens. (B) Connect fragmented identity and authorization systems. (C) Centralize tool approvals and audit logging. We built AIB to fill an infrastructure gap in our own agent platform. At this moment in time, IETF working groups are still finalizing standards for agent identity, and vendors are still turning the necessary infrastructure into off-the-shelf products. We needed that infrastructure today. How",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "rag"
+        ],
+        "platform_smell": [
+          "infrastructure",
+          "platform"
+        ],
+        "ai_score": 3
+      },
+      {
+        "id": "50392219",
+        "title": "Show HN: An open source webbluetooth and NFC browser for iOS",
+        "url": "https://github.com/hito-dev/wand-browser",
+        "hn_url": "https://news.ycombinator.com/item?id=50392219",
+        "domain": "github.com",
+        "points": 15,
+        "comments": 0,
+        "created_at": "2026-11-06T13:45:07Z",
+        "story_text": "I am developing hardware products with NFC and BLE. I built this browser because I lack support of WebNFC and WebBluetooth in existing browsers. Using a native app or a spare Android phone is not the fastest way to test a new feature &#x2F; integration in my hardware. How it works: it uses WebKit and standard WebNFC&#x2F;WebBluetooth Javascript interfaces - so any existing js app will work. How to try: github or app store Plans: security&#x2F;privacy focus - isolation mode for specific websites to prevent XSS&#x2F;Prompt injection",
+        "ai_keywords": [
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50394991",
+        "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+        "url": "https://adikshatriyag-crypto.github.io/aegis-kernel/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394991",
+        "domain": "adikshatriyag-crypto.github.io",
+        "points": 13,
+        "comments": 3,
+        "created_at": "2026-11-06T17:00:23Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50401409",
+        "title": "Show HN: Backwords – Let AI teach you how to speak in reverse",
+        "url": "https://backwords.greg.technology/",
+        "hn_url": "https://news.ycombinator.com/item?id=50401409",
+        "domain": "backwords.greg.technology",
+        "points": 12,
+        "comments": 3,
+        "created_at": "2026-11-07T03:39:46Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50390605",
+        "title": "Show HN: Overhead – the planes overhead, painted on an e-ink frame",
+        "url": "https://github.com/dmellok/tesserae-widget-overhead",
+        "hn_url": "https://news.ycombinator.com/item?id=50390605",
+        "domain": "github.com",
+        "points": 12,
+        "comments": 0,
+        "created_at": "2026-11-06T10:30:15Z",
+        "story_text": "Hi HN, I&#x27;ve been fascinated by aviation for some time now. Inspired by Fugleramme, I wanted a framed print of a cluster of aircraft over my house or a busy airport. So I built Overhead. (Photos in the README) The hero photo shows planes departing and landing in Changi, Singapore. How it works Flight data for a location is gathered from adsb.lol and adsb.fi as a fallback. (you can also point it to your own ADS-B receiver). The photo of the exact aircraft is gathered from planespotters.net and the photographer is credited on the page. The photo is then handed to an AI image gen service via fal.ai using your own key. It&#x27;s then cut out and packed into a cluster on the page with packers adapted from Fugleramme. It costs about US$0.04 a painting but images are painted once and kept for",
+        "ai_keywords": [
+          "ai",
+          "image"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50400374",
+        "title": "Show HN: Goethe – The infrastructure for self-hosted AI",
+        "url": "https://github.com/meshapplied/Goethe",
+        "hn_url": "https://news.ycombinator.com/item?id=50400374",
+        "domain": "github.com",
+        "points": 9,
+        "comments": 3,
+        "created_at": "2026-11-07T00:26:21Z",
+        "story_text": "Hey, we launched Goethe, because deploying models on hardware you control end-to-end is pain in the ass. Goethe is like Vercel, but for AI models and hardware. It manages your models and hardware you point it and runs corresponding optimal inference.\n-- install it \n-- deploy any model you want\n-- get an API you can use with any client securely",
+        "ai_keywords": [
+          "ai",
+          "inference",
+          "model"
+        ],
+        "platform_smell": [
+          "end-to-end",
+          "infrastructure"
+        ],
+        "ai_score": 3
+      },
+      {
+        "id": "50397561",
+        "title": "Show HN: Tell the Sky – message lanterns drift on winds from live weather data",
+        "url": "https://tellthesky.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50397561",
+        "domain": "tellthesky.com",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-11-06T19:59:25Z",
+        "story_text": "I created a web&#x2F;mobile app that lets you write a story&#x2F;secret&#x2F;encouragement&#x2F;etc... on a lantern. You can then let it go and it will float over a world map using live wind data from NOAA&#x27;s public wind forecast. Other users can then catch them in a timed window as they float by overhead and add on to the message chain. Then they release them to continue on. It&#x27;s just a fun thing I was trying - kind of like a message in a bottle but in the sky. I thought it sounded like a cool idea and after playing with it, I really like it but was curious if other people also thought it was cool or just seemed lame. lol If you&#x27;d be willing to check it out you can view lanterns without any signup or anything. But to launch one yourself, it requires an account (all free of c",
+        "ai_keywords": [
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50402421",
+        "title": "Show HN: Ryph – Self-Hosted, Open-Source Coding Agents for Incident Response",
+        "url": "https://github.com/ryph-hq/ryph",
+        "hn_url": "https://news.ycombinator.com/item?id=50402421",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-11-07T07:24:40Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50396969",
+        "title": "Show HN: IMDb for YouTube (Long-Form Videos Only)",
+        "url": "https://vidtier.eamag.me/",
+        "hn_url": "https://news.ycombinator.com/item?id=50396969",
+        "domain": "vidtier.eamag.me",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-11-06T19:16:13Z",
+        "story_text": "I loved <a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a> and I also love imdb&#x2F;letterboxd, I&#x27;m surprised there&#x27;s still no imdb for youtube",
+        "ai_keywords": [
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50404494",
+        "title": "Show HN: I made a guardrail against AI outreach slop (API/MCP)",
+        "url": "https://maildignity.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50404494",
+        "domain": "maildignity.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-07T13:48:09Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50399637",
+        "title": "Show HN: I asked HN about AI agentic setups, here are 750 of the comments mapped",
+        "url": null,
+        "hn_url": "https://news.ycombinator.com/item?id=50399637",
+        "domain": "",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-06T22:58:34Z",
+        "story_text": "A few days back I posted here asking about how people were using AI &#x2F; doing agentic coding (see: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50366117\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50366117</a>). Needless to say, I was overwhelmed by the response! The one challenge I found, however, was that the comments were almost impossible to parse: some users answered my questions in the format I provided, others answered in any order, but either way it was really hard to get a picture of who was using what from that thread alone. So, I spent last night building an interactive site out of people&#x27;s answers. I used Claude to pull the tools, models and plans out of each comment, with every number linked back to the original comments it came from. The websi",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "claude",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "50395242",
+        "title": "Show HN: Ru-Jev – an open model that scores caller-supplied options on CPU (MIT)",
+        "url": "https://huggingface.co/besktech/ru-jev",
+        "hn_url": "https://news.ycombinator.com/item?id=50395242",
+        "domain": "huggingface.co",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-06T17:15:44Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50389326",
+        "title": "Show HN: BeepGrid – Lightweight open source agent comms",
+        "url": "https://github.com/beepgrid/beepgrid",
+        "hn_url": "https://news.ycombinator.com/item?id=50389326",
+        "domain": "github.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-06T07:39:38Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50393793",
+        "title": "Show HN: Botel – always reachable agents you pay for only while they're working",
+        "url": "https://botel.dev",
+        "hn_url": "https://news.ycombinator.com/item?id=50393793",
+        "domain": "botel.dev",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-11-06T15:46:21Z",
+        "story_text": "I built a pay-as-you-go two star hotel for bots that you’re only charged for while it’s active. Typically wakes in under a second, runs on a vm, and costs very little while it’s paused. In my free time I’ve been building a firecracker based vm orchestration platform. In order to dogfood the thing I put together a place to run agent harnesses (openclaw etc) on machines but only pay for them when they are in use. What started as a demo has grown legs into a more unique product than the platform. Botel has prebaked templates for each harness, with a daemon of mine running beside it monitoring the harness’ activity. It communicates out to the host over a link-local self api; instructing when to pause or wake next based on stored schedules. With a proxy in front to wake on http. The harnesses a",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [
+          "platform"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "50392347",
+        "title": "Show HN: Grid – A Hold'em arena where your AI agent plays your strategy (Beta)",
+        "url": "https://penguinbase.com/game-install?game=192471728&ref=hn",
+        "hn_url": "https://news.ycombinator.com/item?id=50392347",
+        "domain": "penguinbase.com",
+        "points": 4,
+        "comments": 3,
+        "created_at": "2026-11-06T13:57:16Z",
+        "story_text": "Hi HN, my friend&#x27;s team and I have been building a game called GRID, a dog poker game with an AI twist. Under the cute dog graphics, GRID is an arena where LLMs compete, with no-limit hold’em as the medium. You duke it out as a strategist, vibe coder, and bot maker. Why: models get compared on benchmarks all the time, but rarely as my agent against yours in its truest form. GRID is our attempt at creating that arena, because we believe this type of game will exist in the future, as AI becomes as common a tool as the browser. How it works: * Paste a prompt and an MCP config into Claude Code, Codex or any MCP client. The agent waits for its turn and sends actions back through tool calls. * The strategy is text written in the game, up to 6,000 characters. We thought it’d be cool to have ",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "claude",
+          "llm",
+          "model",
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 6
+      },
+      {
+        "id": "50394952",
+        "title": "Show HN: Design guidance and UI checks for coding agents",
+        "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+        "hn_url": "https://news.ycombinator.com/item?id=50394952",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-11-06T16:57:39Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50394379",
+        "title": "Show HN: Infinity – Git-style branching for AI chats",
+        "url": "https://infinitychat.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394379",
+        "domain": "infinitychat.app",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-11-06T16:19:42Z",
+        "story_text": "Hello HN, I&#x27;m Nik. I built Infinity for myself because I tend to love to rabbit-hole on various subjects. I usually have 3-4 windows open for ChatGPT desktop + Claude + Ollama. Typically, I&#x27;d ask a question, see something interesting in the answer, and then keep expanding on it. The mental chain of thought eventually gets lost and I would start from scratch again. Second, I also wanted to compare answers across multiple models. From there, pick and use the best one and continue. So I built Infinity for myself. Multiple windows, multiple chats. Projects all aligned in one place. But the best part is when you start highlighting any part of the response - you can branch off and fork into new chat sessions from there without losing your original chain of thought. It&#x27;s a native M",
+        "ai_keywords": [
+          "ai",
+          "claude",
+          "gpt",
+          "llama",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "50391875",
+        "title": "Show HN: Antidraw – Open-source AI prototyping canvas for any React library",
+        "url": "https://github.com/AntidrawHQ/antidraw",
+        "hn_url": "https://news.ycombinator.com/item?id=50391875",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-11-06T13:07:31Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50391362",
+        "title": "Show HN: UUMit – turn idle machines into model endpoints",
+        "url": "https://uumit.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391362",
+        "domain": "uumit.ai",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-11-06T12:02:46Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50404406",
+        "title": "Show HN: Hosted dashboard for small VPS fleets, outbound-only agent",
+        "url": "https://vpsmon.cloud/",
+        "hn_url": "https://news.ycombinator.com/item?id=50404406",
+        "domain": "vpsmon.cloud",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-07T13:31:07Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50389351",
+        "title": "Show HN: Pixel Buddy, a pixel pet for Claude Code that grows from your work",
+        "url": "https://github.com/SimakovIgor/pixel-buddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50389351",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-06T07:44:56Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50388956",
+        "title": "Show HN: Mantis – AI agents browse 36% faster than with Playwright MCP",
+        "url": "https://github.com/perzianhq/mantis",
+        "hn_url": "https://news.ycombinator.com/item?id=50388956",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-06T06:38:36Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50406532",
+        "title": "Show HN: Jacq, a DSL that compiles model and kernel descriptions to CUDA",
+        "url": "https://github.com/ImpossibleComputing/jacq",
+        "hn_url": "https://news.ycombinator.com/item?id=50406532",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-07T17:58:49Z",
+        "story_text": "I was working (with agents) on testing out various attention algorithm ideas I had, and I found that the existing infrastructure&#x2F;libraries made it more difficult than it should be. So I created Jacq, a DSL and compiler. A jacq file describes a model’s configuration, weights, layers, and pipeline. Jacq turns it into a standalone CUDA inference runtime and a Python weight exporter. Kernel descriptions can also generate CUDA harnesses. The easiest way to try it is the TinyLlama example in the README. Building, validating, visualizing, and generating CUDA only require Rust. Of course, running inference does require an NVIDIA GPU, CUDA, Python dependencies, and weights. Jacq doesn&#x27;t support other GPU vendors (AMD, etc) or Metal, yet (PR&#x27;s welcome!) There&#x27;s also an experiment",
+        "ai_keywords": [
+          "agent",
+          "generat",
+          "inference",
+          "llama",
+          "model"
+        ],
+        "platform_smell": [
+          "infrastructure"
+        ],
+        "ai_score": 5
+      },
+      {
+        "id": "50391595",
+        "title": "Show HN: Lost and Fought – a 90s Style RTS – browser with multiplayer",
+        "url": "https://lostandfought.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391595",
+        "domain": "lostandfought.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-06T12:32:11Z",
+        "story_text": "Loved to play Earch 2140, KKND, C&amp;C, WC1-3 Dune 2 and lots of others. Combined all the features i loved into a quick multiplayer browser experience.\nFor your enjoyment. Created with Claude Code in one evening and one morning. Let me know what you think.",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50388417",
+        "title": "Show HN: Repairer – close the breach when a Linux flaw goes public",
+        "url": "https://gno.security/repairer/",
+        "hn_url": "https://news.ycombinator.com/item?id=50388417",
+        "domain": "gno.security",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-06T05:00:14Z",
+        "story_text": "As we&#x27;ve seen with the Ubuntu critical CVE-2026-98432 (CVSS 9.8), AI-dicovered zero day exploit are being reported at an exponential rate and we don&#x27;t have the process for dealing with the flood of exploits in real time. What we need is an AI-based system for autopatching systems based on real time information. The vendor&#x27;s fix can take days or weeks to be out (is the Ubuntu thing patched yet?) and meanwhile the grid is vulnerable to exploitation, especially AI worms. Repairer is a small program that runs on each of your servers. The day an exploit goes public it puts up a stopgap that blocks it, and once the real fix is up it takes the stopgap back off by itself. A stopgap only takes something away — drop certain packets, turn off a kernel module or service, remove a setuid",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50406983",
+        "title": "Show HN: Agent Manager – keyboard-first workflow for running many coding agents",
+        "url": "https://github.com/wainmann/agent-manager",
+        "hn_url": "https://news.ycombinator.com/item?id=50406983",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-07T18:56:07Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50403249",
+        "title": "Show HN: Retex, a Faster LaTeX Engine",
+        "url": "https://gitlab.com/severin-lemaignan/retex",
+        "hn_url": "https://news.ycombinator.com/item?id=50403249",
+        "domain": "gitlab.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-07T10:23:03Z",
+        "story_text": "retex is a clean-room, CC0, reimplementation of LuaLaTeX in rust. It can either be used as a faster (x2-3) drop-in replacement for LuaLaTex (--compat mode) , or as a more modern TeX engine, with much nicer error messages, support for SVG, ODP&#x2F;ODT output, native PDF&#x2F;X1 and PDF&#x2F;X4 for printing, auto-download of missing packages (like eg Miktex), python bindings, etc. User manual with examples: <a href=\"https:&#x2F;&#x2F;retex-ef747d.gitlab.io&#x2F;retex-manual.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;retex-ef747d.gitlab.io&#x2F;retex-manual.pdf</a> retex has been entirely generated by a Large Language Model (LLM). Therefore,\nretex itself does not have any author. It is an automatic machine-translation of the work of D.E. Knuth and of the hundreds of volunteers who made TeX, LaTeX",
+        "ai_keywords": [
+          "automat",
+          "generat",
+          "llm",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 4
+      },
+      {
+        "id": "50402907",
+        "title": "Show HN: I built a food recall tracker with ML classification and email alerts",
+        "url": "https://brentbutkow.me/projects/recall-radar",
+        "hn_url": "https://news.ycombinator.com/item?id=50402907",
+        "domain": "brentbutkow.me",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-07T09:05:30Z",
+        "story_text": "I built an automatic food-recall tracker that collects recalls from sources including the FDA, USDA, FSA, RASFF, and others. It currently covers the US, UK, Europe, Canada, and South Africa. It uses ML to classify recalls by severity, cause, and category, and also tries to detect anomalies&#x2F;outbreaks and identify similar recalls. You can sign up for daily email alerts based on your preferences, so you can be notified when a recall is relevant to you (The emails are best-effort and shouldn&#x27;t be treated as an authoritative source of safety information). My goal is simply to make it easier to keep track of recalls that might otherwise be missed. I&#x27;d be particularly interested in feedback on the classification&#x2F;anomaly detection, and other any other useful recall information ",
+        "ai_keywords": [
+          "automat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50398489",
+        "title": "Show HN: XOR's NFL Challenge – after nearly 40 years",
+        "url": "https://testflight.apple.com/join/aJWq3EcC",
+        "hn_url": "https://news.ycombinator.com/item?id=50398489",
+        "domain": "testflight.apple.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T21:02:37Z",
+        "story_text": "As a kid I loved this DOS game. But I really thought the X&#x27;s and O&#x27;s needed numbers. So I spent countless hours trying to navigate through the compiled code trying to do it. I&#x27;ve often credited my interest in programming to those nights and days, waking up with the green and red lines baked into my eyeballs. Last night it took only 3 prompts. Just press &quot;Display&quot; from the menu. I made only one change to the code from there, making sure &quot;Inside Charge&quot; was a play you could call on defense. That was the go-to play. Now my 9 year-old self can go outside and touch grass, while the present day me needs to get back to work!",
+        "ai_keywords": [
+          "prompt"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50395793",
+        "title": "Show HN: ViewFit – Resize images to the size they are rendered at",
+        "url": "https://github.com/andrea-bonacci/viewfit",
+        "hn_url": "https://news.ycombinator.com/item?id=50395793",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T17:55:24Z",
+        "story_text": "",
+        "ai_keywords": [
+          "image"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50395582",
+        "title": "show HN: Computer-Generated Asset Pipelines: Shading Language in Toy Story (1995)",
+        "url": "https://codeaihq.com/computer-generated-asset-pipelines-shading-language-in-toy-story-1995/",
+        "hn_url": "https://news.ycombinator.com/item?id=50395582",
+        "domain": "codeaihq.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T17:39:22Z",
+        "story_text": "",
+        "ai_keywords": [
+          "generat"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50395405",
+        "title": "Show HN: Thesis, checks every SEC filing against why you own a stock",
+        "url": "https://www.mythesis.ai",
+        "hn_url": "https://news.ycombinator.com/item?id=50395405",
+        "domain": "mythesis.ai",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T17:27:38Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50394931",
+        "title": "Show HN: Self-Annotating Stock Charts",
+        "url": "https://portfoliogenius.ai/features/ai-annotated-charts",
+        "hn_url": "https://news.ycombinator.com/item?id=50394931",
+        "domain": "portfoliogenius.ai",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T16:56:10Z",
+        "story_text": "Most stock charts work in a similar way - they give you a bunch of tools to draw lines and patterns on a chart. This is fine, and I assume that advanced traders enjoy drawing on the chart. But it&#x27;s also annoying, and seems arbitrary sometimes. So I created stock charts that annotate themselves. The process has two stages: First, the algorithm goes through the daily candles and identifies the structure: support and resistance zones, trendlines, volume spikes, etc. Then, an LLM models understands the relative importance of the structure components, decides which ones to include, and annotates them. Finally, it lays out the possible future moves: base case, bull and bear cases. It&#x27;s included in Portfolio Genius, the AI investment manager I&#x27;m building, and it&#x27;s available fr",
+        "ai_keywords": [
+          "ai",
+          "llm",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50393198",
+        "title": "Show HN: Pico-WAM – smallest world-action-model",
+        "url": "https://www.keivalya.com/pico-wam/",
+        "hn_url": "https://news.ycombinator.com/item?id=50393198",
+        "domain": "keivalya.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T15:04:43Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50391666",
+        "title": "Show HN: Weeny.Cloud – A Linux server for your coding agent's apps",
+        "url": "https://weeny.cloud/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391666",
+        "domain": "weeny.cloud",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T12:42:43Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50406292",
+        "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+        "url": "https://github.com/hedgerow-dev/coldframe",
+        "hn_url": "https://news.ycombinator.com/item?id=50406292",
+        "domain": "github.com",
+        "points": 203,
+        "comments": 44,
+        "created_at": "2026-11-07T17:27:30Z",
+        "story_text": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both of them are recognized on Shodan as real ones (an not as honeypots). It’s one Python file using only the standard library, and it builds on eppser&#x2F;danfoss-ak-sm-decoy and public research by Synacktiv, Claroty and Ironhackers. Things that were fun to get right: - Matching real units. I used Shodan records of real devices to match header order, page titles, certificate fields and TLS versions. The Danfoss persona sends nginx headers in ",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50408082",
+        "title": "Show HN: Where Were We",
+        "url": "https://wherewerewe.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50408082",
+        "domain": "wherewerewe.app",
+        "points": 33,
+        "comments": 11,
+        "created_at": "2026-11-07T21:08:35Z",
+        "story_text": "A little web game I made as an anniversary present for my wife. Upload vacation photos and make them into a game. WWW uses EXIF to determine where and when the photo was taken. This is then turned into a game you can send to anyone.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50397435",
+        "title": "Show HN: CloneGuard – Scan a repo for credential-stealing tricks before it runs",
+        "url": "https://github.com/tharun208/cloneguard",
+        "hn_url": "https://news.ycombinator.com/item?id=50397435",
+        "domain": "github.com",
+        "points": 31,
+        "comments": 7,
+        "created_at": "2026-11-06T19:49:27Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50404321",
+        "title": "Show HN: Logo Deal – Logos anyone can edit with text",
+        "url": "https://logo.deal/",
+        "hn_url": "https://news.ycombinator.com/item?id=50404321",
+        "domain": "logo.deal",
+        "points": 9,
+        "comments": 3,
+        "created_at": "2026-11-07T13:17:09Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50403954",
+        "title": "Show HN: An online shop where your friends can hurry the courier",
+        "url": "https://www.dopaminechic.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50403954",
+        "domain": "dopaminechic.com",
+        "points": 6,
+        "comments": 2,
+        "created_at": "2026-11-07T12:25:04Z",
+        "story_text": "I built an emulator of a flash-sale fashion outlet with no registration and fake checkout that never takes money. You can browse items that are on sale, watch in real time as they go out of stock one by one, and get notified when they are back on sale (possibly with different prices). Every order placed on the website gets “tracking” which fails on the delivery day with one of 50 available reasons (for example, “a raccoon in the Newark depot has claimed your parcel; animal control reports that it seems happy there”). But you can also share the tracking with your friends, and they can hurry the courier; the more hurries, the more spectacularly it fails, until your parcel lands in the Svalbard seed vault, the North Pole, the International Space Station or some such place. The complete shop c",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50395134",
+        "title": "Show HN: Hacker Living – HN's most recommended places",
+        "url": "https://hacker.living",
+        "hn_url": "https://news.ycombinator.com/item?id=50395134",
+        "domain": "hacker.living",
+        "points": 6,
+        "comments": 2,
+        "created_at": "2026-11-06T17:09:28Z",
+        "story_text": "HackerTV and HackerTube inspired me to explore another corner of HN recommendations: places worth visiting and typefaces people enjoy using. I built: <a href=\"https:&#x2F;&#x2F;hacker.living\" rel=\"nofollow\">https:&#x2F;&#x2F;hacker.living</a> - a map and font collections with links back to the original comment. I built this entirely using Codex, including the entire data pipeline and workers: extraction, transformation, and recommendations capture. It&#x27;s still an early stage preview, so some details need verification. Thanks for the inspiration! Code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;grandimam&#x2F;hacker.living\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;grandimam&#x2F;hacker.living</a>",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50397874",
+        "title": "Show HN: An NLP based word game for users to play against Astra, Opus, and more",
+        "url": "https://wordspies.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50397874",
+        "domain": "wordspies.com",
+        "points": 5,
+        "comments": 7,
+        "created_at": "2026-11-06T20:19:58Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50406700",
+        "title": "Show HN: We made a new theme to increase engagement on our website",
+        "url": "https://zenmemes.com/threads/thread-20261107173646-27caa60f/",
+        "hn_url": "https://news.ycombinator.com/item?id=50406700",
+        "domain": "zenmemes.com",
+        "points": 5,
+        "comments": 4,
+        "created_at": "2026-11-07T18:17:08Z",
+        "story_text": "Backstory: We run an old-internet-style website called ZenMemes. Recently, end-user testing has shown that many users find this site disorienting, because there is no cookie banner, and at no point are you told the experience is better in the app. To help them adapt, we built a new theme called Engagify. We made this page default to the theme so it&#x27;s easier to test out.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50394162",
+        "title": "Show HN: NASA's Swift telescope's 22 years in orbit, rebuilt from its archive",
+        "url": "https://swift.rory.codes/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394162",
+        "domain": "swift.rory.codes",
+        "points": 5,
+        "comments": 3,
+        "created_at": "2026-11-06T16:07:14Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50391185",
+        "title": "Show HN: Ueddit.com – Reddit Without Logging In",
+        "url": "https://ueddit.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391185",
+        "domain": "ueddit.com",
+        "points": 5,
+        "comments": 2,
+        "created_at": "2026-11-06T11:44:37Z",
+        "story_text": "Example: \n<a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Steam\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;Steam</a> =&gt; \n<a href=\"https:&#x2F;&#x2F;www.ueddit.com&#x2F;r&#x2F;Steam\" rel=\"nofollow\">https:&#x2F;&#x2F;www.ueddit.com&#x2F;r&#x2F;Steam</a> =&gt; \nGet redirected to a working RedLib instance. Simple replace the &quot;r&quot; with an &quot;u&quot; (reddit =&gt; ueddit)!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50401039",
+        "title": "Show HN: I built ivyNote, a local-first Markdown notes app",
+        "url": "https://ivynote.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50401039",
+        "domain": "ivynote.app",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-07T02:22:35Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50391000",
+        "title": "Show HN: Rindraw – drawing and animation app for iPad, iPhone and Mac",
+        "url": "https://rindraw.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391000",
+        "domain": "rindraw.com",
+        "points": 5,
+        "comments": 0,
+        "created_at": "2026-11-06T11:23:27Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50407523",
+        "title": "Show HN: Good First Token – Spend your spare tokens on open source",
+        "url": "https://goodfirsttoken.org/",
+        "hn_url": "https://news.ycombinator.com/item?id=50407523",
+        "domain": "goodfirsttoken.org",
+        "points": 4,
+        "comments": 2,
+        "created_at": "2026-11-07T20:00:13Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50403007",
+        "title": "Show HN: I taught my Fujifilm X-T30 II to print on an instax Link 3 over BLE",
+        "url": "https://ronangaillard.github.io/posts/fujifilm-x-t30-ii-instax-link-3/",
+        "hn_url": "https://news.ycombinator.com/item?id=50403007",
+        "domain": "ronangaillard.github.io",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-07T09:27:06Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50394761",
+        "title": "Show HN: Insane Pour",
+        "url": "https://crux.quest/insane-pour/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394761",
+        "domain": "crux.quest",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-06T16:44:42Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50391670",
+        "title": "Show HN: The 100 prisoners, German tank and 61 more puzzles, with simulations",
+        "url": "https://mathparadoxes.com/en/",
+        "hn_url": "https://news.ycombinator.com/item?id=50391670",
+        "domain": "mathparadoxes.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-06T12:43:04Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50390817",
+        "title": "Show HN: Black Pixel – 69-byte inverse of the Million Dollar Homepage",
+        "url": "https://black-pixel-1x1.vercel.app",
+        "hn_url": "https://news.ycombinator.com/item?id=50390817",
+        "domain": "black-pixel-1x1.vercel.app",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-06T11:00:34Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50392000",
+        "title": "Show HN: Dub Digger – dub techno, deep, ambient and experimental",
+        "url": "https://dubdigger.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50392000",
+        "domain": "dubdigger.com",
+        "points": 3,
+        "comments": 6,
+        "created_at": "2026-11-06T13:23:08Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50393589",
+        "title": "Show HN: Upvoted – Up First but with HN stories",
+        "url": "https://upvoted.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=50393589",
+        "domain": "upvoted.dev",
+        "points": 3,
+        "comments": 3,
+        "created_at": "2026-11-06T15:34:05Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50396090",
+        "title": "Show HN: Search Danish supermarket offers in English",
+        "url": "https://nyneon.net/denmark-supermarket-offers/",
+        "hn_url": "https://news.ycombinator.com/item?id=50396090",
+        "domain": "nyneon.net",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-11-06T18:15:25Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50395977",
+        "title": "Show HN: Should I Grade It? Estimates a Pokémon card's PSA grade from a photo",
+        "url": "https://shouldigradeit.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50395977",
+        "domain": "shouldigradeit.app",
+        "points": 3,
+        "comments": 2,
+        "created_at": "2026-11-06T18:06:46Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50406797",
+        "title": "Show HN: Enmetu – Git auto-commit that holds conflicts",
+        "url": "https://codefloe.com/fluado/enmetu",
+        "hn_url": "https://news.ycombinator.com/item?id=50406797",
+        "domain": "codefloe.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-07T18:31:41Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50395009",
+        "title": "Show HN: Mega API Universe – 76,000 free APIs in a searchable SQLite database",
+        "url": "https://fullfreeapilist.netlify.app",
+        "hn_url": "https://news.ycombinator.com/item?id=50395009",
+        "domain": "fullfreeapilist.netlify.app",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-06T17:01:22Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50393349",
+        "title": "Show HN: DrawDock – Annotate Windows apps from an Android tablet",
+        "url": "https://github.com/MikeCer/DrawDock",
+        "hn_url": "https://news.ycombinator.com/item?id=50393349",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-06T15:16:39Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50393233",
+        "title": "Show HN: A debug overlay for iPhone Duo apps that shows reserved screen areas",
+        "url": "https://github.com/mikeakers/DuoDevOverlay",
+        "hn_url": "https://news.ycombinator.com/item?id=50393233",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 1,
+        "created_at": "2026-11-06T15:07:17Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50406749",
+        "title": "Show HN: Live songbook for guitarists",
+        "url": "https://kantamigo.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50406749",
+        "domain": "kantamigo.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-07T18:24:57Z",
+        "story_text": "Heey everyone, It&#x27;s probably not the best place to show a tool for offline parties with a guitar, but I still wanna try :D My brain and fingers produced something great in the last few months and it&#x27;s called Kantamigo. \nIf you&#x27;re a guitarist or participated a party where everybody sing together, then you probably had a &quot;what&#x27;s the lyrics?&quot; situation when you want to sing but you have no idea what the guitarist is playing. So this is what Kantamigo for - realtime lyrics for guitar parties. It&#x27;s also a personal songbook of course, with many cool features (smart import from ANY source, not-so-stupid auto-scroll, pedal &#x2F; keyboard support, playlists, tuner, transponder and so on). So if it&#x27;s relevant for you - please give it a try, and please please ",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50406748",
+        "title": "Show HN: Software Layoffs Tracker",
+        "url": "https://hissingkitty.com/research/software-layoffs-2026",
+        "hn_url": "https://news.ycombinator.com/item?id=50406748",
+        "domain": "hissingkitty.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-07T18:24:40Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50395261",
+        "title": "Show HN: Wrapped – Your neighborhood's 311 story",
+        "url": "https://311wrapped.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50395261",
+        "domain": "311wrapped.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T17:16:56Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50394884",
+        "title": "Show HN: Checkered Chat – QR codes with decoy messages and Shamir splits",
+        "url": "https://honeywired.com/apps/checkered-chat/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394884",
+        "domain": "honeywired.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T16:52:32Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50394371",
+        "title": "Show HN: noise'r'us, like placekittens.com but for audio",
+        "url": "https://noiserus.greg.technology/",
+        "hn_url": "https://news.ycombinator.com/item?id=50394371",
+        "domain": "noiserus.greg.technology",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-06T16:19:10Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      }
+    ],
+    "product_hunt": [],
+    "civitai_flux": [
+      {
+        "is_flux": true,
+        "id": 148194528,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/541102b0-2b13-4deb-9064-385eb3917af7/original=true/541102b0-2b13-4deb-9064-385eb3917af7.jpeg",
+        "posted_at": "2026-11-07T07:49:38.762Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Flux.1 D",
+        "stats": {
+          "likes": 58,
+          "hearts": 34,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "A moody, slightly angled fantasy portrait of a young winged woman sitting curled up on the dusty floor of an abandoned, dilapidated manor. She pulls both knees tightly against her chest, wrapping her arms around them. Her head rests gently on one knee as she gazes forward with a quiet, melancholic expression. Her tousled black hair is gathered into a loose bun, with strands falling across her face. She wears a delicate ivory dress featuring layers of sheer fabric and striking, worn-in crimson lace-up boots. Large, natural white feathered wings lie behind her, spreading softly across the floor. A small white dove rests peacefully on her forearm. She is surrounded by broken wooden paneling, aged walls, cobwebs, scattered feathers, and dust. Warm sunlight streams through a ruined window in the upper right, illuminating the swirling dust and creating a golden rim of light against deep, coal-black shadows. Moody painterly realism; a muted color palette of browns, ivory, and charcoal tones with vibrant crimson accents; intricate feather and lace textures; cinematic chiaroscuro; atmospheric imagery; shallow depth of field. Painterly realism inspired by classical Chinese ink wash painting merges with refined digital illustration; delicate brushwork; textured rice paper; subtle ink splatters; muted ivory tones balanced by rich crimson and gold accents; elegant composition; soft, atmospheric light—a breathtaking masterpiece, , award-winning, pingtu style, illustration-fen",
+          "negative_prompt": null,
+          "sampler": "Undefined",
+          "steps": 32,
+          "cfg_scale": 3.5,
+          "seed": 2012061045,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/541102b0-2b13-4deb-9064-385eb3917af7/original=true/541102b0-2b13-4deb-9064-385eb3917af7.jpeg",
+        "local_file": "148194528.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": true,
+        "id": 148196458,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ff1d647-c69a-4e54-8e03-78de081b23a5/original=true/7ff1d647-c69a-4e54-8e03-78de081b23a5.jpeg",
+        "posted_at": "2026-11-07T08:19:56.321Z",
+        "username": "Lady_Luminous",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Flux.1 D",
+        "stats": {
+          "likes": 58,
+          "hearts": 26,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Create a close-up portrait, close-up portrait of a geisha in a rowboat, sunset, calm lake, reflection., calm lake, dreamlike landscape, mountains, trees, The artwork is rendered in a clean, modern style that emphasizes precise linework, vivid colors, and a touch of anime inspiration. Her enigmatic expression and the fan's intricate details combine to create a mysterious, captivating atmosphere. special ink drawing mode, intricate linework with expressive contrasts, inksplash art on rice paper, sepia, henna, silhouette art, magnificent, inksplash  perfect composition, haze, low angle, shadow plants, vivid colors, best quality, realistic, fantastical, splash art, hyper-detailed, maximalist style, photorealistic, concept art, sharp focus, harmony, ambient occlusion, halo, dynamic lighting, a masterpiece, award-winning, DB4RZ, DB4RZ style painting, NeoPigma, in the style of cksc, anime, cyberpunk, pale skin, pale hands, long big canoe",
+          "negative_prompt": null,
+          "sampler": "Undefined",
+          "steps": 30,
+          "cfg_scale": 3.5,
+          "seed": 1895560730,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7ff1d647-c69a-4e54-8e03-78de081b23a5/original=true/7ff1d647-c69a-4e54-8e03-78de081b23a5.jpeg",
+        "local_file": "148196458.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148189826,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e8e3113-4a30-4c84-80e3-1f00316e95e6/original=true/9e8e3113-4a30-4c84-80e3-1f00316e95e6.jpeg",
+        "posted_at": "2026-11-07T06:19:27.562Z",
+        "username": "Sheat13",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 194,
+          "hearts": 76,
+          "comments": 5
+        },
+        "meta": {
+          "prompt": "A colossal rust-red starship hovers in mid-air above a hazy, futuristic landscape, its enormous hull rising like a floating building against the sky. The vessel is viewed from a low angle near its front quarter, bow extending toward the left edge while a towering, sharply tapered stern rises on the right; the long hull recedes diagonally into the distance. Weathered steel plating, seams, rivets, dark portholes, faded markings, scratches, and streaks of corrosion cover its surface, giving it the look of an ancient freighter retrofitted for flight.\n\nGlowing anti-gravity emitters and thruster pods line the ship's underside, casting a faint orange energy trail and kicking up swirling dust and mist below. A high bridge with broad dark windows projects from the upper hull, and a narrow mast with crossbars, antennas, cables, and rigging reaches into the sky. Small, bundled figures in dark winter coats stand on a nearby floating platform, their tiny scale emphasizing the ship's monumental size, while a few sleek hover-vehicles dart around the hull like insects.\n\nThe setting is an empty, hazy expanse under a uniform burnt-orange sky, with a thin horizon and softly reflected warm light across the scene. Strong monochromatic orange-red color grading, atmospheric haze, long subtle shadows, surreal sci-fi mood, cinematic concept art, painterly photorealism, fine industrial detail, retro-futuristic aesthetic.\n\nThe texture is pronounced, with visible brushstrokes and traces of paint that imitate the painting process using layered tones. Loose, energetic brushstrokes create a sense of movement and action. A sense of depth is achieved through varying densities of brushstrokes.  The painting style resembles abstract realism and impressionism. Soft shadows and highlights reflect every detail and give the scene volume.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 3448197387,
+          "width": 1344,
+          "height": 768,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e8e3113-4a30-4c84-80e3-1f00316e95e6/original=true/9e8e3113-4a30-4c84-80e3-1f00316e95e6.jpeg",
+        "local_file": "148189826.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148186474,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/190dcdca-7849-4e30-8a65-251e13799ef8/original=true/190dcdca-7849-4e30-8a65-251e13799ef8.jpeg",
+        "posted_at": "2026-11-07T05:05:31.673Z",
+        "username": "Ria_Tatibana",
+        "model_version_id": null,
+        "model_name": "Krea 2\\sickOllie_krea2_full_mxfp8",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 147,
+          "hearts": 56,
+          "comments": 1
+        },
+        "meta": {
+          "prompt": "A polished anime illustration of a young girl with a short dark-brown bob and straight bangs, large amber eyes, rosy cheeks and a softly parted mouth, shown in three-quarter view as she sits turned slightly toward the viewer, her left elbow planted on the tabletop with her left forearm raised and her left palm cupping her left cheek, while her right arm bends across her body so her right hand holds a small green hardcover book titled “Cafe Little Wish” flat against her chest. She wears an open yellow kimono robe printed with large sunflowers, white blossoms and green leaves, its front opening finished with a plain, solid yellow fabric hem directly bordering a solid-color dark teal bodice of smooth matte fabric, one flat uninterrupted expanse of teal. The robe's wide sleeves end in cream lace cuffs at the wrist openings, its shoulders and sleeve seams plain yellow cloth, with a frilled white lace collar, and a large teal-and-cream striped ribbon bow at her back; on her head sits a tilted wide-brimmed straw hat adorned with a single sunflower and a matching striped bow. To the lower left a gray-and-white tabby cat wearing a teal striped neck-bow looks up toward her, perched beside a vintage brown leather trunk with brass clasps and a “Bon Voyage” label draped with ivy. On a white-clothed table before them sit a floral teacup on its saucer with a small spoon, an envelope sealed in wax with a sunflower stamp, and behind it a stack of books spined Navel, The Door to Truth and judicial path beside a blue-and-white ceramic vase of sunflowers. Through the arched window to the right, cream stone buildings with pale-blue domes climb with flowering vines under a soft clouded sky; vintage framed wall plaques display “Le Jardin des Tournesols — Un rayon de soleil dans chaque instant” and “MAISON FLORALE DEPUIS 1912”, while large sunflowers fill the foreground corners. Warm daylight pours in from the window, wrapping her hair and hat edges in a gentle golden rim light, casting soft form shadows across the kimono folds and lace cuffs, giving skin smooth tonal transitions, layered sheen to the bob, crisp detail to the brass fittings, matte depth to the leather trunk, and a luminous atmospheric glow over the distant architecture, all rendered with delicate handmade linework in a warm cream-and-teal palette.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 456718333846031,
+          "width": 1888,
+          "height": 1056,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/190dcdca-7849-4e30-8a65-251e13799ef8/original=true/190dcdca-7849-4e30-8a65-251e13799ef8.jpeg",
+        "local_file": "148186474.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148185785,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3665da06-cc45-4ff5-b516-ec0657896196/original=true/3665da06-cc45-4ff5-b516-ec0657896196.jpeg",
+        "posted_at": "2026-11-07T04:47:29.960Z",
+        "username": "BlurHorizon",
+        "model_version_id": null,
+        "model_name": "krea2TurboOfficialComfy_krea2TurboInt8",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 119,
+          "hearts": 60,
+          "comments": 1
+        },
+        "meta": {
+          "prompt": "tr1p,\n\nEast Asian ink-wash painting influence, expressive flowing brushwork, soft ink bleeding on textured paper, luminous color washes, elegant double exposure composition.\n\nA black anthropomorphic wolf mountain deity stands with his back toward the viewer. He turns his head slightly over his shoulder, looking back with a subtle, knowing smile. His face is visible in three-quarter profile, with a long dark muzzle and softly gleaming golden eyes.\n\nOne hand rests behind his lower back. His other hand holds an open folding fan beside his cheek, extending outward so his smile remains visible. The fan is decorated with ornate red and gold peonies, delicate leaves, and fine gilded ribs.\n\nHe wears a voluminous, flowing traditional East Asian robe with broad sleeves and a long trailing hem. The robe spreads downward and outward in sweeping, graceful folds, filling the entire lower half of the composition and flowing beyond the bottom edge.\n\nWithin the silhouette of the robe, a beautiful mountain landscape unfolds through double exposure. Layered mountain peaks, winding rivers, waterfalls, tiny distant pavilions, and drifting clouds become the interior of the garment. The landscape merges seamlessly with the robe's folds, its rivers following the flowing fabric. The robe's outer contours remain clear, enclosing a vast luminous world. Pale jade mountains and ivory mist surround a river reflecting warm golden light.\n\nAbove his shoulders, the open background is a spacious deep indigo night sky, with a slender crescent moon and a few scattered stars. The upper background remains quiet and uncluttered.\n\nBrilliant cool moonlight outlines his black ears, muzzle, shoulders, and the edges of the fan. Warm amber light rises from the landscape inside his robe, illuminating the lower folds and his resting hand. Small crimson and gold floral accents on the fan, deep ink-black fur, luminous jade scenery, tranquil nocturnal atmosphere, mysterious and benevolent presence.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 829810616711750,
+          "width": 896,
+          "height": 1152,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3665da06-cc45-4ff5-b516-ec0657896196/original=true/3665da06-cc45-4ff5-b516-ec0657896196.jpeg",
+        "local_file": "148185785.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148203674,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f6e5ecf-bb45-4f09-89fd-339e73ac590c/original=true/6f6e5ecf-bb45-4f09-89fd-339e73ac590c.jpeg",
+        "posted_at": "2026-11-07T10:20:06.949Z",
+        "username": "akizukirei608",
+        "model_version_id": null,
+        "model_name": "JANKUTrainedChenkinNoobai_v777",
+        "base_model": "Illustrious",
+        "stats": {
+          "likes": 120,
+          "hearts": 48,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "lazypos, 1girl, kaela kovalskia, hololive,\nuse the hairstyle, hair ribbon, eye shape and color, of the character from reference image, to generate image with this prompt: Kaela Kovalskia rides a charming vintage bicycle through a quiet snow-covered countryside village, delivering freshly baked bread to its sleepy residents. She wears a mustard-yellow winter coat with a slightly oversized silhouette, a thick red knitted scarf, dark trousers, warm winter boots, and a soft brown beret. Her short blonde hair peeks out beneath the beret, with a few loose strands flowing gently behind her as she pedals along the snowy road. Her vivid crimson-red eyes look ahead with a cheerful, determined expression, while the cold breeze lightly lifts the ends of her scarf. A wicker basket mounted on the front of her bicycle carries freshly baked golden-brown bread, partially wrapped in rustic linen.\nAn orange cat sits upright inside a second wicker basket attached to the rear of the bicycle, looking remarkably serious about its delivery duties. Its fluffy tail curls over the basket's edge as it maintains an alert, dignified posture, carefully watching the road ahead. The bicycle features a classic curved frame, thin tires, a small bell, and subtle signs of age, with delicate snow gathered around its fenders and spokes. The contrast between Kaela's relaxed cycling and the cat's unusually professional expression adds a playful storybook charm.\nCapture the scene from a side-on tracking perspective, with the bicycle moving dynamically across the foreground while the snow-covered village stretches into the distance. Small wooden houses with frosted rooftops, rustic fences, snow-covered mailboxes, and distant church rooftops create a nostalgic countryside atmosphere. Bare trees and softly winding paths add depth, while warm golden light glows from a few cottage windows against the pale winter landscape. Render Kaela in a refined modern anime style, with expressive crimson eyes, delicate facial details, and softly detailed blonde hair. Combine this with a vintage travel-poster aesthetic, limited-color risograph printing, subtle ink misregistration, grainy pigment textures, and slightly imperfect printed edges. Use a restrained palette of mustard yellow, brick red, muted teal, warm cream, and snowy ivory.\nMaintain a wide horizontal composition that emphasizes the bicycle's movement and the expansive village scenery rather than making the character fill the frame. Let distant rooftops, trees, and the snowy road gradually dissolve into soft printed pigment washes, creating an irregular fading border that blends into a clean white background. Preserve generous negative space around the composition, with subtle scattered snowflakes and faint risograph textures extending toward the edges. No text, lettering, typography, logos, or watermark.",
+          "negative_prompt": "lazyneg, lazyhand, lazynsfw, lazyreal",
+          "sampler": "Euler a",
+          "steps": 30,
+          "cfg_scale": 5,
+          "seed": 4011806767,
+          "width": 6144,
+          "height": 3456,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6f6e5ecf-bb45-4f09-89fd-339e73ac590c/original=true/6f6e5ecf-bb45-4f09-89fd-339e73ac590c.jpeg",
+        "local_file": "148203674.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148211240,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/039c221b-c637-472e-b223-0e4e693c8066/original=true/039c221b-c637-472e-b223-0e4e693c8066.jpeg",
+        "posted_at": "2026-11-07T12:48:27.740Z",
+        "username": "Shiiro0",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_fp8_scaled",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 104,
+          "hearts": 47,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "<lora:training_2137066-20261105103820303-fw2b:1>,An atmospheric oil painting of two girls sitting close together beneath a solitary tree on a grassy hill at sunset. Place them small in the middle distance, slightly left of the tree trunk, their profiles facing one another. Their hair lifts gently in the evening breeze. The low sun rests behind them, turning their figures into soft silhouettes and tracing a narrow golden edge along their shoulders.\nFill the foreground with white wildflowers painted as large, unfocused patches of cream, muted green, and warm yellow. Let a few recognizable petals emerge near the middle distance before the flowers merge into the grass around the figures. The dark canopy arches across the upper edge, framing a broad sky of pale peach, dusty blue, and lavender clouds. Use soft glazing for the sky, broken brushwork for the sunlit grass, and thick, scattered marks inside the blurred flowers. Visible canvas grain, restrained lens-like glow, and a tender, still atmosphere.",
+          "negative_prompt": "worst quality, low quality, blurry, jpeg artifacts, bad anatomy, malformed hands, extra fingers, missing fingers, watermark, text, signature",
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1386785505,
+          "width": 1152,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/039c221b-c637-472e-b223-0e4e693c8066/original=true/039c221b-c637-472e-b223-0e4e693c8066.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148039539,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05fdb39d-68d1-46b1-86ae-af241e216081/original=true/05fdb39d-68d1-46b1-86ae-af241e216081.jpeg",
+        "posted_at": "2026-11-07T11:00:00.000Z",
+        "username": "EannDelacroix",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 107,
+          "hearts": 41,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "SHVYA, oil painting strokes, moody atmospheric perspective, cinematic digital painting, traditional media, expressive impasto texture, dark romanticism, high-contrast chiaroscuro lighting, fine grain noise effect style aesthetic, charcoal and pastel, surrealism,\nMagnificent abandoned Victorian ballroom illuminated by an enormous golden chandelier, ghostly aristocrats dancing in elaborate gothic masquerade costumes, translucent figures wearing ornate porcelain masks, black and crimson velvet decorations, dusty mirrors, mysterious shadows, beautiful decaying grandeur, dark romantic fantasy, cinematic atmosphere",
+          "negative_prompt": "text, artist signature",
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 233705748,
+          "width": 1376,
+          "height": 768,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/05fdb39d-68d1-46b1-86ae-af241e216081/original=true/05fdb39d-68d1-46b1-86ae-af241e216081.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148204688,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d597a72d-ac6d-42f3-9911-4e1daf28820c/original=true/d597a72d-ac6d-42f3-9911-4e1daf28820c.jpeg",
+        "posted_at": "2026-11-07T10:35:40.271Z",
+        "username": "junkyard001",
+        "model_version_id": null,
+        "model_name": "sickOllie_krea2.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 107,
+          "hearts": 39,
+          "comments": 5
+        },
+        "meta": {
+          "prompt": "An immense pale sky fills most of the frame, empty except for a thin band of peach and cobalt cloud near the horizon, and a small single engine propeller plane high in the upper right, angled down and toward the woman, faint propeller blur. In the lower left third, a woman stands ankle deep in a mirror flat salt lake, seen from far away and slightly behind, tiny against all that space. A torn dress clings wet against her body, the fabric shredded at the hem and split along one thigh, a strap fallen off one shoulder, bare arms streaked with grime. One hand holds a crimson signal flare aloft, spilling red light across her shoulders, the wet fabric, and the whole mirrored surface, while the other hand hangs loose at her side, fingertips grazing the water into slow rings. The water reflects the sky so completely that the figure appears to stand inside the clouds. A faint coral glow leaks from the horizon, bleeding a soft color into the reflection. Serene, hushed, vast. Palette of pale amber, cool cobalt, and one crimson accent. Loose expressive brushwork, dynamic paint splatter, heavily textured edges, thin watery washes in the sky and thick dry brush in the salt crust. Soft dawn light from the right, long delicate reflection, enormous negative space, subject deliberately small. d16itt4l <lora:NV_KR2_Vantheon_epoch_10:1.0> <lora:D161TT4L 17:0.9>",
+          "negative_prompt": null,
+          "sampler": "er_sde_simple",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 970173783426908,
+          "width": 1256,
+          "height": 1672,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d597a72d-ac6d-42f3-9911-4e1daf28820c/original=true/d597a72d-ac6d-42f3-9911-4e1daf28820c.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148211246,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/688789d8-7269-4c1d-99d4-9a68b8b786e6/original=true/688789d8-7269-4c1d-99d4-9a68b8b786e6.jpeg",
+        "posted_at": "2026-11-07T12:48:27.740Z",
+        "username": "Shiiro0",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_fp8_scaled",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 103,
+          "hearts": 39,
+          "comments": 1
+        },
+        "meta": {
+          "prompt": "<lora:training_2137066-20261105103820303-fw2b:1>,An atmospheric oil painting of a silver-haired elf woman resting against the immense trunk of a twisted black tree. Show her in profile, gazing at a luminous white butterfly perched above her raised fingertips. Small flowers and dark ribbons decorate her hair, and her layered fantasy dress falls into shadow beneath her. Heavy branches stretch across the top of the composition, with dozens of black butterflies resting along them.\nA deep burnt-orange sky glows behind the tree. Warm backlight traces her forehead, nose, loose hair, and shoulder, while the butterfly casts a delicate lavender-white light across her fingers and eye. Preserve rich brown and green undertones inside the darkest areas of bark. Use thick, directional brushwork in the trunk, thin translucent glazes around her face, and rough pigment across the glowing sky. Blur a few nearby butterflies into dark shapes to establish foreground depth. Fine canvas grain, drifting specks of light, and a quiet, mysterious mood.",
+          "negative_prompt": "worst quality, low quality, blurry, jpeg artifacts, bad anatomy, malformed hands, extra fingers, missing fingers, watermark, text, signature",
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 2745135112,
+          "width": 1152,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/688789d8-7269-4c1d-99d4-9a68b8b786e6/original=true/688789d8-7269-4c1d-99d4-9a68b8b786e6.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148207181,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01433d2a-017d-4cb0-b7c7-3e545c985ac2/original=true/01433d2a-017d-4cb0-b7c7-3e545c985ac2.jpeg",
+        "posted_at": "2026-11-07T11:20:12.917Z",
+        "username": "AureneStellaris",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "OpenAI",
+        "stats": {
+          "likes": 95,
+          "hearts": 37,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Recreate the first reference image as closely as possible, but completely replace the original character with the blonde girl from the second reference image.\nReference image instructions:\nImage 1: Use as the primary reference for composition, camera angle, framing, lighting, atmosphere, character positioning, pose, facial expression, and overall visual style.\nImage 2: Use as the exclusive character appearance reference. Preserve her recognizable hairstyle, hair color, eyes, facial features, and outfit.\nCharacter replacement:\nThe girl from the second reference image is now the character peeking through the slightly opened, chained metal door.\nPreserve her defining appearance:\nLong, voluminous golden-blonde hair with layered bangs framing her face.\nDistinctive curved ahoge extending from the top of her head.\nDelicate side French braid secured with a white ribbon.\nLarge, beautiful golden-yellow eyes with distinctive white pupils.\nSoft, delicate anime facial features and fair complexion.\nHer original white sailor-style school uniform with navy-blue collar, ribbon, and matching pleated skirt.\nPose and expression:\nRecreate the exact pose from the first reference image. She is peeking through the narrow opening of a partially opened metal door, with most of her body concealed behind it. Her face is close to the opening, looking directly toward the viewer.\nGive her the same unsettlingly cheerful, unnervingly wide-eyed expression: large, unblinking eyes, a small, innocent-looking smile, and an oddly calm demeanor that feels just a little too welcoming.\nHer expression should convey a subtle yandere-like atmosphere, combining adorable innocence with an unsettling sense of obsession.\nEnvironment and atmosphere:\nPreserve the heavy metal door, narrow opening, visible metal chain lock, door hardware, and dark surrounding interior from the first reference image. Maintain the dim, cold lighting, deep shadows, muted colors, and subtle red-blue chromatic aberration. Keep the slightly ominous atmosphere and dramatic contrast.\nImportant priorities:\nCharacter identity and appearance must match the second reference image.\nComposition, framing, pose, and expression must closely match the first reference image.\nDo not retain the original character's brown hair, reddish eyes, facial features, or orange outfit.\nDo not combine the two characters' appearances.\nDo not redesign the blonde girl's hairstyle, eye color, or signature features.\nPreserve the original image's vertical composition and close-up framing.\nThe final result should look as though the blonde girl from the second reference image was originally the character in the first image, rather than a newly designed character inspired by her.",
+          "negative_prompt": null,
+          "sampler": "GPT-Image-2.5-sunburst",
+          "steps": 0,
+          "cfg_scale": 0,
+          "seed": -1,
+          "width": 1024,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/01433d2a-017d-4cb0-b7c7-3e545c985ac2/original=true/01433d2a-017d-4cb0-b7c7-3e545c985ac2.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148200709,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/262279aa-b561-4f57-9ef2-ce9cb24c76f8/original=true/262279aa-b561-4f57-9ef2-ce9cb24c76f8.jpeg",
+        "posted_at": "2026-11-07T09:37:00.502Z",
+        "username": "Smorafina",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 81,
+          "hearts": 47,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "A cinematic and realistic oil painting with expressive brushwork. A dark landscape of a dead, foggy forest. Rendering zones: the irregular, deeply textured twisted tree trunks of varying sizes scattered chaotically across the frame, the subtle, almost imperceptible human-like contours and anguished expressions naturally formed by the knots and bark (resembling eerie wood spirits), the dark, thick tree sap dripping from these organic hollows like black tears, and the small, solitary hooded figure walking through the uneven terrain are rendered with sharp, fine, delicate detail. The thick white fog, the chaotic overlapping branches, the dark undergrowth, the glowing dust, and the atmospheric air are rendered with expressive, visible brushwork and a photorealistic, tactile oil-paint texture.\nThe faces are hidden within the natural grain of the wood, looking like ancient, organic anomalies rather than literal carved masks. The trees grow at odd angles, framing the scene asymmetrically. The small hooded figure is dwarfed by the massive, haunting trees. \nDramatic, cinematic lighting: a cold, pale moonlight illuminates the wet sap and the rough bark, subtly revealing the hidden facial features in the wood, while deep, heavy shadows swallow the undergrowth and the distant fog. Palette of ash grey, deep bark brown, pitch black, and pale mist. Mood of nightmare, isolation, and deep folk-horror.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 9,
+          "cfg_scale": 1,
+          "seed": null,
+          "width": 1280,
+          "height": 1600,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/262279aa-b561-4f57-9ef2-ce9cb24c76f8/original=true/262279aa-b561-4f57-9ef2-ce9cb24c76f8.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148233898,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e42f7e21-bbe4-40d9-887e-fdcecdfa1283/original=true/e42f7e21-bbe4-40d9-887e-fdcecdfa1283.jpeg",
+        "posted_at": "2026-11-07T17:54:26.386Z",
+        "username": "giminic",
+        "model_version_id": null,
+        "model_name": "Krea2Turbo.safetensors",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 84,
+          "hearts": 41,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "Funny moe anime art: A woman in her early 30s with wide, panicked eyes is sinking into a massive pile of ridiculously colorful pointy party hats. The hats are oversized and perfectly vibrant (green, blue, yellow, pink). Her hand emerges from the hat mound in an exaggerated, twitching gesture—a perfect \"help me!\" pose. Exaggerated motion lines, soft shading, bright cel-shading, whimsical fantasy setting, highly expressive, funny composition.\n,  <lora:Krea2_TextFusion_Refusal_Reduction.safetensors:1> <lora:NV_KR2_Vantheon_epoch_10.safetensors:0.6> <lora:KR2_Kimagure_epoch_10.safetensors:0.9>",
+          "negative_prompt": "ears",
+          "sampler": "Euler",
+          "steps": 10,
+          "cfg_scale": 1,
+          "seed": 385896084455242,
+          "width": 1856,
+          "height": 2304,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e42f7e21-bbe4-40d9-887e-fdcecdfa1283/original=true/e42f7e21-bbe4-40d9-887e-fdcecdfa1283.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148221179,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6879357a-1106-4a47-a224-0370f40ea9a8/original=true/6879357a-1106-4a47-a224-0370f40ea9a8.jpeg",
+        "posted_at": "2026-11-07T14:56:32.877Z",
+        "username": "Deus_Irae",
+        "model_version_id": null,
+        "model_name": "Krea2\\sickOllie_krea2.safetensors",
+        "base_model": "Krea 2",
+        "stats": {
+          "likes": 72,
+          "hearts": 38,
+          "comments": 2
+        },
+        "meta": {
+          "prompt": "A stylized 2D animated feature film still depicting a small, resilient anthropomorphic arctic fox girl trekking forward through an immense, howling blizzard across an endless frozen tundra, her body angled slightly to the right as she moves through deep powder that reaches her knees, sculpted snowdrifts and sweeping white dunes dominating the lower two-thirds of the frame with sharp, wind-sculpted edges; she has pristine fluffy white fur dusted with clumps of fresh snow, large rounded triangular fox ears pinned back against the freezing wind, dark expressive eyes squinting through the gale, and a colossal plush white tail trailing behind her in the snow; she wears a thick quilted crimson parka with a heavy fur-lined hood, thick wool mittens, and strapped snowshoes, gripping ski poles in both hands as she advances; a dense curtain of large hand-drawn white snowflakes and swirling wind gusts sweeps diagonally across the entire scene from top-left to bottom-right, partially obscuring the dark blue horizon visible in the distance; distant mountainous silhouette barely discernible under the storm, rendered in flat cel-shading with clean vector-like lineart, rich cool-toned color palette dominated by icy blues, stark whites, and vivid crimson accents, entirely non-realistic and 2D-only, evoking the raw intensity and emotional resilience of the character within a hyper-stylized animated world.  <lora:krea2_furry_0716:0.45> <lora:m87_lora_v1:0.45> <lora:Haiz_ai_krea2:0.4> <lora:NV_KR2_Vantheon_epoch_10:0.75>",
+          "negative_prompt": "blurry, lowres, pixelated, low quality, worst quality, jpeg artifacts, noise, grain, compression, chromatic aberration, out of focus, plastic skin, blurry, lowres, pixelated, low quality, worst quality, jpeg artifacts, noise, grain, compression, chromatic aberration, out of focus, plastic skin,waxy skin, over-saturated colors, warped anatomy, smeared details, over-processing, composite look",
+          "sampler": "Euler a_simple",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1059156278586536,
+          "width": 1664,
+          "height": 2432,
+          "clip_skip": 2
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6879357a-1106-4a47-a224-0370f40ea9a8/original=true/6879357a-1106-4a47-a224-0370f40ea9a8.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 148215686,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eaa17eda-fd7b-432d-8435-1a630bc83217/original=true/eaa17eda-fd7b-432d-8435-1a630bc83217.jpeg",
+        "posted_at": "2026-11-07T13:27:25.513Z",
+        "username": "Corcoronel",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 80,
+          "hearts": 29,
+          "comments": 13
+        },
+        "meta": {
+          "prompt": "masterpiece, best quality, very aesthetic, ektachrome fade film, \nA magical forest pond scene at night. Large tree roots extend into the dark, reflective water. Small, glowing fairies with wings flutter around the tree and water. A glowing, leaf-shaped boat floats on the surface. Green mist hangs over the water, and light filters through the canopy, creating a mystical atmosphere. The art style is painterly with strong ink outlines, high contrast, dynamic movement, and a gritty, atmospheric mood, with dynamic composition with high detail.",
+          "negative_prompt": "(2d ,Illustration, drawing, cartoon, animation, anima, painting:1.4)",
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1650509132,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eaa17eda-fd7b-432d-8435-1a630bc83217/original=true/eaa17eda-fd7b-432d-8435-1a630bc83217.jpeg",
+        "license": {}
+      }
+    ]
+  }
+}

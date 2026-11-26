@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T06:38:33.181603+00:00",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T06:29:16.033538+00:00",
   "sources_ok": [
     "hn",
     "ph",
@@ -10,15 +10,15 @@
   "notes": {
     "ph": [
       "no PH_DEV_TOKEN, falling back to html scraping",
-      "FAIL https://www.producthunt.com/leaderboard/daily/2026/11/24 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/11/24 :: HTTP Error 403: Forbidden",
+      "FAIL https://www.producthunt.com/leaderboard/daily/2026/11/25 :: GET failed after 3 tries: https://www.producthunt.com/leaderboard/daily/2026/11/25 :: HTTP Error 403: Forbidden",
       "FAIL https://www.producthunt.com/ :: GET failed after 3 tries: https://www.producthunt.com/ :: HTTP Error 403: Forbidden",
-      "OK https://www.producthunt.com/feed (+0, 44033 bytes)"
+      "OK https://www.producthunt.com/feed (+0, 43649 bytes)"
     ],
     "civitai": [
-      "api items: 100, items with meta: 73, items with prompt: 71, flux matched: 0",
+      "api items: 100, items with meta: 79, items with prompt: 78, flux matched: 1",
       "skipped for nsfw level: 0",
       "first item keys: baseModel, browsingLevel, createdAt, hash, height, id, meta, modelVersionIds, nsfw, nsfwLevel, postId, stats, thumbnail, type, url, username, width",
-      "top models: unknown(27), krea2_turbo_int8_convrot(8), Krea2Turbo.safetensors(3), hosekiLustrousmixAnima_animaV10(3), krea2_turbo_fp8_scaled(3), photonicIllusion_v4.safetensors(3), sam3.1_multiplex_fp16(3), CyberRealistic_Krea2_V4.0_nvfp4(2)"
+      "top models: unknown(43), cielbleuKrea2_v1_fp16(6), krea2_turbo_fp8_scaled(4), Krea2Turbo.safetensors(3), krea2TurboOfficialComfy_krea2TurboFp8(2), kromaKrea2_opd(2), minimax_h3_image_pruned_int8_convrot(2), krea2_turbo_bf16_quant(1)"
     ]
   },
   "data": {
@@ -29,8 +29,8 @@
         "url": "https://masondata.ai/",
         "hn_url": "https://news.ycombinator.com/item?id=50630294",
         "domain": "masondata.ai",
-        "points": 91,
-        "comments": 16,
+        "points": 103,
+        "comments": 21,
         "created_at": "2026-11-24T16:11:52Z",
         "story_text": "Hi HN! TLDR: we’ve built an open-source drop-in replacement for a postgres read-replica, powered by duckdb’s columnar compute engine. It’s very fast. And it looks like postgres. So, this started out as: let’s just connect Clickhouse to our postgres dbs and throw our analytics queries at it instead. That will speed everything up.  But we quickly found that 1) Clickhouse comes with quite the learning curve (engine optimisation) to make it fast (we needed something we could easily drop in to any customer’s postgres scenario), and 2) we had underestimated how different clickhouse’s SQL syntax was to postgres.  Don’t get me wrong: we love Clickhouse (it’s ridiculously fast if you know what queries to expect), it just didn’t work for our ad-hoc postgres workloads. So we went searching for altern",
         "ai_keywords": [
@@ -42,19 +42,20 @@
         "ai_score": 1
       },
       {
-        "id": "50609708",
-        "title": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
-        "url": "https://hermitcrm.io/",
-        "hn_url": "https://news.ycombinator.com/item?id=50609708",
-        "domain": "hermitcrm.io",
-        "points": 49,
-        "comments": 9,
-        "created_at": "2026-11-23T10:09:02Z",
-        "story_text": "I was about to keep track of my clients and prospecting in Google Sheets for my solopreneur business, when I remembered that&#x27;s exactly what I advise my clients not to do. Created Hermit CRM, an open source CRM for 1 person. Hermit helps to keep track of deals and prospecting. The platform is built for AI by storing the data in Markdown files in git, stored locally and can be accessed with a web app, CLI or MCP. No telemetry on the app. Building in public, even the website stats  are public as well. It’s macOS first. Linux is less tested, and Windows isn’t supported. Features I&#x27;m proud of: \n- import somebody from LinkedIn into to the CRM with 1 click\n- adding a LinkedIn convo to the CRM with 1 click.\nBoth work without LinkedIn or CRM subs. Don&#x27;t like what you see? Fork the He",
+        "id": "50624684",
+        "title": "Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window",
+        "url": "https://www.rchive.computer/",
+        "hn_url": "https://news.ycombinator.com/item?id=50624684",
+        "domain": "rchive.computer",
+        "points": 44,
+        "comments": 25,
+        "created_at": "2026-11-24T07:03:33Z",
+        "story_text": "RCHIVE is a cross-platform desktop app for cataloging, searching and reorganizing files on your computers and drives. Like, all of &#x27;em: internal, external, network shares, USB sticks, loose SD cards, weird CD-R&#x27;s, DVDs, floppy disks, Zip disks, and everything in between. I built this thing because my digital archives are an embarrassment! 30 years of getting a new hard drive whenever capacity quadrupled and dragging the old one to it into a folder titled &quot;BACKUP - TO SORT&quot; will do that to you lol, especially when you know deep down that &quot;sorting&quot; will never happen. To try to deal with that growing mess on a daily basis, I&#x27;ve tried a patchwork of all of our favorites in the past -- Everything, grep, custom scripts, you name it. And don&#x27;t get me starte",
         "ai_keywords": [
-          "ai"
+          "rag"
         ],
         "platform_smell": [
+          "everything",
           "platform"
         ],
         "ai_score": 1
@@ -65,8 +66,8 @@
         "url": "https://github.com/hatchet-dev/brickie",
         "hn_url": "https://news.ycombinator.com/item?id=50629936",
         "domain": "github.com",
-        "points": 29,
-        "comments": 7,
+        "points": 32,
+        "comments": 9,
         "created_at": "2026-11-24T15:48:34Z",
         "story_text": "Hey HN, this is Alexander from Hatchet (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;hatchet-dev&#x2F;hatchet\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hatchet-dev&#x2F;hatchet</a>). We’re releasing a new open-source project today called Brickie. Brickie lets you run sandboxes in your own cloud account, primarily targeting EKS on AWS. Sandboxes are an incredibly useful primitive for agentic applications. They serve two main functions: (1) a way for the agent to safely execute untrusted code, and (2) a durable filesystem for agents to preserve their state via snapshots. We decided to start building this after we started on a package called `@hatchet-dev&#x2F;sandbox` to integrate more directly with various sandbox providers, like E2B, Daytona, Archil, and Modal. We discovered that a l",
         "ai_keywords": [
@@ -76,69 +77,75 @@
         "ai_score": 1
       },
       {
-        "id": "50611026",
-        "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
-        "url": "https://github.com/ruairidhflint/news-blocklist",
-        "hn_url": "https://news.ycombinator.com/item?id=50611026",
-        "domain": "github.com",
-        "points": 20,
-        "comments": 11,
-        "created_at": "2026-11-23T13:02:52Z",
-        "story_text": "A little while ago I built (vibed) a tiny Mac app to block websites via the hosts file. By default it imported some fairly popular adult filtering lists as well as social media etc. It has been very effective; it would only take a few moments to switch off but it is enough of an interruption to often make me re-evaluate and proceed on. I have a particular distain for current affairs and have found &quot;the news&quot; addictive for years, clearly at the detriment to my own mental health and sanity. So, in a similar vein to the other lists I found, I have created a fairly comprehensive list of news sites that can be imported&#x2F;used as you see fit. To state the obvious, the absolute vast majority of the work was done via Claude and a small army of sub-agents.",
+        "id": "50637995",
+        "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
+        "url": "https://carry.md/",
+        "hn_url": "https://news.ycombinator.com/item?id=50637995",
+        "domain": "carry.md",
+        "points": 27,
+        "comments": 19,
+        "created_at": "2026-11-25T03:19:02Z",
+        "story_text": "Carry let&#x27;s you automatically save your chats from Gemini, ChatGPT, Claude and Grok as Markdown in a local folder on you computer. You can easily search across all apps and handoff to other if needed with one click.",
         "ai_keywords": [
-          "agent",
-          "claude"
+          "ai",
+          "automat",
+          "claude",
+          "gemini",
+          "gpt"
         ],
         "platform_smell": [],
-        "ai_score": 2
+        "ai_score": 5
       },
       {
-        "id": "50608604",
-        "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
-        "url": "https://www.kradle.ai?1",
-        "hn_url": "https://news.ycombinator.com/item?id=50608604",
-        "domain": "kradle.ai?1",
-        "points": 16,
-        "comments": 5,
-        "created_at": "2026-11-23T07:39:04Z",
-        "story_text": "Hi HN - This is James and Kemal. In past lives we led Firebase and Tensorflow&#x2F;JAX respectively. HN has been a particularly big part of my (James’) career and the trajectory I’ve taken would be meaningfully different without it. Thank you! Our team shipped a benchmark: KradleBench. We test AI in Minecraft Worlds. 1. The worlds are multi-agent. Humans and other AIs are in there too, often pursuing their own goals. Collaboration and conflict skills fall out of this property. 2. The world are dynamic. They constantly change, which means that agents need to react. “Capture the Flag” has a single winning condition, and many different ways to achieve it. This leads to many emergent and creative strategies. 3. The worlds are real-time. They are not turn-based, they do not wait for AIs to fini",
+        "id": "50627625",
+        "title": "Show HN: Ribbon Architect – Endless ways to tie a gift ribbon",
+        "url": "https://ribbonarchitect.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50627625",
+        "domain": "ribbonarchitect.com",
+        "points": 23,
+        "comments": 1,
+        "created_at": "2026-11-24T13:06:17Z",
+        "story_text": "Ribbon Architect is available as a free iOS app and in the browser. Scan or measure a gift, browse pattern suggestions made for its exact proportions, or construct your own designs. Then step-by-step instructions show you how to lay the ribbon on your gift. Gifts are modeled as convex polyhedra, so many non-cuboid gift shapes, such as prisms, work too and have their own interesting ribbon patterns. A ribbon (without twists) that is pulled tight follows a locally shortest path, a geodesic. This is a path on the surface of the gift that runs straight on faces and folds correctly over edges and loops back on itself. As you&#x27;ll see in the app, geodesics can be much more interesting than the axis-aligned loops that people usually tie when wrapping a gift. Click &quot;Browse geodesics&quot; ",
         "ai_keywords": [
-          "agent",
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50623038",
-        "title": "Show HN: FireVoice, free open-source voice studio on your own GPU",
-        "url": "https://firevoice.fabwaseem.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50623038",
-        "domain": "firevoice.fabwaseem.com",
-        "points": 15,
-        "comments": 3,
-        "created_at": "2026-11-24T02:58:20Z",
-        "story_text": "",
-        "ai_keywords": [
-          "voice"
+          "model"
         ],
         "platform_smell": [],
         "ai_score": 1
       },
       {
-        "id": "50623965",
-        "title": "Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
-        "url": "https://github.com/GenesisAgentInfra/genesis",
-        "hn_url": "https://news.ycombinator.com/item?id=50623965",
-        "domain": "github.com",
-        "points": 14,
-        "comments": 1,
-        "created_at": "2026-11-24T05:04:41Z",
-        "story_text": "When agent ships code faster and faster, human review is no longer possible. Which brings 2 problems, at least for me: 1. I need to understand what my agent changes as quickly and easily as possible, cuz I don&#x27;t wanna lose track of the current status of my product, or be the main bottleneck in shipping code. 2. I don&#x27;t trust what my agent tells me. Many times, I&#x27;ve been suffered from agent telling me &quot;all is well&quot;, then say &quot;you are right, sorry, I missed...&quot; after code failed on production. To mitigate those problems, I made Genesis, a skill for coding agent to generate a beautiful flow chart to understand all the business flows, flag all risk changes and untested code between commits. It worked very well on me, so I benchmarked it against vanilla Claude",
+        "id": "50631791",
+        "title": "Show HN: Keeping faces and features consistent across 24 AI-driven comic pages",
+        "url": "https://joonoo.art/create-comic",
+        "hn_url": "https://news.ycombinator.com/item?id=50631791",
+        "domain": "joonoo.art",
+        "points": 20,
+        "comments": 22,
+        "created_at": "2026-11-24T17:53:53Z",
+        "story_text": "I created joonoo.art to turn family photos into picture books and comics. I was inspired to do it last summer because my granddaughter was very enthusiastic when I made up stories with her as the hero. It&#x27;s been a major struggle to get it working consistently, though. It&#x27;s hard enough to have ONE character be consistent in a series of images you create using image generation models like nano banana, but to maintain consistency of up to 4 main characters, all the side characters, the props (like dragons, submarines, spaceships, or what have you) throughout the book is a Herculean struggle!  On top of that, I got really ambitious and wanted to do a worldwide launch supporting 24 languages - you can imagine the amount of testing it takes! It really buried me - especially as a side p",
         "ai_keywords": [
-          "agent",
-          "claude",
-          "generat"
+          "ai",
+          "generat",
+          "image",
+          "model",
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "50647219",
+        "title": "Show HN: Openfal, local image and video generation with a fal-style API",
+        "url": "https://openfal.org",
+        "hn_url": "https://news.ycombinator.com/item?id=50647219",
+        "domain": "openfal.org",
+        "points": 15,
+        "comments": 5,
+        "created_at": "2026-11-25T20:40:52Z",
+        "story_text": "",
+        "ai_keywords": [
+          "generat",
+          "image",
+          "video"
         ],
         "platform_smell": [],
         "ai_score": 3
@@ -161,75 +168,21 @@
         "ai_score": 2
       },
       {
-        "id": "50615375",
-        "title": "Show HN: OCRia-nano-1, OCR at 8.1M parameters",
-        "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
-        "hn_url": "https://news.ycombinator.com/item?id=50615375",
-        "domain": "huggingface.co",
-        "points": 9,
-        "comments": 3,
-        "created_at": "2026-11-23T17:11:14Z",
-        "story_text": "",
-        "ai_keywords": [
-          "llama",
-          "ocr"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50623175",
-        "title": "Show HN: Juncts, one DM inbox for five apps that Claude and ChatGPT can work in",
-        "url": "https://juncts.com/app?demo=1&utm_source=hackernews&utm_medium=launch&utm_campaign=launch-nov26",
-        "hn_url": "https://news.ycombinator.com/item?id=50623175",
-        "domain": "juncts.com",
-        "points": 9,
-        "comments": 0,
-        "created_at": "2026-11-24T03:16:58Z",
-        "story_text": "",
-        "ai_keywords": [
-          "claude",
-          "gpt"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50622623",
-        "title": "Show HN: Agent-first-browse – Web automation with delta snapshots and LangGraph",
-        "url": "https://github.com/SandeepAi369/Agent-first-browse",
-        "hn_url": "https://news.ycombinator.com/item?id=50622623",
+        "id": "50646482",
+        "title": "Show HN: Rust agent with an Inkling 2 Mini inference engine for Apple Silicon",
+        "url": "https://github.com/onatm/rustling",
+        "hn_url": "https://news.ycombinator.com/item?id=50646482",
         "domain": "github.com",
-        "points": 9,
+        "points": 11,
         "comments": 0,
-        "created_at": "2026-11-24T02:06:09Z",
+        "created_at": "2026-11-25T19:42:36Z",
         "story_text": "",
         "ai_keywords": [
           "agent",
-          "automat"
+          "inference"
         ],
         "platform_smell": [],
         "ai_score": 2
-      },
-      {
-        "id": "50637995",
-        "title": "Show HN: Carry – Save every AI conversations as Markdown, in a folder you Own",
-        "url": "https://carry.md/",
-        "hn_url": "https://news.ycombinator.com/item?id=50637995",
-        "domain": "carry.md",
-        "points": 8,
-        "comments": 4,
-        "created_at": "2026-11-25T03:19:02Z",
-        "story_text": "Carry let&#x27;s you automatically save your chats from Gemini, ChatGPT, Claude and Grok as Markdown in a local folder on you computer. You can easily search across all apps and handoff to other if needed with one click.",
-        "ai_keywords": [
-          "ai",
-          "automat",
-          "claude",
-          "gemini",
-          "gpt"
-        ],
-        "platform_smell": [],
-        "ai_score": 5
       },
       {
         "id": "50627008",
@@ -237,7 +190,7 @@
         "url": "https://github.com/clockoli/clockoli",
         "hn_url": "https://news.ycombinator.com/item?id=50627008",
         "domain": "github.com",
-        "points": 7,
+        "points": 9,
         "comments": 0,
         "created_at": "2026-11-24T12:06:33Z",
         "story_text": "TL;DR: - Free and open source, no seat limits. <pre><code>  - Some of its features require plans that cost a team of 10 around $1,000&#x2F;year on Clockify or $2,000&#x2F;year on Toggl Track.\n</code></pre>\n- No backend. Your time entries live in your private GitHub repo. - Track any URL. - Works offline, syncs in the background and keeps changes in Git history. - Team reports, CSV exports, historical hourly rates, multiple currencies and PDF invoices, all in the browser. Hi HN. I&#x27;m Sergey, one of the developers behind Manticore Search. We&#x27;d been using Clockify for years until they decided to limit their free plan to five users recently. We started looking around. Being an open-source company, we weren&#x27;t particularly excited about paying another monthly fee per employee. But ",
@@ -246,6 +199,61 @@
         ],
         "platform_smell": [],
         "ai_score": 1
+      },
+      {
+        "id": "50641746",
+        "title": "Show HN: Free tool to collect invoices and spot forgotten subscriptions",
+        "url": "https://spendgap.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=50641746",
+        "domain": "spendgap.ai",
+        "points": 8,
+        "comments": 5,
+        "created_at": "2026-11-25T12:57:40Z",
+        "story_text": "At my previous company, I spent hours every month going through our bank statements and looking for the invoice behind each charge. There are many invoice collectors, with varying accuracy, but AI makes this much better now. I also noticed that while checking the statements, I was subconsciously reviewing the tools we pay for. So I built a free tool that works exactly how I wanted it to. It combines invoice collection with spotting forgotten subscriptions and duplicates, alerts for price rises and renewals, and some nifty actions, like drafting an email to ask for a discount. Many times it works, you just need to ask. It&#x27;s fully free, but limited to reading 100 invoices a month, since I cover the AI costs and make no money from it. I also want to release a self-hosted version, where y",
+        "ai_keywords": [
+          "ai",
+          "voice"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50635055",
+        "title": "Show HN: Cerulion – Harness for Robotics, Gemini 3.8 Flash Matches GPT-6 Astra",
+        "url": "https://github.com/cerulion-inc/cerulion#harness-results",
+        "hn_url": "https://news.ycombinator.com/item?id=50635055",
+        "domain": "github.com",
+        "points": 8,
+        "comments": 2,
+        "created_at": "2026-11-24T21:33:44Z",
+        "story_text": "Hey HN! I&#x27;m Lakshay, and at Cerulion we cooked up a harness for physical AI. Built on top of our deterministic runtime, we now have MCP tools that let any LLM see and move a robot. It closes the loop with measurements so a model doesn&#x27;t try to guess its way through the task, and imbues common sense and robotics best practices into the workflow. We ran the numbers on LIBERO-PRO and quite frankly are a bit shocked. Gemini 3.8 Flash with Cerulion solved 73 of 100 LIBERO-PRO tasks. GPT-6 Astra on a bare 3-tool baseline (arXiv:2610.30051) solved 71, at about 12x the cost and 3x the wall time per run. Flash on that same baseline solved 25. Guys. Gemini 3.8 Flash matched GPT-6 Astra for robotics. Model intelligence is not the bottleneck. A harness is all you need ;) <i>Star us</i> and f",
+        "ai_keywords": [
+          "ai",
+          "gemini",
+          "gpt",
+          "llm",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 5
+      },
+      {
+        "id": "50639615",
+        "title": "Show HN: Lightscale AI – A language for LLMs to write business software",
+        "url": "https://lightscale.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=50639615",
+        "domain": "lightscale.ai",
+        "points": 7,
+        "comments": 1,
+        "created_at": "2026-11-25T07:36:21Z",
+        "story_text": "I am Luc, one of the co-founders of Lightscale AI. I have background in programming languages (ETH Zurich) and we are small team in Zug, Switzerland. As more and more code is now written by LLMs and few people have time to review the generated code, we came up with the idea to revise the actual stack below the LLMs: The programming language with its compiler and runtime system, all designed from scratch for AI authorship, not for humans. We have three goals:\n1. Security and stability by language design: Some classes of errors are removed by abstraction as the AI never writes that code, but the compiler and runtime implement it fully. Others are reduced by  rigid compiler checks and very strict language rules (no fun for humans to code).\n2. Speed. We designed the language to reduce tokens, ",
+        "ai_keywords": [
+          "ai",
+          "generat",
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
       },
       {
         "id": "50626606",
@@ -267,6 +275,23 @@
         "ai_score": 2
       },
       {
+        "id": "50627889",
+        "title": "Show HN: Postvec – switching embedding models in Postgres without re-embedding",
+        "url": "https://github.com/univec-ai/postvec/",
+        "hn_url": "https://news.ycombinator.com/item?id=50627889",
+        "domain": "github.com",
+        "points": 6,
+        "comments": 2,
+        "created_at": "2026-11-24T13:27:54Z",
+        "story_text": "",
+        "ai_keywords": [
+          "embedding",
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
         "id": "50633015",
         "title": "Show HN: Novel DB compression models in Libc – Dockerized NY OpenStreetMap 9:1",
         "url": "https://www.baseshift.com/blog/dc1",
@@ -282,59 +307,6 @@
           "neural"
         ],
         "platform_smell": [],
-        "ai_score": 3
-      },
-      {
-        "id": "50618581",
-        "title": "Show HN: Narayanastra – agentless Linux rootkit scanner (eBPF, io_uring) in Rust",
-        "url": "https://github.com/Tekush1/narayanastra",
-        "hn_url": "https://news.ycombinator.com/item?id=50618581",
-        "domain": "github.com",
-        "points": 6,
-        "comments": 0,
-        "created_at": "2026-11-23T20:17:32Z",
-        "story_text": "",
-        "ai_keywords": [
-          "agent"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50615312",
-        "title": "Show HN: Second Brain – One Memory Shared by Claude, ChatGPT and Cursor via MCP",
-        "url": "https://github.com/bhushan/getsecondbrain.io",
-        "hn_url": "https://news.ycombinator.com/item?id=50615312",
-        "domain": "github.com",
-        "points": 6,
-        "comments": 0,
-        "created_at": "2026-11-23T17:07:55Z",
-        "story_text": "",
-        "ai_keywords": [
-          "claude",
-          "gpt"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50614327",
-        "title": "Show HN: A free creative suite, built in Rust, for AI collaboration",
-        "url": "https://codeyam.com/apps/cadyam",
-        "hn_url": "https://news.ycombinator.com/item?id=50614327",
-        "domain": "codeyam.com",
-        "points": 5,
-        "comments": 8,
-        "created_at": "2026-11-23T16:17:11Z",
-        "story_text": "Hi HN, I&#x27;m Nadia, one of the makers of CadYam. My cofounder Jared is here to answer questions as well. CadYam is a desktop design app built for a person and an AI agent to work on the same project: a CAD drawing, a video, an interior design plan, a data analysis, etc. You can sketch something by asking it to your agent and drop a pin on a specific place to ask for changes. We built this after a lot of frustration trying to learn traditional CAD tools, which have a steep learning curve and take a lot of time and effort before you can build anything complex. With CadYam, the agent can do the work for you with your guidance or teach you how to use the app if you&#x27;d like to do some manual work yourself, so you also don&#x27;t always need the agent. The agent&#x27;s changes show up as ",
-        "ai_keywords": [
-          "agent",
-          "ai",
-          "video"
-        ],
-        "platform_smell": [
-          "suite"
-        ],
         "ai_score": 3
       },
       {
@@ -373,23 +345,6 @@
         "ai_score": 2
       },
       {
-        "id": "50627889",
-        "title": "Show HN: Postvec – switching embedding models in Postgres without re-embedding",
-        "url": "https://github.com/univec-ai/postvec/",
-        "hn_url": "https://news.ycombinator.com/item?id=50627889",
-        "domain": "github.com",
-        "points": 5,
-        "comments": 2,
-        "created_at": "2026-11-24T13:27:54Z",
-        "story_text": "",
-        "ai_keywords": [
-          "embedding",
-          "model"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
         "id": "50627186",
         "title": "Show HN: Horus – Turn an old Android phone into a box for coding agents",
         "url": "https://github.com/scarif-labs/horus",
@@ -406,54 +361,59 @@
         "ai_score": 1
       },
       {
-        "id": "50622072",
-        "title": "Show HN: Lightweight Agentic CMS on Cloudflare – API, MCP, CLI, Web",
-        "url": "https://docs.microfeed.org/",
-        "hn_url": "https://news.ycombinator.com/item?id=50622072",
-        "domain": "docs.microfeed.org",
+        "id": "50644653",
+        "title": "Show HN: Run Inkling 2 Mini on Mac Faster Than Anywhere Else",
+        "url": "https://www.subconscious.dev/local",
+        "hn_url": "https://news.ycombinator.com/item?id=50644653",
+        "domain": "subconscious.dev",
         "points": 5,
         "comments": 1,
-        "created_at": "2026-11-24T01:03:42Z",
-        "story_text": "",
+        "created_at": "2026-11-25T17:05:52Z",
+        "story_text": "We developed a local inference engine that&#x27;s faster than llama.cpp, vllm-metal, and mlx-lm. Download and try for yourself. Free, private, fast forever. Inkling 2 Mini is very impressive as a small model.",
         "ai_keywords": [
-          "agent"
+          "inference",
+          "llama",
+          "llm",
+          "model"
         ],
         "platform_smell": [],
-        "ai_score": 1
+        "ai_score": 4
       },
       {
-        "id": "50610687",
-        "title": "Show HN: How 80s C64 games made 3 voices sound like a band – now with a tracker",
-        "url": "https://ddecoene.github.io/WebSidTracker/",
-        "hn_url": "https://news.ycombinator.com/item?id=50610687",
-        "domain": "ddecoene.github.io",
-        "points": 5,
-        "comments": 1,
-        "created_at": "2026-11-23T12:21:01Z",
-        "story_text": "",
-        "ai_keywords": [
-          "voice"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50623636",
-        "title": "Show HN: SlashObserve – an observability workspace for humans and agents",
-        "url": "https://slashobserve.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50623636",
-        "domain": "slashobserve.com",
+        "id": "50636574",
+        "title": "Show HN: UFO OPTIX Scanning satellite imagery for flying craft artifacts",
+        "url": "https://ufoptix.org",
+        "hn_url": "https://news.ycombinator.com/item?id=50636574",
+        "domain": "ufoptix.org",
         "points": 5,
         "comments": 0,
-        "created_at": "2026-11-24T04:17:12Z",
-        "story_text": "",
+        "created_at": "2026-11-24T23:53:59Z",
+        "story_text": "I (well my agent swarm) created this in the last 48 hours based on method in a research paper I found (<a href=\"https:&#x2F;&#x2F;www.mdpi.com&#x2F;2072-4292&#x2F;13&#x2F;15&#x2F;3016\" rel=\"nofollow\">https:&#x2F;&#x2F;www.mdpi.com&#x2F;2072-4292&#x2F;13&#x2F;15&#x2F;3016</a>) for detecting flying craft from OSINT Sentinel 2 satellite imagery from the European space agency. There&#x27;s something about the pixelated detections from images coming off the satellite.. I discussed the build in another post: <a href=\"https:&#x2F;&#x2F;fmsg.ai&#x2F;blog&#x2F;agent-swarm-ufo-optix\" rel=\"nofollow\">https:&#x2F;&#x2F;fmsg.ai&#x2F;blog&#x2F;agent-swarm-ufo-optix</a>",
         "ai_keywords": [
-          "agent"
+          "agent",
+          "image"
         ],
-        "platform_smell": [
-          "workspace"
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50641710",
+        "title": "Show HN: Avva – Compress your expertise available to AI agent via MCP",
+        "url": "https://avva.chat/",
+        "hn_url": "https://news.ycombinator.com/item?id=50641710",
+        "domain": "avva.chat",
+        "points": 4,
+        "comments": 4,
+        "created_at": "2026-11-25T12:53:18Z",
+        "story_text": "Hi HN!\nAfter we launched our public beta, some of our ex-colleagues tested the approach of creating decision models based on their work artefacts and noticed that it led to fewer back-and-forth cycles to clarify details and greater productivity in their daily routine. The market for professionals has a downside: the problem of scaling the business model. You physically can&#x27;t have more hours in a day, and as a professional, you manage the flow of incoming clients through pricing and balancing your personal time. The AI market has a downside: the problem of model subjectivity. You can set boundaries through &quot;prompt engineering&quot; and say, &quot;Respond as a professional.&quot; But after a couple of messages, you&#x27;ll ask something like, &quot;...maybe doing it this way would ",
+        "ai_keywords": [
+          "agent",
+          "ai",
+          "model",
+          "prompt"
         ],
-        "ai_score": 1
+        "platform_smell": [],
+        "ai_score": 4
       },
       {
         "id": "50632046",
@@ -492,38 +452,6 @@
         "ai_score": 2
       },
       {
-        "id": "50623232",
-        "title": "Show HN: Synth Patch Hero",
-        "url": "https://swarkentin.github.io/synth-patch-hero/",
-        "hn_url": "https://news.ycombinator.com/item?id=50623232",
-        "domain": "swarkentin.github.io",
-        "points": 4,
-        "comments": 2,
-        "created_at": "2026-11-24T03:24:22Z",
-        "story_text": "I wanted to be more deliberate and systematic in how I approach working on synth patches. With the help of our friend Claude, I put together a game that runs through exercises that builds that muscle in a fun and approachable way where you learn as you build patches on a modular rack. I do not have a Eurorack, nor a strong desire to own one (yet); but I do have a bit of other physical gear. I wanted to see if the lessons would translate to boxes, where sound is also better than the browser. So I have started adding groove box specific enhanced lessons (so far just a couple for the Digitone II, but they worked so far). Also:\n- You can set up MIDI in settings and play your patch in the browser with a MIDI keyboard (Chrome worked, but Safari didn&#x27;t when I tried).\n- The Help in the exerci",
-        "ai_keywords": [
-          "claude"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50622867",
-        "title": "Show HN: I stole a math joke from Xkcd and made art with it",
-        "url": "https://joshhoegen.com/pages/meandian/",
-        "hn_url": "https://news.ycombinator.com/item?id=50622867",
-        "domain": "joshhoegen.com",
-        "points": 4,
-        "comments": 2,
-        "created_at": "2026-11-24T02:39:21Z",
-        "story_text": "I&#x27;m a an artist who likes to code and sometimes has questionable excuses to combine the two. I like to make fractal-like video projects since I suck at math.... anyway, I decided to vibe-code XKCD&#x27;s Geothmetic Meandian: <a href=\"https:&#x2F;&#x2F;xkcd.com&#x2F;2435&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;xkcd.com&#x2F;2435&#x2F;</a> - Don&#x27;t worry. I&#x27;ve been vibe coding since before stackoverflow &lt;3",
-        "ai_keywords": [
-          "video"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
         "id": "50634239",
         "title": "Show HN: Wakeshift – Open-Source MCP Events for Claude Code, Codex and More",
         "url": "https://github.com/wakeshift/server",
@@ -558,20 +486,86 @@
         "ai_score": 1
       },
       {
-        "id": "50611885",
-        "title": "Show HN: ELBI – Give your agent an empirical memory",
-        "url": "https://github.com/Intelligible/elbi",
-        "hn_url": "https://news.ycombinator.com/item?id=50611885",
-        "domain": "github.com",
+        "id": "50647252",
+        "title": "Show HN: Anniversary Calculator",
+        "url": "https://www.yourdatingassistant.com/anniversary-calculator",
+        "hn_url": "https://news.ycombinator.com/item?id=50647252",
+        "domain": "yourdatingassistant.com",
         "points": 4,
-        "comments": 1,
-        "created_at": "2026-11-23T14:17:20Z",
+        "comments": 0,
+        "created_at": "2026-11-25T20:43:25Z",
         "story_text": "",
         "ai_keywords": [
-          "agent"
+          "assistant"
         ],
         "platform_smell": [],
         "ai_score": 1
+      },
+      {
+        "id": "50642165",
+        "title": "Show HN: Layerpool – library that combines your devices' memory to train models",
+        "url": "https://github.com/abdallah-swe/layerpool",
+        "hn_url": "https://news.ycombinator.com/item?id=50642165",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-25T13:41:12Z",
+        "story_text": "",
+        "ai_keywords": [
+          "model"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50641798",
+        "title": "Show HN: Bowerbird, a private image organizer for Windows, Mac and Linux",
+        "url": "https://bowerbird.gallery/",
+        "hn_url": "https://news.ycombinator.com/item?id=50641798",
+        "domain": "bowerbird.gallery",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-25T13:04:26Z",
+        "story_text": "A few months ago I started building a small tool for myself. I had folders full of images and wanted a fast way to browse, tag and rate them without uploading anything or signing up for anything. Think Eagle (which I use) but for images you already have. I&#x27;ve decided to launch it as a desktop app. It&#x27;s called Bowerbird. It&#x27;s now out for Windows, Mac and Linux. * Open any folder and see every image inside, including subfolders\n* You can rate and tag images\n* You can search and filter, and save those queries as smart folders\n* Your images stay where they are: no account or cloud\n* The app only connects to check for updates and licenses\n* You only pay once, no subscription\n* There&#x27;s a free 14 days trial It&#x27;s still early days so it&#x27;s on discount for a couple of we",
+        "ai_keywords": [
+          "image"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50639090",
+        "title": "Show HN: Sightline – Windows CLI for AI agents to capture UI and map DPI coords",
+        "url": "https://github.com/sao-coding/sightline",
+        "hn_url": "https://news.ycombinator.com/item?id=50639090",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-25T06:08:51Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50635912",
+        "title": "Show HN: Rhebok – free local RAG for your coding agent",
+        "url": "https://github.com/Stellenbosch-Technologies/rhebok",
+        "hn_url": "https://news.ycombinator.com/item?id=50635912",
+        "domain": "github.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-24T22:49:01Z",
+        "story_text": "",
+        "ai_keywords": [
+          "agent",
+          "rag"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
       },
       {
         "id": "50634302",
@@ -610,221 +604,17 @@
         "ai_score": 3
       },
       {
-        "id": "50622527",
-        "title": "Show HN: UpNext – Game backlog decider. Play what you own",
-        "url": "https://github.com/zytocc/upnext",
-        "hn_url": "https://news.ycombinator.com/item?id=50622527",
+        "id": "50641783",
+        "title": "Show HN: MarginCue, see your coding agent's choices before you press Enter",
+        "url": "https://github.com/fus3r/margincue",
+        "hn_url": "https://news.ycombinator.com/item?id=50641783",
         "domain": "github.com",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-24T01:56:01Z",
-        "story_text": "I love gaming but now in my 30&#x27;s, there&#x27;s never enough time and when I have an hour, I have no idea what to play or what I&#x27;ll actually finish so I watch Youtube or buy more games I&#x27;ll never play. I built UpNext so I can focus on the games I own and enjoy them. It takes in all your game libraries, play history and favorites. Simply tell it your mood and how much time you have and it suggests games. Every game gets details like length, review scores, what it feels like to play, what players say, and tags pulled from Steam, PCGamingWiki, ProtonDB, etc. Local and remote AI supported but not required. Available on Windows, Linux, Docker, Steam Deck (flatpak), Android APK. Runs locally with no accounts.  Built in Rust and TypeScript with Opus 5.5, MIT&#x2F;Apache 2.0 License ",
-        "ai_keywords": [
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50622321",
-        "title": "Show HN: Merget – Merge queue using deep static analysis to resolve GitHub PRs",
-        "url": "https://merget.ai/",
-        "hn_url": "https://news.ycombinator.com/item?id=50622321",
-        "domain": "merget.ai",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-24T01:33:37Z",
-        "story_text": "Hey HN! It&#x27;s Ved, the founder of Merget. Merget is a GitHub App that connects to your code repositories and autonomously manages your PR queue using deep static analysis. We can detect overlapping semantic relationships, order your queue in the most optimal order, and resolve merge conflicts in parallel across all of your PRs, ensuring your tests and CI continue to pass. In short, you can advance main by dozens of PRs with a single click, safely :) We hope to ease the burden of code produced by agentic workloads and save dev teams time and tokens! It&#x27;s free to try.",
-        "ai_keywords": [
-          "agent"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50621748",
-        "title": "Show HN: Gal – local-first agent runtime with per-call permissions and rollback",
-        "url": "https://agent-home.ai/index.html",
-        "hn_url": "https://news.ycombinator.com/item?id=50621748",
-        "domain": "agent-home.ai",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-24T00:31:31Z",
-        "story_text": "",
-        "ai_keywords": [
-          "agent"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50620918",
-        "title": "Show HN: Sessions Pro for Codex – two ChatGPT desktop accounts open at once",
-        "url": "https://multiplecodex.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50620918",
-        "domain": "multiplecodex.com",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-23T23:19:25Z",
-        "story_text": "",
-        "ai_keywords": [
-          "gpt"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50612274",
-        "title": "Show HN: Kompi – Pi companion app for Android",
-        "url": "https://github.com/karlis-vagalis/kompi",
-        "hn_url": "https://news.ycombinator.com/item?id=50612274",
-        "domain": "github.com",
-        "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-23T14:32:02Z",
-        "story_text": "Hey there! I am sharing here the Kompi, which is an Android app allowing you to connect and interact with your existing Pi coding agent harness instance on remote machines over iroh (QUIC) encrypted connections. Why another one? Well, there are many  great companion apps for coding agents, but unfortunately most of them are very coding focused, and thus, not convering my personal need for &quot;remote personal assistant&quot;, i.e., &quot;live&quot; conversation mode (Speech-to-Speech) and native Android app. Have been using it personally for a while, and thought someone might enjoy it for similar needs. Definitely not fully polished, but good enough for daily usage.",
-        "ai_keywords": [
-          "agent",
-          "assistant",
-          "speech"
-        ],
-        "platform_smell": [],
-        "ai_score": 3
-      },
-      {
-        "id": "50623005",
-        "title": "Show HN: A narrated map tour of the events leading up to the Texas Revolution",
-        "url": "https://whistlestop.guide/features/texas-revolution",
-        "hn_url": "https://news.ycombinator.com/item?id=50623005",
-        "domain": "whistlestop.guide",
         "points": 3,
         "comments": 5,
-        "created_at": "2026-11-24T02:55:29Z",
-        "story_text": "I put together a narrated map of the Texas Revolution. You can listen to a 20-minute audio guided version or just scroll through the events: I thought the chronological and location based timeline made it easier to follow and learn as well. I was inspired by Mapbox’s “storytelling” template on GitHub and built my own version with MapLibre fork of Mapbox GL (with free satellite imagery and terrain tiles from USGS) and lots of help from Claude. There are lots of parameters that were built in, like the rotation and transition speed. Essentially themed it and added source links to the cards. The information was sourced from Handbook of Texas by THC. The voice is AI generated using Elevenlabs v4. That github project <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mapbox&#x2F;storytelling\" rel=\"nofol",
-        "ai_keywords": [
-          "ai",
-          "claude",
-          "generat",
-          "image",
-          "voice"
-        ],
-        "platform_smell": [],
-        "ai_score": 5
-      },
-      {
-        "id": "50612762",
-        "title": "Show HN: SecureVibe – Find and trace vulnerabilities for vibe coded apps",
-        "url": "https://securevibe-dev.vercel.app/",
-        "hn_url": "https://news.ycombinator.com/item?id=50612762",
-        "domain": "securevibe-dev.vercel.app",
-        "points": 3,
-        "comments": 4,
-        "created_at": "2026-11-23T14:53:05Z",
-        "story_text": "Hello HN, just wanted to share my project that I&#x27;ve been working on the past months, where I noticed the issue that now we ship faster than setting up the requirements for the project. So I thought of building secureVibe to find vulnerabilities in your codebase.\nNow I have a MVP where it doesn&#x27;t just scan the code and show random analysis I used Tree-sitter and AST to understand code context to validate vulnerabilities found as it builds a graph of application routes, handlers and database calls so it helps to determine whether findings are confirmed or likely. Briefly the features: 1- shows all vulnerabilities in your code with code snippets 2-fixing with ai option (optional with your own api key for now) 3- ask the graph feature as you can ask where the attacker can exploit my ",
-        "ai_keywords": [
-          "ai"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50612272",
-        "title": "Show HN: An interactive album that changes with stuff like time and moon phase",
-        "url": "https://returntorepeat.gusbyheart.se",
-        "hn_url": "https://news.ycombinator.com/item?id=50612272",
-        "domain": "returntorepeat.gusbyheart.se",
-        "points": 3,
-        "comments": 4,
-        "created_at": "2026-11-23T14:32:02Z",
-        "story_text": "I&#x27;ve made Return to Repeat, an album and a browser music player with ten songs without beginning or end. It has built-in musical variations, some you can control and interact with and some that activate based on things like date, time of day, visit counts and current moon phase. Try the birds on track three for a starting place. Wanted to explore other ways of releasing and experiencing digital music, and perhaps finding a route back to kind of &quot;being&quot; with music. My last release was a cassette in an edition of three, that also came with a minimal web player. It&#x27;s built mainly with Tone.js on the Web Audio API, with help from Claude (writing code, debugging). The music is composed as (sometimes long) seamless loops, with multiple stems for variations. Didn&#x27;t want t",
-        "ai_keywords": [
-          "claude"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50612033",
-        "title": "Show HN: Blobby – warns when two coding agents edit the same file (macOS)",
-        "url": "https://blobbyapp.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50612033",
-        "domain": "blobbyapp.com",
-        "points": 3,
-        "comments": 4,
-        "created_at": "2026-11-23T14:23:17Z",
-        "story_text": "Hi HN. I usually run 3-4 coding agents at the same time (Claude Code and Codex), and I kept finding one that had been waiting on a question for 20 minutes without me noticing (bunch of lost time). So I made Blobby. It shows each agent as a blob next to the MacBook notch, so you can see if it&#x27;s working, done or waiting for you. Click one and you go straight to its terminal tab. I know there are a lot of notch apps for agents now. What I haven&#x27;t seen in the others: it warns you when two agents edit the same file, it can give each agent its own git worktree, and when an agent is done it shows what it changed and if the tests passed. It uses the hooks Claude Code, Codex and Gemini CLI already have, which write the state of each session to a folder on your Mac. No telemetry, and nothi",
-        "ai_keywords": [
-          "agent",
-          "claude",
-          "gemini"
-        ],
-        "platform_smell": [],
-        "ai_score": 3
-      },
-      {
-        "id": "50635055",
-        "title": "Show HN: Cerulion – Harness for Robotics, Gemini 3.8 Flash Matches GPT-6 Astra",
-        "url": "https://github.com/cerulion-inc/cerulion#harness-results",
-        "hn_url": "https://news.ycombinator.com/item?id=50635055",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-24T21:33:44Z",
-        "story_text": "Hey HN! I&#x27;m Lakshay, and at Cerulion we cooked up a harness for physical AI. Built on top of our deterministic runtime, we now have MCP tools that let any LLM see and move a robot. It closes the loop with measurements so a model doesn&#x27;t try to guess its way through the task, and imbues common sense and robotics best practices into the workflow. We ran the numbers on LIBERO-PRO and quite frankly are a bit shocked. Gemini 3.8 Flash with Cerulion solved 73 of 100 LIBERO-PRO tasks. GPT-6 Astra on a bare 3-tool baseline (arXiv:2610.30051) solved 71, at about 12x the cost and 3x the wall time per run. Flash on that same baseline solved 25. Guys. Gemini 3.8 Flash matched GPT-6 Astra for robotics. Model intelligence is not the bottleneck. A harness is all you need ;) <i>Star us</i> and f",
-        "ai_keywords": [
-          "ai",
-          "gemini",
-          "gpt",
-          "llm",
-          "model"
-        ],
-        "platform_smell": [],
-        "ai_score": 5
-      },
-      {
-        "id": "50622313",
-        "title": "Show HN: Game that determines which LLMs you can beat at Language Processing",
-        "url": "https://wordspies.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50622313",
-        "domain": "wordspies.com",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-24T01:32:36Z",
-        "story_text": "",
-        "ai_keywords": [
-          "llm"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50611593",
-        "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
-        "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
-        "hn_url": "https://news.ycombinator.com/item?id=50611593",
-        "domain": "chszlab.github.io",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-23T14:02:15Z",
+        "created_at": "2026-11-25T13:02:10Z",
         "story_text": "",
         "ai_keywords": [
           "agent"
-        ],
-        "platform_smell": [],
-        "ai_score": 1
-      },
-      {
-        "id": "50627625",
-        "title": "Show HN: Ribbon Architect – Endless ways to tie a gift ribbon",
-        "url": "https://ribbonarchitect.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50627625",
-        "domain": "ribbonarchitect.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-11-24T13:06:17Z",
-        "story_text": "Ribbon Architect is available as a free iOS app and in the browser. Scan or measure a gift, browse pattern suggestions made for its exact proportions, or construct your own designs. Then step-by-step instructions show you how to lay the ribbon on your gift. Gifts are modeled as convex polyhedra, so many non-cuboid gift shapes, such as prisms, work too and have their own interesting ribbon patterns. A ribbon (without twists) that is pulled tight follows a locally shortest path, a geodesic. This is a path on the surface of the gift that runs straight on faces and folds correctly over edges and loops back on itself. As you&#x27;ll see in the app, geodesics can be much more interesting than the axis-aligned loops that people usually tie when wrapping a gift. Click &quot;Browse geodesics&quot; ",
-        "ai_keywords": [
-          "model"
         ],
         "platform_smell": [],
         "ai_score": 1
@@ -862,37 +652,122 @@
         "ai_score": 1
       },
       {
-        "id": "50615035",
-        "title": "Show HN: `please-cli`, a local LLM with SSH socket bridging and a Metal 4 engine",
-        "url": "https://github.com/xhjkl/please",
-        "hn_url": "https://news.ycombinator.com/item?id=50615035",
+        "id": "50651523",
+        "title": "Show HN: Hush, the fastest computer use for AI agents",
+        "url": "https://github.com/OgnjenAdzic28/hush",
+        "hn_url": "https://news.ycombinator.com/item?id=50651523",
         "domain": "github.com",
         "points": 3,
-        "comments": 1,
-        "created_at": "2026-11-23T16:53:23Z",
+        "comments": 0,
+        "created_at": "2026-11-26T04:45:29Z",
         "story_text": "",
         "ai_keywords": [
-          "llm"
+          "agent",
+          "ai"
+        ],
+        "platform_smell": [],
+        "ai_score": 2
+      },
+      {
+        "id": "50649180",
+        "title": "Show HN: Sidelong – read-it-later and highlighting for every type of content",
+        "url": "https://sidelong.app",
+        "hn_url": "https://news.ycombinator.com/item?id=50649180",
+        "domain": "sidelong.app",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-25T23:27:47Z",
+        "story_text": "I built Sidelong because I wanted one single place to store, search, and summarize all the stuff I was reading, watching, and listening to. Save any link, article, podcast, youtube video, local file, or a bunch of other content types. Sidelong presents and embed the content, summarizes the top insights. You can subscribe to newsletters and get them sent and ingested directly, and follow your favorite podcasts and youtube channels to have the new episodes ready for you automatically. Highlight or take notes on what was interesting in anything above right in the app. Sidelong takes what you learn, and gives you a daily summary that connects dots across the sources you saved. It also learns about your interests and recommends what you might want to check out next. If you ever wanted to write ",
+        "ai_keywords": [
+          "automat",
+          "summar",
+          "video"
+        ],
+        "platform_smell": [],
+        "ai_score": 3
+      },
+      {
+        "id": "50648165",
+        "title": "Show HN: Anvil has won pricing among AI web builders plan starting at $5",
+        "url": "https://www.tryanvil.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=50648165",
+        "domain": "tryanvil.dev",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-25T21:57:47Z",
+        "story_text": "",
+        "ai_keywords": [
+          "ai"
         ],
         "platform_smell": [],
         "ai_score": 1
       },
       {
-        "id": "50636574",
-        "title": "Show HN: UFO OPTIX Scanning satellite imagery for flying craft artifacts",
-        "url": "https://ufoptix.org",
-        "hn_url": "https://news.ycombinator.com/item?id=50636574",
-        "domain": "ufoptix.org",
+        "id": "50644731",
+        "title": "Show HN: Fmgrep – indexed grep over a persistent FM index",
+        "url": "https://github.com/pepeiborra/fmgrep",
+        "hn_url": "https://news.ycombinator.com/item?id=50644731",
+        "domain": "github.com",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-11-24T23:53:59Z",
-        "story_text": "I (well my agent swarm) created this in the last 48 hours based on method in a research paper I found (<a href=\"https:&#x2F;&#x2F;www.mdpi.com&#x2F;2072-4292&#x2F;13&#x2F;15&#x2F;3016\" rel=\"nofollow\">https:&#x2F;&#x2F;www.mdpi.com&#x2F;2072-4292&#x2F;13&#x2F;15&#x2F;3016</a>) for detecting flying craft from OSINT Sentinel 2 satellite imagery from the European space agency. There&#x27;s something about the pixelated detections from images coming off the satellite.. I discussed the build in another post: <a href=\"https:&#x2F;&#x2F;fmsg.ai&#x2F;blog&#x2F;agent-swarm-ufo-optix\" rel=\"nofollow\">https:&#x2F;&#x2F;fmsg.ai&#x2F;blog&#x2F;agent-swarm-ufo-optix</a>",
+        "created_at": "2026-11-25T17:12:29Z",
+        "story_text": "fmgrep is a (Claude-powered) open source reimplementation of a FAANG code search engine I was involved in a few years back. It&#x27;s aimed at very large (e.g. AOSP) source trees. Back then we wanted to get our hands on the Github search engine (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;danlark1&#x2F;sparse_ngrams\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;danlark1&#x2F;sparse_ngrams</a>) but it was not available, so we went a different way. Instead of n-grams,`fmgrep` builds an FM index of the tree with O(pattern) `count` and O(occurrences) `locate`, which is quite cool and leads to blazing fast performance as seen in the benchmarks.",
         "ai_keywords": [
-          "agent",
-          "image"
+          "ai",
+          "claude"
         ],
         "platform_smell": [],
         "ai_score": 2
+      },
+      {
+        "id": "50642280",
+        "title": "Show HN: Thatplace – iOS/macOS app to remember the places you've been",
+        "url": "https://thatplace.io",
+        "hn_url": "https://news.ycombinator.com/item?id=50642280",
+        "domain": "thatplace.io",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-25T13:49:49Z",
+        "story_text": "I built Thatplace to help me answer the question “what was that ramen place I went to in SF in 2019?” Thatplace works by scanning your photo library and then cross-referencing photo locations with the MapKit API. It also uses the Vision API to try to find relevant text in photos to help pick the right location. It does not require access to your location in real-time. I find that when I travel, I often have at least one photo of a place I’d like to remember. That may not always be the case, so the app also lets you create places by searching Maps or dropping a pin. The app is built within the Apple ecosystem - CloudKit for syncing and sharing and the aforementioned APIs for search and analysis. I wanted to build this way for both your privacy and to keep from having to maintain services. J",
+        "ai_keywords": [
+          "vision"
+        ],
+        "platform_smell": [
+          "ecosystem"
+        ],
+        "ai_score": 1
+      },
+      {
+        "id": "50641714",
+        "title": "Show HN: Telesma – an autonomous development loop for Claude Code",
+        "url": "https://github.com/mario12358/telesma",
+        "hn_url": "https://news.ycombinator.com/item?id=50641714",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-25T12:53:37Z",
+        "story_text": "",
+        "ai_keywords": [
+          "claude"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
+      },
+      {
+        "id": "50635477",
+        "title": "Show HN: Docxtract – Turn docs into clean LLM context and study guides",
+        "url": "https://github.com/raycollabs/docxtract",
+        "hn_url": "https://news.ycombinator.com/item?id=50635477",
+        "domain": "github.com",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-24T22:07:59Z",
+        "story_text": "docxtract is specifically engineered to produce compact, high-density, concise Markdown extracts.",
+        "ai_keywords": [
+          "llm"
+        ],
+        "platform_smell": [],
+        "ai_score": 1
       },
       {
         "id": "50634689",
@@ -962,49 +837,42 @@
         "ai_score": 2
       },
       {
-        "id": "50622247",
-        "title": "Show HN: Phosphor95 Gnome Theme",
-        "url": "https://github.com/Websites-On-Computers/phosphor95",
-        "hn_url": "https://news.ycombinator.com/item?id=50622247",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-24T01:24:25Z",
-        "story_text": "Had an old MacBook Air and wanted to do something interesting. Mostly Claude built, but fascinating how far it can go, even in a 11 year old computer. Windows 95 meets the Matrix meets the movie Hackers",
-        "ai_keywords": [
-          "ai",
-          "claude"
-        ],
-        "platform_smell": [],
-        "ai_score": 2
-      },
-      {
-        "id": "50613962",
-        "title": "Show HN: Wyrd (OSS) – Real-time verification for AI systems",
-        "url": "https://github.com/bohmian-ai/wyrd",
-        "hn_url": "https://news.ycombinator.com/item?id=50613962",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T15:57:06Z",
-        "story_text": "Hey everyone, I&#x27;m Steven. I wanted to share a new project we&#x27;re working on called Wyrd. It&#x27;s a real-time verification platform for AI systems. Whether it&#x27;s AI or standard services, every team uses a variety of tools to determine if their systems are working as expected. However, there tends to be a dearth of tools&#x2F;platforms that can do this in real-time. From our perspective, as AI is used more and more to make autonomous decisions, there should be more emphasis on real-time verification. So we built Wyrd, which provides you and your teams all of the primitives to build your own real-time verification workflows. Would love for interested people to kick it around, provide feedback and contribute. url: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;bohmian-ai&#x2F;wyrd\" ",
-        "ai_keywords": [
-          "ai"
-        ],
-        "platform_smell": [
-          "platform"
-        ],
-        "ai_score": 1
-      },
-      {
         "id": "50638503",
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
         "hn_url": "https://news.ycombinator.com/item?id=50638503",
         "domain": "gpu-demo-gallery.pages.dev",
-        "points": 39,
-        "comments": 6,
+        "points": 344,
+        "comments": 79,
         "created_at": "2026-11-25T04:31:48Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50642300",
+        "title": "Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)",
+        "url": "https://github.com/click6067-ship-it/token-tv",
+        "hn_url": "https://news.ycombinator.com/item?id=50642300",
+        "domain": "github.com",
+        "points": 43,
+        "comments": 3,
+        "created_at": "2026-11-25T13:51:44Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50637936",
+        "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+        "url": "https://vcarl.com/sashay/",
+        "hn_url": "https://news.ycombinator.com/item?id=50637936",
+        "domain": "vcarl.com",
+        "points": 37,
+        "comments": 8,
+        "created_at": "2026-11-25T03:10:18Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
@@ -1016,24 +884,10 @@
         "url": "https://www.interstateweather.com/",
         "hn_url": "https://news.ycombinator.com/item?id=50638523",
         "domain": "interstateweather.com",
-        "points": 21,
-        "comments": 4,
+        "points": 26,
+        "comments": 8,
         "created_at": "2026-11-25T04:35:32Z",
         "story_text": "In case you&#x27;re going on a road trip this week in the lower 48 (Thanksgiving is a big U.S holiday on Thursday).",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50637936",
-        "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
-        "url": "https://vcarl.com/sashay/",
-        "hn_url": "https://news.ycombinator.com/item?id=50637936",
-        "domain": "vcarl.com",
-        "points": 21,
-        "comments": 4,
-        "created_at": "2026-11-25T03:10:18Z",
-        "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1044,9 +898,23 @@
         "url": "https://ant-lang.org/",
         "hn_url": "https://news.ycombinator.com/item?id=50624596",
         "domain": "ant-lang.org",
-        "points": 15,
+        "points": 16,
         "comments": 5,
         "created_at": "2026-11-24T06:49:00Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50637887",
+        "title": "Show HN: Mergeon – A native desktop Git client written in Rust with GPUI",
+        "url": "https://github.com/Spilveru/mergeon",
+        "hn_url": "https://news.ycombinator.com/item?id=50637887",
+        "domain": "github.com",
+        "points": 16,
+        "comments": 1,
+        "created_at": "2026-11-25T03:03:53Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
@@ -1058,8 +926,8 @@
         "url": "https://hnpredictions.com/",
         "hn_url": "https://news.ycombinator.com/item?id=50633531",
         "domain": "hnpredictions.com",
-        "points": 10,
-        "comments": 3,
+        "points": 12,
+        "comments": 9,
         "created_at": "2026-11-24T19:46:54Z",
         "story_text": "",
         "ai_keywords": [],
@@ -1081,85 +949,43 @@
         "ai_score": 0
       },
       {
-        "id": "50618858",
-        "title": "Show HN: Console.tty – terminal emulator in browser console",
-        "url": "https://github.com/cpendery/console.tty",
-        "hn_url": "https://news.ycombinator.com/item?id=50618858",
-        "domain": "github.com",
-        "points": 9,
-        "comments": 0,
-        "created_at": "2026-11-23T20:35:16Z",
-        "story_text": "I saw <a href=\"https:&#x2F;&#x2F;textjs.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;textjs.org&#x2F;</a> a few weeks ago and thought it would be interesting to have a fully functional terminal in console.log. More of a proof-of-concept",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50620519",
-        "title": "Show HN: Amni-CAD – parametric CAD with stress and flow simulation in a browser",
-        "url": "https://amni-scient.com/amni-cad",
-        "hn_url": "https://news.ycombinator.com/item?id=50620519",
-        "domain": "amni-scient.com",
-        "points": 8,
-        "comments": 0,
-        "created_at": "2026-11-23T22:47:31Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50611274",
-        "title": "Show HN: Zean Transpiles Zig to Lean",
-        "url": "https://github.com/okcontract/zean",
-        "hn_url": "https://news.ycombinator.com/item?id=50611274",
-        "domain": "github.com",
+        "id": "50639212",
+        "title": "Show HN: Termius was asking me for $120 a year, so I built my own SSH client",
+        "url": "https://branchbay.dev/branchshell",
+        "hn_url": "https://news.ycombinator.com/item?id=50639212",
+        "domain": "branchbay.dev",
         "points": 7,
-        "comments": 1,
-        "created_at": "2026-11-23T13:29:55Z",
+        "comments": 14,
+        "created_at": "2026-11-25T06:35:22Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
       },
       {
-        "id": "50637887",
-        "title": "Show HN: Mergeon – A native desktop Git client written in Rust with GPUI",
-        "url": "https://github.com/Spilveru/mergeon",
-        "hn_url": "https://news.ycombinator.com/item?id=50637887",
+        "id": "50651099",
+        "title": "Show HN: Olumino, a Markdown notes and spaced repetition app",
+        "url": "https://olumino.app",
+        "hn_url": "https://news.ycombinator.com/item?id=50651099",
+        "domain": "olumino.app",
+        "points": 7,
+        "comments": 5,
+        "created_at": "2026-11-26T03:33:06Z",
+        "story_text": "I was inspired by Mochi and Anki, but wanted to make something that’s a mix of the two. Anki is very confusing and has an outdated interface while Mochi is very simple and has a more minimalist interface. Olumino is the combination of both. I also added Japanese flashcard support, including kana readings, for anyone learning the language. I’m a CS student building this in my free time, so I’d love to hear what people think!",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50642773",
+        "title": "Show HN: Rusty Teams – A Native Microsoft Teams Client in Rust",
+        "url": "https://github.com/danieldaeschle/rusty-teams",
+        "hn_url": "https://news.ycombinator.com/item?id=50642773",
         "domain": "github.com",
         "points": 6,
-        "comments": 0,
-        "created_at": "2026-11-25T03:03:53Z",
+        "comments": 3,
+        "created_at": "2026-11-25T14:37:40Z",
         "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50618770",
-        "title": "Show HN: Just Dashboard, open-source Linux management dashboard",
-        "url": "https://just-dashboard.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50618770",
-        "domain": "just-dashboard.com",
-        "points": 6,
-        "comments": 0,
-        "created_at": "2026-11-23T20:29:11Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50611914",
-        "title": "Show HN: I built Maeto, an SRv6 SD-WAN from scratch on Linux that you can break",
-        "url": "https://maeto.saphal.me/",
-        "hn_url": "https://news.ycombinator.com/item?id=50611914",
-        "domain": "maeto.saphal.me",
-        "points": 6,
-        "comments": 0,
-        "created_at": "2026-11-23T14:18:31Z",
-        "story_text": "Demo: <a href=\"https:&#x2F;&#x2F;maeto.saphal.me&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;maeto.saphal.me&#x2F;</a> GitHub (mirror): <a href=\"https:&#x2F;&#x2F;github.com&#x2F;saphalpdyl&#x2F;Maeto\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;saphalpdyl&#x2F;Maeto</a> Forgejo instance (issues &amp; planning): <a href=\"https:&#x2F;&#x2F;git.saphal.me&#x2F;saphalpdyl&#x2F;Maeto\" rel=\"nofollow\">https:&#x2F;&#x2F;git.saphal.me&#x2F;saphalpdyl&#x2F;Maeto</a> Small writeups about Maeto: <a href=\"https:&#x2F;&#x2F;blogs.saphal.me&#x2F;tags&#x2F;maeto&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blogs.saphal.me&#x2F;tags&#x2F;maeto&#x2F;</a> --- About 5 months ago, I was tracking osvbng, a vBNG built on VPP. It was mentioned by folks on my previous Show HN, and I saw maintainers talk about Segment ",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1170,9 +996,23 @@
         "url": "https://livingwallapp.com/hn",
         "hn_url": "https://news.ycombinator.com/item?id=50632752",
         "domain": "livingwallapp.com",
-        "points": 5,
+        "points": 6,
         "comments": 2,
         "created_at": "2026-11-24T18:55:02Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50650402",
+        "title": "Show HN: Run your own Hacker News on Hatamoto (open-source, one binary)",
+        "url": "https://news.hatamoto.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=50650402",
+        "domain": "news.hatamoto.dev",
+        "points": 6,
+        "comments": 0,
+        "created_at": "2026-11-26T01:51:59Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
@@ -1193,68 +1033,12 @@
         "ai_score": 0
       },
       {
-        "id": "50623010",
-        "title": "Show HN: Graticule, turn oscilloscope screenshots into CSV data and plots",
-        "url": "https://github.com/SunSinD/Graticule",
-        "hn_url": "https://news.ycombinator.com/item?id=50623010",
-        "domain": "github.com",
-        "points": 5,
-        "comments": 0,
-        "created_at": "2026-11-24T02:55:59Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50612488",
-        "title": "Show HN: Type Formula – Type math equations like plain text",
-        "url": "https://typeformula.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50612488",
-        "domain": "typeformula.com",
-        "points": 4,
-        "comments": 4,
-        "created_at": "2026-11-23T14:40:50Z",
-        "story_text": "Feedback welcome.",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50610486",
-        "title": "Show HN: First Trillion $ per month Startup is here (parody)",
-        "url": "https://tusharsrivastava.github.io/infiverse/",
-        "hn_url": "https://news.ycombinator.com/item?id=50610486",
-        "domain": "tusharsrivastava.github.io",
-        "points": 4,
-        "comments": 3,
-        "created_at": "2026-11-23T11:54:13Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50610989",
-        "title": "Show HN: MiroFish 0.5.0 – Pure-Python Corporate Crisis Rehearsal Sandbox",
-        "url": "https://pingguye.cn/crisis-demo/",
-        "hn_url": "https://news.ycombinator.com/item?id=50610989",
-        "domain": "pingguye.cn",
-        "points": 4,
-        "comments": 1,
-        "created_at": "2026-11-23T12:59:24Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
         "id": "50628576",
         "title": "Show HN: My son wanted to play GTA, so I built him one where nobody gets hurt",
         "url": "https://www.magiccarpetcity.com/",
         "hn_url": "https://news.ycombinator.com/item?id=50628576",
         "domain": "magiccarpetcity.com",
-        "points": 4,
+        "points": 5,
         "comments": 0,
         "created_at": "2026-11-24T14:18:14Z",
         "story_text": "Game starts in his room, just choose a car and play. He loves it, but it was so fun to see him imaging how things should work. So there are not only cars, police, there are people walking, there are dogs, soldiers, tanks, and so much more. Have fun!",
@@ -1263,43 +1047,71 @@
         "ai_score": 0
       },
       {
-        "id": "50622218",
-        "title": "Show HN: CompMD – Markdown with components that still reads as Markdown",
-        "url": "https://compmd.dev/blog/first-packs/",
-        "hn_url": "https://news.ycombinator.com/item?id=50622218",
-        "domain": "compmd.dev",
+        "id": "50642030",
+        "title": "Show HN: I built a browser-based 2.5D voxel multiplayer shooter",
+        "url": "https://qake.se",
+        "hn_url": "https://news.ycombinator.com/item?id=50642030",
+        "domain": "qake.se",
         "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-24T01:21:55Z",
+        "comments": 4,
+        "created_at": "2026-11-25T13:27:56Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
       },
       {
-        "id": "50611748",
-        "title": "Show HN: I built a 3D museum where you can walk through your own photos",
-        "url": "https://github.com/fellowgeek/museum-of-u",
-        "hn_url": "https://news.ycombinator.com/item?id=50611748",
-        "domain": "github.com",
+        "id": "50646369",
+        "title": "Show HN: Eggsimulator",
+        "url": "https://eggeggegg.vercel.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=50646369",
+        "domain": "eggeggegg.vercel.app",
         "points": 4,
-        "comments": 0,
-        "created_at": "2026-11-23T14:11:23Z",
+        "comments": 2,
+        "created_at": "2026-11-25T19:34:02Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
       },
       {
-        "id": "50620027",
-        "title": "Show HN: My computer was too slow to run this Flash game, so I decompiled it",
-        "url": "https://anduil.neocities.org/n/",
-        "hn_url": "https://news.ycombinator.com/item?id=50620027",
-        "domain": "anduil.neocities.org",
-        "points": 3,
-        "comments": 3,
-        "created_at": "2026-11-23T22:01:09Z",
-        "story_text": "Hi HN. I have potato computer. I tried running this flash game (N, the way of the ninja!) from 2004 (!), but my laptop from 2016 struggled to run it (yes, even with official Flashplayer!). I don&#x27;t know what gives, but I know it wasn&#x27;t that slow back in the day! But I know ActionScript and JS are basically the same language, and that a WebGL shim for the Flash graphics API can&#x27;t be that hard... so I asked DeepSeek to give it a stab, and $2 later I can play the game at normal frame rate :) This falls under various kinds of infringement I imagine, but also it&#x27;s &gt;20 year old abandonware (and free marketing for Metanet -- hi! :) so... yeah... Please enjoy. p.s. I also added controller support. Not configurable yet but should work ok out of the box. --- EDIT: Just found th",
+        "id": "50648189",
+        "title": "Show HN: HN topics bar chart race, I use HTML-in-Canvas 3D(need Chrome 157+)",
+        "url": "https://iantpe.github.io/hn-topic-race/?cat=langHist",
+        "hn_url": "https://news.ycombinator.com/item?id=50648189",
+        "domain": "iantpe.github.io",
+        "points": 4,
+        "comments": 1,
+        "created_at": "2026-11-25T22:01:05Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50638796",
+        "title": "Show HN: Expense Canary, catching duplicate charges and bank fees from Plaid",
+        "url": "https://expensecanary.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50638796",
+        "domain": "expensecanary.com",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-25T05:17:37Z",
+        "story_text": "",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50638216",
+        "title": "Show HN: Archiver that opens every format",
+        "url": "https://provost.unlimitedweb.space/",
+        "hn_url": "https://news.ycombinator.com/item?id=50638216",
+        "domain": "provost.unlimitedweb.space",
+        "points": 4,
+        "comments": 0,
+        "created_at": "2026-11-25T03:46:40Z",
+        "story_text": "137 file types; a single file with nothing to install.\nIntroducing Provost, the free compression and archival tool that can create 119 formats, and open 137 total.  It&#x27;s new custom format packs smaller than ZPAQ, xz, and Zstandard in tests.\nJPEG, PNG, PDF, DOCX&#x2F;XLSX, and gzip are unpacked and repacked for ~25% smaller files; ability to encrypt to people&#x27;s keys or a password; can open archives straight from HTTPS, S3, WebDAV, and SFTP; can search inside archives, including the text of Office files and PDFs; and much more. Q&amp;A\n---\nIs it open source?\n It is not. Will my .provost files open in five years?\n I&#x27;ve committed to future releases reading every 0.1.0 archive, and to old compression methods staying readable. Are builds signed?\n No. The Mac app isn&#x27;t notariz",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1311,7 +1123,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50629341",
         "domain": "riemann.mikolaj-kaminski.com",
         "points": 3,
-        "comments": 2,
+        "comments": 3,
         "created_at": "2026-11-24T15:10:13Z",
         "story_text": "",
         "ai_keywords": [],
@@ -1319,42 +1131,14 @@
         "ai_score": 0
       },
       {
-        "id": "50616362",
-        "title": "Show HN: Gravity, a notes app built on Karpathy's append-and-review note",
-        "url": "https://www.gravitynotes.app",
-        "hn_url": "https://news.ycombinator.com/item?id=50616362",
-        "domain": "gravitynotes.app",
+        "id": "50647231",
+        "title": "Show HN: <include-content> – Lazy loading with no app JavaScript",
+        "url": "https://nucleus.excom.dev/packages/include-content",
+        "hn_url": "https://news.ycombinator.com/item?id=50647231",
+        "domain": "nucleus.excom.dev",
         "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-23T18:11:02Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50614791",
-        "title": "Show HN: Job Board for Data Engineers",
-        "url": "https://getdataengineeringjobs.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50614791",
-        "domain": "getdataengineeringjobs.com",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-23T16:40:12Z",
-        "story_text": "Hey,\nFew months ago I&#x27;ve launched a dedicated job board that aggregates job postings across the web: custom website career pages, ATS, HN Startup Jobs etc.",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50609192",
-        "title": "Show HN: TalaDB – An embedded document and vector database that runs anywhere",
-        "url": "https://github.com/taladb/taladb",
-        "hn_url": "https://news.ycombinator.com/item?id=50609192",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 2,
-        "created_at": "2026-11-23T09:07:25Z",
+        "comments": 1,
+        "created_at": "2026-11-25T20:41:17Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
@@ -1375,71 +1159,43 @@
         "ai_score": 0
       },
       {
-        "id": "50616115",
-        "title": "Show HN: Minymaton – SQLite event based no polling token waste MCP message bus",
-        "url": "https://github.com/immutlex-dev/minymaton",
-        "hn_url": "https://news.ycombinator.com/item?id=50616115",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-11-23T17:55:21Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50614307",
-        "title": "Show HN: x2c, a superset of C I've been building for 20 years",
-        "url": "https://github.com/gwf/x2c",
-        "hn_url": "https://news.ycombinator.com/item?id=50614307",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-11-23T16:16:13Z",
-        "story_text": "x2c has been my solo passion project for 20+ years and I figured it was time to share it. You can run the examples in your browser at <a href=\"https:&#x2F;&#x2F;x2c-lang.dev&#x2F;examples\" rel=\"nofollow\">https:&#x2F;&#x2F;x2c-lang.dev&#x2F;examples</a>. If you&#x27;re curious, there&#x27;s a backstory at <a href=\"https:&#x2F;&#x2F;x2c-lang.dev&#x2F;about&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;x2c-lang.dev&#x2F;about&#x2F;</a>. Come for the drug jokes. Linger for the bad puns. Stay for the metaprogramming. <a href=\"https:&#x2F;&#x2F;x2c-lang.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;x2c-lang.dev&#x2F;</a>",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50612030",
-        "title": "Show HN: Slop-deps – Catch hallucinated package imports before install",
-        "url": "https://github.com/viditx/slop-deps",
-        "hn_url": "https://news.ycombinator.com/item?id=50612030",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 1,
-        "created_at": "2026-11-23T14:23:09Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50638796",
-        "title": "Show HN: Expense Canary, catching duplicate charges and bank fees from Plaid",
-        "url": "https://expensecanary.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=50638796",
-        "domain": "expensecanary.com",
+        "id": "50648180",
+        "title": "Show HN: I made a little gratitude wall for Thanksgiving",
+        "url": "https://www.bravoboard.xyz/board/069c3cd2ef614c8397b5bfe250c626b2/",
+        "hn_url": "https://news.ycombinator.com/item?id=50648180",
+        "domain": "bravoboard.xyz",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-11-25T05:17:37Z",
+        "created_at": "2026-11-25T21:59:29Z",
         "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
       },
       {
-        "id": "50638216",
-        "title": "Show HN: Archiver that opens every format",
-        "url": "https://provost.unlimitedweb.space/",
-        "hn_url": "https://news.ycombinator.com/item?id=50638216",
-        "domain": "provost.unlimitedweb.space",
+        "id": "50646120",
+        "title": "Show HN: DocsWorks – LibreOffice in the Browser",
+        "url": "https://docsworks.com",
+        "hn_url": "https://news.ycombinator.com/item?id=50646120",
+        "domain": "docsworks.com",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-11-25T03:46:40Z",
-        "story_text": "137 file types; a single file with nothing to install.\nIntroducing Provost, the free compression and archival tool that can create 119 formats, and open 137 total.  It&#x27;s new custom format packs smaller than ZPAQ, xz, and Zstandard in tests.\nJPEG, PNG, PDF, DOCX&#x2F;XLSX, and gzip are unpacked and repacked for ~25% smaller files; ability to encrypt to people&#x27;s keys or a password; can open archives straight from HTTPS, S3, WebDAV, and SFTP; can search inside archives, including the text of Office files and PDFs; and much more. Q&amp;A\n---\nIs it open source?\n It is not. Will my .provost files open in five years?\n I&#x27;ve committed to future releases reading every 0.1.0 archive, and to old compression methods staying readable. Are builds signed?\n No. The Mac app isn&#x27;t notariz",
+        "created_at": "2026-11-25T19:12:36Z",
+        "story_text": "I made a website running LibreOffice (Writer and Calc) in the browser using a custom JIT compiler.",
+        "ai_keywords": [],
+        "platform_smell": [],
+        "ai_score": 0
+      },
+      {
+        "id": "50644707",
+        "title": "Show HN: Irix 2600 – An Atari VCS demo on a Burgertime cartridge",
+        "url": "http://deater.net/weave/vmwprod/i2600/",
+        "hn_url": "https://news.ycombinator.com/item?id=50644707",
+        "domain": "deater.net",
+        "points": 3,
+        "comments": 0,
+        "created_at": "2026-11-25T17:10:00Z",
+        "story_text": "",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1459,99 +1215,15 @@
         "ai_score": 0
       },
       {
-        "id": "50619761",
-        "title": "Show HN: Budget – an open-source private budgeting app for Mac and Windows",
-        "url": "https://github.com/hendrikdemir/budget",
-        "hn_url": "https://news.ycombinator.com/item?id=50619761",
-        "domain": "github.com",
+        "id": "50626568",
+        "title": "Show HN: Scriptopus: Free screenwriting editor –. reimagined",
+        "url": "https://scriptopus.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=50626568",
+        "domain": "scriptopus.com",
         "points": 3,
         "comments": 0,
-        "created_at": "2026-11-23T21:39:57Z",
-        "story_text": "Budget is a free, open-source app for Mac and Windows. With the simple mode, it gives you what you&#x27;d expect of a budgeting app: configure budgets and track expenses against those budgets. But, if you&#x27;re a geek like me and are way too interested in your personal finance, the extended mode offers features like carrying leftover budgets to the next month, splitting expenses across multiple budgets and seeing how much you can freely spend the coming year, while taking into account any large future expenses (like a car insurance where the premium is paid on a yearly basis). This app is the result of a hobby of mine to track my expenses. It started a few years ago in a spreadsheet, but that spreadsheet at some point took me minutes to edit on my MacBook with 8 gigs of RAM. I had the id",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50616164",
-        "title": "Show HN: Ding – Toast notifications that morph instead of stacking",
-        "url": "https://ding.yusufcengiz.dev/",
-        "hn_url": "https://news.ycombinator.com/item?id=50616164",
-        "domain": "ding.yusufcengiz.dev",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T17:58:29Z",
-        "story_text": "I&#x27;ve been working on a toast library called Ding. I wanted to try something different from the usual stacked notifications. When a new toast appears, it can take over the previous one with a spring animation instead of adding another toast to the screen. It works with React, Svelte 5, Vue and vanilla JS. It&#x27;s still something I&#x27;m improving, so I&#x27;d be happy to hear what you think. Source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;YusufCeng1z&#x2F;ding\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;YusufCeng1z&#x2F;ding</a>",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50612665",
-        "title": "Show HN: HimitsuShell – shell scripts to obfuscated binaries, interpreter inside",
-        "url": "https://github.com/HimitsuShell/HimitsuShell",
-        "hn_url": "https://news.ycombinator.com/item?id=50612665",
-        "domain": "github.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T14:48:54Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50611780",
-        "title": "Show HN: Treasure Map – Ghidra-based firmware map of call sites and patch diffs",
-        "url": "https://tmap.tools/",
-        "hn_url": "https://news.ycombinator.com/item?id=50611780",
-        "domain": "tmap.tools",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T14:13:22Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50611650",
-        "title": "Show HN: Wall of 2026 – one line about your year, sealed Dec 31",
-        "url": "https://wallof2026.com",
-        "hn_url": "https://news.ycombinator.com/item?id=50611650",
-        "domain": "wallof2026.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T14:06:19Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50611495",
-        "title": "Show HN: Offline PDF Desk – one HTML file, redacts and merges PDFs offline",
-        "url": "https://dowla0.gumroad.com/l/offline-pdf-desk",
-        "hn_url": "https://news.ycombinator.com/item?id=50611495",
-        "domain": "dowla0.gumroad.com",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T13:51:31Z",
-        "story_text": "",
-        "ai_keywords": [],
-        "platform_smell": [],
-        "ai_score": 0
-      },
-      {
-        "id": "50610172",
-        "title": "Show HN: Photo Museum – Walk around a tiny 3D museum made of your photos",
-        "url": "https://photomuseum.davidemornatta.it/",
-        "hn_url": "https://news.ycombinator.com/item?id=50610172",
-        "domain": "photomuseum.davidemornatta.it",
-        "points": 3,
-        "comments": 0,
-        "created_at": "2026-11-23T11:12:38Z",
-        "story_text": "",
+        "created_at": "2026-11-24T11:12:43Z",
+        "story_text": "Industry formatting on Mac and Windows, all free. Pro adds dramaturg chat, smart reports, cloud backup, co-writing, web version and more.",
         "ai_keywords": [],
         "platform_smell": [],
         "ai_score": 0
@@ -1560,429 +1232,429 @@
     "product_hunt": [],
     "civitai_flux": [
       {
+        "is_flux": true,
+        "id": 150173765,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf5a0898-66f6-44c9-8e32-5ccb8bc873c6/original=true/bf5a0898-66f6-44c9-8e32-5ccb8bc873c6.jpeg",
+        "posted_at": "2026-11-25T11:48:01.609Z",
+        "username": "Muffin_kadr",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Flux.1 D",
+        "stats": {
+          "likes": 47,
+          "hearts": 19,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "Dreams dance inside her eyes",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 48,
+          "cfg_scale": 3.5,
+          "seed": 259765740,
+          "width": 832,
+          "height": 1216,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bf5a0898-66f6-44c9-8e32-5ccb8bc873c6/original=true/bf5a0898-66f6-44c9-8e32-5ccb8bc873c6.jpeg",
+        "local_file": "150173765.jpeg",
+        "license": {}
+      },
+      {
         "is_flux": false,
-        "id": 150053709,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f7c3feb-3c7f-4148-9742-7a230100606b/original=true/0f7c3feb-3c7f-4148-9742-7a230100606b.jpeg",
-        "posted_at": "2026-11-24T07:09:06.276Z",
+        "id": 150162541,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/268bcf13-4a64-4c43-a0ad-de744e12f26a/original=true/268bcf13-4a64-4c43-a0ad-de744e12f26a.jpeg",
+        "posted_at": "2026-11-25T08:25:03.995Z",
         "username": "giminic",
         "model_version_id": null,
         "model_name": "Krea2Turbo.safetensors",
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 193,
-          "hearts": 48,
-          "comments": 6
+          "likes": 268,
+          "hearts": 75,
+          "comments": 5
         },
         "meta": {
-          "prompt": "CYOA, a monochrome illustration in the style of old fantasy gamebooks and vintage fantasy role-playing games. \nA lone figure silhouetted against a massive desert sunset. The illustration uses bright mustard yellow for the sky and warm teal blue for the foreground sand and distant mountains. Strong black lines define the horizon and the character's form.\n Style: thermal imaging style, deep teal and vibrant orange, risograph and film grain texture, surreal silhouette, solarized portraiture, glowing aura, minimalist negative space,  <lora:Krea2_TextFusion_Refusal_Reduction.safetensors:1> <lora:Scenery_Enhancer-Krea.safetensors:0.4> <lora:pjred_e24.safetensors:0.8> <lora:Gamebook_illustration__Krea.safetensors:0.8>",
+          "prompt": "sh1nstyl3, A dramatic digital illustration of a fierce female character in motion. Her hair is rendered with visible, sweeping brushstrokes, appearing as liquid fire (orange/copper). She has an intense gaze and wears segmented white armor that looks like a futuristic body suit. The background is a deep indigo nebula, illuminated by brilliant amber light pouring from the side. Focus on the texture of the flames and the contrast between the cool blue shadows and hot orange highlights. \n Style: cinematic 90s anime style, high-contrast cel-shading, cyberpunk noir, moody desaturated palette, dramatic low-key lighting, sharp ink outlines, atmospheric depth of field,  <lora:Duchesse_Style_krea2_epoch_7.safetensors:0.5> <lora:NV_KR2_Vantheon_epoch_10.safetensors:0.5> <lora:krea2_ta86-supercel94_01.safetensors:0.5>",
           "negative_prompt": null,
           "sampler": "Euler",
           "steps": 10,
           "cfg_scale": 1,
-          "seed": 478403825509607,
+          "seed": 128598678268362,
           "width": 1856,
           "height": 2304,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0f7c3feb-3c7f-4148-9742-7a230100606b/original=true/0f7c3feb-3c7f-4148-9742-7a230100606b.jpeg",
-        "local_file": "150053709.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/268bcf13-4a64-4c43-a0ad-de744e12f26a/original=true/268bcf13-4a64-4c43-a0ad-de744e12f26a.jpeg",
+        "local_file": "150162541.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 150099446,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d702bc89-4283-4a81-95c6-0b5439f08924/original=true/d702bc89-4283-4a81-95c6-0b5439f08924.jpeg",
-        "posted_at": "2026-11-24T22:00:00.000Z",
+        "id": 150160332,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/442a3e6f-fe79-47e5-9916-b1ce54698827/original=true/442a3e6f-fe79-47e5-9916-b1ce54698827.jpeg",
+        "posted_at": "2026-11-25T07:45:26.408Z",
+        "username": "thecorruptme",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_fp8_scaled",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 232,
+          "hearts": 60,
+          "comments": 6
+        },
+        "meta": {
+          "prompt": "Gris Grimly Style. A vertical 3:4 gothic storybook illustration of a flying saucer stealing a black-and-white cow from a crooked farmyard. The saucer hangs at the top of the frame, its cold blue-white tractor beam reaching straight down to the grass. At center, the cow rises rump-first, spindly hind legs kicking overhead. She turns her long face toward the viewer, eyes bulging, ears pinned flat, mouth wide in a panicked bellow. One blade of grass sticks to her lower lip. From fence height, a crooked wooden rail leads toward a faded red barn and lopsided hay bales at lower right. The beam is the only light, catching each floating crumb of soil. Gnarled pen lines exaggerate the cow’s knobby joints, while scratchy indigo crosshatching draws the farmyard into shadow.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 7165027042530716,
+          "width": 1920,
+          "height": 2560,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/442a3e6f-fe79-47e5-9916-b1ce54698827/original=true/442a3e6f-fe79-47e5-9916-b1ce54698827.jpeg",
+        "local_file": "150160332.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150173694,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11f9f2d0-e049-407a-9614-4269c5a2a73e/original=true/11f9f2d0-e049-407a-9614-4269c5a2a73e.jpeg",
+        "posted_at": "2026-11-25T11:48:13.433Z",
+        "username": "watchingtvhere855",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 216,
+          "hearts": 59,
+          "comments": 3
+        },
+        "meta": {
+          "prompt": "masterpiece, ultra-HD, cinematic lighting, impressionism, high detail, dramatic lighting, best quality, very aesthetic, 8k, dynamic angle, dynamic pose, portrait, illustrated. Pop art.\nView from front. View from inclined angle above\nWoman, 23yr. Japanese. Blond hair in up-do. Blue and white garrison cap. Enthusiastic round face. Blue eyes. Slim shoulders. Slender build. Wearing stewardess uniform. Blue jacket over white shirt. Blue skirt. Early 1980s fashion and style.  \nScene\nThe woman is seated on a blue samsonite suitcase. 1980s make and fashion. She is at a small municipal airport. She is situated in front of the runway. She looks up to viewer and beams out a sweet smile. Day. Planes in background. \nAmbient occlusion, detailed, faded colours, downtempo colour tone, good art, good detail, good anatomy, illustration\nNippon",
+          "negative_prompt": "bad art, bad anatomy, stockings, selfie style, smoke",
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 931644662,
+          "width": 832,
+          "height": 1248,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/11f9f2d0-e049-407a-9614-4269c5a2a73e/original=true/11f9f2d0-e049-407a-9614-4269c5a2a73e.jpeg",
+        "local_file": "150173694.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150159436,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66df1995-9565-4182-b8af-439f1d75a450/original=true/66df1995-9565-4182-b8af-439f1d75a450.jpeg",
+        "posted_at": "2026-11-25T07:27:46.634Z",
+        "username": "thecorruptme",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_fp8_scaled",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 218,
+          "hearts": 56,
+          "comments": 5
+        },
+        "meta": {
+          "prompt": "sh1nstyl3. A vertical 3:4 hand-inked anime illustration of a cute black cat lady watching a bubbling iron cauldron while a small frog swims the backstroke in the cauldron, little mushroom people happily dance on the edge of the cauldron. The cat lady hunches over the far rim on image-left with a smug expression, a beautiful cat face and large yellow eyes. Glossy raven feathers mantle her narrow shoulders and grow in ragged rows along her forearms. She watches the cauldron. Seen from slightly above, the frog swims belly-up across the open foreground, one webbed forefoot reaching past its head while the other sweeps toward its hip. A kick of its hind leg sends ripples through the bright green liquid. Luminous purple foam gathers at the rim, hot neon pink smoke comes from the green liquid. The potion and foam provide the only light in a completely dark room. Drying herbs, stoppered bottles, a crooked broom, and an open grimoire recede into the shadows of the timber hut. Crisp tapered outlines and hard cel shadows define the scene.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 7471613278659579,
+          "width": 1920,
+          "height": 2560,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/66df1995-9565-4182-b8af-439f1d75a450/original=true/66df1995-9565-4182-b8af-439f1d75a450.jpeg",
+        "local_file": "150159436.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150184097,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d4fcae5-8aad-48cb-9e01-9d96fda53ea4/original=true/5d4fcae5-8aad-48cb-9e01-9d96fda53ea4.jpeg",
+        "posted_at": "2026-11-25T22:00:00.000Z",
+        "username": "sami9495201",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_bf16_quant",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 208,
+          "hearts": 54,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "8 bit pixel art image of 4 adventurers standing back to back at the center of a dark dungeon. Facing north, an knight swining his greatsword, the blade sending a shockwave of glowing blue energy. Facing east, a female mage sprite with pink hair in a pointed hat, her staff held forward as fire pours out like a flamethrower. Facing south, a hooded hunter sprite with a longbow shooting a volley of green arrows. Facing west, a cleric sprite in white and gold robes, raising a staff  with a pillar of light erupts from the ground. From every direction a swarm of RPG monsters closes in, green and blue slimes, skeleton warriors, giant bats, goblins with torches, ogres.",
+          "negative_prompt": null,
+          "sampler": "Euler",
+          "steps": 9,
+          "cfg_scale": 1,
+          "seed": 150790870,
+          "width": 1024,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d4fcae5-8aad-48cb-9e01-9d96fda53ea4/original=true/5d4fcae5-8aad-48cb-9e01-9d96fda53ea4.jpeg",
+        "local_file": "150184097.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150202613,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17497a00-a66f-467c-ac63-294d947467a9/original=true/17497a00-a66f-467c-ac63-294d947467a9.jpeg",
+        "posted_at": "2026-11-25T22:00:00.000Z",
         "username": "HMNIX",
         "model_version_id": null,
         "model_name": null,
         "base_model": "MOSS Image",
         "stats": {
-          "likes": 170,
-          "hearts": 63,
+          "likes": 186,
+          "hearts": 66,
           "comments": 0
         },
         "meta": {
-          "prompt": "1. SUBJECT IDENTIFICATION & GENERAL APPEARANCE\n\n  - Visible Subject: A handcrafted clear spherical Christmas tree ornament.\n  - Aesthetic: Traditional festive holiday craft / miniature diorama ornament.\n  - Key Object: Transparent plastic bauble containing a charming stack of tiny\n    wrapped holiday presents and a miniature bottle-brush tree on faux snow.\n\n2. OBJECT STRUCTURE & PHYSICAL PROPORTIONS\n\n  - Sphere: Clear acrylic globe with a top molded hanging loop.\n  - Internal Composition: Compact pyramid stack of miniature wrapped gift boxes\n    flanked by a tiny sisal tree.\n  - Hanger: White woven fabric ribbon printed with gold metallic snowflakes,\n    tied into a decorative bow at the top loop.\n\n3. ITEMS, PRODUCTS & MATERIALS\n\n  - Miniature Contents:\n      - Red-and-white diagonal candy-cane striped gift box.\n      - White gift box with red peppermint candy swirls, tied with gold glitter\n        ribbon and a small gold jingle bell.\n      - Lavender-pink gift box decorated with a gold foil snowflake and gold\n        ribbon.\n      - Red gift box with white polka dots and gold ribbon.\n      - Tiny teal-blue sisal bottle-brush tree.\n      - Fine white faux-snow powder dusting the bottom.\n  - Ribbon: White canvas/grosgrain ribbon with metallic gold-foil stamped\n    snowflakes.\n\n4. POSE, FRAMING & COMPOSITION\n\n  - Composition: Centered vertical close-up (4:5 aspect ratio).\n  - Framing & Balance: The clear bauble hangs dead-center, framed on all sides\n    by dense evergreen branches and glowing fairy lights.\n  - Camera Angle: Level, straight-on macro perspective.\n\n5. ENVIRONMENT & BACKGROUND\n\n  - Setting: Decorated indoor Christmas tree.\n  - Background Elements: Artificial green pine needles, dark green light wiring,\n    and warm incandescent fairy string lights producing soft circular bokeh.\n\n6. EXTREMELY PRECISE LIGHTING ANALYSIS\n\n  - A. Primary Light Source: Warm-white incandescent Christmas tree string\n    lights wrapped among the branches.\n  - B. Secondary Fill: Soft ambient room light illuminating the front face of\n    the bauble.\n  - C. Color Harmony: Classic holiday palette combining rich evergreen, candy\n    red, shimmering gold, and warm white.\n  - D. Shadows: Soft internal contact shadows nestled between the stacked\n    miniature boxes.\n  - E. Highlights: Curved specular highlight reflections tracing the outer\n    acrylic shell and glinting off gold glitter ribbon.\n  - F. Lighting Ratio: Cozy, low-contrast holiday ambient illumination.\n\n7. CAMERA POSITION, LENS & OPTICAL CHARACTERISTICS\n\n  - Focal Length: Fast short telephoto/macro lens (~50mm–85mm equivalent).\n  - Aperture & Depth of Field: Shallow depth of field (~f/2.8), rendering the\n    miniature gifts tack-sharp while softly defocusing background pine needles\n    and light bulbs.\n  - Perspective: Straight-on macro close-up.\n\n8. PHOTOGRAPHIC STYLE & REALISM\n\n  - Style: Cozy holiday lifestyle craft photography / festive macro still-life.\n  - Realism Markers: Distinct texture on gold glitter ribbons, crisp folded\n    corners on miniature paper boxes, realistic sisal tree bristles, and natural\n    acrylic shell reflections.\n\n9. IMAGE QUALITY & COMPUTATIONAL PHOTOGRAPHY\n\n  - Acuity & Texture: Ultra-sharp definition resolving snowflake foil stamps,\n    tiny jingle bell facets, and pine needle needles.\n  - Dynamic Range: Balanced exposure capturing glowing filament fairy lights\n    without blowing out the clear globe or white ribbon.\n\n10. FINAL PROMPT CONSTRUCTION\n\nA festive close-up photograph of a clear spherical Christmas ornament hanging\nfrom a pine tree branch by a white ribbon patterned with gold snowflakes. Inside\nthe transparent plastic bauble is a miniature holiday diorama featuring a stack\nof tiny wrapped presents in candy-cane stripes, peppermint swirls, polka dots,\nand gold glitter ribbons, alongside a small teal bottle-brush tree resting on\nfaux snow. Dense green pine needles and glowing warm fairy lights surround the\nornament with soft background bokeh. Cozy holiday lighting, sharp 85mm f/2.8\nmacro photography aesthetic.\n",
+          "prompt": "digicam, amateur photo, low-lit, low-resolution photo, shot on a mobile phone, noticeable noise in dark areas, visible JPEG artifacts, overexposure, candid photo of a tall wall of stacked old CRT televisions taken at a slight angle, about fifteen mismatched boxy TVs in black, dark purple and silver casings piled in uneven rows, Samsung and JVC brand labels on the bezels, screens showing retro video games and movie clips, a red sports car racing game at the upper left, a pixel art fighting game with green text reading \"FINISH HIM!!\" and a health bar reading \"05 WINS\", a second copy of the same fighting game at the bottom center, a comic-style screen with a red spider-themed hero and the text \"SPIDER MAN\" with a small \"INTRODUCING\" tag, a turtle brawler character select screen reading \"SELECT YOUR TURTLES\" with blue, purple and orange silhouettes behind a green turtle, a robot cop game title screen reading \"ROBOCOP2\" with a blue armored figure aiming a gun and small text \"START CONTINUE AT SCENE\", a horror clip screen with a pale girl with long black hair in a white dress in a teal room, a driving game with a neon city skyline, a screen full of grey static at the upper right, a brick wall graffiti level with a turtle fighter at the bottom left, green leaves hanging at the upper left corner, glowing purple neon tubes and a pink lit plant at the top right, a person in a dark coat blurred at the left edge and a person in a maroon knit sweater with a white cuff cropped at the right edge, saturated purple, magenta and teal light washing over everything, glare on the glass screens, blown highlights, crushed blacks, slight blur, tilted off-center composition, imperfect framing, slight camera shake, candid, amateurish quality",
           "negative_prompt": null,
           "sampler": "Euler",
           "steps": 20,
           "cfg_scale": 3,
-          "seed": null,
+          "seed": 666914537099960,
           "width": 1248,
           "height": 1680,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d702bc89-4283-4a81-95c6-0b5439f08924/original=true/d702bc89-4283-4a81-95c6-0b5439f08924.jpeg",
-        "local_file": "150099446.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17497a00-a66f-467c-ac63-294d947467a9/original=true/17497a00-a66f-467c-ac63-294d947467a9.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 150081009,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad8dce71-644a-4781-90e9-94d3a3efc3e4/original=true/ad8dce71-644a-4781-90e9-94d3a3efc3e4.jpeg",
-        "posted_at": "2026-11-24T14:06:38.083Z",
-        "username": "Rick13972",
-        "model_version_id": null,
-        "model_name": "krea2TurboOfficialComfy_krea2TurboFp8",
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 183,
-          "hearts": 49,
-          "comments": 2
-        },
-        "meta": {
-          "prompt": "An immense cathedral-like structure made entirely of suspended golden dust, its architecture barely visible against a vast black void, a tiny narrow beam of pale light passing through the center, the lower half of the building already dissolving into scattered particles, no floor and no visible foundation. Fragile monumental beauty, a sense of sacredness after the disappearance of civilization, extreme negative space, antique gold, pale ochre, dirty ivory and charcoal black, rough expressive brushwork, scratched charcoal, dry pastel, distressed paper texture, fragmented forms, non-photorealistic., muted minimalist sketch style <lora:ExSieAcidic-krea2:1>",
-          "negative_prompt": null,
-          "sampler": "Euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 862999997831313,
-          "width": 1256,
-          "height": 1672,
-          "clip_skip": 1
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad8dce71-644a-4781-90e9-94d3a3efc3e4/original=true/ad8dce71-644a-4781-90e9-94d3a3efc3e4.jpeg",
-        "local_file": "150081009.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150051528,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d67fadc3-9198-4a47-886f-b9d25d348ac3/original=true/d67fadc3-9198-4a47-886f-b9d25d348ac3.jpeg",
-        "posted_at": "2026-11-24T22:00:00.000Z",
-        "username": "Rain_Sounds",
-        "model_version_id": null,
-        "model_name": "krea2_turbo_int8_convrot",
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 175,
-          "hearts": 54,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "--preview, zidiusArt, \nA softly lit Japanese anime still-life illustration painted without lineart in a semi-realistic painterly style, with smooth, clean brushwork, layered warm and cool tints and real material texture in paper, satin, petals, wax, oak, brick, leather, fur and knit fabric. The air in the room is calm and clean, and every surface is smooth and tidy.\nSeen through the viewer's own eyes as they sit at a low English oak coffee table with a rich dark honey finish in a cozy classic Western living room on a quiet winter night, at the very moment of opening a gift. A soft red-and-forest-green tartan wool blanket lies over the viewer's lap along the bottom edge of the frame.\nAt the center of the tabletop sits a large gift box, big enough to hold a small cat, wrapped in matte deep midnight blue paper with crisp folded edges, its untied champagne gold satin ribbon lying in loose curves on the table around it.\nThe viewer's own two hands, in the sleeves of a heather grey cable-knit sweater, enter from the lower left and lower right of the frame, drawn at natural size with gentle foreshortening, wrists and sweater cuffs visible, five relaxed fingers on each hand. The right hand has just lifted the lid completely off the box: it grips the lid's right edge with the thumb on top and the fingers underneath, holding it up above and to the right of the box, tilted toward the viewer so the top of the lid faces the camera. Its full bow holds a small corsage of exactly four flowers in a tight diamond, each one pure color: a pink rose on the left, a green hydrangea cluster on the right, a sky blue cornflower at the top and a yellow ranunculus at the bottom. The left hand steadies the box as the lid comes off, its fingers resting against the left side of the box and its thumb on the rim. These are the only hands in the image.\nInside the open box, curled up on a nest of cream tissue paper, sits a small ginger kitten with a champagne gold satin bow tied around its neck, matching the gift ribbon, as if it were the present itself. It has just been discovered: it looks straight up at the viewer with wide, round amber eyes and ears perked up, one small front paw resting on the near rim of the box, well apart from the viewer's hands. The kitten's face is the clear focus of the image.\nOn the table just in front of the box, between the two hands and closest to the camera, lies a white envelope of thick textured paper, still sealed, back side up. Its flap is closed with exactly one bright royal blue wax seal at its center, with a raised rounded-hexagon emblem and a bold \"C\" shape pressed into it, its raised edges brushed with pearl-white so they stand out clearly against the blue wax. The envelope is otherwise plain, and the \"C\" on the seal is the only lettering in the image. At the back left of the tabletop stands a white porcelain mug of hot cocoa on a cork coaster.\nBeyond the table, the room sits in soft focus, two steps darker than the gift: a red brick fireplace with one calm, steady orange flame and a white mantel with a pine garland at the upper left, an empty spot on the deep red Persian rug in front of it, and a brown leather Chesterfield armchair with a cream knit throw at the upper right.\nThe main light is a warm brass table lamp outside the frame on the left, at about tabletop height, falling into the open box and lighting the kitten's face and its bright eyes as the brightest point of the image, while the corners of the box stay in soft shadow. The blue seal catches one small, crisp highlight on its raised \"C\". Every object casts a soft shadow toward the right, the lifted lid casts a soft shadow across the right side of the box, and the fireplace adds a thin warm edge along the top of the lid and the kitten's ears.\nA close first-person point-of-view shot from seated eye height, looking down at about thirty degrees, with a 35mm lens and gentle perspective, in a tall vertical frame. The camera is level. The open gift box fills the middle of the frame, the kitten looking up from inside it sits at the center, the left hand steadies the box from the lower left, the lid held up by the right hand rises at the upper right with its corsage facing the camera, the sealed envelope with its blue seal lies in the lower center between the hands, the mug stands at the back left, and the blurred fireplace sits at the upper left.",
-          "negative_prompt": "bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, pixelated, distorted, jpeg artifacts, signature, (watermark), overexposed, underexposed, missing fingers, extra fingers, missing limbs, extra limbs, bad eyes, cloned face",
-          "sampler": "Euler",
-          "steps": 10,
-          "cfg_scale": 1,
-          "seed": 7648599224076717,
-          "width": 1024,
-          "height": 1536,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d67fadc3-9198-4a47-886f-b9d25d348ac3/original=true/d67fadc3-9198-4a47-886f-b9d25d348ac3.jpeg",
-        "local_file": "150051528.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150088424,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e62cfa9-f38a-49c6-8c8f-efcdc3132d3c/original=true/0e62cfa9-f38a-49c6-8c8f-efcdc3132d3c.jpeg",
-        "posted_at": "2026-11-24T22:00:00.000Z",
-        "username": "Wired1",
-        "model_version_id": null,
-        "model_name": "vxpKrea2Nsfw_beta31INT8",
-        "base_model": "Krea 2",
-        "stats": {
-          "likes": 180,
-          "hearts": 43,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "Cinematic anime illustration, dimensional painted shading, richly detailed surroundings, warm Christmas atmosphere, high contrast between amber firelight and cold blue winter twilight. Inside a small stone cottage at the edge of a snowy forest, a magnificent Christmas tree stands beside a large closed window. Its full evergreen branches are decorated with warm white fairy lights, deep red ribbons, delicate gold ornaments, and a softly glowing star. Beautifully wrapped gifts nest beneath the lowest branches, packages of different sizes in burgundy, forest green, and ivory paper, tied with generous satin bows.\nA crackling stone fireplace fills the room with golden light. On a thick woven hearth rug, a tabby cat sleeps curled into a small ball beside a large golden retriever. The dog lies comfortably on its side, its head resting on its front paws, eyes peacefully closed. The cat nestles close against the dog’s shoulder, their fur catching the warm firelight. Both animals rest a comfortable distance from the hearth, forming the main foreground focus beneath the illuminated tree.\nA deep, worn armchair draped with a knitted blanket sits at the edge of the composition. Exposed wooden beams, rough stone walls, crowded bookshelves, a basket of split firewood, and a patterned rug give the cottage a comfortably lived-in feeling. Evergreen garlands and small golden lights decorate the heavy wooden mantel, with two Christmas stockings hanging safely to one side of the fire. An open book rests on a small side table beside the armchair.\nBeyond the closed window, snow falls gently over dark evergreen trees and a little garden buried in white. Subtle reflections of the Christmas lights shimmer on the glass, frost tracing the edges of the panes. Medium-wide composition viewed from within the room, fireplace on the left, Christmas tree on the right, sleeping cat and golden retriever nestled between them in the foreground. Soft golden illumination reveals the ornaments, ribbons, fur, and textured blankets. Quiet Christmas evening, peaceful companionship, sheltered warmth, subtle storybook charm, finely detailed textures, beautiful atmospheric lighting, unoccupied room, no people.",
-          "negative_prompt": null,
-          "sampler": "Euler",
-          "steps": 10,
-          "cfg_scale": 1,
-          "seed": 232647537633527,
-          "width": 1664,
-          "height": 2496,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e62cfa9-f38a-49c6-8c8f-efcdc3132d3c/original=true/0e62cfa9-f38a-49c6-8c8f-efcdc3132d3c.jpeg",
-        "local_file": "150088424.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150062366,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4799e9e-1631-4f74-b0d8-73ad6162ca79/original=true/b4799e9e-1631-4f74-b0d8-73ad6162ca79.jpeg",
-        "posted_at": "2026-11-24T09:21:37.248Z",
-        "username": "FLESK",
+        "id": 150126115,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d58d20b2-78ee-4d29-9b41-746269c98632/original=true/d58d20b2-78ee-4d29-9b41-746269c98632.jpeg",
+        "posted_at": "2026-11-25T22:00:00.000Z",
+        "username": "Zoropaton",
         "model_version_id": null,
         "model_name": null,
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 169,
-          "hearts": 51,
-          "comments": 2
+          "likes": 195,
+          "hearts": 53,
+          "comments": 4
         },
         "meta": {
-          "prompt": "ECHO-09 // REDLINE APOCALYPSE\nECHO, the mysterious cybernetic operative from Zenless Zone Zero. A high-intensity cinematic action scene, charged with aggression, mechanical brutality, and overwhelming visual energy\nCHARACTER: Echo has short, unruly grey hair held back by a simple hairband, a weather-beaten face marked by subtle scars, and an exposed mechanical implant replacing one eye. Both eyes now burn an intense, unnatural crimson, glowing through the smoke like twin warning lights. Her expression is fierce, exhilarated, and utterly focused.\nShe wears her distinctive rugged rain poncho, its fragmented black, yellow, and violet graphics whipping in the heat. Beneath it, a heavily equipped futuristic tactical bodysuit with reinforced panels, straps, buckles, and industrial components. Her left arm is a distressed crimson-red cybernetic prosthesis, its mechanical surfaces scratched and battered.\nPOSE & ACTION: Echo faces the viewer, holding a large fictional machine gun in each hand. Both weapons erupt in enormous stylized muzzle flashes, illuminating her silhouette in alternating bursts of white-hot light and crimson. Her arms extend outward at slightly different angles, creating a dramatic, asymmetrical composition. Her poncho flares behind her in the blast of heat and rushing air.\nClose up, portrait shot, tight.\nLIGHTING & COLOR: Blazing orange, molten amber, saturated crimson, deep black, and smoky violet. The fire provides an enormous backlight, outlining Echo's hair, shoulders, and poncho. Her crimson cybernetic arm catches the reflected firelight, while her glowing red eyes remain sharply visible against the darkness of her face. Intense highlights, deep shadows, fiery reflections, and atmospheric distortion.\nATMOSPHERE: Unrestrained chaos. An operative who has walked straight into the apocalypse and decided to make herself comfortable. Visually explosive, rebellious, and almost nightmarish.\nmasterpiece, very aesthetic, CROMSFERATU, digital painterly illustration, heavy layered textures,sh1nstyl3",
+          "prompt": "A cozy, whimsical pixel art illustration of a small arcade corner, rendered in a retro 16-bit style with a limited 16-color soft pastel palette. The scene features two tiny, rounded arcade cabinets designed with a grid-based pixel structure, their screens displaying abstract, vibrant high-score bars and simple geometric patterns in bright, saturated pixels. Beside the cabinets, a small ceramic bowl of colorful snacks and a lush potted plant are depicted with dithered shading to indicate volume. A happy, fluffy little cat sits comfortably on a small wooden stool, its tail curled around its paws, rendered with clean, blocky pixel details. The composition is clean, minimal, and uncluttered, utilizing generous negative space to emphasize the subjects. The lighting is warm and diffuse, using hard-edged shadows and dithered highlights to create depth without breaking the pixel grid, emphasizing the screen glow. The background is a flat, clean solid color to avoid distracting elements, allowing the foreground pixel details to stand out. The entire image has a soft, matte finish typical of retro digital art, with a wholesome, playful mood and precise, consistent 1-pixel line weights throughout.",
           "negative_prompt": null,
           "sampler": "euler",
-          "steps": 9,
-          "cfg_scale": 2,
-          "seed": 1786170537,
-          "width": 1568,
-          "height": 1024,
+          "steps": 10,
+          "cfg_scale": 1.3,
+          "seed": 1889474541,
+          "width": 928,
+          "height": 1152,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b4799e9e-1631-4f74-b0d8-73ad6162ca79/original=true/b4799e9e-1631-4f74-b0d8-73ad6162ca79.jpeg",
-        "local_file": "150062366.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d58d20b2-78ee-4d29-9b41-746269c98632/original=true/d58d20b2-78ee-4d29-9b41-746269c98632.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 150064349,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95c179a4-ed27-4ddb-a427-086c95898383/original=true/95c179a4-ed27-4ddb-a427-086c95898383.jpeg",
-        "posted_at": "2026-11-24T09:56:05.478Z",
-        "username": "novowels",
+        "id": 150177041,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68f74af1-5f3f-4aa6-b140-b99a4a502e98/original=true/68f74af1-5f3f-4aa6-b140-b99a4a502e98.jpeg",
+        "posted_at": "2026-11-25T12:35:36.933Z",
+        "username": "giminic",
         "model_version_id": null,
-        "model_name": "hosekiLustrousmixAnima_animaV10",
-        "base_model": "Anima",
-        "stats": {
-          "likes": 141,
-          "hearts": 61,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "masterpiece, best quality, newest, highres, absurdres, 1girl, solo,  <lora:hsrcyrene-anima-nvwls-v1-000006:1> basecyr, pointy ears, very long hair, pink hair, hair intakes, gradient hair, multicolored hair, pink eyes, purple eyes, gradient eyes, diamond-shaped pupils, white flower, hair flower, hair ornament, white dress, sleeveless dress, purple gradient bodystocking, detached sleeves, short sleeves, white sleeves, upper body, big breasts, gradient sky, pink sky, city skyline, looking at viewer, happy",
-          "negative_prompt": "low quality, worst quality, score_2, score_1, watermark, bad anatomy, signature, jpeg artifacts, logo, bad hands, artist name, missing finger, extra digits, fewer digits, disfigured, mutation, monochrome, greyscale,",
-          "sampler": "Euler",
-          "steps": 24,
-          "cfg_scale": 4,
-          "seed": 1512618222,
-          "width": 1280,
-          "height": 1856,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/95c179a4-ed27-4ddb-a427-086c95898383/original=true/95c179a4-ed27-4ddb-a427-086c95898383.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150064395,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94df43b2-6d85-40b0-8d6b-a8666087dda2/original=true/94df43b2-6d85-40b0-8d6b-a8666087dda2.jpeg",
-        "posted_at": "2026-11-24T09:56:11.085Z",
-        "username": "novowels",
-        "model_version_id": null,
-        "model_name": "hosekiLustrousmixAnima_animaV10",
-        "base_model": "Anima",
-        "stats": {
-          "likes": 144,
-          "hearts": 55,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "masterpiece, best quality, newest, highres, absurdres, 1girl, solo,  <lora:hsrevanescia-anima-nvwls-v1-000006:1> hsresc, animal ears, pink hair, hair between eyes, medium hair, purple eyes, large breasts, hair bow, red bow, hair flower, black choker, red bowtie, white jacket, cropped jacket, asymmetrical sleeves, single wide sleeve, white shirt, collared shirt, black skirt, pleated skirt, asymmetrical gloves, black glove, white glove, large breasts, looking at viewer, smile, blue sky, cherry blossoms, v, upper body",
-          "negative_prompt": "low quality, worst quality, score_2, score_1, watermark, bad anatomy, signature, jpeg artifacts, logo, bad hands, artist name, missing finger, extra digits, fewer digits, disfigured, mutation, monochrome, greyscale,",
-          "sampler": "Euler",
-          "steps": 24,
-          "cfg_scale": 4,
-          "seed": 286974796,
-          "width": 1280,
-          "height": 1856,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/94df43b2-6d85-40b0-8d6b-a8666087dda2/original=true/94df43b2-6d85-40b0-8d6b-a8666087dda2.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150034686,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/611cc4e0-c10f-4c66-8c4d-0c75d7f70093/original=true/611cc4e0-c10f-4c66-8c4d-0c75d7f70093.jpeg",
-        "posted_at": "2026-11-24T22:00:00.000Z",
-        "username": "Rain_Sounds",
-        "model_version_id": null,
-        "model_name": "krea2_turbo_int8_convrot",
+        "model_name": "Krea2Turbo.safetensors",
         "base_model": "Krea 2 Turbo",
         "stats": {
-          "likes": 143,
-          "hearts": 42,
+          "likes": 201,
+          "hearts": 47,
           "comments": 0
         },
         "meta": {
-          "prompt": "--preview, zidiusArt, \nA luminous Japanese anime still-life illustration painted without lineart in a soft, semi-realistic painterly style, with fine brush texture, layered warm and cool tints and real material texture in paper, satin, petals, wax, painted wood and snow. The snowfall has just stopped, and the air is clear, with no falling snowflakes, floating particles, sparkles or glow effects anywhere in the image.\nA beautifully wrapped square gift box stands on the top step of a front porch as the clear main subject of the image, turned at a three-quarter angle. The box is wrapped in matte deep midnight blue paper with crisp folded edges. A wide champagne gold satin ribbon wraps around it in a neat cross and ties into a full, symmetrical bow at the center of the lid. A thin dusting of fresh snow lies along the edges of the lid, leaving the bow and the flowers clear.\nAll of the bright color on the gift is gathered in one place: a small corsage of exactly four flowers set at the center of the bow, packed tightly together in a diamond arrangement, each flower one single pure color with clean edges between them. A soft pink rose sits on the left, a fresh green hydrangea cluster sits on the right, opposite the pink, a light sky blue cornflower sits at the top, and a sunny yellow ranunculus sits at the bottom, opposite the blue. The four colors never blend into each other and stand out brightly against the dark blue box, and there is no other pink, green or yellow anywhere in the image.\nA white envelope of thick textured paper stands upright, leaning against the center of the face of the box turned most toward the viewer, its top edge tucked under the ribbon so it stays in place, its flap facing the viewer, so that it sits on the same vertical line as the ribbon and the corsage. The flap is closed with a bright royal blue wax seal at its center. Pressed into the seal is a raised rounded-hexagon emblem with a bold \"C\" shape inside it, its raised edges brushed with pearl-white so they stand out clearly against the blue wax. The white envelope separates the bright blue seal from the dark blue box behind it. The \"C\" on the seal is the only lettering in the image, and the envelope itself is blank.\nThe gift sits on the top step of a painted wooden front porch on a quiet snowy night, the step covered in a smooth layer of fresh snow. Behind it, a front door with a small window glowing warm amber and a white porch railing with snow on its rail melt into a smooth, even, shallow-depth blur of deep blue night and soft warm amber. There are no round bokeh circles and no other objects. Nothing else stands on the step. There is no other lettering anywhere in the image.\nThe main light is a warm porch lamp just above and in front of the gift, outside the top of the frame. It lights the lid, the bow, the corsage and the front of the box, and the white snow around the box reflects it back up onto the front face, so the white envelope and the blue seal are clearly lit. The cool blue night light outlines the back edge of the lid and the snow-covered railing. The seal catches one small, crisp highlight on its raised \"C\", the satin ribbon shows clean warm highlights, and the box casts a short, soft shadow behind it on the snow.\nA three-quarter view from about twenty degrees above, with a slightly long lens and shallow depth of field, the focal plane on the wax seal and the front of the box, in a tall vertical frame, with deep midnight blue and champagne gold, one tight cluster of pink, green, sky blue and yellow, a white envelope and a bright royal blue seal against white snow, deep blue night and soft amber. The box sits just below the center of the frame and takes up about half of its width, the blurred door and its glowing window rise behind it, and the corsage, the ribbon and the seal line up on one vertical axis.",
-          "negative_prompt": "bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, pixelated, distorted, jpeg artifacts, signature, (watermark), overexposed, underexposed, missing fingers, extra fingers, missing limbs, extra limbs, bad eyes, cloned face",
+          "prompt": "A small fluffy rabbit sitting patiently amidst a vibrant pile of crimson and gold autumn leaves in a park setting. The rabbit is gently nibbling on a fallen maple leaf. The air feels crisp, and the sunlight is low and golden (golden hour). Style: Warm, painterly anime, soft focus background, rich autumnal color grading. Camera: Low angle shot, emphasizing the size of the leaves relative to the small rabbit.\n Style: 1990s anime style, hand-painted cel animation, vintage OVA aesthetic, painterly gouache background, bold ink outlines, cinematic lighting, subtle film grain,  <lora:Duchesse_Style_krea2_epoch_7.safetensors:0.5> <lora:NV_KR2_Vantheon_epoch_10.safetensors:0.5> <lora:krea2_ta86-supercel94_01.safetensors:0.5>",
+          "negative_prompt": null,
           "sampler": "Euler",
           "steps": 10,
           "cfg_scale": 1,
-          "seed": 8488296893099578,
-          "width": 1024,
-          "height": 1536,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/611cc4e0-c10f-4c66-8c4d-0c75d7f70093/original=true/611cc4e0-c10f-4c66-8c4d-0c75d7f70093.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150076928,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ee6f6bf-d15c-42f6-8f74-5725b39bc09b/original=true/6ee6f6bf-d15c-42f6-8f74-5725b39bc09b.jpeg",
-        "posted_at": "2026-11-24T13:02:58.974Z",
-        "username": "sosig_appreciator",
-        "model_version_id": null,
-        "model_name": null,
-        "base_model": "OpenAI",
-        "stats": {
-          "likes": 140,
-          "hearts": 42,
-          "comments": 4
-        },
-        "meta": {
-          "prompt": "A digital portrayal of scoreboard on a dark grey background. The chart shows four participants: blue, yellow, pink, and green team. Each team is represented with a colored cone party hat.\nRemove the pink background from the green orc's image but retain its style and composition.\nAfterwards, stitch all three images together in a comical internet meme fashion but don't add text. Make the orc the focal point of the image and the charts as the background.",
-          "negative_prompt": null,
-          "sampler": "GPT-Image-2.5-sunburst",
-          "steps": 0,
-          "cfg_scale": 0,
-          "seed": -1,
-          "width": 1280,
-          "height": 1024,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ee6f6bf-d15c-42f6-8f74-5725b39bc09b/original=true/6ee6f6bf-d15c-42f6-8f74-5725b39bc09b.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150064467,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b97a1d2-a778-44e1-bdb4-373944826ba9/original=true/1b97a1d2-a778-44e1-bdb4-373944826ba9.jpeg",
-        "posted_at": "2026-11-24T09:56:20.342Z",
-        "username": "novowels",
-        "model_version_id": null,
-        "model_name": "hosekiLustrousmixAnima_animaV10",
-        "base_model": "Anima",
-        "stats": {
-          "likes": 126,
-          "hearts": 46,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "masterpiece, best quality, newest, highres, absurdres, 1girl, solo,  <lora:hsrtheherta-anima-nvwls-v1-000006:1> basethrt, light brown hair, very long hair, sidelocks, purple eyes, purple nails, black witch hat, hat flower, purple flower, black tress ribbon, purple hair ribbon, black choker, white ascot, key necklace, black dress, keyhole pattern on chest, strapless dress, frilled dress, white skirt, detached sleeves, frilled sleeves, black sleeves, upper body, smug, smile, looking at viewer, outer space,",
-          "negative_prompt": "low quality, worst quality, score_2, score_1, watermark, bad anatomy, signature, jpeg artifacts, logo, bad hands, artist name, missing finger, extra digits, fewer digits, disfigured, mutation, monochrome, greyscale,",
-          "sampler": "Euler",
-          "steps": 24,
-          "cfg_scale": 4,
-          "seed": 658114536,
-          "width": 1280,
-          "height": 1856,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b97a1d2-a778-44e1-bdb4-373944826ba9/original=true/1b97a1d2-a778-44e1-bdb4-373944826ba9.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150078514,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca56a2f9-16f6-4c6a-abfc-c29aaa71977a/original=true/ca56a2f9-16f6-4c6a-abfc-c29aaa71977a.jpeg",
-        "posted_at": "2026-11-24T13:26:07.784Z",
-        "username": "initialT",
-        "model_version_id": null,
-        "model_name": "hyphoria_krea2_int8_convrot",
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 124,
-          "hearts": 31,
-          "comments": 4
-        },
-        "meta": {
-          "prompt": "Kani2reR, anime illustration, cel shading, \n**POV composition:** Compressed perspective, telephoto shot, no depth or perspective. The viewer is facing a large glass window. \n**Atmosphere:** A vibrant yet quiet city night, filled with a bittersweet sense of solitude and loneliness. Snow falls gently outside, creating a peaceful, nostalgic winter atmosphere.\n**Three overlapping visual layers on the glass window:**\n**Layer 1 – The cityscape beyond the window:**  \nA wide, elevated side view of the city at night, seen from above. Snow falls loosely across the landscape, barely seen throught the cafe's window because of  a heavily fogged with condensation, further blurring and distorting the cityscape beyond it. Someone has dragged a finger across the misty glass, leaving clear, thin trails through the condensation. These finger-drawn marks create the visual illusion of a birthday party hat sitting on top of the girl's reflected silhouette. Bottom, handwritten English text reads exactly:\n**\"HBD CVT :)\"**\nThe birthday hat and message should look casually drawn by hand on the fogged glass.\n**Layer 2 – The viewer's reflection:**  \nA faint, barely visible, semi-transparent reflection of the cafe's interior uncluded a viewer appears on the glass, overlapping with the layer 1 The cityscape beyond the window. Showing cafe's interior with bar and tables, furnitures, ceiling lamps, and the viewer, a girl with long black hair, sunglasses covered her red eyes, subtle smile on her face and a cyan long-sleeved coat. Her silhouette and facial features subtly overlap with the city lights and snowy scenery behind the glass, blending into the background rather than appearing as a separate figure. A hand belonging to her with cyan-colored sleeve is partially visible near the bottom edge of the frame, her pointing finger spread out touching a mirror, \nThe layer 1 and layer 2 should overlapping \nVisual composition and depth:\nAll window layers must be naturally superimposed, overlapping and partially obscuring one another. Creating a complex interplay of transparency, condensation, reflections, and blurred lights.\n**Foreground**  \nThe bottom portion of the frame shows the wooden plain extended from left to right. A disposable takeaway coffee cup sits on the table, still steaming slightly, suggesting that the coffee is freshly served and warm., <lora:Krea2_TextFusion_Refusal_Reduction:1>, <lora:Krea_2_in_real_krea2_3320272_epoch_20:0.9>, <lora:line-clothes_krea2_def:0.5>",
-          "negative_prompt": "🎉🎊✨✨🎀🎁🥳",
-          "sampler": "Res Multistep",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": 0,
-          "width": 1254,
-          "height": 1254,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca56a2f9-16f6-4c6a-abfc-c29aaa71977a/original=true/ca56a2f9-16f6-4c6a-abfc-c29aaa71977a.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150053819,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06997446-a7d9-4986-97a1-22223debab4a/original=true/06997446-a7d9-4986-97a1-22223debab4a.jpeg",
-        "posted_at": "2026-11-24T07:10:32.636Z",
-        "username": "Kiawi",
-        "model_version_id": null,
-        "model_name": "indigoFurryMixAnima_v10",
-        "base_model": "Anima",
-        "stats": {
-          "likes": 117,
-          "hearts": 28,
-          "comments": 0
-        },
-        "meta": {
-          "prompt": "m0d3r,g0mt4ng, this is a digital artwork depicting, green-skinned man. with dark horned helmet,he is fully armor with black metalic armor,with spike pauldron , and gauntlet,with a red loicloth,he has glowing eyes,he is holding a mace like weapon with glowing blue flame the weapon,fully armor,the view  is from the thigh ups,with dark ambient background,dark debris,pillar in the background,dark broken fantasy castle background,metal armor around his bicept",
-          "negative_prompt": null,
-          "sampler": "Euler a",
-          "steps": 34,
-          "cfg_scale": 3.5,
-          "seed": 849373817102796,
-          "width": 832,
-          "height": 1216,
-          "clip_skip": null
-        },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06997446-a7d9-4986-97a1-22223debab4a/original=true/06997446-a7d9-4986-97a1-22223debab4a.jpeg",
-        "license": {}
-      },
-      {
-        "is_flux": false,
-        "id": 150066853,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d317076d-e915-4d93-8525-b11683eecf62/original=true/d317076d-e915-4d93-8525-b11683eecf62.jpeg",
-        "posted_at": "2026-11-24T10:24:41.408Z",
-        "username": "FUNLUCKY",
-        "model_version_id": null,
-        "model_name": "krea2_turbo_int8_convrot",
-        "base_model": "Krea 2 Turbo",
-        "stats": {
-          "likes": 105,
-          "hearts": 35,
-          "comments": 4
-        },
-        "meta": {
-          "prompt": "A charming anime fantasy illustration from a first-person viewpoint. In the foreground, a polished knight’s sword points gently toward the stone floor beside a tiny fluffy kitten, stopping well short of it. Only the armored hand holding the sword is visible. The kitten sits unharmed on a sunlit flagstone, round-eyed and curious, reaching one paw toward the sword’s shadow.\n\nThe contrast is playful: ornate dark steel and a tiny cream-colored kitten with soft orange patches. Behind it, a cozy castle courtyard glows with flowering vines, colorful banners, and warm afternoon light. A few petals drift through the air; the kitten’s small shadow stretches toward the viewer.\n\nLow camera close to the kitten’s eye level, making the kitten the clear focal point while the sword forms a dramatic but harmless diagonal in the foreground. Rich teal, coral, gold, and lavender accents, soft painterly anime style, delicate fur detail, warm atmosphere, gentle humor.",
-          "negative_prompt": null,
-          "sampler": "Euler",
-          "steps": 8,
-          "cfg_scale": 1,
-          "seed": null,
-          "width": 1536,
+          "seed": 584690133830322,
+          "width": 1856,
           "height": 2304,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d317076d-e915-4d93-8525-b11683eecf62/original=true/d317076d-e915-4d93-8525-b11683eecf62.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68f74af1-5f3f-4aa6-b140-b99a4a502e98/original=true/68f74af1-5f3f-4aa6-b140-b99a4a502e98.jpeg",
         "license": {}
       },
       {
         "is_flux": false,
-        "id": 150078023,
-        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/585b7072-0690-449b-ba18-a9beca37ff23/original=true/585b7072-0690-449b-ba18-a9beca37ff23.jpeg",
-        "posted_at": "2026-11-24T13:19:11.814Z",
-        "username": "AuthentiQ",
+        "id": 150169923,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90c2575e-3cd2-43be-bc4e-e0219ce463f0/original=true/90c2575e-3cd2-43be-bc4e-e0219ce463f0.jpeg",
+        "posted_at": "2026-11-25T10:39:39.316Z",
+        "username": "Jirass",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 179,
+          "hearts": 54,
+          "comments": 4
+        },
+        "meta": {
+          "prompt": "Gris Grimly Style. A vertical 3:4 gothic storybook illustration of a flying saucer stealing a  Eldrich horror  from a crooked farmyard. The saucer hangs at the top of the frame, its cold blue-white tractor beam reaching straight down to the grass. At center, the Eldrich horror  rises rump-first, skort Lifts. She turns her  face toward the viewer,  From fence height, a crooked wooden rail leads toward a faded red barn and lopsided hay bales at lower right. The beam is the only light, catching each floating crumb of soil. while scratchy indigo crosshatching draws the farmyard into shadow.V4SS4G0X, flat art, Studio Ghibli Dark Fairytale,, high resolution macro photograph \n, bulging eyes, colored sclera , Eldrich horror , holding , holding Eldrich horror, looking at Eldrich horror , formless mass of made from eyes tentacles and theeth, profile , red eyes ,extra eyes, confused, hiding eyes , single tooth , tentacle hair , yellow eyes , yellow sclera , scared, hiding, hiding in bird feeder with stand",
+          "negative_prompt": null,
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 1698119551,
+          "width": 1376,
+          "height": 768,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90c2575e-3cd2-43be-bc4e-e0219ce463f0/original=true/90c2575e-3cd2-43be-bc4e-e0219ce463f0.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150184454,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06c0e07d-5fa8-4804-abc1-d77c9600edb5/original=true/06c0e07d-5fa8-4804-abc1-d77c9600edb5.jpeg",
+        "posted_at": "2026-11-25T22:00:00.000Z",
+        "username": "jpie",
         "model_version_id": null,
         "model_name": null,
         "base_model": "MOSS Image",
         "stats": {
-          "likes": 84,
-          "hearts": 33,
+          "likes": 172,
+          "hearts": 58,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "tklumen painting, a magnificent Thomas Kinkade-inspired oil painting of a nostalgic 1980s arcade, rendered with his signature painting-of-light aesthetic, luminous golden illumination, rich jewel-toned shadows, delicately blended brushstrokes, intricate hand-painted details, glowing highlights and enchanting storybook atmosphere.\nThe scene looks straight down the central aisle of an old-fashioned arcade, between two long rows of beautifully painted upright arcade cabinets. Countless colorful CRT screens and illuminated marquees shine like golden windows, casting radiant amber and honey-colored pools of light across the room. Brilliant electric blues, magentas, emerald greens and violets mingle with warm glowing yellows, creating a tapestry of richly saturated color. The arcade has a whimsical geometric 1980s carpet, decorated with colorful stars, swirling patterns and zigzags. A token machine, colorful vintage arcade posters, and an old soda vending machine complete the nostalgic setting.\nFour delightful characters populate the arcade. In the left foreground, a friendly chunky blue robot wearing a blue conical party hat plays a retro arcade game, its metallic body shimmering with golden reflections. Opposite it, an adorable pink axolotl with feathery gills wears a pink conical party hat and sits on a stool, struggling to reach the arcade controls. Farther down the aisle, a cheerful pink-haired sexy French maid in a traditional black-and-white uniform and green conical party hat carries a cup of golden arcade tokens. Across from her stands an ordinary man with a dark goatee, vintage T-shirt, jeans, and a yellow conical party hat, enthusiastically playing another arcade machine.\nThe entire arcade glows with the magical warmth of a Kinkade village at dusk. Thousands of luminous details dance across the cabinets and floor. Warm buttery-yellow light spills through the darkened interior, with delicate halos around every illuminated screen. Deep violet and midnight-blue shadows frame the radiant golden highlights, creating exquisite warm-and-cool contrast. Soft atmospheric light diffuses gently into the distance, lending the scene a dreamy, almost enchanted quality. Richly layered colors, softly impressionistic painted surfaces, meticulous decorative details, romanticized nostalgia, radiant golden reflections, traditional painterly texture, exquisite oil-painted lighting, a lovingly illustrated celebration of the golden age of arcades.",
+          "negative_prompt": "censored, worst quality, bad anatomy, watermark, jpeg artifact, blurry, distorted face",
+          "sampler": "er_sde",
+          "steps": 50,
+          "cfg_scale": 3.5,
+          "seed": 603079784907949,
+          "width": 2304,
+          "height": 4032,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/06c0e07d-5fa8-4804-abc1-d77c9600edb5/original=true/06c0e07d-5fa8-4804-abc1-d77c9600edb5.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150161926,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d559037-9320-4cb3-8019-1bd91df9581f/original=true/7d559037-9320-4cb3-8019-1bd91df9581f.jpeg",
+        "posted_at": "2026-11-25T08:14:44.699Z",
+        "username": "thecorruptme",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_fp8_scaled",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 173,
+          "hearts": 49,
           "comments": 4
         },
         "meta": {
-          "prompt": "A man with a very sly, scheming look sits at a cluttered gaming desk with many monitors and many glowing smartphones. The screens show the text \"civitai.red\", along with many different profile pages and vote counters. He is using many accounts at once to win an online contest. He wears a worn white undershirt, distressed jeans with rips and frayed edges, and socks with a hole where the big toe sticks out. His hands type on a keyboard and mouse. His face is tired but extremely ambitious and cunning, with a crooked grin and wide eyes with dark circles. The mood is chaotic: messy desk, tangled cables, energy drink cans, and instant noodle cups. On the wall behind him, a piece of paper is taped up with a long list of fake usernames. Three-quarter view from a slight high angle, full body visible. Even, bright room lighting.",
-          "negative_prompt": "3D, CGI",
-          "sampler": "er_sde",
+          "prompt": "sh1nstyl3. A widescreen 16:9 dark-fantasy ink-and-watercolor painting on rough paper. A single hooded wizard fills the foreground in a frontal, waist-up view, his shoulders hunched over an open grimoire. On image-left, his right hand hovers palm-down above the pages, wrist raised, two long fingers crooked toward the paper dripping pink liquid ink. On image-right, his left hand hangs over the book’s raised cover, fingertips curled around its edge. His head tilts forward beneath a deep indigo hood, his ember-red eyes looking out from under the brim. The hood frames a bald, bone-pale head with a ridged brow, flared nostrils, and lips drawn back to expose two interlocking rows of long, needle-sharp teeth. Thin black cables hook into his cheeks, and ribbed hoses curve from his neck into the folds of his robe. Behind him, a horde of small floating black-ink demons surge forward from behind, it remebles a locust swarm. Each demon is a single limbless ball with a huge biting mouth, pale paper visible between the points of a few crooked teeth. They bob past in uneven ranks. Broad indigo washes pool in the wizard’s robe, while broken dry-brush strokes catch the grain of the paper in the dissolving horde. Hot pink and violet light rises from the grimoire, catching his knuckles and throwing vermilion shadows across his face. Small strokes of opaque white pick out each wet tooth.",
+          "negative_prompt": null,
+          "sampler": "Euler",
           "steps": 8,
           "cfg_scale": 1,
-          "seed": 944465419,
-          "width": 768,
-          "height": 1344,
+          "seed": 6182840291827770,
+          "width": 3840,
+          "height": 2176,
           "clip_skip": null
         },
-        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/585b7072-0690-449b-ba18-a9beca37ff23/original=true/585b7072-0690-449b-ba18-a9beca37ff23.jpeg",
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d559037-9320-4cb3-8019-1bd91df9581f/original=true/7d559037-9320-4cb3-8019-1bd91df9581f.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150141699,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc58f91e-b0d5-4a09-b52f-34b4f8b9816d/original=true/cc58f91e-b0d5-4a09-b52f-34b4f8b9816d.jpeg",
+        "posted_at": "2026-11-25T22:00:00.000Z",
+        "username": "Rain_Sounds",
+        "model_version_id": null,
+        "model_name": "krea2_turbo_int8_convrot",
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 169,
+          "hearts": 51,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "A detailed isometric pixel art illustration of a retro arcade, drawn as a cutaway room floating on a plain dark navy background, with clearly visible square pixels, a rich but limited palette, clean pixel outlines and careful pixel shading.\nIt is closing time late at night. The cutaway shows the floor and two back walls of a small arcade. Against the back wall stand exactly four identical upright arcade cabinets in a neat row, each one representing one color, from left to right: a pink cabinet, a light green cabinet, a blue cabinet and a yellow cabinet. On each cabinet, the side panels, the glowing marquee, the control panel, the joystick ball and the buttons are all in that cabinet's own color, and each screen glows mainly in the same color: the pink cabinet shows a rhythm game with falling pink notes, the light green cabinet shows a green lawn with plants and zombies, the blue cabinet shows a space shooter with blue laser shots among stars, and the yellow cabinet shows a racing game on a sunny yellow road. The marquees carry simple pictures with no lettering.\nAbove the row of cabinets hangs a white neon sign shaped like a rounded hexagon with a bold \"C\" inside it. On the right wall hangs a black leaderboard screen titled \"HIGH SCORE\" in bright white pixel letters, listing five rows of small white pixel numbers, the top row blinking. All other furniture stays in dark wood and grey: a pinball machine, a token change machine and two stools.\nThere are no people, only traces of them: a jacket left on a stool, a half-finished soda cup on top of the yellow cabinet, a scattered pile of game tokens on the floor, and a mop and bucket by the door. An orange cat lies curled up asleep on top of the blue cabinet. The floor is covered in a dark arcade carpet with a subtle star pattern, and cables run along the walls.\nThe room lights are off, and the scene is lit only by the four cabinets, each casting its own pool of light on the carpet in front of it, pink, light green, blue and yellow, with a narrow band of shadow between neighboring pools so the colors stay separate. The white neon sign adds a faint cool glow to the back wall.\nAn isometric three-quarter view from above, in a tall vertical frame, with a deep navy background and the four cabinet colors pink, light green, blue and yellow. The cutaway room sits at the center, the row of four colored cabinets lines the back wall as the focus, the \"HIGH SCORE\" board hangs on the right wall, and the sleeping cat lies on top of the blue cabinet.",
+          "negative_prompt": "bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, pixelated, distorted, jpeg artifacts, signature, (watermark), overexposed, underexposed, missing fingers, extra fingers, missing limbs, extra limbs, bad eyes, cloned face",
+          "sampler": "Euler",
+          "steps": 10,
+          "cfg_scale": 1,
+          "seed": 3287452150820401,
+          "width": 1024,
+          "height": 1024,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cc58f91e-b0d5-4a09-b52f-34b4f8b9816d/original=true/cc58f91e-b0d5-4a09-b52f-34b4f8b9816d.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150159520,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1da692d1-288e-4298-bbff-ba73af22e181/original=true/1da692d1-288e-4298-bbff-ba73af22e181.jpeg",
+        "posted_at": "2026-11-25T07:36:38.873Z",
+        "username": "privatewolf",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 166,
+          "hearts": 51,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "st0ryh0ur, a lighthouse keeper in her mid twenties with adult proportions sits on the iron balcony at the top of a white lighthouse, seen knees-up, pouring tea from a flask in her right hand into a cup in her left hand. She has warm light brown skin with pink cheeks, smooth, clear skin, brown eyes with dark pupils, soft dark brows, a straight nose and a wide mouth. She turns her face to the seagull, eyes wide open and mouth open in shock. Her long dark red hair is tied back in a plait. She wears a thick cream fisherman's sweater and dark blue trousers. Beside her on the railing a fat seagull waddles away with a whole sandwich in its beak. A bright blue sea and white clouds below.",
+          "negative_prompt": null,
+          "sampler": null,
+          "steps": null,
+          "cfg_scale": null,
+          "seed": null,
+          "width": 1024,
+          "height": 1536,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1da692d1-288e-4298-bbff-ba73af22e181/original=true/1da692d1-288e-4298-bbff-ba73af22e181.jpeg",
+        "license": {}
+      },
+      {
+        "is_flux": false,
+        "id": 150170142,
+        "image_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f78544bd-34b3-4c5a-9403-e61aade9bf40/original=true/f78544bd-34b3-4c5a-9403-e61aade9bf40.jpeg",
+        "posted_at": "2026-11-25T10:42:50.372Z",
+        "username": "Jirass",
+        "model_version_id": null,
+        "model_name": null,
+        "base_model": "Krea 2 Turbo",
+        "stats": {
+          "likes": 154,
+          "hearts": 49,
+          "comments": 0
+        },
+        "meta": {
+          "prompt": "1girl, solo, (green skin:1.5), (black sclera:1.5), (pink eyes:1.5), (brown curled horns:1.5),pointy ears, pale skin, black lips, sharp teeth, fangs, open mouth, :d, blush, smile, pout black hair, fluffy hair, long hair, messy hair, parted bangs, twintails, bangle, blunt bangs, hair ornament, , sharp fingernailsr, black nails, black straps bra, bare_shoulders, belt,, boots, corset, earrings, jewelry, off-shoulder shirt, off shoulder, purple pantyhose, , purple shirt, red skirt, shoulder cutout, clothing cutout,, black choker,, , bracelet, choker, arms behind back, earrings, eyeshadowi, hoop earrings,, see-through, see-through sleeves, stud earrings, studded choker, head rest, light smile, medium breasts, black jacket, white shirt, fishnets gloves, fingerless gloves, gothic boots, black satin dress, clothing cutout, lace, white crop top, see-through, boots,, it is trying too pic a flower, standing pose, arms up, open hands,looking at viewer,smiling,happy,open mouth,blush stickers,from above,dutch angle, pastel colors,glowing particles,,V4SS4G0X, flat art, Studio Ghibli Dark Fairytale,,masterpiece, best quality, high quality\n<lora:final:1> standing, front view, ((arms at sides:2, upper body:2)), (((facing viewer, portrait, looking at viewer))), Gris Grimly Style. A vertical 3:4 gothic storybook illustration of a flying saucer stealing a black-and-white girl from a crooked farmyard. The saucer hangs at the top of the frame, its cold blue-white tractor beam reaching straight down to the grass. At center, the girl rises rump-first, spindly legs kicking overhead. She turns her face toward the viewer, From fence height, a crooked wooden rail leads toward a faded red barn and lopsided hay bales at lower right. The beam is the only light, catching each floating crumb of soil. while scratchy indigo crosshatching draws the farmyard into shadow.V4SS4G0X, flat art, Studio Ghibli Dark Fairytale,, high resolution macro photograph featuring a handmade crazyneedlefelt. The character is created from needle felt fabric with a fuzzy appearance. 1girl, solo, (green skin:1.5), (black sclera:1.5), (pink eyes:1.5), (brown curled horns:1.5),pointy ears, pale skin, black lips, sharp teeth, fangs, open mouth, :d, blush, smile, pout black hair, fluffy hair, long hair, messy hair, parted bangs, twintails, bangle, blunt bangs, hair ornament, , sharp fingernailsr, black nails, black straps bra, bare_shoulders, belt,, boots, corset, earrings, jewelry, off-shoulder shirt, off shoulder, purple pantyhose, , purple shirt, red skirt, shoulder cutout, clothing cutout,, black choker,, , bracelet, choker, arms behind back, earrings, eyeshadowi, hoop earrings,, see-through, see-through sleeves, stud earrings, studded choker, head rest,",
+          "negative_prompt": "lowres, (worst quality,bad quality,low quality:1.2),\nbad anatomy, old",
+          "sampler": "euler",
+          "steps": 8,
+          "cfg_scale": 1,
+          "seed": 446748129,
+          "width": 928,
+          "height": 1152,
+          "clip_skip": null
+        },
+        "civitai_url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f78544bd-34b3-4c5a-9403-e61aade9bf40/original=true/f78544bd-34b3-4c5a-9403-e61aade9bf40.jpeg",
         "license": {}
       }
     ]
